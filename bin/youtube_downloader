@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+
+import os
+import os.path as osp
+import re
+import json
+
+import click
+from pytube import YouTube
+from tqdm import tqdm
+
+
+def process_path(path):
+    path = osp.expanduser(path)
+    path = osp.abspath(path)
+    return path
+
+
+def download_video(youtube_id, save_dir, res=None, skip=True):
+    yt = YouTube(f'https://youtube.com/watch?v={youtube_id}')
+    try:
+        streams = yt.streams
+    except:
+        return None  # FIXME: should we log why we cannot download the video?
+
+    stream = streams.get_highest_resolution()
+    ext = stream.mime_type.split('/')[-1]
+
+    stream.download(
+        output_path=save_dir,
+        filename=f'{youtube_id}.{ext}',
+        skip_existing=skip,
+    )
+
+
+@click.command()
+@click.option('--save-dir', type=click.Path(writable=True), required=True)
+@click.option('--annotations', type=click.Path(exists=True, file_okay=True), required=True)
+@click.option('--skip', is_flag=True)
+@click.option('--res', type=int, default=1080)
+def main(save_dir, annotations, skip, res):
+    save_dir = process_path(save_dir)
+    annotations = process_path(annotations)
+
+    if not osp.isdir(save_dir):
+        os.makedirs(save_dir)
+
+    with open(annotations, 'r') as f:
+        data = json.load(f)
+
+    for item_id, item in tqdm(data.items()):
+        youtube_id = item.get('youtube_id')
+        if youtube_id is None:
+            continue
+        download_video(youtube_id, save_dir, skip=skip)
+
+
+if __name__ == '__main__':
+    main()
