@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+import os
+import os.path as osp
+import json
+
+import click
+from pytube import YouTube
+from tqdm import tqdm
+from torchvision.io import read_video, write_video
+
+
+def process_path(path):
+    path = osp.expanduser(path)
+    path = osp.abspath(path)
+    return path
+
+
+def extract_clip(item_id, item, download_dir, save_dir, audio_codec='aac'):
+    video_path = osp.join(download_dir, f'{item["youtube_id"]}.mp4')
+    video_array, audio_array, metadata = read_video(
+        video_path,
+        start_pts=item['start_time'],
+        end_pts=item['end_time'],
+        pts_unit=item['time_unit'],
+    )
+
+    clip_path = osp.join(save_dir, f'{item_id}.mp4')
+    write_video(
+        filename=clip_path,
+        video_array=video_array,
+        fps=metadata['video_fps'],
+        audio_array=audio_array,
+        audio_codec=audio_codec,
+        audio_fps=metadata['audio_fps'],
+    )
+
+
+@click.command()
+@click.option('--save-dir', type=click.Path(writable=True), required=True)
+@click.option('--download-dir', type=click.Path(exists=True), required=True)
+@click.option('--annotations', type=click.Path(exists=True, file_okay=True), required=True)
+@click.option('--audio-codec', type=str, default='aac')
+def main(save_dir, download_dir, annotations, audio_codec):
+    save_dir = process_path(save_dir)
+    download_dir = process_path(download_dir)
+    annotations = process_path(annotations)
+
+    if not osp.isdir(save_dir):
+        os.makedirs(save_dir)
+
+    with open(annotations, 'r') as f:
+        data = json.load(f)
+
+    for item_id, item in tqdm(data.items()):
+        youtube_id = item.get('youtube_id')
+        if youtube_id is None:
+            continue
+        extract_clip(
+            item_id,
+            item,
+            download_dir,
+            save_dir,
+            audio_codec=audio_codec,
+        )
+
+
+if __name__ == '__main__':
+    main()
