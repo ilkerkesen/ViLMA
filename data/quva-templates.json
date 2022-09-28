@@ -769,7 +769,7 @@
         "category": "labor",
         "action": "spray paint",
         "templates": [
-            "a man sprays something longitudinally exactly <number> times.",
+            "a man sprays something longitudinally exactly <number> times."
         ],
         "place": null
     },
@@ -784,5 +784,9 @@
             "a man hits the wood using his axe exactly <number> times."
         ],
         "place": "outside"
-    },    
+    },
+    "070": {
+        "id": "070",
+        "prefix": "070"
+    }
 }
