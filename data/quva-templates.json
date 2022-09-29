@@ -759,7 +759,7 @@
         "category": "labor",
         "action": "spray paint",
         "templates": [
-            "a man sprays something longitudinally exactly <number> times.",
+            "a man sprays something longitudinally exactly <number> times."
         ],
         "place": null
     },
@@ -787,6 +787,55 @@
     },
     "070": {
         "id": "070",
-        "prefix": "070"
+        "prefix": "070_cut_pineapple",
+        "category": "cooking",
+        "action": "cut pineapple",
+        "templates": [
+            "someone is peeling a pineapple in exactly <number> moves.",
+            "the pineapple is being peeled in exactly <number> moves."
+        ]
+    },
+    "071": {
+        "id": "071",
+        "prefix": "071_row_splash",
+        "category": "exercise",
+        "action": "paddle canoe",
+        "templates": [
+            "a man wearing blue t-shirt rows the white canoe using his paddle exactly <number> times."
+        ],
+        "place": "lake"
+    },
+    "072": {
+        "id": "072",
+        "prefix": "072_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptic bicycle exactly <number> times.",
+            "a woman pedals the elliptic bicycle exactly <number> times."
+        ],
+        "place": null
+    },
+    "073": {
+        "id": "073",
+        "prefix": "073_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptic bicycle exactly <number> times.",
+            "a woman pedals the elliptic bicycle exactly <number> times."
+        ],
+        "place": null
+    },
+    "074": {
+        "id": "074",
+        "prefix": "074_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptic bicycle exactly <number> times.",
+            "a woman pedals the elliptic bicycle exactly <number> times."
+        ],
+        "place": null
     }
 }
