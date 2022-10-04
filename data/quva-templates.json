@@ -44,7 +44,8 @@
         "category": "exercise",
         "action": "table tennis",
         "templates": [
-            "FIXME"
+            "each table tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
         ],
         "place": "gym"
     },
@@ -53,7 +54,10 @@
         "prefix": "004_table_tennis",
         "category": "exercise",
         "action": "table tennis",
-        "templates": [],
+        "templates": [
+            "each table tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
+        ],
         "place": "gym"
     },
     "005": {
@@ -421,7 +425,8 @@
         "category": "exercise",
         "action": "skate",
         "templates": [
-            "FIXME"
+            "a person skates from one side to other side exactly <number> times.",
+            "a boy skates from end to end laterally exactly <number> times."
         ],
         "place": null
     },
@@ -584,7 +589,10 @@
         "id": "051",
         "prefix": "051",
         "category": "labor",
-        "action": "FIXME"
+        "action": "harrow",
+        "templates": [
+            "a person rips of the root surface with exactly <number> harrow moves."
+        ]
     },
     "052": {
         "id": "052",
