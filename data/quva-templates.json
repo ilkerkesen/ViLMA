@@ -1,7 +1,7 @@
 {
     "000": {
         "id": "000",
-        "file_prefix": "000_rope_beach",
+        "prefix": "000_rope_beach",
         "category": "exercise",
         "action": "jump rope",
         "templates":  [
@@ -228,7 +228,9 @@
         "prefix": "018_shovel",
         "category": "labor",
         "action": "push button",
-        "templates": [],
+        "templates": [
+            "somebody pushes the button of a white object exactly <number> times."
+        ],
         "place": "outside"
     },
     "019": {
@@ -258,7 +260,10 @@
         "prefix": "021_tennis_rally",
         "category": "exercise",
         "action": "tennis",
-        "templates": [],
+        "templates": [
+            "each tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
+        ],
         "place": "tennis court"
     },
     "022": {
@@ -587,7 +592,7 @@
     },
     "051": {
         "id": "051",
-        "prefix": "051",
+        "prefix": "051_roof",
         "category": "labor",
         "action": "harrow",
         "templates": [
@@ -932,7 +937,7 @@
     },
     "082": {
         "id": "082",
-        "file_prefix": "082_pullups_monkey_bar",
+        "prefix": "082_pullups_monkey_bar",
         "category": "exercise",
         "action": "hanging leg raises",
         "templates":  [
@@ -944,7 +949,7 @@
     },
     "083": {
         "id": "083",
-        "file_prefix": "083_pullups_monkey_bar",
+        "prefix": "083_pullups_monkey_bar",
         "category": "exercise",
         "action": "jump rope",
         "templates":  [
@@ -958,7 +963,7 @@
     },
     "084": {
         "id": "084",
-        "prefix": "084_fitness",
+        "prefix": "084_pullups_monkey_bar",
         "category": "exercise",
         "action": "squat",
         "templates": [
