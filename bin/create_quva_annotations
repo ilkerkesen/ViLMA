@@ -8,11 +8,7 @@ import numpy as np
 import click
 from tqdm import tqdm
 
-
-def process_path(path):
-    path = osp.expanduser(path)
-    path = osp.abspath(path)
-    return path
+from vl_bench.utils import process_path
 
 
 def create_example_0_index_1_diff_full_video(
@@ -80,7 +76,7 @@ METHODS = {
 )
 @click.option(
     '--output-file',
-    type=click.Path(writable=True, file_okay=True, resolve_path=True), 
+    type=click.Path(writable=True, file_okay=True, resolve_path=True),
     required=True,
 )
 @click.option(
@@ -101,18 +97,18 @@ METHODS = {
     required=True,
 )
 def main(input_file, output_file, data_dir, method, seed):
-    input_file = process_path(input_file)    
+    input_file = process_path(input_file)
     output_file = process_path(output_file)
     data_dir = process_path(data_dir)
 
     with open(input_file, 'r') as f:
         raw_data = json.load(f)
-    
+
     data = {}
     for _, item in tqdm(raw_data.items()):
         subset = METHODS[method](data_dir, item)
         data.update(subset)
-    
+
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=4)
 
