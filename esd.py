@@ -1,6 +1,6 @@
 import spacy, sys, time, json
 from utils import create_foils_from_lms
-
+start_time = time.time()
 
 #LM = sys.argv[1]
 LM = "albert"
@@ -77,8 +77,10 @@ for _idx, sentence in enumerate(example_captions):
 
     all_foils[idx] = foils
 
+# write created foils to json file
 with open("foils.json", "w") as fp:
     json.dump(all_foils, fp, indent=4)
 
-
+end_time = time.time()
+print(f"Script run time: {end_time - start_time}")
     

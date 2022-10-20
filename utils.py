@@ -6,19 +6,16 @@ from transformers import AutoTokenizer, AutoModelForMaskedLM
 from GRUEN.main import preprocess_candidates, get_grammaticality_score
 
 
-
-
-
 def create_foils_from_lms(sentence, mask_target, declarative_statement, lm, grammer_threshold=0.8):
 
     """
     Create foils by using given Masked Language Modeling (MLM). Then apply filtering to created
     foils: 
-        1) Do NLI (Roberta-large based) and if the output is "entailment (2)", 
-           drop that sample. 
-        2) Check grammer score by using GRUEN, if it is less than threshold, 
-           drop that sample.
-        3) 1 and 2 should be passed same time, AND operator.
+        step1 => Do NLI (Roberta-large based) and if the output is "entailment (2)", 
+                 drop that sample. 
+        step2 => Check grammer score by using GRUEN, if it is less than threshold, 
+                 drop that sample.
+        step3 => 1 and 2 should be passed same time, AND operator.
 
     Args:
         sentence (string): Original sentence
@@ -27,8 +24,8 @@ def create_foils_from_lms(sentence, mask_target, declarative_statement, lm, gram
         lm (string): Language model that will be used for MLM.
         grammer_threshold(float): threshold for GRUEN grammer score
     Return:
-        foils(list): list of dictionaries that stores the created foils, top5 prob included
-                     for one foil.
+        foils (list): list of dictionaries that stores the created foils, top5 prob included
+                      for one foil.
     """
 
     mask_before, mask_after = sentence.split(mask_target)
@@ -63,33 +60,45 @@ def create_foils_from_lms(sentence, mask_target, declarative_statement, lm, gram
     top_5_probs       = torch.topk(mask_token_logits, 5, dim=1).values[0].tolist()
 
     foils = []
+    nli_dict = {0: "contradiction", 1: "neutral", 2: "entailment"}
     for idx, token in enumerate(top_5_tokens):
         foiled_predicted_word = tokenizer.decode([token])
         foiled_declarative_statement = declarative_statement.replace(mask_target, foiled_predicted_word)
-        sentence = sequence.replace(tokenizer.mask_token, foiled_predicted_word)
+        foiled_sentence = sequence.replace(tokenizer.mask_token, foiled_predicted_word)
         probability = round(top_5_probs[idx], 3)
         nli_output = do_nli([declarative_statement, foiled_declarative_statement])
         grammetical_score = get_grammaticality_score(preprocess_candidates([foiled_declarative_statement]))
-        if ((nli_output != 2) and grammetical_score[0] > grammer_threshold):
-            sample = {"declarative statement": declarative_statement,
-                    "foiled predicted word": foiled_predicted_word, 
-                    "foiled declarative statement":foiled_declarative_statement, 
-                    "sentence":sentence, 
-                    "score": probability,
-                    "nli_gruen_test": "pass"
-                    }
+        if ((nli_output != 2) and (grammetical_score[0] > grammer_threshold)):
+            sample = {"sentence": sentence,
+                      "declarative_statement": declarative_statement,
+                      "mask_target": mask_target,
+                      "foiled_sentence":foiled_sentence,
+                      "foiled_declarative_statement":foiled_declarative_statement,
+                      "foiled_predicted_word": foiled_predicted_word, 
+                      "lm": lm,
+                      "lm_score": probability,
+                      "nli_prediction": nli_dict[nli_output],
+                      "gruen_score": round(grammetical_score[0], 5),
+                      "nli_gruen_test": "pass"
+                     }
         else:
-            sample = {"declarative statement": declarative_statement,
-                    "foiled predicted word": foiled_predicted_word, 
-                    "foiled declarative statement":foiled_declarative_statement, 
-                    "sentence":sentence, 
-                    "score": probability,
-                    "nli_gruen_test": "fail"
-                    }
+            sample = {"sentence": sentence,
+                      "declarative_statement": declarative_statement,
+                      "mask_target": mask_target,
+                      "foiled_sentence":foiled_sentence,
+                      "foiled_declarative_statement":foiled_declarative_statement,
+                      "foiled_predicted_word": foiled_predicted_word, 
+                      "lm": lm,
+                      "lm_score": probability,
+                      "nli_prediction": nli_dict[nli_output],
+                      "gruen_score": round(grammetical_score[0], 5),
+                      "nli_gruen_test": "fail"
+                     }
         foils.append(sample)
     return foils
 
-# taken from fairseq repo
+
+# taken from fairseq repo: https://github.com/facebookresearch/fairseq/blob/main/fairseq/data/data_utils.py
 def collate_tokens(values, pad_idx, eos_idx=None, left_pad=False, move_eos_to_beginning=False, pad_to_length=None, pad_to_multiple=1, pad_to_bsz=None,):
     """Convert a list of 1d tensors into a padded 2d tensor."""
     size = max(v.size(0) for v in values)
@@ -125,10 +134,10 @@ def do_nli(source):
      2: entailment
 
     Args:
-        source(list): list that stores the foil and reference
+        source (list): list that stores the foil and reference
     Return:
-        out(int): integer value of whether the given source is 
-                  contradiction (0), neutral (1) or entailment (2).
+        out (int): integer value of whether the given source is 
+                   contradiction (0), neutral (1) or entailment (2).
     """
 
     declarative_statement, foiled_declarative_statement = source
