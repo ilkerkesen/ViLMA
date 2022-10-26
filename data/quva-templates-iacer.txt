@@ -1,0 +1,1124 @@
+{
+    "000": {
+        "id": "000",
+        "prefix": "000_rope_beach",
+        "category": "exercise",
+        "action": "jump rope",
+        "templates":  [
+            "a man is skipping rope exactly <number> times.",
+            "someone is skipping rope exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "001": {
+        "id": "001",
+        "prefix": "001_trampoline",
+        "category": "exercise",
+        "action": "tramboline",
+        "templates": [
+            "a kid is jumping on a trampoline exactly <number> times.",
+            "a kid is bouncing on a trampoline exactly <number> times.",
+            "a gymnast is jumping exactly <number> times.",
+            "a child is jumping exactly <number> times.",
+            "a kid is bouncing exactly <number> times on a trampoline."
+        ],
+        "place": "gym"
+    },
+    "002": {
+        "id": "002",
+        "prefix": "002_swing_forward",
+        "category": "other",
+        "action": "swing",
+        "templates": [
+            "a toddler in a playground swings on a swing exactly <number> times.",
+            "a toddler at a playground is swinging exactly <number> times.",
+            "a child is swinging exactly <number> times at a playground."
+        ],
+        "place": "playground"
+    },
+    "003": {
+        "id": "003",
+        "prefix": "003_table_tennis",
+        "category": "exercise",
+        "action": "table tennis",
+        "templates": [
+            "each table tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
+        ],
+        "place": "gym"
+    },
+    "004": {
+        "id": "004",
+        "prefix": "004_table_tennis",
+        "category": "exercise",
+        "action": "table tennis",
+        "templates": [
+            "each table tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
+        ],
+        "place": "gym"
+    },
+    "005": {
+        "id": "005",
+        "prefix": "005_bmx",
+        "category": "show",
+        "action": "whirl around",
+        "templates": [
+            "a man on a bike spins exactly <number> times.",
+            "a performer whirls around exactly <number> times."
+        ],
+        "place": "circus"
+    },
+    "006": {
+        "id": "006",
+        "prefix": "006_cucumber",
+        "category": "cooking",
+        "action": "cut cucumber",
+        "templates": [
+            "someone slices a cucumber exactly <number> times.",
+            "a cucumber is being sliced exactly <number> times.",
+            "someone cuts a cucumber exactly <number> times.",
+            "someone chops a cucumber exactly <number> times."
+        ],
+        "place": "kitchen"
+    },
+    "007": {
+        "id": "007",
+        "prefix": "007_pommel_practice",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man is spinning around on his hands exactly <number> times.",
+            "someone uses his hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "008": {
+        "id": "008",
+        "prefix": "008_pommel_practice",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man is spinning around on his hands exactly <number> times.",
+            "someone uses his hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "009": {
+        "id": "009",
+        "prefix": "009_pommel_practice",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man is spinning around on his hands exactly <number> times.",
+            "someone uses his hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times."
+        ],
+        "actor": ["man", "athlete"],
+        "place": "gym"
+    },
+    "010": {
+        "id": "010",
+        "prefix": "010_pommel_practice",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man is spinning around on his hands exactly <number> times.",
+            "someone uses his hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "011": {
+        "id": "011",
+        "prefix": "011_rifle",
+        "category": "other",
+        "action": "fire rifle",
+        "templates": [
+            "a man wearing a white t-shirt fires a rifle exactly <number> times.",
+            "a man with a white t-shirt fires a rifle exactly <number> times.",
+            "someone is firing a gun exactly <number> times.",
+            "a person fires a gun exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "012": {
+        "id": "012",
+        "prefix": "012_gymnastics",
+        "category": "exercise",
+        "action": "roll over bar",
+        "templates": [
+            "a gymnast rolls over a bar exactly <number> times.",
+            "a person is rolling over a bar exactly <number> times.",
+            "someone spins around a bar exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "013": {
+        "id": "013",
+        "prefix": "013_weights_floor",
+        "category": "exercise",
+        "action": "skullcrusher",
+        "templates": [
+            "a man performs the same exercise exactly <number> times.",
+            "someone lifts weights exactly <number> times.",
+        ],
+        "place": "home"
+    },
+    "014": {
+        "id": "014",
+        "prefix": "014_weights_floor",
+        "category": "exercise",
+        "action": "skullcrusher",
+        "templates": [
+            "a man on the floor is performing the same exercise exactly <number> times.",
+            "a man performs the same exercise exactly <number> times.",
+            "someone lifts weights exactly <number> times.",
+        ],
+        "place": "home"
+    },
+    "015": {
+        "id": "015",
+        "prefix": "015_shovel",
+        "category": "labor",
+        "action": "shovel",
+        "templates": [
+             "somebody lifts snow with a shovel exactly <number> times",
+        ],
+        "place": "outside"
+    },
+    "016": {
+        "id": "016",
+        "prefix": "016_shovel",
+        "category": "labor",
+        "action": "shovel",
+        "templates": [
+             "somebody lifts snow with a shovel exactly <number> times",
+        ],
+        "place": "outside"
+    },
+    "017": {
+        "id": "017",
+        "prefix": "017_shovel",
+        "category": "labor",
+        "action": "shovel",
+        "templates": [
+             "somebody lifts snow with a shovel exactly <number> times",
+        ],
+        "place": "outside"
+    },
+    "018": {
+        "id": "018",
+        "prefix": "018_shovel",
+        "category": "labor",
+        "action": "push button",
+        "templates": [
+            "somebody pushes a button exactly <number> times.",
+            "somebody pushes the button on a white object exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "019": {
+        "id": "019",
+        "prefix": "019_guitar_lesson",
+        "category": "music",
+        "action": "strum",
+        "templates": [
+            "a woman with glasses strums the guitar exactly <number> times.",
+            "a woman is strumming the guitar exactly <number> times."
+        ],
+        "place": "music room"
+    },
+    "020": {
+        "id": "020",
+        "prefix": "020_fitness",
+        "category": "exercise",
+        "action": "lunge",
+        "templates": [
+            "a man with a gray t-shirt lunges exactly <number> times.",
+            "a man performs exactly <number> lunges."
+        ],
+        "place": "gym"
+    },
+    "021": {
+        "id": "021",
+        "prefix": "021_tennis_rally",
+        "category": "exercise",
+        "action": "tennis",
+        "templates": [
+            "each tennis player hits the ball exactly <number> times.",
+            "each player hits the ball exactly <number> times using their rackets."
+        ],
+        "place": "tennis court"
+    },
+    "022": {
+        "id": "022",
+        "prefix": "022_fitness",
+        "category": "exercise",
+        "action": "pull-up",
+        "templates": [
+            "two people perform exactly <number> pull-ups.",
+            "a pair of athletes performs exactly <number> pull-ups.",
+            "two people are performing pull-ups exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "023": {
+        "id": "023",
+        "prefix": "023_fitness",
+        "category": "exercise",
+        "action": "jump rope",
+        "templates": [
+            "a man is skipping the rope exactly <number> times.",
+        ],
+        "place": "gym"
+    },
+    "024": {
+        "id": "024",
+        "prefix": "024_soccer_keepups",
+        "category": "exercise",
+        "action": "juggle soccer ball",
+        "templates": [
+            "a girl is juggling a yellow soccer ball exactly <number> times in a room.",
+            "a woman juggles a soccer ball exactly <number> times."
+        ],
+        "place": "home"
+    },
+    "025": {
+        "id": "025",
+        "prefix": "025_fitness",
+        "category": "exercise",
+        "action": "knees-to-elbows",
+        "templates": [
+            "an athlete performs the same abdominal exercise exactly <number> times.",
+            "a man performs the same exercise exactly <number> times.",
+            "a man pulls his knees to his elbows exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "026": {
+        "id": "026",
+        "prefix": "026_fitness",
+        "category": "exercise",
+        "action": "kettlebell clean and squat",
+        "templates": [
+            "a man performs the same exercise exactly <number> times.",
+            "a man performs a variation of a squat exercise exactly <number> times.",
+        ],
+        "place": "gym"
+    },
+    "027": {
+        "id": "027",
+        "prefix": "027_fitness",
+        "category": "exercise",
+        "action": "back extension",
+        "templates": [
+            "a woman is performing back extensions exactly <number> times.",
+            "a woman raises her upper body exactly <number> times on a bench."
+        ],
+        "place": "gym"
+    },
+    "028": {
+        "id": "028",
+        "prefix": "028_bar_lift",
+        "category": "exercise",
+        "action": "upright row",
+        "templates": [
+            "a person lifts a bar to his shoulders exactly <number> times.",
+            "a woman performs exactly <number> upright rows."
+        ],
+        "place": "gym"
+    },
+    "029": {
+        "id": "029",
+        "prefix": "029_bar_lift",
+        "category": "exercise",
+        "action": "one handed upright row",
+        "templates": [
+            "a person lifts a bar exactly <number> times using her right arm.",
+            "a woman performs exactly <number> one-handed upright rows."
+        ],
+        "place": "gym"
+    },
+    "030": {
+        "id": "030",
+        "prefix": "030_bar_lift",
+        "category": "exercise",
+        "action": "overhead press",
+        "templates": [
+            "a woman lifts a stick above her head exactly <number> times.",
+            "a person does exactly <number> overhead presses."
+        ],
+        "place": "gym"
+    },
+    "031": {
+        "id": "031",
+        "prefix": "031_bar_lift",
+        "category": "exercise",
+        "action": "upright row",
+        "templates": [
+            "a person lifts a bar to their shoulders exactly <number> times.",
+            "a woman performs exactly <number> upright rows."
+        ],
+        "place": "gym"
+    },
+    "032": {
+        "id": "032",
+        "prefix": "032_bar_lift",
+        "category": "exercise",
+        "action": "push-up",
+        "templates": [
+            "a person does exactly <number> push-ups.",
+            "a woman performs exactly <number> pushups."
+        ],
+        "place": "gym"
+    },
+    "033": {
+        "id": "033",
+        "prefix": "033_hometrainer",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a man pedals exactly <number> times.",
+            "a man spins the bike pedals exactly <number> times."
+        ],
+        "place": null
+    },
+    "034": {
+        "id": "034",
+        "prefix": "034_rowing_machine",
+        "category": "exercise",
+        "action": "row",
+        "templates": [
+            "a man completes exactly <number> rowing exercises.",
+            "a man performs rowing exercises exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "035": {
+        "id": "035",
+        "prefix": "035_rowing_machine",
+        "category": "exercise",
+        "action": "row",
+        "templates": [
+            "a man performs rowing exercises exactly <number> times.",
+            "a man completes exactly <number> rowing exercises."
+        ],
+        "place": "gym"
+    },
+    "036": {
+        "id": "036",
+        "prefix": "036_halfpipe",
+        "category": "exercise",
+        "action": "skate",
+        "templates": [
+            "a person skates from one side to the other exactly <number> times.",
+            "a boy skates sideways from one end to the other exactly <number> times."
+        ],
+        "place": null
+    },
+    "037": {
+        "id": "037",
+        "prefix": "037_keepups",
+        "category": "exercise",
+        "action": "juggle soccer ball",
+        "templates": [
+            "a guy wearing a yellow t-shirt juggles the ball using his racket exactly <number> times.",
+            "a man keeps the ball up in the air by hitting it exactly <number> times."
+        ],
+        "place": null
+    },
+    "038": {
+        "id": "038",
+        "prefix": "038_monkey_bars",
+        "category": "exercise",
+        "action": "monkey bar",
+        "templates": [
+            "a woman grasps a monkey bar to move forward exactly <number> times.",
+            "a woman uses her hands to grasp the next bar exactly <number> times.",
+            "a woman uses her hands to move forward exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "039": {
+        "id": "039",
+        "prefix": "039_monkey_bars",
+        "category": "exercise",
+        "action": "monkey bar",
+        "templates": [
+            "a woman performs exactly <number> lateral movements on the monkey bars.",
+            "a woman performs a lateral movement on the monkey bars exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "040": {
+        "id": "040",
+        "prefix": "040_monkey_bars",
+        "category": "exercise",
+        "action": "pull-up",
+        "templates": [
+            "a woman performs exactly <number> pull-ups.",
+            "a woman performs pull-ups exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "041": {
+        "id": "041",
+        "prefix": "041_monkey_bars",
+        "category": "exercise",
+        "action": "sit-up",
+        "templates": [
+            "a woman performs exactly <number> sit-ups on the monkey bars.",
+            "a woman is performing exactly <number> sit-ups while she is hanging on the monkey bars.",
+            "a woman lifts her upper body exactly <number> times while she is hanging on the monkey bars by her legs."
+        ],
+        "place": "gym"
+    },
+    "042": {
+        "id": "042",
+        "prefix": "042_rowing",
+        "category": "exercise",
+        "action": "row canoe",
+        "templates": [
+            "a man paddles exactly <number> times."
+        ],
+        "place": "lake"
+    },
+    "043": {
+        "id": "043",
+        "prefix": "043_violin",
+        "category": "music",
+        "action": "bow",
+        "templates": [
+            "a man with glasses moves the bow back and forth exactly <number> times.",
+            "a man with glasses moves the bow back and forth over the violin exactly <number> times."
+        ],
+        "place": null
+    },
+    "044": {
+        "id": "044",
+        "prefix": "044_snow",
+        "category": "labor",
+        "action": "hit",
+        "templates": [
+            "a man hits the snow with a hockey stick exactly <number> times.",
+            "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> times.",
+            "a man hits the icy snow on the car using an ice hockey stick exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "045": {
+        "id": "045",
+        "prefix": "045_snow",
+        "category": "labor",
+        "action": "hit",
+        "templates": [
+            "a man hits the snow with a hockey stick exactly <number> times.",
+            "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> times.",
+            "a man hits the icy snow on the car using an ice hockey stick exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "046": {
+        "id": "046",
+        "prefix": "046_dog_groom",
+        "category": "labor",
+        "action": "groom",
+        "templates": [
+            "a person brushes a black dog exactly <number> times."
+        ],
+        "place": null
+    },
+    "047": {
+        "id": "047",
+        "prefix": "047_wood_cut",
+        "category": "labor",
+        "action": "wood cut",
+        "templates": [
+            "a man hits wood with his axe exactly <number> times.",
+            "a man hits wood exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "048": {
+        "id": "048",
+        "prefix": "048_swimming",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man performs exactly <number> swimming strokes.",
+            "a man swims by performing exactly <number> strokes."
+        ],
+        "place": "pool"
+    },
+    "049": {
+        "id": "049",
+        "prefix": "049_swimming",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man swims by performing exactly <number> strokes.",
+            "a man performs exactly <number> swimming strokes."
+        ],
+        "place": "pool"
+    },
+    "050": {
+        "id": "050",
+        "prefix": "050_horse",
+        "category": "labor",
+        "action": "groom",
+        "templates": [
+            "a person brushes the brown horse exactly <number> times.",
+            "a person strokes the horse exactly <number> times."
+        ],
+        "place": "stable"
+    },
+    "051": {
+        "id": "051",
+        "prefix": "051_roof",
+        "category": "labor",
+        "action": "harrow",
+        "templates": [
+            "a person rips off the roofing with exactly <number> moves."
+        ]
+    },
+    "052": {
+        "id": "052",
+        "prefix": "052_stirring",
+        "category": "daily",
+        "action": "stir",
+        "templates": [
+            "a child stirs the glass with a spoon exactly <number> times.",
+            "a kid stirs the glass exactly <number> times using a spoon."
+        ],
+        "place": "home"
+    },
+    "053": {
+        "id": "053",
+        "prefix": "053_stirring",
+        "category": "daily",
+        "action": "stir",
+        "templates": [
+            "a child stirs the glass with a spoon exactly <number> times.",
+            "a kid stirs the glass exactly <number> times using a spoon."
+        ],
+        "place": "home"
+    },
+    "054": {
+        "id": "054",
+        "prefix": "054_stirring",
+        "category": "daily",
+        "action": "stir",
+        "templates": [
+            "a kid stirs the glass exactly <number> times using a spoon.",
+            "a child stirs the glass with a spoon exactly <number> times."
+        ],
+        "place": "home"
+    },
+    "055": {
+        "id": "055",
+        "prefix": "055_cable_chop",
+        "category": "exercise",
+        "action": "cable chop",
+        "templates": [
+            "a woman executes the same abdominal exercise exactly <number> times using a cable machine.",
+            "a woman performs the same fitness exercise exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "056": {
+        "id": "056",
+        "prefix": "056_swing",
+        "category": "other",
+        "action": "swing",
+        "templates": [
+            "a child is swinging exactly <number> times.",
+            "a kid at a playground is swinging on a swing exactly <number> times.",
+            "a kid at a playground is swinging exactly <number> times."
+        ],
+        "place": "playground"
+    },
+    "057": {
+        "id": "057",
+        "prefix": "057_painting",
+        "category": "labor",
+        "action": "polish",
+        "templates": [
+            "a man wipes a piece of wood exactly <number> times."
+        ],
+        "place": "home"
+    },
+    "058": {
+        "id": "058",
+        "prefix": "058_painting",
+        "category": "labor",
+        "action": "paint",
+        "templates": [
+            "a man paints a piece of wood with exactly <number> strokes.",
+            "a man paints a piece of wood by performing exactly <number> strokes."
+        ],
+        "place": "home"
+    },
+    "059": {
+        "id": "059",
+        "prefix": "059_painting",
+        "category": "labor",
+        "action": "polish",
+        "templates": [
+            "a man wipes a piece of wood exactly <number> times."
+        ],
+        "place": "home"
+    },
+    "060": {
+        "id": "060",
+        "prefix": "060_jumping_rope",
+        "category": "exercise",
+        "action": "jump rope",
+        "templates": [
+            "a man skips the rope <number> times in total.",
+            "someone is skipping the rope exactly <number> times.",
+            "a man performs a skipping rope exercise exactly <number> times."
+        ],
+        "place": "gym"
+    },
+    "061": {
+        "id": "061",
+        "prefix": "061_double_bars",
+        "category": "exercise",
+        "action": "swing",
+        "templates": [
+            "a woman uses her hands to swing back and forth <number> times in total.",
+            "a gymnast swings back and forth exactly <number> times using her arms."
+        ],
+        "place": "gym"
+    },
+    "062": {
+        "id": "062",
+        "prefix": "062_polish",
+        "category": "labor",
+        "action": "polish",
+        "templates": [
+            "a man wipes a piece of wood exactly <number> times using a white cloth."
+        ],
+        "place": "workshop"
+    },
+    "063": {
+        "id": "063",
+        "prefix": "063_polish",
+        "category": "labor",
+        "action": "polish",
+        "templates": [
+            "a man wipes a piece of wood exactly <number> times using a white cloth."
+        ],
+        "place": "workshop"
+    },
+    "064": {
+        "id": "064",
+        "prefix": "064_front",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man performs exactly <number> forward strokes.",
+            "a man swims by performing exactly <number> forward strokes."
+        ],
+        "place": "sea"
+    },
+    "065": {
+        "id": "065",
+        "prefix": "065_knife",
+        "category": "labor",
+        "action": "sharpen",
+        "templates": [
+            "a person sharpens the knife by dragging it against an object exactly <number> times.",
+            "a person slides the knife against an object exactly <number> times."
+        ]
+    },
+    "066": {
+        "id": "066",
+        "prefix": "066_spray_paint",
+        "category": "labor",
+        "action": "spray paint",
+        "templates": [
+            "a man spray paints a plank from side to side exactly <number> times.",
+            "a man spray paints a plank exactly <number> times."
+        ],
+        "place": null
+    },
+    "067": {
+        "id": "067",
+        "prefix": "067_spray_paint",
+        "category": "labor",
+        "action": "spray paint",
+        "templates": [
+            "a man spray paints something exactly <number> times."
+        ],
+        "place": null
+    },
+    "068": {
+        "id": "068",
+        "prefix": "068_spray_paint",
+        "category": "labor",
+        "action": "spray paint",
+        "templates": [
+            "a man spray paints something from side to side exactly <number> times."
+        ],
+        "place": null
+    },
+    "069": {
+        "id": "069",
+        "prefix": "069_chopping_wood",
+        "category": "labor",
+        "action": "wood cut",
+        "templates": [
+            "a shirtless man chops wood exactly <number> times.",
+            "a man hits wood using his axe exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "070": {
+        "id": "070",
+        "prefix": "070_cut_pineapple",
+        "category": "cooking",
+        "action": "cut pineapple",
+        "templates": [
+            "someone is peeling a pineapple in exactly <number> moves.",
+            "the pineapple is being peeled in exactly <number> moves."
+        ]
+    },
+    "071": {
+        "id": "071",
+        "prefix": "071_row_splash",
+        "category": "exercise",
+        "action": "paddle canoe",
+        "templates": [
+            "a man wearing a blue t-shirt paddles on a white canoe exactly <number> times."
+        ],
+        "place": "lake"
+    },
+    "072": {
+        "id": "072",
+        "prefix": "072_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
+            "a woman pedals the elliptical bicycle exactly <number> times."
+        ],
+        "place": null
+    },
+    "073": {
+        "id": "073",
+        "prefix": "073_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
+            "a woman pedals the elliptical bicycle exactly <number> times."
+        ],
+        "place": null
+    },
+    "074": {
+        "id": "074",
+        "prefix": "074_spinning",
+        "category": "exercise",
+        "action": "pedal",
+        "templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
+            "a woman pedals the elliptical bicycle exactly <number> times."
+        ],
+        "place": null
+    },
+    "075": {
+        "id": "075",
+        "prefix": "075_pommel_match",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man spins around exactly <number> times with his bare hands.",
+            "a man is using his own hands to spin around exactly <number> times.",
+            "a man is spinning around exactly <number> times.",
+            "a man in red is spinning around exactly <number> times."
+        ],
+        "place": null
+    },
+    "076": {
+        "id": "076",
+        "prefix": "076_pommel_match",
+        "category": "exercise",
+        "action": "spin around",
+        "templates": [
+            "a man spins around exactly <number> times with his bare hands.",
+            "a man is using his own hands to spin around exactly <number> times.",
+            "a man is spinning around exactly <number> times.",
+            "a man in red is spinning around exactly <number> times."
+        ],
+        "place": null
+    },
+    "077": {
+        "id": "077",
+        "prefix": "077_crunches",
+        "category": "exercise",
+        "action": "crunch",
+        "templates": [
+            "an athlete performs the same abdominal exercise exactly <number> times.",
+            "a woman performs the same exercise exactly <number> times.",
+            "a woman performs exactly <number> crunches.",
+            "a woman in a pink top performs the same exercise exactly <number> times."
+        ],
+        "place": null
+    },
+    "078": {
+        "id": "078",
+        "prefix": "078_ski_waxing",
+        "category": "labor",
+        "action": "waxing",
+        "templates": [
+            "a person waxes a ski exactly <number> times.",
+            "a person rubs wax on a ski exactly <number> times."
+        ]
+    },
+    "079": {
+        "id": "079",
+        "prefix": "079_crunches_rope",
+        "category": "exercise",
+        "action": "crunch",
+        "templates": [
+            "an athlete performs the same abdominal exercise exactly <number> times.",
+            "a woman performs the same exercise exactly <number> times.",
+            "a woman performs exactly <number> crunches.",
+            "a woman in a black t-shirt performs the same exercise exactly <number> times."
+        ],
+        "place": null
+    },
+    "080": {
+        "id": "080",
+        "prefix": "080_brushing_hair",
+        "category": "labor",
+        "action": "brushing",
+        "templates": [
+            "a woman brushes her hair exactly <number> times."
+        ],
+        "place": null
+    },
+    "081": {
+        "id": "081",
+        "prefix": "081_sharpen_knife",
+        "category": "labor",
+        "action": "sharpen",
+        "templates": [
+            "a person sharpens the knife by dragging it against an object exactly <number> times.",
+            "a person slides the knife on an object exactly <number> times."
+        ]
+    },
+    "082": {
+        "id": "082",
+        "prefix": "082_pullups_monkey_bar",
+        "category": "exercise",
+        "action": "hanging leg raises",
+        "templates":  [
+            "a man raises his legs exactly <number> times.",
+            "a man is lifting his legs exactly <number> times while hanging.",
+            "a man moves his legs up and down exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "083": {
+        "id": "083",
+        "prefix": "083_pullups_monkey_bar",
+        "category": "exercise",
+        "action": "jump rope",
+        "templates":  [
+            "a man is skipping the rope exactly <number> times.",
+            "a man performs a skipping rope exercise exactly <number> times.",
+            "a shirtless man is skipping the rope exactly <number> times.",
+            "someone is skipping the rope exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "084": {
+        "id": "084",
+        "prefix": "084_pullups_monkey_bar",
+        "category": "exercise",
+        "action": "squat",
+        "templates": [
+            "a man performs the same exercise exactly <number> times.",
+            "a man performs a squat exercise exactly <number> times.",
+            "a man performs exactly <number> squats.",
+            "a shirtless man performs a squat exercise exactly <number> times."
+        ],
+        "place": "outside"
+    },
+    "085": {
+        "id": "085",
+        "prefix": "085_kitchen",
+        "category": "cooking",
+        "action": "cutting garlic",
+        "templates": [
+            "someone is slicing a clove of garlic exactly <number> times.",
+            "the clove of garlic is being sliced exactly <number> times.",
+            "someone is cutting a garlic exactly <number> times."
+        ],
+        "place": "kitchen"
+    },
+    "086": {
+        "id": "086",
+        "prefix": "086_kitchen",
+        "category": "cooking",
+        "action": "cutting parsley",
+        "templates": [
+            "someone slices parsley exactly <number> times.",
+            "the parsley is being sliced exactly <number> times.",
+            "someone is cutting parsley exactly <number> times."
+        ],
+        "place": "kitchen"
+    },
+    "087": {
+        "id": "087",
+        "prefix": "087_jump_shoes",
+        "category": "exercise",
+        "action": "jumping",
+        "templates": [
+            "a man is jumping exactly <number> times."
+        ],
+        "place": null
+    },
+    "088": {
+        "id": "088",
+        "prefix": "088_jump_shoes",
+        "category": "exercise",
+        "action": "jumping",
+        "templates": [
+            "a woman is jumping exactly <number> times."
+        ],
+        "place": null
+    },
+    "089": {
+        "id": "089",
+        "prefix": "089_hoolahoop",
+        "category": "exercise",
+        "action": "hoolahoop",
+        "templates": [
+            "a woman is spinning the hula hoop exactly <number> times.",
+            "a woman is spinning the hula hoop around her waist exactly <number> times."
+        ],
+        "place": null
+    },
+    "090": {
+        "id": "090",
+        "prefix": "090_hoolahoop",
+        "category": "exercise",
+        "action": "hoolahoop",
+        "templates": [
+            "a woman is spinning the hula hoop exactly <number> times.",
+            "a woman is spinning the hula hoop around her waist exactly <number> times."
+        ],
+        "place": null
+    },
+    "091": {
+        "id": "091",
+        "prefix": "091_basketball",
+        "category": "exercise",
+        "action": "basketball",
+        "templates": [
+            "a man is bouncing the ball exactly <number> times.",
+            "a man in a black t-shirt is bouncing the ball with his right hand exactly <number> times."
+        ],
+        "place": "basketball court"
+    },
+    "092": {
+        "id": "092",
+        "prefix": "092_basketball",
+        "category": "exercise",
+        "action": "basketball",
+        "templates": [
+            "a man is bouncing the ball exactly <number> times.",
+            "a man in a black t-shirt is bouncing the ball with his right hand exactly <number> times."
+        ],
+        "place": "basketball court"
+    },
+    "093": {
+        "id": "093",
+        "prefix": "093_core_strength",
+        "category": "exercise",
+        "action": "cross crunch",
+        "templates": [
+            "an athlete performs the same abdominal exercise exactly <number> times.",
+            "a man performs the same exercise exactly <number> times.",
+            "a man brings his hands to his knees exactly <number> times.",
+            "a man performs exactly <number> cross crunch exercises.",
+            "a shirtless man performs the same exercise exactly <number> times."
+        ],
+        "place": null
+    },
+    "094": {
+        "id": "094",
+        "prefix": "094_double_bar",
+        "category": "exercise",
+        "action": "swing",
+        "templates": [
+            "a man uses his hands to swing back and forth exactly <number> times.",
+            "a man swings back and forth exactly <number> times using his arms.",
+            "a man in a purple t-shirt and sunglasses uses his hands to swing back and forth exactly <number> times."
+        ],
+        "place": "park"
+    },
+    "095": {
+        "id": "095",
+        "prefix": "095_melon",
+        "category": "cooking",
+        "action": "cut melon",
+        "templates": [
+            "someone is peeling a melon in exactly <number> moves.",
+            "the melon is being peeled in exactly <number> moves."
+        ],
+        "place": "kitchen"
+    },
+    "096": {
+        "id": "096",
+        "prefix": "096_swimming_freestyle",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man performs exactly <number> swimming strokes.",
+            "a man swims by performing exactly <number> strokes."
+        ],
+        "place": "pool"
+    },
+    "097": {
+        "id": "097",
+        "prefix": "097_swimming_freestyle",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man performs exactly <number> swimming strokes.",
+            "a man swims by performing exactly <number> strokes."
+        ],
+        "place": "pool"
+    },
+    "098": {
+        "id": "098",
+        "prefix": "098_swimming_freestyle",
+        "category": "exercise",
+        "action": "swim",
+        "templates": [
+            "a man performs exactly <number> swimming strokes.",
+            "a man swims by performing exactly <number> strokes."
+        ],
+        "place": "pool"
+    },
+    "099": {
+        "id": "099",
+        "prefix": "099_walking_lunges",
+        "category": "exercise",
+        "action": "lunge",
+        "templates": [
+            "a man in a blue t-shirt lunges exactly <number> times.",
+            "a man performs exactly <number> lunges.",
+            "a man does lunges with dumbbells exactly <number> times.",
+            "a man wearing white sneakers does exactly <number> walking lunges."
+        ],
+        "place": "fitness"
+    }
+}
