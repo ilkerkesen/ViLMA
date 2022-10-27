@@ -69,29 +69,32 @@ class Dataset_v1(Dataset):
             raise NotImplementedError('Not implemented yet.')
         video_path = osp.join(video_dir, video_file)
 
-        # simply read the video
-        return read_video(
-            video_path,
-            start_pts=item['start_time'],
-            end_pts=item['end_time'],
-            pts_unit=item['time_unit'],
-            output_format='TCHW',
-        )
+        if item['time_unit'] == 'sec':
+            video, audio, fps = read_video(
+                video_path,
+                start_pts=float(item['start_time']),
+                end_pts=float(item['end_time']),
+                pts_unit='sec',
+            )
+        elif item['time_unit'] == 'pts':  # otherwise it returns single frame
+            video, audio, fps = read_video(video_path)
+            video = video[item['start_time']:item['end_time']]
+        return video, audio, fps
         
     def __len__(self):
         return len(self.json_data)
 
     def __getitem__(self, index):
         entry = deepcopy(self.json_data[index])
-        video = self._read_video(entry)
+        video, audio, fps = self._read_video(entry)
         raw_texts = [entry['caption']] + entry['foils']
         item = {
             'index': index,
             'item_id': self.json_data.ids[index],
-            'video': video[0],
-            'audio': video[1],
-            'video_fps': video[2].get('video_fps'),
-            'audio_fps': video[2].get('audio_fps'),
+            'video': video,
+            'audio': audio,
+            'video_fps': fps.get('video_fps'),
+            'audio_fps': fps.get('audio_fps'),
             'raw_texts': raw_texts,
         }
         return item
