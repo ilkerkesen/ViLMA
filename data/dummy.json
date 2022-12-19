@@ -8,10 +8,14 @@
         "video_file": null,
         "start_time": 40,
         "end_time": 50,
-        "time_unit": "seconds",
+        "time_unit": "sec",
         "caption": "someone is cutting a keyboard.",
-        "foil": "someone is using a keyboard.",
-        "foiling_method": "MLM with BERT"
+        "foils": [
+            "someone is using a keyboard."
+        ],
+        "foiling_methods": [
+            "MLM with BERT"
+        ]
     },
     "dummy_1": {
         "dataset": "RareAct",
@@ -22,9 +26,13 @@
         "video_file": null,
         "start_time": 70,
         "end_time": 80,
-        "time_unit": "seconds",
+        "time_unit": "sec",
         "caption": "someone is hammering a banana.",
-        "foil": "someone is eating a banana.",
-        "foiling_method": "MLM with BERT"        
+        "foils": [
+            "someone is eating a banana."
+        ],
+        "foiling_methods":  [
+            "MLM with BERT"
+        ]
     }
 }
