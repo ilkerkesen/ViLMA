@@ -1,0 +1,13 @@
+#!/bin/bash 
+
+INPUT_DIR=$1
+OUTPUT_DIR=$2
+FPS=${FPS:-"30"}
+
+video_list=( `ls -1 $INPUT_DIR` )
+for file_name in "${video_list[@]}"; do
+    printf 'Processing: %s\r' "$file_name"
+    input_path=$INPUT_DIR/$file_name
+    output_path=$OUTPUT_DIR/$file_name
+    ffmpeg -i "$input_path" -filter:v fps=fps="$FPS" "$output_path" > /dev/null 2>&1
+done

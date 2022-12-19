@@ -14,6 +14,7 @@ from vl_bench.utils import process_path
 def create_example_0_index_1_diff_full_video(
     data_dir,
     entry,
+    normalized=False,
     **kwargs,
 ):
     """
@@ -23,10 +24,11 @@ def create_example_0_index_1_diff_full_video(
     """
     method = "0-index-1-diff-full-video"
     subset = {}
+    annotations_dir = 'normalized_annotations' if normalized else 'annotations'
 
     # read annotations
     timestamps = np.load(osp.join(
-        data_dir, 'annotations', entry['prefix'] + '.npy'))
+        data_dir, annotations_dir, entry['prefix'] + '.npy'))
     count = len(timestamps)
 
     # create the true caption from the template
@@ -63,6 +65,7 @@ def create_example_0_index_1_diff_full_video(
         'template': template,
         'classes': count,
         'classes_foils': classes_foils,
+        'normalized': normalized,
     }
 
     return subset
@@ -73,6 +76,7 @@ def create_examples_0_index_1_diff_n_count(
     entry,
     use_digits=True,
     n_count=0,
+    normalized=False,
     **kwargs,
 ):
     """
@@ -85,10 +89,11 @@ def create_examples_0_index_1_diff_n_count(
     digits_or_spelling = "use-digits" if use_digits else "use-spelling"
     method = f"0-index-1-diff-n-count-{digits_or_spelling}"
     subset = {}
+    annotations_dir = 'normalized_annotations' if normalized else 'normalized'
 
     # read annotations
     timestamps = np.load(osp.join(
-        data_dir, 'annotations', entry['prefix'] + '.npy'))
+        data_dir, annotations_dir, entry['prefix'] + '.npy'))
     total_count = len(timestamps)
     
     for i in range(0, total_count-n_count+1):
@@ -129,6 +134,7 @@ def create_examples_0_index_1_diff_n_count(
             'template': template,
             'classes': count,
             'classes_foils': classes_foils,
+            'normalized': normalized,
         }
 
     return subset
@@ -166,14 +172,25 @@ METHODS = {
     '--seed',
     type=int,
     default=42,
-    required=True,
 )
 @click.option(
     '--n-count',
     type=int,
     default=0,
 )
-def main(input_file, output_file, data_dir, method, seed, n_count):
+@click.option(
+    '--normalized/--unnormalized',
+    default=True,
+)
+def main(
+    input_file,
+    output_file,
+    data_dir,
+    method,
+    seed,
+    n_count,
+    normalized,
+):
     input_file = process_path(input_file)
     output_file = process_path(output_file)
     data_dir = process_path(data_dir)
@@ -183,7 +200,12 @@ def main(input_file, output_file, data_dir, method, seed, n_count):
 
     data = {}
     for _, item in tqdm(raw_data.items()):
-        subset = METHODS[method](data_dir, item, n_count=n_count)
+        subset = METHODS[method](
+            data_dir,
+            item,
+            n_count=n_count,
+            normalized=normalized,
+        )
         data.update(subset)
 
     with open(output_file, 'w') as f:
