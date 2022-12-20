@@ -9,3 +9,5 @@ dependencies:
   - python=3.10.5=ha86cf86_0_cpython
   - pytube=12.1.0=pyhd8ed1ab_0
   - tqdm=4.64.0=py310h06a4308_0
+  - pip:
+    - inflect
