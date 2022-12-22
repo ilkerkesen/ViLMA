@@ -5,8 +5,8 @@
         "category": "exercise",
         "action": "jump rope",
         "templates":  [
-            "a man is skipping rope exactly <number> times.",
-            "someone is skipping rope exactly <number> times."
+            "a man skips rope exactly <number> times.",
+            "someone skips rope exactly <number> times."
         ],
         "place": "outside"
     },
@@ -16,11 +16,11 @@
         "category": "exercise",
         "action": "tramboline",
         "templates": [
-            "a kid is jumping on a trampoline exactly <number> times.",
-            "a kid is bouncing on a trampoline exactly <number> times.",
-            "a gymnast is jumping exactly <number> times.",
-            "a child is jumping exactly <number> times.",
-            "a kid is bouncing exactly <number> times on a trampoline."
+            "a kid jumps on a trampoline exactly <number> times.",
+            "a kid bounces on a trampoline exactly <number> times.",
+            "a gymnast jumps exactly <number> times.",
+            "a child jumps exactly <number> times.",
+            "a kid bounces exactly <number> times on a trampoline."
         ],
         "place": "gym"
     },
@@ -30,9 +30,7 @@
         "category": "other",
         "action": "swing",
         "templates": [
-            "a toddler in a playground swings on a swing exactly <number> times.",
-            "a toddler at a playground is swinging exactly <number> times.",
-            "a child is swinging exactly <number> times at a playground."
+            "a toddler in a playground swings on a swing exactly <number> times."
         ],
         "place": "playground"
     },
@@ -76,7 +74,7 @@
         "action": "cut cucumber",
         "templates": [
             "someone slices a cucumber exactly <number> times.",
-            "a cucumber is being sliced exactly <number> times.",
+            "a cucumber is sliced exactly <number> times.",
             "someone cuts a cucumber exactly <number> times.",
             "someone chops a cucumber exactly <number> times."
         ],
@@ -88,7 +86,7 @@
         "category": "exercise",
         "action": "spin around",
         "templates": [
-            "a man is spinning around on his hands exactly <number> times.",
+            "a man spins around on his hands exactly <number> times.",
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
@@ -100,7 +98,7 @@
         "category": "exercise",
         "action": "spin around",
         "templates": [
-            "a man is spinning around on his hands exactly <number> times.",
+            "a man spins on his hands exactly <number> times.",
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
@@ -112,7 +110,7 @@
         "category": "exercise",
         "action": "spin around",
         "templates": [
-            "a man is spinning around on his hands exactly <number> times.",
+            "a man spins around on his hands exactly <number> times.",
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
@@ -125,7 +123,7 @@
         "category": "exercise",
         "action": "spin around",
         "templates": [
-            "a man is spinning around on his hands exactly <number> times.",
+            "a man spins around on his hands exactly <number> times.",
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
@@ -139,7 +137,7 @@
         "templates": [
             "a man wearing a white t-shirt fires a rifle exactly <number> times.",
             "a man with a white t-shirt fires a rifle exactly <number> times.",
-            "someone is firing a gun exactly <number> times.",
+            "someone fires a gun exactly <number> times.",
             "a person fires a gun exactly <number> times."
         ],
         "place": "outside"
@@ -151,7 +149,7 @@
         "action": "roll over bar",
         "templates": [
             "a gymnast rolls over a bar exactly <number> times.",
-            "a person is rolling over a bar exactly <number> times.",
+            "a person rolls over a bar exactly <number> times.",
             "someone spins around a bar exactly <number> times."
         ],
         "place": "gym"
@@ -173,7 +171,7 @@
         "category": "exercise",
         "action": "skullcrusher",
         "templates": [
-            "a man on the floor is performing the same exercise exactly <number> times.",
+            "a man on the floor performs the same exercise exactly <number> times.",
             "a man performs the same exercise exactly <number> times.",
             "someone lifts weights exactly <number> times."
         ],
@@ -185,7 +183,7 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times"
+             "somebody lifts snow with a shovel exactly <number> times."
         ],
         "place": "outside"
     },
@@ -195,7 +193,7 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times"
+             "somebody lifts snow with a shovel exactly <number> times."
         ],
         "place": "outside"
     },
@@ -205,7 +203,7 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times"
+             "somebody lifts snow with a shovel exactly <number> times."
         ],
         "place": "outside"
     },
@@ -227,7 +225,7 @@
         "action": "strum",
         "templates": [
             "a woman with glasses strums the guitar exactly <number> times.",
-            "a woman is strumming the guitar exactly <number> times."
+            "a woman strums the guitar exactly <number> times."
         ],
         "place": "music room"
     },
@@ -260,8 +258,7 @@
         "action": "pull-up",
         "templates": [
             "two people perform exactly <number> pull-ups.",
-            "a pair of athletes performs exactly <number> pull-ups.",
-            "two people are performing pull-ups exactly <number> times."
+            "a pair of athletes performs exactly <number> pull-ups."
         ],
         "place": "gym"
     },
@@ -271,7 +268,7 @@
         "category": "exercise",
         "action": "jump rope",
         "templates": [
-            "a man is skipping the rope exactly <number> times."
+            "a man skips the rope exactly <number> times."
         ],
         "place": "gym"
     },
@@ -281,7 +278,7 @@
         "category": "exercise",
         "action": "juggle soccer ball",
         "templates": [
-            "a girl is juggling a yellow soccer ball exactly <number> times in a room.",
+            "a girl juggles a yellow soccer ball exactly <number> times in a room.",
             "a woman juggles a soccer ball exactly <number> times."
         ],
         "place": "home"
@@ -315,8 +312,8 @@
         "category": "exercise",
         "action": "back extension",
         "templates": [
-            "a woman is performing back extensions exactly <number> times.",
-            "a woman raises her upper body exactly <number> times on a bench."
+            "a woman raises her upper body exactly <number> times on a bench.",
+            "a woman performs back extensions exactly <number> times."
         ],
         "place": "gym"
     },
@@ -634,9 +631,9 @@
         "category": "other",
         "action": "swing",
         "templates": [
-            "a child is swinging exactly <number> times.",
-            "a kid at a playground is swinging on a swing exactly <number> times.",
-            "a kid at a playground is swinging exactly <number> times."
+            "a kid at a playground swings on a swing exactly <number> times.",
+            "a child swings exactly <number> times.",
+            "a kid at a playground swings exactly <number> times."
         ],
         "place": "playground"
     },
@@ -678,7 +675,7 @@
         "action": "jump rope",
         "templates": [
             "a man skips the rope <number> times in total.",
-            "someone is skipping the rope exactly <number> times.",
+            "someone skips the rope exactly <number> times.",
             "a man performs a skipping rope exercise exactly <number> times."
         ],
         "place": "gym"
@@ -783,8 +780,8 @@
         "category": "cooking",
         "action": "cut pineapple",
         "templates": [
-            "someone is peeling a pineapple in exactly <number> moves.",
-            "the pineapple is being peeled in exactly <number> moves."
+            "someone peels a pineapple in exactly <number> moves.",
+            "the pineapple is peeled in exactly <number> moves."
         ]
     },
     "071": {
@@ -837,9 +834,9 @@
         "action": "spin around",
         "templates": [
             "a man spins around exactly <number> times with his bare hands.",
-            "a man is using his own hands to spin around exactly <number> times.",
-            "a man is spinning around exactly <number> times.",
-            "a man in red is spinning around exactly <number> times."
+            "a man uses his own hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times.",
+            "a man in red spins around exactly <number> times."
         ],
         "place": null
     },
@@ -850,9 +847,9 @@
         "action": "spin around",
         "templates": [
             "a man spins around exactly <number> times with his bare hands.",
-            "a man is using his own hands to spin around exactly <number> times.",
-            "a man is spinning around exactly <number> times.",
-            "a man in red is spinning around exactly <number> times."
+            "a man uses his own hands to spin around exactly <number> times.",
+            "a man spins around exactly <number> times.",
+            "a man in red spins around exactly <number> times."
         ],
         "place": null
     },
@@ -919,7 +916,7 @@
         "action": "hanging leg raises",
         "templates":  [
             "a man raises his legs exactly <number> times.",
-            "a man is lifting his legs exactly <number> times while hanging.",
+            "a man lifts his legs exactly <number> times while hanging.",
             "a man moves his legs up and down exactly <number> times."
         ],
         "place": "outside"
@@ -930,10 +927,10 @@
         "category": "exercise",
         "action": "jump rope",
         "templates":  [
-            "a man is skipping the rope exactly <number> times.",
+            "a man skips the rope exactly <number> times.",
             "a man performs a skipping rope exercise exactly <number> times.",
-            "a shirtless man is skipping the rope exactly <number> times.",
-            "someone is skipping the rope exactly <number> times."
+            "a shirtless man skips the rope exactly <number> times.",
+            "someone skips the rope exactly <number> times."
         ],
         "place": "outside"
     },
@@ -956,9 +953,9 @@
         "category": "cooking",
         "action": "cutting garlic",
         "templates": [
-            "someone is slicing a clove of garlic exactly <number> times.",
-            "the clove of garlic is being sliced exactly <number> times.",
-            "someone is cutting a garlic exactly <number> times."
+            "someone slices a clove of garlic exactly <number> times.",
+            "the clove of garlic is sliced exactly <number> times.",
+            "someone cuts a garlic exactly <number> times."
         ],
         "place": "kitchen"
     },
@@ -969,8 +966,8 @@
         "action": "cutting parsley",
         "templates": [
             "someone slices parsley exactly <number> times.",
-            "the parsley is being sliced exactly <number> times.",
-            "someone is cutting parsley exactly <number> times."
+            "the parsley is sliced exactly <number> times.",
+            "someone cuts parsley exactly <number> times."
         ],
         "place": "kitchen"
     },
@@ -980,7 +977,7 @@
         "category": "exercise",
         "action": "jumping",
         "templates": [
-            "a man is jumping exactly <number> times."
+            "a man jumps exactly <number> times."
         ],
         "place": null
     },
@@ -990,7 +987,7 @@
         "category": "exercise",
         "action": "jumping",
         "templates": [
-            "a woman is jumping exactly <number> times."
+            "a woman jumps exactly <number> times."
         ],
         "place": null
     },
@@ -1000,8 +997,8 @@
         "category": "exercise",
         "action": "hoolahoop",
         "templates": [
-            "a woman is spinning the hula hoop exactly <number> times.",
-            "a woman is spinning the hula hoop around her waist exactly <number> times."
+            "a woman spins the hula hoop exactly <number> times.",
+            "a woman spins the hula hoop around her waist exactly <number> times."
         ],
         "place": null
     },
@@ -1011,8 +1008,8 @@
         "category": "exercise",
         "action": "hoolahoop",
         "templates": [
-            "a woman is spinning the hula hoop exactly <number> times.",
-            "a woman is spinning the hula hoop around her waist exactly <number> times."
+            "a woman spins the hula hoop exactly <number> times.",
+            "a woman spins the hula hoop around her waist exactly <number> times."
         ],
         "place": null
     },
@@ -1022,8 +1019,8 @@
         "category": "exercise",
         "action": "basketball",
         "templates": [
-            "a man is bouncing the ball exactly <number> times.",
-            "a man in a black t-shirt is bouncing the ball with his right hand exactly <number> times."
+            "a man bounces the ball exactly <number> times.",
+            "a man in a black t-shirt bounces the ball with his right hand exactly <number> times."
         ],
         "place": "basketball court"
     },
@@ -1033,8 +1030,8 @@
         "category": "exercise",
         "action": "basketball",
         "templates": [
-            "a man is bouncing the ball exactly <number> times.",
-            "a man in a black t-shirt is bouncing the ball with his right hand exactly <number> times."
+            "a man bounces the ball exactly <number> times.",
+            "a man in a black t-shirt bounces the ball with his right hand exactly <number> times."
         ],
         "place": "basketball court"
     },
@@ -1070,8 +1067,8 @@
         "category": "cooking",
         "action": "cut melon",
         "templates": [
-            "someone is peeling a melon in exactly <number> moves.",
-            "the melon is being peeled in exactly <number> moves."
+            "someone peels a melon in exactly <number> moves.",
+            "the melon is peeled in exactly <number> moves."
         ],
         "place": "kitchen"
     },
