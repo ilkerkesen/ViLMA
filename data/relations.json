@@ -1,0 +1,5499 @@
+{
+    "0": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "151913",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a marker pen behind a box",
+        "foils": [
+            "dropping a marker pen from above a box"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "1": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "45788",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pulling rubbing alcohol from behind of a soup dispenser",
+        "foils": [
+            "pulling rubbing alcohol in front of of a soup dispenser"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "2": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "70680",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "throwing a pencil onto a surface",
+        "foils": [
+            "throwing a pencil at a surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "3": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "188950",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling salt onto table",
+        "foils": [
+            "sprinkling salt in front of table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "4": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "1091",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling cookie crumbs onto banana pudding",
+        "foils": [
+            "sprinkling cookie crumbs into banana pudding"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "5": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "190824",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling sugar onto table",
+        "foils": [
+            "sprinkling sugar in front of table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "6": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "216643",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "letting exercise foam roll down a slanted surface",
+        "foils": [
+            "letting exercise foam roll into a slanted surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "7": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "26546",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding keys behind a soap dispenser",
+        "foils": [
+            "holding keys from behind a soap dispenser"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "8": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "59648",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading jam onto toast",
+        "foils": [
+            "spreading jam out of toast"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "9": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "121856",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling sugar onto toast",
+        "foils": [
+            "sprinkling sugar over toast"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "10": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "191360",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen next to a pencil case",
+        "foils": [
+            "holding a pen inside a pencil case"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "11": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "92362",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting wood onto paper so it falls down",
+        "foils": [
+            "putting wood into paper so it falls down"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "12": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "186794",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing crayon with crayon",
+        "foils": [
+            "pushing crayon out of crayon"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "13": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "188208",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading choclate ice cream onto the bread",
+        "foils": [
+            "spreading choclate ice cream over the bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "14": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "181923",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a container off of a box",
+        "foils": [
+            "pushing a container out of a box"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "15": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "201135",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting a brush onto a slanted surface but it doesn't glide down",
+        "foils": [
+            "putting a brush down a slanted surface but it doesn't glide down"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "16": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "134268",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading rice onto plate",
+        "foils": [
+            "spreading rice off plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "17": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "5017",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring ground coffee into a jar",
+        "foils": [
+            "pouring ground coffee out of a jar"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "18": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "220229",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "touching (without moving) the tip of scissors",
+        "foils": [
+            "touching (without moving) the tip in front of scissors"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "19": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "180596",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a bag behind a table",
+        "foils": [
+            "dropping a bag from behind a table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "20": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "125290",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading lentiles onto plate",
+        "foils": [
+            "spreading lentiles in front of plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "21": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "152718",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting tape onto a slanted surface but it doesn't glide down",
+        "foils": [
+            "putting tape down a slanted surface but it doesn't glide down"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "22": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "190032",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stacking glasses with glasses",
+        "foils": [
+            "stacking glasses next to glasses"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "23": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "60486",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading soap onto cabinet",
+        "foils": [
+            "spreading soap from behind cabinet"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "24": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "213476",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling beans onto hand",
+        "foils": [
+            "sprinkling beans from hand"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "25": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "89404",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a matchstick behind a remote",
+        "foils": [
+            "dropping a matchstick from a remote"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "26": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "11239",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "scooping a rag up with a spatula",
+        "foils": [
+            "scooping a rag from behind with a spatula"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "27": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "86731",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water behind a trash can",
+        "foils": [
+            "spilling water from a trash can"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-large"
+    },
+    "28": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "4725",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a ball onto a shelf",
+        "foils": [
+            "dropping a ball from behind a shelf"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "29": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "23507",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a tape onto a plank of wood",
+        "foils": [
+            "dropping a tape next to a plank of wood"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "contradict",
+        "model": "t5-base"
+    },
+    "30": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "209572",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling luggage on a flat surface",
+        "foils": [
+            "rolling luggage in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "31": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "211654",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling glitter onto paper",
+        "foils": [
+            "sprinkling glitter out of paper"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "32": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "218646",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water behind a calculator",
+        "foils": [
+            "spilling water in front of a calculator"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "33": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "25343",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a pencil on a flat surface",
+        "foils": [
+            "rolling a pencil in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "34": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "54341",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a mug and a mug closer to each other",
+        "foils": [
+            "moving a mug and a mug closer in front of each other"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "35": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "76113",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a pen onto a bearer",
+        "foils": [
+            "pushing a pen in front of a bearer"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "36": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "91030",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring oil onto palm",
+        "foils": [
+            "pouring oil into palm"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "37": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "88527",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring sand onto paper",
+        "foils": [
+            "pouring sand out of paper"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "38": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "45459",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "39": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "188081",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a phone over a bed",
+        "foils": [
+            "holding a phone out of a bed"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "40": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "116900",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling raisins onto oatmeal",
+        "foils": [
+            "sprinkling raisins in front of oatmeal"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "41": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "159214",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) napkin wet until water comes out",
+        "foils": [
+            "twisting (wringing) napkin wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "42": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "103742",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting a water bottle onto a plastic bag so it falls down",
+        "foils": [
+            "putting a water bottle into a plastic bag so it falls down"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "43": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "84672",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring sugar onto glass",
+        "foils": [
+            "pouring sugar out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "44": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "25214",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "45": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "78888",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring coffee into a cup",
+        "foils": [
+            "pouring coffee out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "46": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "212550",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a mason jar",
+        "foils": [
+            "pouring water out of a mason jar"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "47": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "111433",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "48": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "129494",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto glass",
+        "foils": [
+            "pouring water in glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "49": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "157845",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring apple juice into a glass",
+        "foils": [
+            "pouring apple juice out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "50": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "74086",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a coin with a pen",
+        "foils": [
+            "pushing a coin out of a pen"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "51": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "4768",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging a cable into a computer",
+        "foils": [
+            "plugging a cable in front of a computer"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "52": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "21655",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing something into something",
+        "foils": [
+            "stuffing something in front of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "53": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "13867",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching a battery to headphones",
+        "foils": [
+            "attaching a battery in front of headphones"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "54": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "11086",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping something behind something",
+        "foils": [
+            "dropping something next to something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "55": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "29996",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a bottle on a flat surface",
+        "foils": [
+            "rolling a bottle in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "56": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "194471",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) towel wet until water comes out",
+        "foils": [
+            "twisting (wringing) towel wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "57": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "193996",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring drink onto glass",
+        "foils": [
+            "pouring drink into glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "58": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "103604",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding keys behind a plant",
+        "foils": [
+            "holding keys out of a plant"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "59": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "87807",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a phone over a table",
+        "foils": [
+            "holding a phone on a table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "60": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "5182",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring coffee into a glass",
+        "foils": [
+            "pouring coffee out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "61": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "61621",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into the sink",
+        "foils": [
+            "pouring water in front of the sink"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "62": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "45058",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging a power box into an outlet",
+        "foils": [
+            "plugging a power box in front of an outlet"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "63": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "125214",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling coffee onto the counter",
+        "foils": [
+            "spilling coffee from behind the counter"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "64": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "107701",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging a cord into a laptop",
+        "foils": [
+            "plugging a cord in front of a laptop"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "65": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "3540",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) towel wet until water comes out",
+        "foils": [
+            "twisting (wringing) towel wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "66": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "94183",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a calculator towards the camera",
+        "foils": [
+            "moving a calculator out of the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "67": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "119679",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing salt onto plate",
+        "foils": [
+            "pushing salt over plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "68": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "66983",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a letter opener over a cloth",
+        "foils": [
+            "holding a letter opener out of a cloth"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "69": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "2417",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "70": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "95700",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a shoe and a cat brush closer to each other",
+        "foils": [
+            "moving a shoe and a cat brush closer in front of each other"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "71": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "73133",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a bottle on a flat surface",
+        "foils": [
+            "rolling a bottle in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "72": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "94572",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring sand into cup",
+        "foils": [
+            "pouring sand out of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "73": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "53062",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) cloth wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "74": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "93609",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a matchbox onto a plate",
+        "foils": [
+            "dropping a matchbox in front of a plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "75": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "125220",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling water onto sink",
+        "foils": [
+            "sprinkling water next to sink"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "76": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "116399",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto a chair",
+        "foils": [
+            "pouring water out of a chair"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "77": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "105846",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a water bottle and a book closer to each other",
+        "foils": [
+            "moving a water bottle and a book closer in front of each other"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "78": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "209141",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) a cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) a cloth wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "79": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "80165",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a musical tabala on a flat surface",
+        "foils": [
+            "rolling a musical tabala in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "80": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "220300",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto soap",
+        "foils": [
+            "pouring water over soap"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "81": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "56258",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "bending crayon until it breaks",
+        "foils": [
+            "bending crayon so that it breaks"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "82": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "52789",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water in front of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "83": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "122733",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading cream cheese onto bread",
+        "foils": [
+            "spreading cream cheese in front of bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "84": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "127867",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pulling a tablet computer from behind of speakers",
+        "foils": [
+            "pulling a tablet computer out of speakers"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "85": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "32957",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "86": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "24378",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a lighter over a table",
+        "foils": [
+            "holding a lighter to a table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "87": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "73406",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "88": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "181837",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving scrap paper closer to scrap paper",
+        "foils": [
+            "moving scrap paper closer so that scrap paper"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "89": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "107327",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "90": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "151814",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) a towel wet until water comes out",
+        "foils": [
+            "twisting (wringing) a towel wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "91": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "21693",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "hitting a phone with a pencil",
+        "foils": [
+            "hitting a phone in front of a pencil"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "92": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "129737",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling colour onto paper",
+        "foils": [
+            "sprinkling colour in front of paper"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "93": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "97820",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water in front of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "94": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "130744",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a matchbox next to a pencil",
+        "foils": [
+            "dropping a matchbox in front of a pencil"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "95": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "80659",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading butter onto toast",
+        "foils": [
+            "spreading butter over toast"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "96": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "208829",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling milk onto worktop",
+        "foils": [
+            "spilling milk from above worktop"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "97": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "197890",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen over a speaker",
+        "foils": [
+            "holding a pen next to a speaker"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "98": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "204224",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) cloth wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "99": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "216098",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring popcorn into cup",
+        "foils": [
+            "pouring popcorn out of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "100": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "24018",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a highlighter into a bucket",
+        "foils": [
+            "dropping a highlighter in front of a bucket"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "101": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "96494",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen next to scissors",
+        "foils": [
+            "holding a pen with scissors"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "102": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "209907",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding paint brushes over paint",
+        "foils": [
+            "holding paint brushes in front of paint"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "103": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "161627",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a toothbrush onto an envelope",
+        "foils": [
+            "pushing a toothbrush over an envelope"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "104": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "39486",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) towel wet until water comes out",
+        "foils": [
+            "twisting (wringing) towel wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "105": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "132863",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water onto a plant",
+        "foils": [
+            "spilling water in front of a plant"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "106": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "98052",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "107": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "162797",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a matchbox closer to a plate",
+        "foils": [
+            "moving a matchbox closer in front of a plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "108": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "210183",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring soda into cup",
+        "foils": [
+            "pouring soda out of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "109": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "109456",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring tea into a glass",
+        "foils": [
+            "pouring tea out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "110": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "201755",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing smarthphone into container",
+        "foils": [
+            "stuffing smarthphone out of container"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "111": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "83875",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a card next to a plate",
+        "foils": [
+            "dropping a card on a plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "112": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "125352",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "bending a toothpick until it breaks",
+        "foils": [
+            "bending a toothpick so that it breaks"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "113": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "31228",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a match box towards the camera",
+        "foils": [
+            "moving a match box so that the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "114": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "113311",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching a magnet to a fridge",
+        "foils": [
+            "attaching a magnet in front of a fridge"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "115": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "41760",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto a bowl",
+        "foils": [
+            "pouring water from a bowl"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "116": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "135927",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto a plate",
+        "foils": [
+            "pouring water out of a plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "117": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "98552",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring ping pong balls onto table",
+        "foils": [
+            "pouring ping pong balls in front of table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "118": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "170664",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pulling two ends of a remote control but nothing happens",
+        "foils": [
+            "pulling two ends out of a remote control but nothing happens"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "119": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "147743",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto dirt",
+        "foils": [
+            "pouring water over dirt"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "120": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "16323",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a fork closer to a spoon",
+        "foils": [
+            "moving a fork closer in front of a spoon"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "121": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "165387",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling salt onto an eraser",
+        "foils": [
+            "sprinkling salt in front of an eraser"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "122": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "218215",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing water into glass",
+        "foils": [
+            "stuffing water in front of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "123": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "8529",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "124": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "70174",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing a reusable grocery bag into its holder",
+        "foils": [
+            "stuffing a reusable grocery bag in front of its holder"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "125": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "58633",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "turning the camera downwards while filming notebook",
+        "foils": [
+            "turning the camera downwards in front of filming notebook"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "126": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "118118",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a shoe brush onto a box",
+        "foils": [
+            "dropping a shoe brush next to a box"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "127": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "64759",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) purple sock wet until water comes out",
+        "foils": [
+            "twisting (wringing) purple sock wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "128": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "179843",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "129": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "152476",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading peanut butter onto rice cake",
+        "foils": [
+            "spreading peanut butter out of rice cake"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "130": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "3752",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting paper onto paper",
+        "foils": [
+            "putting paper in paper"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "131": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "82861",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto a glass",
+        "foils": [
+            "pouring water out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "132": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "4205",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a book onto a table",
+        "foils": [
+            "dropping a book next to a table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "133": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "122403",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing paper into bottle",
+        "foils": [
+            "stuffing paper out of bottle"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "134": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "6127",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a coin behind a shoe brush",
+        "foils": [
+            "dropping a coin next to a shoe brush"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "135": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "204524",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a plate",
+        "foils": [
+            "pouring water over a plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "136": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "141245",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "137": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "148565",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding something behind something",
+        "foils": [
+            "holding something out of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "138": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "161875",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water onto a plant",
+        "foils": [
+            "spilling water in front of a plant"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "139": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "38082",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a tv remote control over a can of air freshener",
+        "foils": [
+            "holding a tv remote control next to a can of air freshener"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "140": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "190051",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "showing a flower next to the photo",
+        "foils": [
+            "showing a flower in front of the photo"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "141": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "57315",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) cloth wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "142": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "182579",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a chair with my hands",
+        "foils": [
+            "pushing a chair in front of my hands"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "143": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "192585",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing a tennis ball into its plastic box",
+        "foils": [
+            "stuffing a tennis ball in front of its plastic box"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "144": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "41873",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring something into something",
+        "foils": [
+            "pouring something in front of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "145": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "106833",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a book behind a screen",
+        "foils": [
+            "dropping a book onto a screen"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "146": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "187399",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water onto a sink",
+        "foils": [
+            "spilling water into a sink"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "147": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "2571",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "putting stamps, perfume and a pen on the table",
+        "foils": [
+            "putting stamps, perfume and a pen in front of the table"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "148": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "3881",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring coffee into cup",
+        "foils": [
+            "pouring coffee out of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "149": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "146232",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water next to a cup",
+        "foils": [
+            "spilling water into a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "150": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "85992",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling baby powder on a flat surface",
+        "foils": [
+            "rolling baby powder in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "151": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "27476",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring something onto something",
+        "foils": [
+            "pouring something into something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "152": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "81992",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "showing clothes behind a window",
+        "foils": [
+            "showing clothes out of a window"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "153": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "65947",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching a toy brick to a toy brick",
+        "foils": [
+            "attaching a toy brick in front of a toy brick"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "154": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "31509",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading butter onto bread",
+        "foils": [
+            "spreading butter in front of bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "155": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "80555",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving matchbox and cellphone closer to each other",
+        "foils": [
+            "moving matchbox and cellphone closer in front of each other"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "156": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "76217",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading peanut butter onto toast",
+        "foils": [
+            "spreading peanut butter in front of toast"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "157": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "69508",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "158": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "202040",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water onto a chair",
+        "foils": [
+            "spilling water next to a chair"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "159": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "10101",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging a charging cord into a bluetooth",
+        "foils": [
+            "plugging a charging cord in front of a bluetooth"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "160": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "888",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading honey onto plate",
+        "foils": [
+            "spreading honey over plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "161": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "105173",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water next to a pencil",
+        "foils": [
+            "spilling water on a pencil"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "162": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "38741",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding glasses over plate",
+        "foils": [
+            "holding glasses out of plate"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "163": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "63431",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a measuring cup next to a bowl",
+        "foils": [
+            "holding a measuring cup in front of a bowl"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "164": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "116810",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "165": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "11799",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "showing something behind something",
+        "foils": [
+            "showing something like something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "166": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "80406",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) cloth wet in front of water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "167": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "123033",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding keys over a box",
+        "foils": [
+            "holding keys out of a box"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "168": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "160927",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto countertop",
+        "foils": [
+            "pouring water in front of countertop"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "169": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "190474",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a pencil on a flat surface",
+        "foils": [
+            "rolling a pencil in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "170": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "185757",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a coin with another coin",
+        "foils": [
+            "pushing a coin next to another coin"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "171": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "66923",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a powder tin towards the camera",
+        "foils": [
+            "moving a powder tin so that the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "172": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "193371",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a measuring cup",
+        "foils": [
+            "pouring water out of a measuring cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "173": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "218267",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen behind a cup",
+        "foils": [
+            "holding a pen out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "174": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "114852",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading almond butter onto bread",
+        "foils": [
+            "spreading almond butter over bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "175": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "29220",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a battery on a flat surface",
+        "foils": [
+            "rolling a battery in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "176": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "198465",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing something onto something",
+        "foils": [
+            "pushing something from behind something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "177": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "140364",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen behind a pencil case",
+        "foils": [
+            "holding a pen out of a pencil case"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "178": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "82026",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling baking soda onto ground",
+        "foils": [
+            "sprinkling baking soda next to ground"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "179": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "38566",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping q-tips into a coffee can",
+        "foils": [
+            "dropping q-tips out of a coffee can"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "180": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "102916",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "181": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "121504",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water in front of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "182": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "143509",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring koolaid into a bowl",
+        "foils": [
+            "pouring koolaid out of a bowl"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "183": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "173063",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water in front of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "184": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "218064",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into steel glass",
+        "foils": [
+            "pouring water in front of steel glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "185": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "99271",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spilling water onto concrete",
+        "foils": [
+            "spilling water out of concrete"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "186": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "114907",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) face cloth wet until water comes out",
+        "foils": [
+            "twisting (wringing) face cloth wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "187": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "35281",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing a plastic bottle with scissors",
+        "foils": [
+            "pushing a plastic bottle in front of scissors"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "188": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "133641",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing glass with brush",
+        "foils": [
+            "pushing glass out of brush"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "189": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "122816",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving an eyeglass case towards the camera",
+        "foils": [
+            "moving an eyeglass case so that the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "190": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "219665",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water onto the little globe",
+        "foils": [
+            "pouring water from above the little globe"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "191": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "120110",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "touching (without moving) the frame of sunglasses",
+        "foils": [
+            "touching (without moving) the frame in front of sunglasses"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "192": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "144859",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling water onto plants",
+        "foils": [
+            "sprinkling water in front of plants"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "193": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "152602",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring orange juice into cup",
+        "foils": [
+            "pouring orange juice out of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "194": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "1942",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing tobacco into packet",
+        "foils": [
+            "stuffing tobacco out of packet"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "195": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "15441",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching a pendrive to a laptop",
+        "foils": [
+            "attaching a pendrive in front of a laptop"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "196": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "93233",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "197": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "142250",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "bending a plastic knife until it breaks",
+        "foils": [
+            "bending a plastic knife so that it breaks"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "198": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "18316",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring tea into glass",
+        "foils": [
+            "pouring tea in glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "199": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "142705",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water out of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "200": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "58887",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a ball on a flat surface",
+        "foils": [
+            "rolling a ball in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "201": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "172201",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing sunglasses with wallet",
+        "foils": [
+            "pushing sunglasses in front of wallet"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "202": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "58565",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "203": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "1694",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a cup",
+        "foils": [
+            "pouring water in front of a cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "204": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "152261",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a coin behind a padlock",
+        "foils": [
+            "dropping a coin in front of a padlock"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "205": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "94070",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging a nightlight into a socket",
+        "foils": [
+            "plugging a nightlight in front of a socket"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "206": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "19932",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching a magnet keyholder to the door",
+        "foils": [
+            "attaching a magnet keyholder in front of the door"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "207": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "69025",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a domino and a toy figurine closer to each other",
+        "foils": [
+            "moving a domino and a toy figurine closer in front of each other"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "208": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "36364",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "hitting a remote with a pen",
+        "foils": [
+            "hitting a remote in front of a pen"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "209": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "170884",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling curry leaves onto cloth",
+        "foils": [
+            "sprinkling curry leaves into cloth"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "210": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "148587",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a marker on a flat surface",
+        "foils": [
+            "rolling a marker in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "211": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "79863",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into glass",
+        "foils": [
+            "pouring water out of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "212": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "74309",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading peanut butter onto bread",
+        "foils": [
+            "spreading peanut butter next to bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "213": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "133172",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "holding a pen over a pencil case",
+        "foils": [
+            "holding a pen out of a pencil case"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "214": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "173496",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading peanut butter onto bread",
+        "foils": [
+            "spreading peanut butter next to bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "215": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "7870",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring liquid into a glass",
+        "foils": [
+            "pouring liquid out of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "216": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "19579",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "dropping a handkerchief next to a remote",
+        "foils": [
+            "dropping a handkerchief in front of a remote"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "217": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "179668",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "sprinkling pennies onto floor",
+        "foils": [
+            "sprinkling pennies out of floor"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "218": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "201527",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pushing something onto something",
+        "foils": [
+            "pushing something out of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "219": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "112789",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling a ball on a flat surface",
+        "foils": [
+            "rolling a ball in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "220": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "16441",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into sink",
+        "foils": [
+            "pouring water out of sink"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "221": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "216213",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "touching (without moving) earth of globe",
+        "foils": [
+            "touching (without moving) earth from above globe"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "222": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "150124",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) paper towel wet until water comes out",
+        "foils": [
+            "twisting (wringing) paper towel wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "223": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "28059",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "bending a pencil until it breaks",
+        "foils": [
+            "bending a pencil so that it breaks"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "224": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "186060",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing water into glass",
+        "foils": [
+            "stuffing water in front of glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "225": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "37038",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "attaching attaching paper to fridge",
+        "foils": [
+            "attaching attaching paper in front of fridge"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "226": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "35227",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging headphones into a cellphone but pulling it right out as you remove your hand",
+        "foils": [
+            "plugging headphones in front of a cellphone but pulling it right out as you remove your hand"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "227": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "159317",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "moving a keyset towards the camera",
+        "foils": [
+            "moving a keyset from the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "228": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "157042",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "hitting something with something",
+        "foils": [
+            "hitting something in front of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "229": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "191583",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "plugging something into something",
+        "foils": [
+            "plugging something in front of something"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "230": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "196932",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "letting paint spray can roll along a flat surface",
+        "foils": [
+            "letting paint spray can roll in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "231": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "31338",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "stuffing socks into cup",
+        "foils": [
+            "stuffing socks in front of cup"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "232": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "56403",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "showing white rabbits to the camera",
+        "foils": [
+            "showing white rabbits from behind the camera"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "233": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "178788",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "twisting (wringing) sponge wet until water comes out",
+        "foils": [
+            "twisting (wringing) sponge wet with water comes out"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "234": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "42650",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "scooping sugar up with a spoon",
+        "foils": [
+            "scooping sugar off with a spoon"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "235": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "14671",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "rolling lemon fruit on a flat surface",
+        "foils": [
+            "rolling lemon fruit in front of a flat surface"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-base"
+    },
+    "236": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "155739",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "throwing hand tissues against a sofa",
+        "foils": [
+            "throwing hand tissues onto a sofa"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "237": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "39831",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "spreading butter onto bread",
+        "foils": [
+            "spreading butter in front of bread"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    },
+    "238": {
+        "dataset": "something-something-v2",
+        "original_split": "val",
+        "dataset_idx": "81012",
+        "linguistic_phenomena": "spatial-relations",
+        "youtube_id": null,
+        "video_file": null,
+        "start_time": 0,
+        "end_time": -1,
+        "time_unit": "sec",
+        "caption": "pouring water into a glass",
+        "foils": [
+            "pouring water in front of a glass"
+        ],
+        "foiling_methods": [
+            "t5-top10",
+            "gruen",
+            "nli",
+            "opt"
+        ],
+        "nli": "neutral",
+        "model": "t5-large"
+    }
+}
