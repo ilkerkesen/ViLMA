@@ -4,11 +4,15 @@
         "prefix": "000_rope_beach",
         "category": "exercise",
         "action": "jump rope",
-        "templates":  [
+        "templates": [
             "a man skips rope exactly <number> times.",
             "someone skips rope exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man skips rope exactly <number> time.",
+            "someone skips rope exactly <number> time."
+        ]
     },
     "001": {
         "id": "001",
@@ -22,7 +26,14 @@
             "a child jumps exactly <number> times.",
             "a kid bounces exactly <number> times on a trampoline."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a kid jumps on a trampoline exactly <number> time.",
+            "a kid bounces on a trampoline exactly <number> time.",
+            "a gymnast jumps exactly <number> time.",
+            "a child jumps exactly <number> time.",
+            "a kid bounces exactly <number> times on a trampoline."
+        ]
     },
     "002": {
         "id": "002",
@@ -32,7 +43,10 @@
         "templates": [
             "a toddler in a playground swings on a swing exactly <number> times."
         ],
-        "place": "playground"
+        "place": "playground",
+        "singular_templates": [
+            "a toddler in a playground swings on a swing exactly <number> time."
+        ]
     },
     "003": {
         "id": "003",
@@ -43,7 +57,11 @@
             "each table tennis player hits the ball exactly <number> times.",
             "each player hits the ball exactly <number> times using their rackets."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "each table tennis player hits the ball exactly <number> time.",
+            "each player hits the ball exactly <number> time using their rackets."
+        ]
     },
     "004": {
         "id": "004",
@@ -54,7 +72,11 @@
             "each table tennis player hits the ball exactly <number> times.",
             "each player hits the ball exactly <number> times using their rackets."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "each table tennis player hits the ball exactly <number> time.",
+            "each player hits the ball exactly <number> time using their rackets."
+        ]
     },
     "005": {
         "id": "005",
@@ -65,7 +87,11 @@
             "a man on a bike spins exactly <number> times.",
             "a performer whirls around exactly <number> times."
         ],
-        "place": "circus"
+        "place": "circus",
+        "singular_templates": [
+            "a man on a bike spins exactly <number> time.",
+            "a performer whirls around exactly <number> time."
+        ]
     },
     "006": {
         "id": "006",
@@ -78,7 +104,13 @@
             "someone cuts a cucumber exactly <number> times.",
             "someone chops a cucumber exactly <number> times."
         ],
-        "place": "kitchen"
+        "place": "kitchen",
+        "singular_templates": [
+            "someone slices a cucumber exactly <number> time.",
+            "a cucumber is sliced exactly <number> time.",
+            "someone cuts a cucumber exactly <number> time.",
+            "someone chops a cucumber exactly <number> time."
+        ]
     },
     "007": {
         "id": "007",
@@ -90,7 +122,12 @@
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man spins around on his hands exactly <number> time.",
+            "someone uses his hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time."
+        ]
     },
     "008": {
         "id": "008",
@@ -102,7 +139,12 @@
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man spins on his hands exactly <number> time.",
+            "someone uses his hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time."
+        ]
     },
     "009": {
         "id": "009",
@@ -114,8 +156,16 @@
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
-        "actor": ["man", "athlete"],
-        "place": "gym"
+        "actor": [
+            "man",
+            "athlete"
+        ],
+        "place": "gym",
+        "singular_templates": [
+            "a man spins around on his hands exactly <number> time.",
+            "someone uses his hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time."
+        ]
     },
     "010": {
         "id": "010",
@@ -127,7 +177,12 @@
             "someone uses his hands to spin around exactly <number> times.",
             "a man spins around exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man spins around on his hands exactly <number> time.",
+            "someone uses his hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time."
+        ]
     },
     "011": {
         "id": "011",
@@ -140,7 +195,13 @@
             "someone fires a gun exactly <number> times.",
             "a person fires a gun exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man wearing a white t-shirt fires a rifle exactly <number> time.",
+            "a man with a white t-shirt fires a rifle exactly <number> time.",
+            "someone fires a gun exactly <number> time.",
+            "a person fires a gun exactly <number> time."
+        ]
     },
     "012": {
         "id": "012",
@@ -152,7 +213,12 @@
             "a person rolls over a bar exactly <number> times.",
             "someone spins around a bar exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a gymnast rolls over a bar exactly <number> time.",
+            "a person rolls over a bar exactly <number> time.",
+            "someone spins around a bar exactly <number> time."
+        ]
     },
     "013": {
         "id": "013",
@@ -163,7 +229,11 @@
             "a man performs the same exercise exactly <number> times.",
             "someone lifts weights exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a man performs the same exercise exactly <number> time.",
+            "someone lifts weights exactly <number> time."
+        ]
     },
     "014": {
         "id": "014",
@@ -175,7 +245,12 @@
             "a man performs the same exercise exactly <number> times.",
             "someone lifts weights exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a man on the floor performs the same exercise exactly <number> time.",
+            "a man performs the same exercise exactly <number> time.",
+            "someone lifts weights exactly <number> time."
+        ]
     },
     "015": {
         "id": "015",
@@ -183,9 +258,12 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times."
+            "somebody lifts snow with a shovel exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "somebody lifts snow with a shovel exactly <number> time."
+        ]
     },
     "016": {
         "id": "016",
@@ -193,9 +271,12 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times."
+            "somebody lifts snow with a shovel exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "somebody lifts snow with a shovel exactly <number> time."
+        ]
     },
     "017": {
         "id": "017",
@@ -203,9 +284,12 @@
         "category": "labor",
         "action": "shovel",
         "templates": [
-             "somebody lifts snow with a shovel exactly <number> times."
+            "somebody lifts snow with a shovel exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "somebody lifts snow with a shovel exactly <number> time."
+        ]
     },
     "018": {
         "id": "018",
@@ -216,7 +300,11 @@
             "somebody pushes a button exactly <number> times.",
             "somebody pushes the button on a white object exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "somebody pushes a button exactly <number> time.",
+            "somebody pushes the button on a white object exactly <number> time."
+        ]
     },
     "019": {
         "id": "019",
@@ -227,7 +315,11 @@
             "a woman with glasses strums the guitar exactly <number> times.",
             "a woman strums the guitar exactly <number> times."
         ],
-        "place": "music room"
+        "place": "music room",
+        "singular_templates": [
+            "a woman with glasses strums the guitar exactly <number> time.",
+            "a woman strums the guitar exactly <number> time."
+        ]
     },
     "020": {
         "id": "020",
@@ -238,7 +330,11 @@
             "a man with a gray t-shirt lunges exactly <number> times.",
             "a man performs exactly <number> lunges."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man with a gray t-shirt lunges exactly <number> time.",
+            "a man performs exactly <number> lunge."
+        ]
     },
     "021": {
         "id": "021",
@@ -249,7 +345,11 @@
             "each tennis player hits the ball exactly <number> times.",
             "each player hits the ball exactly <number> times using their rackets."
         ],
-        "place": "tennis court"
+        "place": "tennis court",
+        "singular_templates": [
+            "each tennis player hits the ball exactly <number> time.",
+            "each player hits the ball exactly <number> time using their rackets."
+        ]
     },
     "022": {
         "id": "022",
@@ -260,7 +360,11 @@
             "two people perform exactly <number> pull-ups.",
             "a pair of athletes performs exactly <number> pull-ups."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "two people perform exactly <number> pull-up.",
+            "a pair of athletes performs exactly <number> pull-up."
+        ]
     },
     "023": {
         "id": "023",
@@ -270,7 +374,10 @@
         "templates": [
             "a man skips the rope exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man skips the rope exactly <number> time."
+        ]
     },
     "024": {
         "id": "024",
@@ -281,7 +388,11 @@
             "a girl juggles a yellow soccer ball exactly <number> times in a room.",
             "a woman juggles a soccer ball exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a girl juggles a yellow soccer ball exactly <number> times in a room.",
+            "a woman juggles a soccer ball exactly <number> time."
+        ]
     },
     "025": {
         "id": "025",
@@ -293,7 +404,12 @@
             "a man performs the same exercise exactly <number> times.",
             "a man pulls his knees to his elbows exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "an athlete performs the same abdominal exercise exactly <number> time.",
+            "a man performs the same exercise exactly <number> time.",
+            "a man pulls his knees to his elbows exactly <number> time."
+        ]
     },
     "026": {
         "id": "026",
@@ -304,7 +420,11 @@
             "a man performs the same exercise exactly <number> times.",
             "a man performs a variation of a squat exercise exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man performs the same exercise exactly <number> time.",
+            "a man performs a variation of a squat exercise exactly <number> time."
+        ]
     },
     "027": {
         "id": "027",
@@ -315,7 +435,11 @@
             "a woman raises her upper body exactly <number> times on a bench.",
             "a woman performs back extensions exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman raises her upper body exactly <number> times on a bench.",
+            "a woman performs back extensions exactly <number> time."
+        ]
     },
     "028": {
         "id": "028",
@@ -326,7 +450,11 @@
             "a person lifts a bar to his shoulders exactly <number> times.",
             "a woman performs exactly <number> upright rows."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a person lifts a bar to his shoulders exactly <number> time.",
+            "a woman performs exactly <number> upright row."
+        ]
     },
     "029": {
         "id": "029",
@@ -337,7 +465,11 @@
             "a person lifts a bar exactly <number> times using her right arm.",
             "a woman performs exactly <number> one-handed upright rows."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a person lifts a bar exactly <number> time using her right arm.",
+            "a woman performs exactly <number> one-handed upright rows."
+        ]
     },
     "030": {
         "id": "030",
@@ -348,7 +480,11 @@
             "a woman lifts a stick above her head exactly <number> times.",
             "a person does exactly <number> overhead presses."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman lifts a stick above her head exactly <number> time.",
+            "a person does exactly <number> overhead press."
+        ]
     },
     "031": {
         "id": "031",
@@ -359,7 +495,11 @@
             "a person lifts a bar to their shoulders exactly <number> times.",
             "a woman performs exactly <number> upright rows."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a person lifts a bar to their shoulders exactly <number> time.",
+            "a woman performs exactly <number> upright row."
+        ]
     },
     "032": {
         "id": "032",
@@ -370,7 +510,11 @@
             "a person does exactly <number> push-ups.",
             "a woman performs exactly <number> pushups."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a person does exactly <number> push-up.",
+            "a woman performs exactly <number> pushup."
+        ]
     },
     "033": {
         "id": "033",
@@ -381,7 +525,11 @@
             "a man pedals exactly <number> times.",
             "a man spins the bike pedals exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man pedals exactly <number> time.",
+            "a man spins the bike pedals exactly <number> time."
+        ]
     },
     "034": {
         "id": "034",
@@ -392,7 +540,11 @@
             "a man completes exactly <number> rowing exercises.",
             "a man performs rowing exercises exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man completes exactly <number> rowing exercise.",
+            "a man performs rowing exercises exactly <number> time."
+        ]
     },
     "035": {
         "id": "035",
@@ -403,7 +555,11 @@
             "a man performs rowing exercises exactly <number> times.",
             "a man completes exactly <number> rowing exercises."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man performs rowing exercises exactly <number> time.",
+            "a man completes exactly <number> rowing exercise."
+        ]
     },
     "036": {
         "id": "036",
@@ -414,7 +570,11 @@
             "a person skates from one side to the other exactly <number> times.",
             "a boy skates sideways from one end to the other exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a person skates from one side to the other exactly <number> time.",
+            "a boy skates sideways from one end to the other exactly <number> time."
+        ]
     },
     "037": {
         "id": "037",
@@ -425,7 +585,11 @@
             "a guy wearing a yellow t-shirt juggles the ball using his racket exactly <number> times.",
             "a man keeps the ball up in the air by hitting it exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a guy wearing a yellow t-shirt juggles the ball using his racket exactly <number> time.",
+            "a man keeps the ball up in the air by hitting it exactly <number> time."
+        ]
     },
     "038": {
         "id": "038",
@@ -437,7 +601,12 @@
             "a woman uses her hands to grasp the next bar exactly <number> times.",
             "a woman uses her hands to move forward exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman grasps a monkey bar to move forward exactly <number> time.",
+            "a woman uses her hands to grasp the next bar exactly <number> time.",
+            "a woman uses her hands to move forward exactly <number> time."
+        ]
     },
     "039": {
         "id": "039",
@@ -448,7 +617,11 @@
             "a woman performs exactly <number> lateral movements on the monkey bars.",
             "a woman performs a lateral movement on the monkey bars exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman performs exactly <number> lateral movement on the monkey bars.",
+            "a woman performs a lateral movement on the monkey bars exactly <number> time."
+        ]
     },
     "040": {
         "id": "040",
@@ -459,7 +632,11 @@
             "a woman performs exactly <number> pull-ups.",
             "a woman performs pull-ups exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman performs exactly <number> pull-up.",
+            "a woman performs pull-ups exactly <number> time."
+        ]
     },
     "041": {
         "id": "041",
@@ -471,7 +648,12 @@
             "a woman is performing exactly <number> sit-ups while she is hanging on the monkey bars.",
             "a woman lifts her upper body exactly <number> times while she is hanging on the monkey bars by her legs."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman performs exactly <number> sit-up on the monkey bars.",
+            "a woman is performing exactly <number> sit-up while she is hanging on the monkey bars.",
+            "a woman lifts her upper body exactly <number> time while she is hanging on the monkey bars by her legs."
+        ]
     },
     "042": {
         "id": "042",
@@ -481,7 +663,10 @@
         "templates": [
             "a man paddles exactly <number> times."
         ],
-        "place": "lake"
+        "place": "lake",
+        "singular_templates": [
+            "a man paddles exactly <number> time."
+        ]
     },
     "043": {
         "id": "043",
@@ -492,7 +677,11 @@
             "a man with glasses moves the bow back and forth exactly <number> times.",
             "a man with glasses moves the bow back and forth over the violin exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man with glasses moves the bow back and forth exactly <number> time.",
+            "a man with glasses moves the bow back and forth over the violin exactly <number> time."
+        ]
     },
     "044": {
         "id": "044",
@@ -504,7 +693,12 @@
             "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> times.",
             "a man hits the icy snow on the car using an ice hockey stick exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man hits the snow with a hockey stick exactly <number> time.",
+            "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> time.",
+            "a man hits the icy snow on the car using an ice hockey stick exactly <number> time."
+        ]
     },
     "045": {
         "id": "045",
@@ -516,7 +710,12 @@
             "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> times.",
             "a man hits the icy snow on the car using an ice hockey stick exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man hits the snow with a hockey stick exactly <number> time.",
+            "a man cleans the icy snow on the car by hitting it with a hockey stick exactly <number> time.",
+            "a man hits the icy snow on the car using an ice hockey stick exactly <number> time."
+        ]
     },
     "046": {
         "id": "046",
@@ -526,7 +725,10 @@
         "templates": [
             "a person brushes a black dog exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a person brushes a black dog exactly <number> time."
+        ]
     },
     "047": {
         "id": "047",
@@ -537,7 +739,11 @@
             "a man hits wood with his axe exactly <number> times.",
             "a man hits wood exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man hits wood with his axe exactly <number> time.",
+            "a man hits wood exactly <number> time."
+        ]
     },
     "048": {
         "id": "048",
@@ -548,7 +754,11 @@
             "a man performs exactly <number> swimming strokes.",
             "a man swims by performing exactly <number> strokes."
         ],
-        "place": "pool"
+        "place": "pool",
+        "singular_templates": [
+            "a man performs exactly <number> swimming stroke.",
+            "a man swims by performing exactly <number> stroke."
+        ]
     },
     "049": {
         "id": "049",
@@ -559,7 +769,11 @@
             "a man swims by performing exactly <number> strokes.",
             "a man performs exactly <number> swimming strokes."
         ],
-        "place": "pool"
+        "place": "pool",
+        "singular_templates": [
+            "a man swims by performing exactly <number> stroke.",
+            "a man performs exactly <number> swimming stroke."
+        ]
     },
     "050": {
         "id": "050",
@@ -570,7 +784,11 @@
             "a person brushes the brown horse exactly <number> times.",
             "a person strokes the horse exactly <number> times."
         ],
-        "place": "stable"
+        "place": "stable",
+        "singular_templates": [
+            "a person brushes the brown horse exactly <number> time.",
+            "a person strokes the horse exactly <number> time."
+        ]
     },
     "051": {
         "id": "051",
@@ -579,6 +797,9 @@
         "action": "harrow",
         "templates": [
             "a person rips off the roofing with exactly <number> moves."
+        ],
+        "singular_templates": [
+            "a person rips off the roofing with exactly <number> move."
         ]
     },
     "052": {
@@ -590,7 +811,11 @@
             "a child stirs the glass with a spoon exactly <number> times.",
             "a kid stirs the glass exactly <number> times using a spoon."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a child stirs the glass with a spoon exactly <number> time.",
+            "a kid stirs the glass exactly <number> time using a spoon."
+        ]
     },
     "053": {
         "id": "053",
@@ -601,7 +826,11 @@
             "a child stirs the glass with a spoon exactly <number> times.",
             "a kid stirs the glass exactly <number> times using a spoon."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a child stirs the glass with a spoon exactly <number> time.",
+            "a kid stirs the glass exactly <number> time using a spoon."
+        ]
     },
     "054": {
         "id": "054",
@@ -612,7 +841,11 @@
             "a kid stirs the glass exactly <number> times using a spoon.",
             "a child stirs the glass with a spoon exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a kid stirs the glass exactly <number> time using a spoon.",
+            "a child stirs the glass with a spoon exactly <number> time."
+        ]
     },
     "055": {
         "id": "055",
@@ -623,7 +856,11 @@
             "a woman executes the same abdominal exercise exactly <number> times using a cable machine.",
             "a woman performs the same fitness exercise exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman executes the same abdominal exercise exactly <number> time using a cable machine.",
+            "a woman performs the same fitness exercise exactly <number> time."
+        ]
     },
     "056": {
         "id": "056",
@@ -635,7 +872,12 @@
             "a child swings exactly <number> times.",
             "a kid at a playground swings exactly <number> times."
         ],
-        "place": "playground"
+        "place": "playground",
+        "singular_templates": [
+            "a kid at a playground swings on a swing exactly <number> time.",
+            "a child swings exactly <number> time.",
+            "a kid at a playground swings exactly <number> time."
+        ]
     },
     "057": {
         "id": "057",
@@ -645,7 +887,10 @@
         "templates": [
             "a man wipes a piece of wood exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a man wipes a piece of wood exactly <number> time."
+        ]
     },
     "058": {
         "id": "058",
@@ -656,7 +901,11 @@
             "a man paints a piece of wood with exactly <number> strokes.",
             "a man paints a piece of wood by performing exactly <number> strokes."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a man paints a piece of wood with exactly <number> stroke.",
+            "a man paints a piece of wood by performing exactly <number> stroke."
+        ]
     },
     "059": {
         "id": "059",
@@ -666,7 +915,10 @@
         "templates": [
             "a man wipes a piece of wood exactly <number> times."
         ],
-        "place": "home"
+        "place": "home",
+        "singular_templates": [
+            "a man wipes a piece of wood exactly <number> time."
+        ]
     },
     "060": {
         "id": "060",
@@ -678,7 +930,12 @@
             "someone skips the rope exactly <number> times.",
             "a man performs a skipping rope exercise exactly <number> times."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a man skips the rope <number> time in total.",
+            "someone skips the rope exactly <number> time.",
+            "a man performs a skipping rope exercise exactly <number> time."
+        ]
     },
     "061": {
         "id": "061",
@@ -689,7 +946,11 @@
             "a woman uses her hands to swing back and forth <number> times in total.",
             "a gymnast swings back and forth exactly <number> times using her arms."
         ],
-        "place": "gym"
+        "place": "gym",
+        "singular_templates": [
+            "a woman uses her hands to swing back and forth <number> time in total.",
+            "a gymnast swings back and forth exactly <number> time using her arms."
+        ]
     },
     "062": {
         "id": "062",
@@ -699,7 +960,10 @@
         "templates": [
             "a man wipes a piece of wood exactly <number> times using a white cloth."
         ],
-        "place": "workshop"
+        "place": "workshop",
+        "singular_templates": [
+            "a man wipes a piece of wood exactly <number> time using a white cloth."
+        ]
     },
     "063": {
         "id": "063",
@@ -709,7 +973,10 @@
         "templates": [
             "a man wipes a piece of wood exactly <number> times using a white cloth."
         ],
-        "place": "workshop"
+        "place": "workshop",
+        "singular_templates": [
+            "a man wipes a piece of wood exactly <number> time using a white cloth."
+        ]
     },
     "064": {
         "id": "064",
@@ -720,7 +987,11 @@
             "a man performs exactly <number> forward strokes.",
             "a man swims by performing exactly <number> forward strokes."
         ],
-        "place": "sea"
+        "place": "sea",
+        "singular_templates": [
+            "a man performs exactly <number> forward stroke.",
+            "a man swims by performing exactly <number> forward stroke."
+        ]
     },
     "065": {
         "id": "065",
@@ -730,6 +1001,10 @@
         "templates": [
             "a person sharpens the knife by dragging it against an object exactly <number> times.",
             "a person slides the knife against an object exactly <number> times."
+        ],
+        "singular_templates": [
+            "a person sharpens the knife by dragging it against an object exactly <number> time.",
+            "a person slides the knife against an object exactly <number> time."
         ]
     },
     "066": {
@@ -741,7 +1016,11 @@
             "a man spray paints a plank from side to side exactly <number> times.",
             "a man spray paints a plank exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man spray paints a plank from side to side exactly <number> time.",
+            "a man spray paints a plank exactly <number> time."
+        ]
     },
     "067": {
         "id": "067",
@@ -751,7 +1030,10 @@
         "templates": [
             "a man spray paints something exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man spray paints something exactly <number> time."
+        ]
     },
     "068": {
         "id": "068",
@@ -761,7 +1043,10 @@
         "templates": [
             "a man spray paints something from side to side exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man spray paints something from side to side exactly <number> time."
+        ]
     },
     "069": {
         "id": "069",
@@ -772,7 +1057,11 @@
             "a shirtless man chops wood exactly <number> times.",
             "a man hits wood using his axe exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a shirtless man chops wood exactly <number> time.",
+            "a man hits wood using his axe exactly <number> time."
+        ]
     },
     "070": {
         "id": "070",
@@ -782,6 +1071,10 @@
         "templates": [
             "someone peels a pineapple in exactly <number> moves.",
             "the pineapple is peeled in exactly <number> moves."
+        ],
+        "singular_templates": [
+            "someone peels a pineapple in exactly <number> move.",
+            "the pineapple is peeled in exactly <number> move."
         ]
     },
     "071": {
@@ -792,7 +1085,10 @@
         "templates": [
             "a man wearing a blue t-shirt paddles on a white canoe exactly <number> times."
         ],
-        "place": "lake"
+        "place": "lake",
+        "singular_templates": [
+            "a man wearing a blue t-shirt paddles on a white canoe exactly <number> time."
+        ]
     },
     "072": {
         "id": "072",
@@ -803,7 +1099,11 @@
             "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
             "a woman pedals the elliptical bicycle exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> time.",
+            "a woman pedals the elliptical bicycle exactly <number> time."
+        ]
     },
     "073": {
         "id": "073",
@@ -814,7 +1114,11 @@
             "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
             "a woman pedals the elliptical bicycle exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> time.",
+            "a woman pedals the elliptical bicycle exactly <number> time."
+        ]
     },
     "074": {
         "id": "074",
@@ -825,7 +1129,11 @@
             "a woman spins the pedals of the elliptical bicycle exactly <number> times.",
             "a woman pedals the elliptical bicycle exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman spins the pedals of the elliptical bicycle exactly <number> time.",
+            "a woman pedals the elliptical bicycle exactly <number> time."
+        ]
     },
     "075": {
         "id": "075",
@@ -838,7 +1146,13 @@
             "a man spins around exactly <number> times.",
             "a man in red spins around exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man spins around exactly <number> times with his bare hands.",
+            "a man uses his own hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time.",
+            "a man in red spins around exactly <number> time."
+        ]
     },
     "076": {
         "id": "076",
@@ -851,7 +1165,13 @@
             "a man spins around exactly <number> times.",
             "a man in red spins around exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man spins around exactly <number> times with his bare hands.",
+            "a man uses his own hands to spin around exactly <number> time.",
+            "a man spins around exactly <number> time.",
+            "a man in red spins around exactly <number> time."
+        ]
     },
     "077": {
         "id": "077",
@@ -864,7 +1184,13 @@
             "a woman performs exactly <number> crunches.",
             "a woman in a pink top performs the same exercise exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "an athlete performs the same abdominal exercise exactly <number> time.",
+            "a woman performs the same exercise exactly <number> time.",
+            "a woman performs exactly <number> crunch.",
+            "a woman in a pink top performs the same exercise exactly <number> time."
+        ]
     },
     "078": {
         "id": "078",
@@ -874,6 +1200,10 @@
         "templates": [
             "a person waxes a ski exactly <number> times.",
             "a person rubs wax on a ski exactly <number> times."
+        ],
+        "singular_templates": [
+            "a person waxes a ski exactly <number> time.",
+            "a person rubs wax on a ski exactly <number> time."
         ]
     },
     "079": {
@@ -887,7 +1217,13 @@
             "a woman performs exactly <number> crunches.",
             "a woman in a black t-shirt performs the same exercise exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "an athlete performs the same abdominal exercise exactly <number> time.",
+            "a woman performs the same exercise exactly <number> time.",
+            "a woman performs exactly <number> crunch.",
+            "a woman in a black t-shirt performs the same exercise exactly <number> time."
+        ]
     },
     "080": {
         "id": "080",
@@ -897,7 +1233,10 @@
         "templates": [
             "a woman brushes her hair exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman brushes her hair exactly <number> time."
+        ]
     },
     "081": {
         "id": "081",
@@ -907,6 +1246,10 @@
         "templates": [
             "a person sharpens the knife by dragging it against an object exactly <number> times.",
             "a person slides the knife on an object exactly <number> times."
+        ],
+        "singular_templates": [
+            "a person sharpens the knife by dragging it against an object exactly <number> time.",
+            "a person slides the knife on an object exactly <number> time."
         ]
     },
     "082": {
@@ -914,25 +1257,36 @@
         "prefix": "082_pullups_monkey_bar",
         "category": "exercise",
         "action": "hanging leg raises",
-        "templates":  [
+        "templates": [
             "a man raises his legs exactly <number> times.",
             "a man lifts his legs exactly <number> times while hanging.",
             "a man moves his legs up and down exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man raises his legs exactly <number> time.",
+            "a man lifts his legs exactly <number> time while hanging.",
+            "a man moves his legs up and down exactly <number> time."
+        ]
     },
     "083": {
         "id": "083",
         "prefix": "083_pullups_monkey_bar",
         "category": "exercise",
         "action": "jump rope",
-        "templates":  [
+        "templates": [
             "a man skips the rope exactly <number> times.",
             "a man performs a skipping rope exercise exactly <number> times.",
             "a shirtless man skips the rope exactly <number> times.",
             "someone skips the rope exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man skips the rope exactly <number> time.",
+            "a man performs a skipping rope exercise exactly <number> time.",
+            "a shirtless man skips the rope exactly <number> time.",
+            "someone skips the rope exactly <number> time."
+        ]
     },
     "084": {
         "id": "084",
@@ -945,7 +1299,13 @@
             "a man performs exactly <number> squats.",
             "a shirtless man performs a squat exercise exactly <number> times."
         ],
-        "place": "outside"
+        "place": "outside",
+        "singular_templates": [
+            "a man performs the same exercise exactly <number> time.",
+            "a man performs a squat exercise exactly <number> time.",
+            "a man performs exactly <number> squat.",
+            "a shirtless man performs a squat exercise exactly <number> time."
+        ]
     },
     "085": {
         "id": "085",
@@ -957,7 +1317,12 @@
             "the clove of garlic is sliced exactly <number> times.",
             "someone cuts a garlic exactly <number> times."
         ],
-        "place": "kitchen"
+        "place": "kitchen",
+        "singular_templates": [
+            "someone slices a clove of garlic exactly <number> time.",
+            "the clove of garlic is sliced exactly <number> time.",
+            "someone cuts a garlic exactly <number> time."
+        ]
     },
     "086": {
         "id": "086",
@@ -969,7 +1334,12 @@
             "the parsley is sliced exactly <number> times.",
             "someone cuts parsley exactly <number> times."
         ],
-        "place": "kitchen"
+        "place": "kitchen",
+        "singular_templates": [
+            "someone slices parsley exactly <number> time.",
+            "the parsley is sliced exactly <number> time.",
+            "someone cuts parsley exactly <number> time."
+        ]
     },
     "087": {
         "id": "087",
@@ -979,7 +1349,10 @@
         "templates": [
             "a man jumps exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a man jumps exactly <number> time."
+        ]
     },
     "088": {
         "id": "088",
@@ -989,7 +1362,10 @@
         "templates": [
             "a woman jumps exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman jumps exactly <number> time."
+        ]
     },
     "089": {
         "id": "089",
@@ -1000,7 +1376,11 @@
             "a woman spins the hula hoop exactly <number> times.",
             "a woman spins the hula hoop around her waist exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman spins the hula hoop exactly <number> time.",
+            "a woman spins the hula hoop around her waist exactly <number> time."
+        ]
     },
     "090": {
         "id": "090",
@@ -1011,7 +1391,11 @@
             "a woman spins the hula hoop exactly <number> times.",
             "a woman spins the hula hoop around her waist exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "a woman spins the hula hoop exactly <number> time.",
+            "a woman spins the hula hoop around her waist exactly <number> time."
+        ]
     },
     "091": {
         "id": "091",
@@ -1022,7 +1406,11 @@
             "a man bounces the ball exactly <number> times.",
             "a man in a black t-shirt bounces the ball with his right hand exactly <number> times."
         ],
-        "place": "basketball court"
+        "place": "basketball court",
+        "singular_templates": [
+            "a man bounces the ball exactly <number> time.",
+            "a man in a black t-shirt bounces the ball with his right hand exactly <number> time."
+        ]
     },
     "092": {
         "id": "092",
@@ -1033,7 +1421,11 @@
             "a man bounces the ball exactly <number> times.",
             "a man in a black t-shirt bounces the ball with his right hand exactly <number> times."
         ],
-        "place": "basketball court"
+        "place": "basketball court",
+        "singular_templates": [
+            "a man bounces the ball exactly <number> time.",
+            "a man in a black t-shirt bounces the ball with his right hand exactly <number> time."
+        ]
     },
     "093": {
         "id": "093",
@@ -1047,7 +1439,14 @@
             "a man performs exactly <number> cross crunch exercises.",
             "a shirtless man performs the same exercise exactly <number> times."
         ],
-        "place": null
+        "place": null,
+        "singular_templates": [
+            "an athlete performs the same abdominal exercise exactly <number> time.",
+            "a man performs the same exercise exactly <number> time.",
+            "a man brings his hands to his knees exactly <number> time.",
+            "a man performs exactly <number> cross crunch exercise.",
+            "a shirtless man performs the same exercise exactly <number> time."
+        ]
     },
     "094": {
         "id": "094",
@@ -1059,7 +1458,12 @@
             "a man swings back and forth exactly <number> times using his arms.",
             "a man in a purple t-shirt and sunglasses uses his hands to swing back and forth exactly <number> times."
         ],
-        "place": "park"
+        "place": "park",
+        "singular_templates": [
+            "a man uses his hands to swing back and forth exactly <number> time.",
+            "a man swings back and forth exactly <number> time using his arms.",
+            "a man in a purple t-shirt and sunglasses uses his hands to swing back and forth exactly <number> time."
+        ]
     },
     "095": {
         "id": "095",
@@ -1070,7 +1474,11 @@
             "someone peels a melon in exactly <number> moves.",
             "the melon is peeled in exactly <number> moves."
         ],
-        "place": "kitchen"
+        "place": "kitchen",
+        "singular_templates": [
+            "someone peels a melon in exactly <number> move.",
+            "the melon is peeled in exactly <number> move."
+        ]
     },
     "096": {
         "id": "096",
@@ -1081,7 +1489,11 @@
             "a man performs exactly <number> swimming strokes.",
             "a man swims by performing exactly <number> strokes."
         ],
-        "place": "pool"
+        "place": "pool",
+        "singular_templates": [
+            "a man performs exactly <number> swimming stroke.",
+            "a man swims by performing exactly <number> stroke."
+        ]
     },
     "097": {
         "id": "097",
@@ -1092,7 +1504,11 @@
             "a man performs exactly <number> swimming strokes.",
             "a man swims by performing exactly <number> strokes."
         ],
-        "place": "pool"
+        "place": "pool",
+        "singular_templates": [
+            "a man performs exactly <number> swimming stroke.",
+            "a man swims by performing exactly <number> stroke."
+        ]
     },
     "098": {
         "id": "098",
@@ -1103,7 +1519,11 @@
             "a man performs exactly <number> swimming strokes.",
             "a man swims by performing exactly <number> strokes."
         ],
-        "place": "pool"
+        "place": "pool",
+        "singular_templates": [
+            "a man performs exactly <number> swimming stroke.",
+            "a man swims by performing exactly <number> stroke."
+        ]
     },
     "099": {
         "id": "099",
@@ -1116,6 +1536,12 @@
             "a man does lunges with dumbbells exactly <number> times.",
             "a man wearing white sneakers does exactly <number> walking lunges."
         ],
-        "place": "fitness"
+        "place": "fitness",
+        "singular_templates": [
+            "a man in a blue t-shirt lunges exactly <number> time.",
+            "a man performs exactly <number> lunge.",
+            "a man does lunges with dumbbells exactly <number> time.",
+            "a man wearing white sneakers does exactly <number> walking lunge."
+        ]
     }
 }
