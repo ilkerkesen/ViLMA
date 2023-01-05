@@ -27,7 +27,10 @@ python locallaunch.py projects/retri/videoclip.yaml --dryrun  # will produce err
 
 Just run the following command,
 ```bash
-python vl_bench.py --quva-dir /path/to/quva --json-path /path/to/annotations.json
+python vl_bench.py \
+    --json-path /path/to/annotations.json \
+    --quva-dir /path/to/quva \
+    --something-something-dir /path/to/dataset
 ```
 
 This command will produce a single output `output={accuracy}%`.
