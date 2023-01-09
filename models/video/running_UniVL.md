@@ -34,13 +34,8 @@ path/to/video2.webm,path/to/output/feature2.npy
 ```
 
 
-Finally, run the following command. If you are evaluating on the 'change-of-state' instrument, please provide also a specific setting.
+Finally, run the following command. If you are evaluating on the 'change-of-state' instrument, please provide also a specific setting (`action_foil, preState_foil, postState_foil, reverse_foil`).
 
 ```bash
-python main_multi3bench.py --input-file /path/to/annotations.json --video-feature /path/to/video-features
-```
-
-This command will produce
-```
-TODO
+python main_multi3bench.py --input-file /path/to/annotations.json --video-feature /path/to/video-features --change-state-setting reverse_foil
 ```
