@@ -1,0 +1,30 @@
+{
+    "dummy_0": {
+        "dataset": "RareAct",
+        "original_split": "test",
+        "dataset_idx": "6370",
+        "linguistic_phenomena": "actions",
+        "youtube_id": "pKpHQjOPAAI",
+        "video_file": null,
+        "start_time": 40,
+        "end_time": 50,
+        "time_unit": "seconds",
+        "caption": "someone is cutting a keyboard.",
+        "foil": "someone is using a keyboard.",
+        "foiling_method": "MLM with BERT"
+    },
+    "dummy_1": {
+        "dataset": "RareAct",
+        "original_split": "test",
+        "dataset_idx": "6732",
+        "linguistic_phenomena": "actions",
+        "youtube_id": "Lb-pd4DTJVo",
+        "video_file": null,
+        "start_time": 70,
+        "end_time": 80,
+        "time_unit": "seconds",
+        "caption": "someone is hammering a banana.",
+        "foil": "someone is eating a banana.",
+        "foiling_method": "MLM with BERT"        
+    }
+}
