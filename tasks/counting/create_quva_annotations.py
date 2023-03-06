@@ -221,10 +221,93 @@ def create_examples_0_index_m_diff_n_count(
     return subset
 
 
+def create_rand_margin_v1(
+    data_dir,
+    entry,
+    use_spelling=False,
+    n_count=0,
+    m_diff=1,
+    normalized=False,
+    rng=None,
+    **kwargs,
+):
+    """
+    This function is the result of our meeting with Iacer.
+        - We use all textual templates. (the final score will be computed using average)
+        - We sample (uniform) two foils: smaller and larger foils.
+        - C: correct count, M: margin.
+        - Smaller foil: rand ~ [max(0, C-M), C-1] => FIXME: I think 0 is better.
+        - Larger foil: rand ~ [C+1, C+M]
+    """
+    assert rng is not None
+    assert n_count > 0 and m_diff > 0
+    assert normalized  # We need this for some models.
+    margin = m_diff
+
+    p = inflect.engine()
+    digits_or_spelling = "use-spelling" if use_spelling else "use-digits"
+    method = f"rand-margin-{margin}-v1"
+    subset = {}
+    annotations_dir = 'normalized_annotations' if normalized else 'annotations'
+
+    # read annotations
+    timestamps = np.load(osp.join(
+        data_dir, annotations_dir, entry['prefix'] + '.npy'))
+    timestamps = [0] + timestamps.tolist()
+    total_count = len(timestamps)
+
+    for count in range(1, total_count):
+        for start in range(0, total_count-count):
+            start_time = int(timestamps[start])
+            end_time = int(timestamps[start+count])
+            small_f = int(rng.integers(max(0, count-margin), count))
+            large_f = int(rng.integers(count+1, count+margin+1))
+            small_f_t = p.number_to_words(small_f) if use_spelling else small_f
+            large_f_t = p.number_to_words(large_f) if use_spelling else large_f
+            count_t = p.number_to_words(count) if use_spelling else count
+
+            templates = entry['templates']
+            if count == 1:
+                templates = entry['singular_templates']
+
+            foiling_methods = [
+                'rand ~ [max(0, C-M), C-1]',
+                'rand ~ [C+1, C+M]',
+            ]
+
+            # add item for each template
+            for template_id, template in enumerate(templates):
+                item_id = f'{method}-{entry["id"]}-{start_time}-{end_time}-{template_id}'
+                subset[item_id] = {
+                    'dataset': 'QUVA',
+                    'original_split': 'test',
+                    'dataset_idx': entry['id'],
+                    'youtube_id': None,
+                    'video_file': entry['prefix'] + '.mp4',
+                    'start_time': start_time,
+                    'end_time': end_time,
+                    'time_unit': 'pts',
+                    'caption': template.replace('<number>', str(count_t)),
+                    'foils': [
+                        template.replace('<number>', str(small_f_t)),
+                        template.replace('<number>', str(large_f_t)),
+                    ],
+                    'foiling_methods': foiling_methods,
+                    'template': template,
+                    'template_id': template_id,
+                    'classes': int(count),
+                    'classes_foils': [small_f, large_f],
+                    'normalized': normalized,
+                    'digits_or_spelling': digits_or_spelling,
+                }
+    return subset
+
+
 METHODS = {
     '0-index-1-diff-full-video': create_example_0_index_1_diff_full_video,
     '0_index_1_diff_n_count': create_examples_0_index_1_diff_n_count,
     '0_index_m_diff_n_count': create_examples_0_index_m_diff_n_count,
+    'rand_margin_v1': create_rand_margin_v1,
 }
 
 
@@ -279,6 +362,7 @@ def main(
     m_diff,
     normalized,
 ):
+    rng = np.random.default_rng(seed)
     input_file = process_path(input_file)
     output_file = process_path(output_file)
     data_dir = process_path(data_dir)
@@ -294,6 +378,7 @@ def main(
             n_count=n_count,
             m_diff=m_diff,
             normalized=normalized,
+            rng=rng,
         )
         data.update(subset)
 
