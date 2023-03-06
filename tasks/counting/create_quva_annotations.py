@@ -240,7 +240,7 @@ def create_rand_margin_v1(
         - Larger foil: rand ~ [C+1, C+M]
     """
     assert rng is not None
-    assert n_count > 0 and m_diff > 0
+    assert m_diff > 0
     assert normalized  # We need this for some models.
     margin = m_diff
 
@@ -270,14 +270,24 @@ def create_rand_margin_v1(
             if count == 1:
                 templates = entry['singular_templates']
 
+            small_f_templates = large_f_templates = entry['templates']
+            if small_f == 1:
+                small_f_templates = entry['singular_templates']
+            if large_f == 1:
+                large_f_templates = entry['singular_templates']
+
             foiling_methods = [
                 'rand ~ [max(0, C-M), C-1]',
                 'rand ~ [C+1, C+M]',
             ]
 
             # add item for each template
-            for template_id, template in enumerate(templates):
+            for template_id  in range(len(templates)):
                 item_id = f'{method}-{entry["id"]}-{start_time}-{end_time}-{template_id}'
+                template = templates[template_id]
+                small_f_template = small_f_templates[template_id]
+                large_f_template = large_f_templates[template_id]
+
                 subset[item_id] = {
                     'dataset': 'QUVA',
                     'original_split': 'test',
@@ -289,8 +299,8 @@ def create_rand_margin_v1(
                     'time_unit': 'pts',
                     'caption': template.replace('<number>', str(count_t)),
                     'foils': [
-                        template.replace('<number>', str(small_f_t)),
-                        template.replace('<number>', str(large_f_t)),
+                        small_f_template.replace('<number>', str(small_f_t)),
+                        large_f_template.replace('<number>', str(large_f_t)),
                     ],
                     'foiling_methods': foiling_methods,
                     'template': template,
@@ -330,7 +340,7 @@ METHODS = {
 @click.option(
     '--method',
     type=click.Choice(choices=METHODS.keys()),
-    default='0-index-1-diff-full-video',
+    default='rand_margin_v1',
     required=True,
 )
 @click.option(
@@ -344,7 +354,7 @@ METHODS = {
     default=0,
 )
 @click.option(
-    '--m-diff',
+    '--m-diff', '--margin',
     type=int,
     default=1,
 )
