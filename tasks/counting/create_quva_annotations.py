@@ -313,11 +313,102 @@ def create_rand_margin_v1(
     return subset
 
 
+def create_margin_v1(
+    data_dir,
+    entry,
+    use_spelling=False,
+    n_count=0,
+    m_diff=1,
+    normalized=False,
+    rng=None,
+    **kwargs,
+):
+    """
+    This function is the result of our meeting with Iacer.
+        - We use all textual templates. (the final score will be computed using average)
+        - We create two foils: C-M and C+M.
+        - C: correct count, M: margin.
+        - if C-M <= 0 -> don't use the smaller foil.
+    """
+    # assert rng is not None
+    assert m_diff > 0
+    assert normalized  # We need this for some models.
+    margin = m_diff
+
+    p = inflect.engine()
+    digits_or_spelling = "use-spelling" if use_spelling else "use-digits"
+    method = f"margin-{margin}-v1"
+    subset = {}
+    annotations_dir = 'normalized_annotations' if normalized else 'annotations'
+
+    # read annotations
+    timestamps = np.load(osp.join(
+        data_dir, annotations_dir, entry['prefix'] + '.npy'))
+    timestamps = [0] + timestamps.tolist()
+    total_count = len(timestamps)
+
+    for count in range(1, total_count):
+        for start in range(0, total_count-count):
+            start_time = int(timestamps[start])
+            end_time = int(timestamps[start+count])
+            small_f = count-margin
+            small_f_t = None
+            if small_f >= 0:
+                small_f_t = p.number_to_words(small_f) if use_spelling else small_f
+            large_f = count+margin
+            large_f_t = p.number_to_words(large_f) if use_spelling else large_f
+            count_t = p.number_to_words(count) if use_spelling else count
+
+            templates = entry['templates']
+            if count == 1:
+                templates = entry['singular_templates']
+
+            small_f_templates = large_f_templates = entry['templates']
+            if small_f == 1:
+                small_f_templates = entry['singular_templates']
+            if large_f == 1:
+                large_f_templates = entry['singular_templates']
+
+            # add item for each template
+            for template_id  in range(len(templates)):
+                item_id = f'{method}-{entry["id"]}-{start_time:04d}-{end_time:04d}-{template_id}'
+                template = templates[template_id]
+                small_f_template = small_f_templates[template_id]
+                large_f_template = large_f_templates[template_id]
+                foils = [large_f_template.replace('<number>', str(large_f_t))]
+                foiling_methods = ['C+M']
+                if small_f >= 0:
+                    foils.append(small_f_template.replace('<number>', str(small_f_t)))
+                    foiling_methods.append('C-M')
+
+                subset[item_id] = {
+                    'dataset': 'QUVA',
+                    'original_split': 'test',
+                    'dataset_idx': entry['id'],
+                    'youtube_id': None,
+                    'video_file': entry['prefix'] + '.mp4',
+                    'start_time': start_time,
+                    'end_time': end_time,
+                    'time_unit': 'pts',
+                    'caption': template.replace('<number>', str(count_t)),
+                    'foils': foils,
+                    'foiling_methods': foiling_methods,
+                    'template': template,
+                    'template_id': template_id,
+                    'classes': int(count),
+                    'classes_foils': [small_f, large_f],
+                    'normalized': normalized,
+                    'digits_or_spelling': digits_or_spelling,
+                }
+    return subset
+
+
 METHODS = {
     '0-index-1-diff-full-video': create_example_0_index_1_diff_full_video,
     '0_index_1_diff_n_count': create_examples_0_index_1_diff_n_count,
     '0_index_m_diff_n_count': create_examples_0_index_m_diff_n_count,
     'rand_margin_v1': create_rand_margin_v1,
+    'margin_v1': create_margin_v1,
 }
 
 
@@ -340,7 +431,7 @@ METHODS = {
 @click.option(
     '--method',
     type=click.Choice(choices=METHODS.keys()),
-    default='rand_margin_v1',
+    default='margin_v1',
     required=True,
 )
 @click.option(
