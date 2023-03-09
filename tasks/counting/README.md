@@ -122,3 +122,14 @@ Among these options, `--method` is the most crucial one, because this option spe
     }
 }
 ```
+
+## Release Candidate-1: Margin-based Annotations 
+We implemented a margin-based annotation creation strategy,
+
+1. We first create every single possible example using a margin (number).
+2. True captions replace `<number>` with the correct count $C$.
+3. We have two different foils: smaller foil and larger foil.
+4. Larger foils replace `<number>` with a larger number $C+M$ where M is margin.
+5. Smaller foils replace `<number>` with a smaller number $C-M$.
+6. We don't include smaller foils that go below $0$.
+7. We then downsample data using `downsample_annotations.py` script.
