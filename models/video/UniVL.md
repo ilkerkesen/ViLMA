@@ -3,11 +3,10 @@ Paper Link: https://arxiv.org/abs/2002.06353
 
 ## Environment Setup
 
-First, please setup a conda environment with python 3.9.16. 
-Then, clone the repository `https://github.com/andreapdr/UniVL.git`. 
+First, please setup a conda environment with python `3.9.16`. 
 Then execute the following script
 ```bash
-git clone https://github.com/andreapdr/UniVL.git
+git clone https://github.com/andreapdr/UniVL.git 
 cd UniVL
 mkdir -p ./weight
 wget -P ./weight https://github.com/microsoft/UniVL/releases/download/v0/univl.pretrained.bin
