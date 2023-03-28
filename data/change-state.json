@@ -19785,29 +19785,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping jar with hand over, so charger falls out",
         "change_of_state": {
-            "verb": "fall",
+            "verb": "drop",
             "verb-hypernym": "fall",
-            "object": "the jar with hand",
+            "object": "the charger",
             "pre-state": "in a higher position",
             "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "state-inverse": "lift"
         },
         "foils": {
             "action": [
-                "The jar with hand fall.",
-                "The jar with hand rise."
+                "Someone drops the charger.",
+                "Someone lifts the charger."
             ],
             "pre-state": [
-                "Initially, the jar with hand are in a higher position.",
-                "Initially, the jar with hand are in a lower position."
+                "Initially, the charger is in a higher position.",
+                "Initially, the charger is in a lower position."
             ],
             "post-state": [
-                "At the end, the jar with hand are in a lower position.",
-                "At the end, the jar with hand are in a higher position."
+                "At the end, the charger is in a lower position.",
+                "At the end, the charger is in a higher position."
             ],
             "inverse": [
-                "Initially, the jar with hand are in a higher position. Then, the jar with hand falls. At the end, the jar with hand are in a lower position.",
-                "Initially, the jar with hand are in a lower position. Then, the jar with hand rises. At the end, the jar with hand are in a higher position."
+                "Initially, the charger is in a higher position. Then, someone drops the charger. At the end, the charger is in a lower position.",
+                "Initially, the charger is in a lower position. Then, someone lifts the charger. At the end, the charger is in a higher position."
             ]
         }
     },
@@ -19863,29 +19863,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping bottle water with water over, so water falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
-            "object": "the bottle water",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the water",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "The bottle water falls.",
-                "The bottle water rises."
+                "Someone empties the water.",
+                "Someone fills the water."
             ],
             "pre-state": [
-                "Initially, the bottle water is in a higher position.",
-                "Initially, the bottle water is in a lower position."
+                "Initially, the water is full.",
+                "Initially, the water is empty."
             ],
             "post-state": [
-                "At the end, the bottle water is in a lower position.",
-                "At the end, the bottle water is in a higher position."
+                "At the end, the water is empty.",
+                "At the end, the water is full."
             ],
             "inverse": [
-                "Initially, the bottle water is in a higher position. Then, the bottle water falls. At the end, the bottle water is in a lower position.",
-                "Initially, the bottle water is in a lower position. Then, the bottle water rises. At the end, the bottle water is in a higher position."
+                "Initially, the water is full. Then, someone empties the water. At the end, the water is empty.",
+                "Initially, the water is empty. Then, someone fills the water. At the end, the water is full."
             ]
         }
     },
@@ -19902,29 +19902,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping cup with seeds over, so seeds falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
-            "object": "the cup with seeds over",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the cup",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "The cup with seeds over falls.",
-                "The cup with seeds over rises."
+                "Someone empties the cup.",
+                "Someone fills the cup."
             ],
             "pre-state": [
-                "Initially, the cup with seeds over is in a higher position.",
-                "Initially, the cup with seeds over is in a lower position."
+                "Initially, the cup is full.",
+                "Initially, the cup is empty."
             ],
             "post-state": [
-                "At the end, the cup with seeds over is in a lower position.",
-                "At the end, the cup with seeds over is in a higher position."
+                "At the end, the cup is empty.",
+                "At the end, the cup is full."
             ],
             "inverse": [
-                "Initially, the cup with seeds over is in a higher position. Then, the cup with seeds over falls. At the end, the cup with seeds over is in a lower position.",
-                "Initially, the cup with seeds over is in a lower position. Then, the cup with seeds over rises. At the end, the cup with seeds over is in a higher position."
+                "Initially, the cup is full. Then, someone empties the cup. At the end, the cup is empty.",
+                "Initially, the cup is empty. Then, someone fills the cup. At the end, the cup is full."
             ]
         }
     },
@@ -19980,29 +19980,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping lid with dhal over, so dhal falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
+            "verb": "empty",
+            "verb-hypernym": "empty",
             "object": "the lid",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "The lid falls.",
-                "The lid rises."
+                "Someone empties the lid.",
+                "Someone fills the lid."
             ],
             "pre-state": [
-                "Initially, the lid is in a higher position.",
-                "Initially, the lid is in a lower position."
+                "Initially, the lid is full.",
+                "Initially, the lid is empty."
             ],
             "post-state": [
-                "At the end, the lid is in a lower position.",
-                "At the end, the lid is in a higher position."
+                "At the end, the lid is empty.",
+                "At the end, the lid is full."
             ],
             "inverse": [
-                "Initially, the lid is in a higher position. Then, the lid falls. At the end, the lid is in a lower position.",
-                "Initially, the lid is in a lower position. Then, the lid rises. At the end, the lid is in a higher position."
+                "Initially, the lid is full. Then, someone empties the lid. At the end, the lid is empty.",
+                "Initially, the lid is empty. Then, someone fills the lid. At the end, the lid is full."
             ]
         }
     },
@@ -20136,29 +20136,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping a cup with keys over, so keys falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
-            "object": "a cup",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the cup",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "A cup falls.",
-                "A cup rises."
+                "Someone empties the cup.",
+                "Someone fills the cup."
             ],
             "pre-state": [
-                "Initially, a cup is in a higher position.",
-                "Initially, a cup is in a lower position."
+                "Initially, the cup is full.",
+                "Initially, the cup is empty."
             ],
             "post-state": [
-                "At the end, a cup is in a lower position.",
-                "At the end, a cup is in a higher position."
+                "At the end, the cup is empty.",
+                "At the end, the cup is full."
             ],
             "inverse": [
-                "Initially, a cup is in a higher position. Then, a cup falls. At the end, a cup is in a lower position.",
-                "Initially, a cup is in a lower position. Then, a cup rises. At the end, a cup is in a higher position."
+                "Initially, the cup is full. Then, someone empties the cup. At the end, the cup is empty.",
+                "Initially, the cup is empty. Then, someone fills the cup. At the end, the cup is full."
             ]
         }
     },
@@ -20214,29 +20214,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping a clear box with dice over, so dice falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
-            "object": "a clear box",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "rise"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the box",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "A clear box falls.",
-                "A clear box rises."
+                "Someone empties the box.",
+                "Someone fills the box."
             ],
             "pre-state": [
-                "Initially, a clear box is in a higher position.",
-                "Initially, a clear box is in a lower position."
+                "Initially, the box is full.",
+                "Initially, the box is empty."
             ],
             "post-state": [
-                "At the end, a clear box is in a lower position.",
-                "At the end, a clear box is in a higher position."
+                "At the end, the box is empty.",
+                "At the end, the box is full."
             ],
             "inverse": [
-                "Initially, a clear box is in a higher position. Then, a clear box falls. At the end, a clear box is in a lower position.",
-                "Initially, a clear box is in a lower position. Then, a clear box rises. At the end, a clear box is in a higher position."
+                "Initially, the box is full. Then, someone empties the box. At the end, the box is empty.",
+                "Initially, the box is empty. Then, someone fills the box. At the end, the box is full."
             ]
         }
     },
@@ -24894,29 +24894,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping tiffin box with box over, so box falls out",
         "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the tiffin box with box",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the box",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone falls the tiffin box with box out.",
-                "Someone inserts the tiffin box with box."
+                "Someone empties the box.",
+                "Someone fills the box."
             ],
             "pre-state": [
-                "Initially, the tiffin box with box is inside.",
-                "Initially, the tiffin box with box is outside."
+                "Initially, the box is full.",
+                "Initially, the box is empty."
             ],
             "post-state": [
-                "At the end, the tiffin box with box is outside.",
-                "At the end, the tiffin box with box is inside."
+                "At the end, the box is empty.",
+                "At the end, the box is full."
             ],
             "inverse": [
-                "Initially, the tiffin box with box is inside. Then, someone falls the tiffin box with box out. At the end, the tiffin box with box is outside.",
-                "Initially, the tiffin box with box is outside. Then, someone inserts the tiffin box with box. At the end, the tiffin box with box is inside."
+                "Initially, the box is full. Then, someone empties the box. At the end, the box is empty.",
+                "Initially, the box is empty. Then, someone fills the box. At the end, the box is full."
             ]
         }
     },
@@ -25011,29 +25011,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping cup with brush over, so brush falls out",
         "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the cup with brush",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the cup",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone falls the cup with brush out.",
-                "Someone inserts the cup with brush."
+                "Someone empties the cup.",
+                "Someone fills the cup."
             ],
             "pre-state": [
-                "Initially, the cup with brush is inside.",
-                "Initially, the cup with brush is outside."
+                "Initially, the cup is full.",
+                "Initially, the cup is empty."
             ],
             "post-state": [
-                "At the end, the cup with brush is outside.",
-                "At the end, the cup with brush is inside."
+                "At the end, the cup is empty.",
+                "At the end, the cup is full."
             ],
             "inverse": [
-                "Initially, the cup with brush is inside. Then, someone falls the cup with brush out. At the end, the cup with brush is outside.",
-                "Initially, the cup with brush is outside. Then, someone inserts the cup with brush. At the end, the cup with brush is inside."
+                "Initially, the cup is full. Then, someone empties the cup. At the end, the cup is empty.",
+                "Initially, the cup is empty. Then, someone fills the cup. At the end, the cup is full."
             ]
         }
     },
@@ -25206,29 +25206,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping pen stand with hair band over, so hair band falls out",
         "change_of_state": {
-            "verb": "fall",
-            "verb-hypernym": "fall",
-            "object": "the hair band",
-            "pre-state": "in a higher position",
-            "post-state": "in a lower position",
-            "state-inverse": "raise"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the pen stand",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "The hair band fall.",
-                "The hair band raise."
+                "Someone empties the pen stand.",
+                "Someone fills the pen stand."
             ],
             "pre-state": [
-                "Initially, the hair band are in a higher position.",
-                "Initially, the hair band are in a lower position."
+                "Initially, the pen stand are full.",
+                "Initially, the pen stand are empty."
             ],
             "post-state": [
-                "At the end, the hair band are in a lower position.",
-                "At the end, the hair band are in a higher position."
+                "At the end, the pen stand are empty.",
+                "At the end, the pen stand are full."
             ],
             "inverse": [
-                "Initially, the hair band are in a higher position. Then, the hair band falls. At the end, the hair band are in a lower position.",
-                "Initially, the hair band are in a lower position. Then, the hair band raises. At the end, the hair band are in a higher position."
+                "Initially, the pen stand are full. Then, someone empties the pen stand. At the end, the pen stand are empty.",
+                "Initially, the pen stand are empty. Then, someone fills the pen stand. At the end, the pen stand are full."
             ]
         }
     },
@@ -25310,45 +25310,6 @@
             ]
         }
     },
-    "677": {
-        "dataset": "smsm",
-        "original_split": "train",
-        "dataset_idx": "37957",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "37957",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping notepad with pen over, so pen falls out",
-        "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the notepad",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
-        },
-        "foils": {
-            "action": [
-                "Someone falls the notepad out.",
-                "Someone inserts the notepad."
-            ],
-            "pre-state": [
-                "Initially, the notepad is inside.",
-                "Initially, the notepad is outside."
-            ],
-            "post-state": [
-                "At the end, the notepad is outside.",
-                "At the end, the notepad is inside."
-            ],
-            "inverse": [
-                "Initially, the notepad is inside. Then, someone falls the notepad out. At the end, the notepad is outside.",
-                "Initially, the notepad is outside. Then, someone inserts the notepad. At the end, the notepad is inside."
-            ]
-        }
-    },
     "678": {
         "dataset": "coin",
         "original_split": "test",
@@ -25388,45 +25349,6 @@
             ]
         }
     },
-    "679": {
-        "dataset": "smsm",
-        "original_split": "val",
-        "dataset_idx": "68152",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "68152",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping notebook with lipstick over, so lipstick falls out",
-        "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the notebook",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
-        },
-        "foils": {
-            "action": [
-                "Someone falls the notebook out.",
-                "Someone inserts the notebook."
-            ],
-            "pre-state": [
-                "Initially, the notebook is inside.",
-                "Initially, the notebook is outside."
-            ],
-            "post-state": [
-                "At the end, the notebook is outside.",
-                "At the end, the notebook is inside."
-            ],
-            "inverse": [
-                "Initially, the notebook is inside. Then, someone falls the notebook out. At the end, the notebook is outside.",
-                "Initially, the notebook is outside. Then, someone inserts the notebook. At the end, the notebook is inside."
-            ]
-        }
-    },
     "680": {
         "dataset": "smsm",
         "original_split": "train",
@@ -25440,29 +25362,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping small bag with padlock over, so padlock falls out",
         "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the small bag",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the bag",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone falls the small bag out.",
-                "Someone inserts the small bag."
+                "Someone empties the bag.",
+                "Someone fills the bag."
             ],
             "pre-state": [
-                "Initially, the small bag is inside.",
-                "Initially, the small bag is outside."
+                "Initially, the bag is full.",
+                "Initially, the bag is empty."
             ],
             "post-state": [
-                "At the end, the small bag is outside.",
-                "At the end, the small bag is inside."
+                "At the end, the bag is empty.",
+                "At the end, the bag is full."
             ],
             "inverse": [
-                "Initially, the small bag is inside. Then, someone falls the small bag out. At the end, the small bag is outside.",
-                "Initially, the small bag is outside. Then, someone inserts the small bag. At the end, the small bag is inside."
+                "Initially, the bag is full. Then, someone empties the bag. At the end, the bag is empty.",
+                "Initially, the bag is empty. Then, someone fills the bag. At the end, the bag is full."
             ]
         }
     },
@@ -25518,29 +25440,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping filter ladle with mango over, so mango falls out",
         "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the filter ladle with mango",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the filter ladle",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone falls the filter ladle with mango out.",
-                "Someone inserts the filter ladle with mango."
+                "Someone empties the filter ladle.",
+                "Someone fills the filter ladle."
             ],
             "pre-state": [
-                "Initially, the filter ladle with mango is inside.",
-                "Initially, the filter ladle with mango is outside."
+                "Initially, the filter ladle is full.",
+                "Initially, the filter ladle is empty."
             ],
             "post-state": [
-                "At the end, the filter ladle with mango is outside.",
-                "At the end, the filter ladle with mango is inside."
+                "At the end, the filter ladle is empty.",
+                "At the end, the filter ladle is full."
             ],
             "inverse": [
-                "Initially, the filter ladle with mango is inside. Then, someone falls the filter ladle with mango out. At the end, the filter ladle with mango is outside.",
-                "Initially, the filter ladle with mango is outside. Then, someone inserts the filter ladle with mango. At the end, the filter ladle with mango is inside."
+                "Initially, the filter ladle is full. Then, someone empties the filter ladle. At the end, the filter ladle is empty.",
+                "Initially, the filter ladle is empty. Then, someone fills the filter ladle. At the end, the filter ladle is full."
             ]
         }
     },
@@ -25635,29 +25557,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping cup with crackers over, so cracker falls out",
         "change_of_state": {
-            "verb": "fall out",
-            "verb-hypernym": "pull out",
-            "object": "the cup with crackers",
-            "pre-state": "inside",
-            "post-state": "outside",
-            "state-inverse": "insert"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the cup",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone falls the cup with crackers out.",
-                "Someone inserts the cup with crackers."
+                "Someone empties the cup.",
+                "Someone fills the cup."
             ],
             "pre-state": [
-                "Initially, the cup with crackers are inside.",
-                "Initially, the cup with crackers are outside."
+                "Initially, the cup is full.",
+                "Initially, the cup is empty."
             ],
             "post-state": [
-                "At the end, the cup with crackers are outside.",
-                "At the end, the cup with crackers are inside."
+                "At the end, the cup is empty.",
+                "At the end, the cup is full."
             ],
             "inverse": [
-                "Initially, the cup with crackers are inside. Then, someone falls the cup with crackers out. At the end, the cup with crackers are outside.",
-                "Initially, the cup with crackers are outside. Then, someone inserts the cup with crackers. At the end, the cup with crackers are inside."
+                "Initially, the cup is full. Then, someone empties the cup. At the end, the cup is empty.",
+                "Initially, the cup is empty. Then, someone fills the cup. At the end, the cup is full."
             ]
         }
     },
@@ -31628,84 +31550,6 @@
             ]
         }
     },
-    "841": {
-        "dataset": "smsm",
-        "original_split": "val",
-        "dataset_idx": "183276",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "183276",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping shot glass over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "the shot glass",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips the shot glass over.",
-                "Someone turns the shot glass on."
-            ],
-            "pre-state": [
-                "Initially, the shot glass is on.",
-                "Initially, the shot glass is off."
-            ],
-            "post-state": [
-                "At the end, the shot glass is off.",
-                "At the end, the shot glass is on."
-            ],
-            "inverse": [
-                "Initially, the shot glass is on. Then, someone tips the shot glass over. At the end, the shot glass is off.",
-                "Initially, the shot glass is off. Then, someone turns the shot glass on. At the end, the shot glass is on."
-            ]
-        }
-    },
-    "842": {
-        "dataset": "smsm",
-        "original_split": "train",
-        "dataset_idx": "33680",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "33680",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping a lighter over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "a lighter",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips a lighter over.",
-                "Someone turns a lighter on."
-            ],
-            "pre-state": [
-                "Initially, a lighter is on.",
-                "Initially, a lighter is off."
-            ],
-            "post-state": [
-                "At the end, a lighter is off.",
-                "At the end, a lighter is on."
-            ],
-            "inverse": [
-                "Initially, a lighter is on. Then, someone tips a lighter over. At the end, a lighter is off.",
-                "Initially, a lighter is off. Then, someone turns a lighter on. At the end, a lighter is on."
-            ]
-        }
-    },
     "843": {
         "dataset": "yc",
         "original_split": "train",
@@ -31742,84 +31586,6 @@
             "inverse": [
                 "Initially, the seaweed is on. Then, someone flips the seaweed over. At the end, the seaweed is off.",
                 "Initially, the seaweed is off. Then, someone turns the seaweed on. At the end, the seaweed is on."
-            ]
-        }
-    },
-    "844": {
-        "dataset": "smsm",
-        "original_split": "val",
-        "dataset_idx": "33399",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "33399",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping a book over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "a book",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips a book over.",
-                "Someone turns a book on."
-            ],
-            "pre-state": [
-                "Initially, a book is on.",
-                "Initially, a book is off."
-            ],
-            "post-state": [
-                "At the end, a book is off.",
-                "At the end, a book is on."
-            ],
-            "inverse": [
-                "Initially, a book is on. Then, someone tips a book over. At the end, a book is off.",
-                "Initially, a book is off. Then, someone turns a book on. At the end, a book is on."
-            ]
-        }
-    },
-    "845": {
-        "dataset": "smsm",
-        "original_split": "train",
-        "dataset_idx": "34608",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "34608",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping plate over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "the plate",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips the plate over.",
-                "Someone turns the plate on."
-            ],
-            "pre-state": [
-                "Initially, the plate is on.",
-                "Initially, the plate is off."
-            ],
-            "post-state": [
-                "At the end, the plate is off.",
-                "At the end, the plate is on."
-            ],
-            "inverse": [
-                "Initially, the plate is on. Then, someone tips the plate over. At the end, the plate is off.",
-                "Initially, the plate is off. Then, someone turns the plate on. At the end, the plate is on."
             ]
         }
     },
@@ -31875,68 +31641,29 @@
         "time_unit": "sec",
         "original_sentence": "tipping container with oatmeal over, so oatmeal cereal falls out",
         "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "the container with oatmeal",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
+            "verb": "empty",
+            "verb-hypernym": "empty",
+            "object": "the container",
+            "pre-state": "full",
+            "post-state": "empty",
+            "state-inverse": "fill"
         },
         "foils": {
             "action": [
-                "Someone tips the container with oatmeal over.",
-                "Someone turns the container with oatmeal on."
+                "Someone empties the container.",
+                "Someone fills the container."
             ],
             "pre-state": [
-                "Initially, the container with oatmeal is on.",
-                "Initially, the container with oatmeal is off."
+                "Initially, the container is full.",
+                "Initially, the container is empty."
             ],
             "post-state": [
-                "At the end, the container with oatmeal is off.",
-                "At the end, the container with oatmeal is on."
+                "At the end, the container is empty.",
+                "At the end, the container is full."
             ],
             "inverse": [
-                "Initially, the container with oatmeal is on. Then, someone tips the container with oatmeal over. At the end, the container with oatmeal is off.",
-                "Initially, the container with oatmeal is off. Then, someone turns the container with oatmeal on. At the end, the container with oatmeal is on."
-            ]
-        }
-    },
-    "850": {
-        "dataset": "smsm",
-        "original_split": "val",
-        "dataset_idx": "31678",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "31678",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping a bowl over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "a bowl",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips a bowl over.",
-                "Someone turns a bowl on."
-            ],
-            "pre-state": [
-                "Initially, a bowl is on.",
-                "Initially, a bowl is off."
-            ],
-            "post-state": [
-                "At the end, a bowl is off.",
-                "At the end, a bowl is on."
-            ],
-            "inverse": [
-                "Initially, a bowl is on. Then, someone tips a bowl over. At the end, a bowl is off.",
-                "Initially, a bowl is off. Then, someone turns a bowl on. At the end, a bowl is on."
+                "Initially, the container is full. Then, someone empties the container. At the end, the container is empty.",
+                "Initially, the container is empty. Then, someone fills the container. At the end, the container is full."
             ]
         }
     },
@@ -31979,84 +31706,6 @@
             ]
         }
     },
-    "852": {
-        "dataset": "smsm",
-        "original_split": "train",
-        "dataset_idx": "45623",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "45623",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping a glass over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "a glass",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips a glass over.",
-                "Someone turns a glass on."
-            ],
-            "pre-state": [
-                "Initially, a glass is on.",
-                "Initially, a glass is off."
-            ],
-            "post-state": [
-                "At the end, a glass is off.",
-                "At the end, a glass is on."
-            ],
-            "inverse": [
-                "Initially, a glass is on. Then, someone tips a glass over. At the end, a glass is off.",
-                "Initially, a glass is off. Then, someone turns a glass on. At the end, a glass is on."
-            ]
-        }
-    },
-    "853": {
-        "dataset": "smsm",
-        "original_split": "val",
-        "dataset_idx": "16214",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "16214",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping a lighter over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "a lighter",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips a lighter over.",
-                "Someone turns a lighter on."
-            ],
-            "pre-state": [
-                "Initially, a lighter is on.",
-                "Initially, a lighter is off."
-            ],
-            "post-state": [
-                "At the end, a lighter is off.",
-                "At the end, a lighter is on."
-            ],
-            "inverse": [
-                "Initially, a lighter is on. Then, someone tips a lighter over. At the end, a lighter is off.",
-                "Initially, a lighter is off. Then, someone turns a lighter on. At the end, a lighter is on."
-            ]
-        }
-    },
     "854": {
         "dataset": "smsm",
         "original_split": "val",
@@ -32093,45 +31742,6 @@
             "inverse": [
                 "Initially, the stapler is on. Then, someone pushes the stapler off. At the end, the stapler is off.",
                 "Initially, the stapler is off. Then, someone turns the stapler on. At the end, the stapler is on."
-            ]
-        }
-    },
-    "855": {
-        "dataset": "smsm",
-        "original_split": "train",
-        "dataset_idx": "51663",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "51663",
-        "start_time": null,
-        "end_time": null,
-        "time_unit": "sec",
-        "original_sentence": "tipping puffs over",
-        "change_of_state": {
-            "verb": "tip over",
-            "verb-hypernym": "turn off",
-            "object": "the puffs",
-            "pre-state": "on",
-            "post-state": "off",
-            "state-inverse": "turn on"
-        },
-        "foils": {
-            "action": [
-                "Someone tips the puffs over.",
-                "Someone turns the puffs on."
-            ],
-            "pre-state": [
-                "Initially, the puffs are on.",
-                "Initially, the puffs are off."
-            ],
-            "post-state": [
-                "At the end, the puffs are off.",
-                "At the end, the puffs are on."
-            ],
-            "inverse": [
-                "Initially, the puffs are on. Then, someone tips the puffs over. At the end, the puffs are off.",
-                "Initially, the puffs are off. Then, someone turns the puffs on. At the end, the puffs are on."
             ]
         }
     },
