@@ -3992,27 +3992,27 @@
         "change_of_state": {
             "verb": "tidy up",
             "verb-hypernym": "clean",
-            "object": "the closet/cabinet",
+            "object": "the closet",
             "pre-state": "dirty",
             "post-state": "clean",
             "state-inverse": "stain"
         },
         "foils": {
             "action": [
-                "Someone tidies the closet/cabinet up.",
-                "Someone stains the closet/cabinet."
+                "Someone tidies the closet up.",
+                "Someone stains the closet."
             ],
             "pre-state": [
-                "Initially, the closet/cabinet is dirty.",
-                "Initially, the closet/cabinet is clean."
+                "Initially, the closet is dirty.",
+                "Initially, the closet is clean."
             ],
             "post-state": [
-                "At the end, the closet/cabinet is clean.",
-                "At the end, the closet/cabinet is dirty."
+                "At the end, the closet is clean.",
+                "At the end, the closet is dirty."
             ],
             "inverse": [
-                "Initially, the closet/cabinet is dirty. Then, someone tidies the closet/cabinet up. At the end, the closet/cabinet is clean.",
-                "Initially, the closet/cabinet is clean. Then, someone stains the closet/cabinet. At the end, the closet/cabinet is dirty."
+                "Initially, the closet is dirty. Then, someone tidies the closet up. At the end, the closet is clean.",
+                "Initially, the closet is clean. Then, someone stains the closet. At the end, the closet is dirty."
             ]
         }
     },
@@ -4148,27 +4148,27 @@
         "change_of_state": {
             "verb": "tidy up",
             "verb-hypernym": "clean",
-            "object": "the closet/cabinet",
+            "object": "the closet",
             "pre-state": "dirty",
             "post-state": "clean",
             "state-inverse": "stain"
         },
         "foils": {
             "action": [
-                "Someone tidies the closet/cabinet up.",
-                "Someone stains the closet/cabinet."
+                "Someone tidies the closet up.",
+                "Someone stains the closet."
             ],
             "pre-state": [
-                "Initially, the closet/cabinet is dirty.",
-                "Initially, the closet/cabinet is clean."
+                "Initially, the closet is dirty.",
+                "Initially, the closet is clean."
             ],
             "post-state": [
-                "At the end, the closet/cabinet is clean.",
-                "At the end, the closet/cabinet is dirty."
+                "At the end, the closet is clean.",
+                "At the end, the closet is dirty."
             ],
             "inverse": [
-                "Initially, the closet/cabinet is dirty. Then, someone tidies the closet/cabinet up. At the end, the closet/cabinet is clean.",
-                "Initially, the closet/cabinet is clean. Then, someone stains the closet/cabinet. At the end, the closet/cabinet is dirty."
+                "Initially, the closet is dirty. Then, someone tidies the closet up. At the end, the closet is clean.",
+                "Initially, the closet is clean. Then, someone stains the closet. At the end, the closet is dirty."
             ]
         }
     },
@@ -6449,27 +6449,27 @@
         "change_of_state": {
             "verb": "open",
             "verb-hypernym": "open",
-            "object": "the closet/cabinet",
+            "object": "the closet",
             "pre-state": "closed",
             "post-state": "open",
             "state-inverse": "close"
         },
         "foils": {
             "action": [
-                "Someone opens the closet/cabinet.",
-                "Someone closes the closet/cabinet."
+                "Someone opens the closet.",
+                "Someone closes the closet."
             ],
             "pre-state": [
-                "Initially, the closet/cabinet is closed.",
-                "Initially, the closet/cabinet is open."
+                "Initially, the closet is closed.",
+                "Initially, the closet is open."
             ],
             "post-state": [
-                "At the end, the closet/cabinet is open.",
-                "At the end, the closet/cabinet is closed."
+                "At the end, the closet is open.",
+                "At the end, the closet is closed."
             ],
             "inverse": [
-                "Initially, the closet/cabinet is closed. Then, someone opens the closet/cabinet. At the end, the closet/cabinet is open.",
-                "Initially, the closet/cabinet is open. Then, someone closes the closet/cabinet. At the end, the closet/cabinet is closed."
+                "Initially, the closet is closed. Then, someone opens the closet. At the end, the closet is open.",
+                "Initially, the closet is open. Then, someone closes the closet. At the end, the closet is closed."
             ]
         }
     },
@@ -6527,27 +6527,27 @@
         "change_of_state": {
             "verb": "open",
             "verb-hypernym": "open",
-            "object": "the closet/cabinet",
+            "object": "the closet",
             "pre-state": "closed",
             "post-state": "open",
             "state-inverse": "close"
         },
         "foils": {
             "action": [
-                "Someone opens the closet/cabinet.",
-                "Someone closes the closet/cabinet."
+                "Someone opens the closet.",
+                "Someone closes the closet."
             ],
             "pre-state": [
-                "Initially, the closet/cabinet is closed.",
-                "Initially, the closet/cabinet is open."
+                "Initially, the closet is closed.",
+                "Initially, the closet is open."
             ],
             "post-state": [
-                "At the end, the closet/cabinet is open.",
-                "At the end, the closet/cabinet is closed."
+                "At the end, the closet is open.",
+                "At the end, the closet is closed."
             ],
             "inverse": [
-                "Initially, the closet/cabinet is closed. Then, someone opens the closet/cabinet. At the end, the closet/cabinet is open.",
-                "Initially, the closet/cabinet is open. Then, someone closes the closet/cabinet. At the end, the closet/cabinet is closed."
+                "Initially, the closet is closed. Then, someone opens the closet. At the end, the closet is open.",
+                "Initially, the closet is open. Then, someone closes the closet. At the end, the closet is closed."
             ]
         }
     },
@@ -6605,27 +6605,27 @@
         "change_of_state": {
             "verb": "open",
             "verb-hypernym": "open",
-            "object": "the closet/cabinet",
+            "object": "the closet",
             "pre-state": "closed",
             "post-state": "open",
             "state-inverse": "close"
         },
         "foils": {
             "action": [
-                "Someone opens the closet/cabinet.",
-                "Someone closes the closet/cabinet."
+                "Someone opens the closet.",
+                "Someone closes the closet."
             ],
             "pre-state": [
-                "Initially, the closet/cabinet is closed.",
-                "Initially, the closet/cabinet is open."
+                "Initially, the closet is closed.",
+                "Initially, the closet is open."
             ],
             "post-state": [
-                "At the end, the closet/cabinet is open.",
-                "At the end, the closet/cabinet is closed."
+                "At the end, the closet is open.",
+                "At the end, the closet is closed."
             ],
             "inverse": [
-                "Initially, the closet/cabinet is closed. Then, someone opens the closet/cabinet. At the end, the closet/cabinet is open.",
-                "Initially, the closet/cabinet is open. Then, someone closes the closet/cabinet. At the end, the closet/cabinet is closed."
+                "Initially, the closet is closed. Then, someone opens the closet. At the end, the closet is open.",
+                "Initially, the closet is open. Then, someone closes the closet. At the end, the closet is closed."
             ]
         }
     },
@@ -15653,27 +15653,27 @@
         "change_of_state": {
             "verb": "put down",
             "verb-hypernym": "drop",
-            "object": "the cup/glass/bottle",
+            "object": "the bottle",
             "pre-state": "in a higher position",
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
         "foils": {
             "action": [
-                "Someone puts the cup/glass/bottle down.",
-                "Someone lifts the cup/glass/bottle."
+                "Someone puts the bottle down.",
+                "Someone lifts the bottle."
             ],
             "pre-state": [
-                "Initially, the cup/glass/bottle is in a higher position.",
-                "Initially, the cup/glass/bottle is in a lower position."
+                "Initially, the bottle is in a higher position.",
+                "Initially, the bottle is in a lower position."
             ],
             "post-state": [
-                "At the end, the cup/glass/bottle is in a lower position.",
-                "At the end, the cup/glass/bottle is in a higher position."
+                "At the end, the bottle is in a lower position.",
+                "At the end, the bottle is in a higher position."
             ],
             "inverse": [
-                "Initially, the cup/glass/bottle is in a higher position. Then, someone puts the cup/glass/bottle down. At the end, the cup/glass/bottle is in a lower position.",
-                "Initially, the cup/glass/bottle is in a lower position. Then, someone lifts the cup/glass/bottle. At the end, the cup/glass/bottle is in a higher position."
+                "Initially, the bottle is in a higher position. Then, someone puts the bottle down. At the end, the bottle is in a lower position.",
+                "Initially, the bottle is in a lower position. Then, someone lifts the bottle. At the end, the bottle is in a higher position."
             ]
         }
     },
@@ -16004,27 +16004,27 @@
         "change_of_state": {
             "verb": "put down",
             "verb-hypernym": "drop",
-            "object": "the cup/glass/bottle",
+            "object": "the bottle",
             "pre-state": "in a higher position",
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
         "foils": {
             "action": [
-                "Someone puts the cup/glass/bottle down.",
-                "Someone lifts the cup/glass/bottle."
+                "Someone puts the bottle down.",
+                "Someone lifts the bottle."
             ],
             "pre-state": [
-                "Initially, the cup/glass/bottle is in a higher position.",
-                "Initially, the cup/glass/bottle is in a lower position."
+                "Initially, the bottle is in a higher position.",
+                "Initially, the bottle is in a lower position."
             ],
             "post-state": [
-                "At the end, the cup/glass/bottle is in a lower position.",
-                "At the end, the cup/glass/bottle is in a higher position."
+                "At the end, the bottle is in a lower position.",
+                "At the end, the bottle is in a higher position."
             ],
             "inverse": [
-                "Initially, the cup/glass/bottle is in a higher position. Then, someone puts the cup/glass/bottle down. At the end, the cup/glass/bottle is in a lower position.",
-                "Initially, the cup/glass/bottle is in a lower position. Then, someone lifts the cup/glass/bottle. At the end, the cup/glass/bottle is in a higher position."
+                "Initially, the bottle is in a higher position. Then, someone puts the bottle down. At the end, the bottle is in a lower position.",
+                "Initially, the bottle is in a lower position. Then, someone lifts the bottle. At the end, the bottle is in a higher position."
             ]
         }
     },
@@ -28289,27 +28289,27 @@
         "change_of_state": {
             "verb": "put down",
             "verb-hypernym": "drop",
-            "object": "the cup/glass/bottle",
+            "object": "the bottle",
             "pre-state": "in a higher position",
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
         "foils": {
             "action": [
-                "Someone puts the cup/glass/bottle down.",
-                "Someone lifts the cup/glass/bottle."
+                "Someone puts the bottle down.",
+                "Someone lifts the bottle."
             ],
             "pre-state": [
-                "Initially, the cup/glass/bottle is in a higher position.",
-                "Initially, the cup/glass/bottle is in a lower position."
+                "Initially, the bottle is in a higher position.",
+                "Initially, the bottle is in a lower position."
             ],
             "post-state": [
-                "At the end, the cup/glass/bottle is in a lower position.",
-                "At the end, the cup/glass/bottle is in a higher position."
+                "At the end, the bottle is in a lower position.",
+                "At the end, the bottle is in a higher position."
             ],
             "inverse": [
-                "Initially, the cup/glass/bottle is in a higher position. Then, someone puts the cup/glass/bottle down. At the end, the cup/glass/bottle is in a lower position.",
-                "Initially, the cup/glass/bottle is in a lower position. Then, someone lifts the cup/glass/bottle. At the end, the cup/glass/bottle is in a higher position."
+                "Initially, the bottle is in a higher position. Then, someone puts the bottle down. At the end, the bottle is in a lower position.",
+                "Initially, the bottle is in a lower position. Then, someone lifts the bottle. At the end, the bottle is in a higher position."
             ]
         }
     },
@@ -28640,27 +28640,27 @@
         "change_of_state": {
             "verb": "put down",
             "verb-hypernym": "drop",
-            "object": "the cup/glass/bottle",
+            "object": "the bottle",
             "pre-state": "in a higher position",
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
         "foils": {
             "action": [
-                "Someone puts the cup/glass/bottle down.",
-                "Someone lifts the cup/glass/bottle."
+                "Someone puts the bottle down.",
+                "Someone lifts the bottle."
             ],
             "pre-state": [
-                "Initially, the cup/glass/bottle is in a higher position.",
-                "Initially, the cup/glass/bottle is in a lower position."
+                "Initially, the bottle is in a higher position.",
+                "Initially, the bottle is in a lower position."
             ],
             "post-state": [
-                "At the end, the cup/glass/bottle is in a lower position.",
-                "At the end, the cup/glass/bottle is in a higher position."
+                "At the end, the bottle is in a lower position.",
+                "At the end, the bottle is in a higher position."
             ],
             "inverse": [
-                "Initially, the cup/glass/bottle is in a higher position. Then, someone puts the cup/glass/bottle down. At the end, the cup/glass/bottle is in a lower position.",
-                "Initially, the cup/glass/bottle is in a lower position. Then, someone lifts the cup/glass/bottle. At the end, the cup/glass/bottle is in a higher position."
+                "Initially, the bottle is in a higher position. Then, someone puts the bottle down. At the end, the bottle is in a lower position.",
+                "Initially, the bottle is in a lower position. Then, someone lifts the bottle. At the end, the bottle is in a higher position."
             ]
         }
     },
@@ -32210,786 +32210,6 @@
             "inverse": [
                 "Initially, the bolt is on. Then, someone pushes the bolt off. At the end, the bolt is off.",
                 "Initially, the bolt is off. Then, someone turns the bolt on. At the end, the bolt is on."
-            ]
-        }
-    },
-    "858": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_7353",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "0M9ZO",
-        "start_time": 0.0,
-        "end_time": 6.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone sits the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "859": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T1_828",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "NHH8N",
-        "start_time": 0.1,
-        "end_time": 13.8,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person sit on?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone sits the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "860": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_1956",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "LG7WK",
-        "start_time": 0.0,
-        "end_time": 7.4,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the floor",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the floor on.",
-                "Someone turns the floor off."
-            ],
-            "pre-state": [
-                "Initially, the floor is off.",
-                "Initially, the floor is on."
-            ],
-            "post-state": [
-                "At the end, the floor is on.",
-                "At the end, the floor is off."
-            ],
-            "inverse": [
-                "Initially, the floor is off. Then, someone sits the floor on. At the end, the floor is on.",
-                "Initially, the floor is on. Then, someone turns the floor off. At the end, the floor is off."
-            ]
-        }
-    },
-    "861": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Prediction_T4_394",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "EG0VZ",
-        "start_time": 0.0,
-        "end_time": 14.8,
-        "time_unit": "sec",
-        "original_sentence": "Which object would the person sit on next?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone sits the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "862": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T1_1953",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "ZIP18",
-        "start_time": 1.4,
-        "end_time": 26.2,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person sit on?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone sits the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "863": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Prediction_T4_332",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "NBSPH",
-        "start_time": 15.5,
-        "end_time": 28.1,
-        "time_unit": "sec",
-        "original_sentence": "Which object would the person sit on next?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the table",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the table on.",
-                "Someone turns the table off."
-            ],
-            "pre-state": [
-                "Initially, the table is off.",
-                "Initially, the table is on."
-            ],
-            "post-state": [
-                "At the end, the table is on.",
-                "At the end, the table is off."
-            ],
-            "inverse": [
-                "Initially, the table is off. Then, someone sits the table on. At the end, the table is on.",
-                "Initially, the table is on. Then, someone turns the table off. At the end, the table is off."
-            ]
-        }
-    },
-    "864": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_3614",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "D9FR4",
-        "start_time": 3.6,
-        "end_time": 9.3,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone sits the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "865": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T2_5429",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "ITXRK",
-        "start_time": 2.0,
-        "end_time": 50.6,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the floor",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the floor on.",
-                "Someone turns the floor off."
-            ],
-            "pre-state": [
-                "Initially, the floor is off.",
-                "Initially, the floor is on."
-            ],
-            "post-state": [
-                "At the end, the floor is on.",
-                "At the end, the floor is off."
-            ],
-            "inverse": [
-                "Initially, the floor is off. Then, someone lies the floor on. At the end, the floor is on.",
-                "Initially, the floor is on. Then, someone turns the floor off. At the end, the floor is off."
-            ]
-        }
-    },
-    "866": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_4725",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "82XWA",
-        "start_time": 18.4,
-        "end_time": 25.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the floor",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the floor on.",
-                "Someone turns the floor off."
-            ],
-            "pre-state": [
-                "Initially, the floor is off.",
-                "Initially, the floor is on."
-            ],
-            "post-state": [
-                "At the end, the floor is on.",
-                "At the end, the floor is off."
-            ],
-            "inverse": [
-                "Initially, the floor is off. Then, someone sits the floor on. At the end, the floor is on.",
-                "Initially, the floor is on. Then, someone turns the floor off. At the end, the floor is off."
-            ]
-        }
-    },
-    "867": {
-        "dataset": "star",
-        "original_split": "val",
-        "dataset_idx": "Interaction_T1_5163",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "2ZXJ5",
-        "start_time": 7.5,
-        "end_time": 12.7,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone sits the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "868": {
-        "dataset": "star",
-        "original_split": "val",
-        "dataset_idx": "Sequence_T2_726",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "136V6",
-        "start_time": 13.9,
-        "end_time": 28.2,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone lies the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "869": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_6298",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "61WIS",
-        "start_time": 0.0,
-        "end_time": 5.6,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone sits the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "870": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T2_301",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "VE6GK",
-        "start_time": 1.0,
-        "end_time": 16.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone lies the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "871": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Interaction_T1_5070",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "OJLFZ",
-        "start_time": 0.4,
-        "end_time": 8.1,
-        "time_unit": "sec",
-        "original_sentence": "Which object was sat on by the person?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone sits the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "872": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T1_2397",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "1MD1H",
-        "start_time": 22.9,
-        "end_time": 33.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person sit on?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the sofa/couch",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the sofa/couch on.",
-                "Someone turns the sofa/couch off."
-            ],
-            "pre-state": [
-                "Initially, the sofa/couch is off.",
-                "Initially, the sofa/couch is on."
-            ],
-            "post-state": [
-                "At the end, the sofa/couch is on.",
-                "At the end, the sofa/couch is off."
-            ],
-            "inverse": [
-                "Initially, the sofa/couch is off. Then, someone sits the sofa/couch on. At the end, the sofa/couch is on.",
-                "Initially, the sofa/couch is on. Then, someone turns the sofa/couch off. At the end, the sofa/couch is off."
-            ]
-        }
-    },
-    "873": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T2_2958",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "XMF8Y",
-        "start_time": 0.0,
-        "end_time": 29.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone lies the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "874": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T2_3498",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "QKOP0",
-        "start_time": 12.0,
-        "end_time": 20.5,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person sit on?",
-        "change_of_state": {
-            "verb": "sit on",
-            "verb-hypernym": "turn on",
-            "object": "the table",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone sits the table on.",
-                "Someone turns the table off."
-            ],
-            "pre-state": [
-                "Initially, the table is off.",
-                "Initially, the table is on."
-            ],
-            "post-state": [
-                "At the end, the table is on.",
-                "At the end, the table is off."
-            ],
-            "inverse": [
-                "Initially, the table is off. Then, someone sits the table on. At the end, the table is on.",
-                "Initially, the table is on. Then, someone turns the table off. At the end, the table is off."
-            ]
-        }
-    },
-    "875": {
-        "dataset": "star",
-        "original_split": "val",
-        "dataset_idx": "Sequence_T1_5185",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "V9XR6",
-        "start_time": 0.0,
-        "end_time": 20.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone lies the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "876": {
-        "dataset": "star",
-        "original_split": "val",
-        "dataset_idx": "Sequence_T2_5758",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "6KI0S",
-        "start_time": 0.0,
-        "end_time": 27.0,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone lies the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
-            ]
-        }
-    },
-    "877": {
-        "dataset": "star",
-        "original_split": "train",
-        "dataset_idx": "Sequence_T2_564",
-        "dataset_subidx": null,
-        "linguistic_phenomena": "change-of-state",
-        "youtube_id": null,
-        "video_file": "YMD74",
-        "start_time": 0.0,
-        "end_time": 6.3,
-        "time_unit": "sec",
-        "original_sentence": "Which object did the person lie on?",
-        "change_of_state": {
-            "verb": "lie on",
-            "verb-hypernym": "turn on",
-            "object": "the bed",
-            "pre-state": "off",
-            "post-state": "on",
-            "state-inverse": "turn off"
-        },
-        "foils": {
-            "action": [
-                "Someone lies the bed on.",
-                "Someone turns the bed off."
-            ],
-            "pre-state": [
-                "Initially, the bed is off.",
-                "Initially, the bed is on."
-            ],
-            "post-state": [
-                "At the end, the bed is on.",
-                "At the end, the bed is off."
-            ],
-            "inverse": [
-                "Initially, the bed is off. Then, someone lies the bed on. At the end, the bed is on.",
-                "Initially, the bed is on. Then, someone turns the bed off. At the end, the bed is off."
             ]
         }
     },
