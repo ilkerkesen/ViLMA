@@ -30,7 +30,8 @@ Just run the following command,
 python vl_bench.py \
     --json-path /path/to/annotations.json \
     --quva-dir /path/to/quva \
-    --something-something-dir /path/to/dataset
+    --something-something-dir /path/to/dataset \
+    --output-file /path/to/output.json
 ```
 
-This command will produce a single output `output={accuracy}%`.
+This command will produce a results annotation file `/path/to/output.json`.

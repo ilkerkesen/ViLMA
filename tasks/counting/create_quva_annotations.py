@@ -414,12 +414,12 @@ METHODS = {
 
 @click.command()
 @click.option(
-    '--input-file',
+    '-i', '--input-file',
     type=click.Path(file_okay=True, exists=True, resolve_path=True),
     required=True,
 )
 @click.option(
-    '--output-file',
+    '-o', '--output-file',
     type=click.Path(writable=True, file_okay=True, resolve_path=True),
     required=True,
 )
@@ -453,6 +453,10 @@ METHODS = {
     '--normalized/--unnormalized',
     default=True,
 )
+@click.option(
+    '--use-spelling',
+    is_flag=True,
+)
 def main(
     input_file,
     output_file,
@@ -462,6 +466,7 @@ def main(
     n_count,
     m_diff,
     normalized,
+    use_spelling,
 ):
     rng = np.random.default_rng(seed)
     input_file = process_path(input_file)
@@ -476,6 +481,7 @@ def main(
         subset = METHODS[method](
             data_dir,
             item,
+            use_spelling=use_spelling,
             n_count=n_count,
             m_diff=m_diff,
             normalized=normalized,
