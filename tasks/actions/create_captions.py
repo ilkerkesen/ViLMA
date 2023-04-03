@@ -68,7 +68,7 @@ def get_past_perfect_tense(verb, verb_forms_dict=VERB_FORMS):
 
 def make_active_voice_sentence(verb, noun):
     verb_ = get_present_continuous_tense(verb)
-    return f'{verb} the {noun}'
+    return f'{verb_} the {noun}'
 
 
 def make_passive_voice_sentence(verb, noun):
@@ -126,7 +126,7 @@ def main(input, output, active):
         }
     
     with open(output, 'w') as f:
-        json.dump(data, f, indent=4, sort_keys=True)
+        json.dump(data, f, indent=4, sort_keys=False)
     print('done.')
 
 
