@@ -30,7 +30,8 @@ python run_bench.py \
     --config configs/vlbench.json
     --metadata_filename json_filename.json \
     --quva_dir /path/to/quva \
-    --something_something_dir /path/to/dataset-videos
+    --something_something_dir /path/to/dataset-videos \
+    --output_file /path/to/output.json
 ```
 
-This command will produce a single output `output={accuracy}%`.
+This command will produce a results annotation file `/path/to/output.json`.
