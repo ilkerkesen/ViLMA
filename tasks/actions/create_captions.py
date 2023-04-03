@@ -6,74 +6,10 @@ import pandas as pd
 from tqdm import tqdm
 from word_forms.word_forms import get_word_forms
 from vl_bench.utils import process_path
-
-
-def create_verb_forms_dict(file_path):
-    '''
-        Processes the en-verbs.txt file. Listing the most common useful forms,
-        - 0: the verb lemma (e.g. throw)
-        - 3: the third person singular (e.g. throws)
-        - 5: the present continous tense (e.g. throwing)
-        - 10: the past tense (e.g. threw)
-        - 11: the past perfect tense (e.g. thrown)
-    '''
-    file_path = process_path(file_path)
-    verb_forms_dict = dict()
-    with open(file_path, 'r') as f:
-        for line in f.readlines():
-            if not line.startswith(';;;'):
-                forms = line.strip().split(',')
-                verb_forms_dict[forms[0]] = forms
-    return verb_forms_dict
-
-
-VERB_FORMS_FILE = osp.join(osp.dirname(process_path(__file__)), 'en-verbs.txt')
-VERB_FORMS = create_verb_forms_dict(VERB_FORMS_FILE)
-PRESENT_CONT_INDEX = 5
-PAST_PERFECT_INDEX = 11
-
-
-def get_present_continuous_tense(verb, verb_forms_dict=VERB_FORMS):
-    # handle the exceptions that do not exist in the database
-    if verb == 'deseed':
-        return 'deseeding'
-
-    if verb == 'microwave':
-        return 'microwaving'
-
-    forms = verb_forms_dict.get(verb)
-    if forms is None:
-        raise RuntimeError(f"Couldn't find the forms for {verb}")
-    if forms[PRESENT_CONT_INDEX] == '':
-        raise RuntimeError(
-            f"The present continuous tense doesn't exist for {verb}")
-    return forms[PRESENT_CONT_INDEX]
-
-
-def get_past_perfect_tense(verb, verb_forms_dict=VERB_FORMS):
-    # handle the exceptions that do not exist in the database
-    if verb == 'deseed':
-        return 'deseeded'
-
-    if verb == 'microwave':
-        return 'microwaved'
-
-    forms = verb_forms_dict.get(verb)
-    if forms is None:
-        raise RuntimeError(f"Couldn't find the forms for {verb}")
-    if forms[PAST_PERFECT_INDEX] == '':
-        raise RuntimeError(f"The past perfect tense doesn't exist for ")
-    return forms[PAST_PERFECT_INDEX]
-
-
-def make_active_voice_sentence(verb, noun):
-    verb_ = get_present_continuous_tense(verb)
-    return f'{verb_} the {noun}'
-
-
-def make_passive_voice_sentence(verb, noun):
-    verb_ = get_past_perfect_tense(verb)
-    return f'the {noun} is being {verb_}'
+from vl_bench.actions import (
+    make_active_voice_sentence,
+    make_passive_voice_sentence,
+)
 
 
 @click.command()
