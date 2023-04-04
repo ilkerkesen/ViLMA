@@ -4,7 +4,6 @@ import json
 import click
 import pandas as pd
 from tqdm import tqdm
-from word_forms.word_forms import get_word_forms
 from vl_bench.utils import process_path
 from vl_bench.actions import (
     make_active_voice_sentence,
