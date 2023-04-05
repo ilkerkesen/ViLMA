@@ -23,6 +23,10 @@ python tasks/counting/normalize_annotations.py --data-dir /path/to/quva
 
 This snippet first downloads the data, extracts it to somewhere, then performs FPS normalization on the data. For more details check [the counting documentation](/tasks/counting/README.md).
 
+### Something-Something V2 Dataset
+
+This dataset is required to run the experiments for the relation task. Follow the instruction reported to [this link](https://developer.qualcomm.com/software/ai-datasets/something-something) to download the data.
+
 ## Models
 
 We share the details of each model in a seperate documentation file under `./models/{modality}/` directory. We have implemented the following models so far,
