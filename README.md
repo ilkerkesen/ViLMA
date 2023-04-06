@@ -25,7 +25,29 @@ This snippet first downloads the data, extracts it to somewhere, then performs F
 
 ### Something-Something V2 Dataset
 
-This dataset is required to run the experiments for the relation task. Follow the instruction reported to [this link](https://developer.qualcomm.com/software/ai-datasets/something-something) to download the data.
+This [dataset](https://developer.qualcomm.com/software/ai-datasets/something-something) is required to run the experiments for the relation task. Follow the instruction reported to [this link](https://developer.qualcomm.com/software/ai-datasets/something-something) to download the data.
+
+
+### YouCook2 Dataset
+
+This [dataset](http://youcook2.eecs.umich.edu/) is required to run the experiments for the change-state task. Authors only provide the annotations and do not distribute the videos. We have selected a subset of the dataset annotations limiting ourselves to items for which videos are still available on YouTube (last checked 06.04.2023). Videos can be downloaded using this [script](bin/youtube_downloader).
+
+### COIN Dataset
+
+This [dataset](https://coin-dataset.github.io/) is required to run the experiments for the change-state task. Authors only store the urls of videos and their annotations in JSON format. We have selected a subset of their annotations for which videos are still availble (last checked 06.04.2023). Videos can be downloaded using this [script](bin/youtube_downloader).
+
+
+### RareAct Dataset
+
+This [dataset](https://github.com/antoine77340/RareAct) is required to run the
+experiments for the change-state task.
+Videos are provided by the original authors and can be downloaded in a single zipped file via the following [link](https://www.rocq.inria.fr/cluster-willow/amiech/rareact.zip). The video names are the YouTube ids of the videos.
+
+
+### STAR Dataset
+
+This [dataset](https://bobbywu.com/STAR/) is required to run the experiments for the change-state task. Raw videos are not provided by the authors. We have selected a subset of their annotations for which videos are still availble (last checked 06.04.2023). Videos can be downloaded using this [script](bin/youtube_downloader).
+
 
 ## Models
 
