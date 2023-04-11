@@ -23,7 +23,7 @@ from vl_bench.utils import process_path
 @click.option(
     '--model-name',
     type=str,
-    default='roberta-large-mnli',
+    default='ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli',
     show_default=True,
 )
 @click.option(
@@ -49,7 +49,7 @@ def main(input_file, output_file, model_name, device):
     for key, item in tqdm(data.items()):
         texts = [f"{item['caption']}. {foil}." for foil in item['foils']]
         outputs = model(texts)
-        labels = [x['label'] for x in outputs]
+        labels = [x['label'].lower() for x in outputs]
         scores = [x['score'] for x in outputs] 
         num_foil_candidates = len(outputs)
         item['foil_nli_labels'] = labels
