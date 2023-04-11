@@ -9,7 +9,6 @@ import spacy
 from spacy.language import Language
 import torch
 from nltk.tokenize import sent_tokenize
-from tqdm import tqdm
 from transformers import BertConfig, BertForSequenceClassification, BertTokenizer, BertForMaskedLM
 from transformers import glue_convert_examples_to_features, logging
 from transformers.data.processors.utils import InputExample
@@ -67,12 +66,8 @@ def get_lm_score(sentences, model, tokenizer):
             loss = model(input_ids, labels=input_ids)[0]
         return math.exp(loss.item())
 
-    # model_name = 'bert-base-cased'
-    # model = BertForMaskedLM.from_pretrained(model_name).to(device)
-    # model.eval()
-    # tokenizer = BertTokenizer.from_pretrained(model_name)
     lm_score = []
-    for sentence in tqdm(sentences):
+    for sentence in sentences:
         if len(sentence) == 0:
             lm_score.append(0.0)
             continue
@@ -122,7 +117,7 @@ def get_cola_score(sentences, model, tokenizer):
             sampler=torch.utils.data.SequentialSampler(eval_dataset),
             batch_size=max(1, torch.cuda.device_count()))
         preds = None
-        for batch in tqdm(eval_dataloader, desc="Evaluating"):
+        for batch in eval_dataloader:
             model.eval()
             batch = tuple(t.to(device) for t in batch)
 
