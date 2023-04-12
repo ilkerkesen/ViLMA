@@ -42,6 +42,10 @@ class Dataset_v1(Dataset):
         num_frames=None,
         youtube_dir=None,
         quva_dir=None,
+        youcook2_dir=None,
+        rareact_dir=None,
+        coin_dir=None,
+        star_dir=None,
         something_something_dir=None,        
         **kwargs,
     ):
@@ -62,27 +66,61 @@ class Dataset_v1(Dataset):
         self.something_something_dir = None
         if something_something_dir is not None:
             self.something_something_dir = process_path(something_something_dir)
+        
+        self.youcook2_dir = None
+        if youcook2_dir is not None:
+            self.youcook2_dir = process_path(youcook2_dir)
+        
+        self.rareact_dir = None
+        if rareact_dir is not None:
+            self.rareact_dir = process_path(rareact_dir)
+        
+        self.coin_dir = None
+        if coin_dir is not None:
+            self.coin_dir = process_path(coin_dir)
+
+        self.star_dir = None
+        if star_dir is not None:
+            self.star_dir = process_path(star_dir)
 
 
     def _read_video(self, item):
         # find the full path
         dataset = item['dataset']
-        video_file = item['video_file']
         video_path = None
         if dataset == 'QUVA':
+            video_file = item['video_file']
             normalized = item.get('normalized')
             assert normalized
             video_dir = osp.join(self.quva_dir, 'normalized_videos')
-            video_path = osp.join(video_dir, video_file)
+            video_path = osp.join(video_dir, video_file)    # TODO: extension?
         elif dataset == 'something-something-v2':
+            video_file = item['video_file']
             video_dir = self.something_something_dir
-            video_path = osp.join(video_dir, f'{item["dataset_idx"]}.webm')
+            video_path = osp.join(video_dir, f'{video_file}.webm')
+        elif dataset == 'youcook2':
+            video_file = item['youtube_id']
+            video_dir = self.youcook2_dir
+            video_path = osp.join(video_dir, f'{video_file}.mp4')
+        elif dataset == 'rareact':
+            video_file = item['youtube_id']
+            video_dir = self.rareact_dir
+            video_path = osp.join(video_dir, f'{video_file}.mp4')
+        elif dataset == 'coin':
+            video_file = item['youtube_id']
+            video_dir = self.coin_dir
+            video_path = osp.join(video_dir, f'{video_file}.mp4')
+        elif dataset == 'star':
+            video_file = item['video_file']
+            video_dir = self.star_dir
+            video_path = osp.join(video_dir, f'{video_file}.mp4')
         else:
             raise NotImplementedError('Not implemented yet.')
 
         start_pts = item.get('start_time')
         end_pts = item.get('end_time', -1)
         end_pts = end_pts if end_pts != -1 else None
+        start_pts = start_pts if start_pts is not None else 0
 
         if item['time_unit'] == 'sec':
             end_pts = float(end_pts) if end_pts is not None else None

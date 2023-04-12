@@ -58,6 +58,26 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
     required=False,
 )
 @click.option(
+    '--coin-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    '--youcook2-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    '--star-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    '--rareact-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
     '-o', '--output-file',
     type=click.Path(file_okay=True),
     required=True,
@@ -69,21 +89,37 @@ def main(
     device,
     quva_dir,
     something_something_dir,
+    coin_dir,
+    youcook2_dir,
+    star_dir,
+    rareact_dir,
     output_file,
 ):
     # check video datasets' dirs
-    assert quva_dir is not None or something_something_dir is not None
+    assert any((quva_dir, something_something_dir, coin_dir, youcook2_dir, star_dir, rareact_dir)), "at least one dataset is required"
     if quva_dir is not None:
         quva_dir = process_path(quva_dir)
     if something_something_dir is not None:
         something_something_dir = process_path(something_something_dir)
+    if coin_dir is not None:
+        coin_dir = process_path(coin_dir)
+    if youcook2_dir is not None:
+        youcook2_dir = process_path(youcook2_dir)
+    if star_dir is not None:
+        star_dir = process_path(star_dir)
+    if rareact_dir is not None:
+        rareact_dir = process_path(rareact_dir)
     np.random.seed(0)
 
     # read data
     data = Dataset_v1(
         input_file,
         quva_dir=quva_dir,
-        something_something_dir=something_something_dir,    
+        something_something_dir=something_something_dir,
+        coin_dir=coin_dir,
+        youcook2_dir=youcook2_dir,
+        star_dir=star_dir,
+        rareact_dir=rareact_dir    
     )
 
     # initialize model & processor
