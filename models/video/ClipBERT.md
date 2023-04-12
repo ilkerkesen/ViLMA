@@ -47,8 +47,9 @@ Singularity> python src/tasks/run_bench.py \
     --json_path /path/to/annotations.json \
     --quva_dir /quva \
     --something_something_dir /something \
-    --num_frames 16
-    --config $CONFIG_PATH
+    --num_frames 16 \
+    --config $CONFIG_PATH \
+    --output_file /path/to/output.json
 ```
 
-This command will produce a single output `output={accuracy}%`.
+This command will produce a results annotation file `/path/to/output.json`.
