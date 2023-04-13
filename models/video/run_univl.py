@@ -1,36 +1,34 @@
-import math
-import numpy as np
-import ffmpeg
-import torchvision
-import sys
-from tqdm import tqdm
 import os
-from vl_bench.utils import process_path
-from vl_bench.data import Dataset_v1
-import torch.nn.functional as F
-import json
 
-UNIVL_DIR = "~/devel/UniVL"
-VIDEO_FEAT_EXTRACTOR_DIR = "~/devel/VideoFeatureExtractor"
-CACHE_DIR = "./cache"
-os.makedirs(CACHE_DIR, exist_ok=True)
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+import json
+import math
+
+import click
+import ffmpeg
+import numpy as np
+import torch
+import torch.nn.functional as F
+import torchvision
+# import sys
+from tqdm import tqdm
+
+from models.video.UniVL.benchmark_univl import init_univl
+from models.video.UniVL.VideoFeatureExtractor.model import init_weight
+from models.video.UniVL.VideoFeatureExtractor.preprocessing import \
+    Preprocessing
+from models.video.UniVL.VideoFeatureExtractor.videocnn.models import s3dg
+from vl_bench.data import Dataset_v1
+from vl_bench.utils import process_path
+
 FRAMERATE_DICT = {"2d": 1, "3d": 24, "s3dg": 16, "raw_data": 16}
 SIZE_DICT = {"2d": 224, "3d": 112, "s3dg": 224, "raw_data": 224}
 CENTERCROP_DICT = {"2d": False, "3d": True, "s3dg": True, "raw_data": True}
 FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
 
-DEBUG = True
-
-sys.path.append(process_path(UNIVL_DIR))
-sys.path.append(process_path(VIDEO_FEAT_EXTRACTOR_DIR))
-
-import torch
-import click
-from model import init_weight
-from videocnn.models import s3dg
-from preprocessing import Preprocessing
-from benchmark_univl import init_model
-
+CACHE_DIR = process_path("cache")
+os.makedirs(CACHE_DIR, exist_ok=True)
 
 @click.command()
 @click.option(
@@ -95,7 +93,7 @@ def main(
     output_file,
 ):
     print(f"- running UniVL on {input_file}")
-    univl, tokenizer = init_model(device=device)
+    univl, tokenizer = init_univl(device=device)
     video_extractor, video_preprocessor = init_s3dg(device=device)
 
     data = Dataset_v1(
@@ -113,9 +111,6 @@ def main(
         for item in tqdm(data):
             video = item["video"]
             video_path = item["video_path"]
-
-            # if str(item["item_id"]) == "100":
-            #     print("427x240")
 
             # if end time and not cached is not none we crop videos to correct size and store them in cache
             if item["end_time"] is not None and "cache" not in item["video_path"]:
@@ -239,7 +234,7 @@ def read_ffmpeg(video_path):
 
 
 def init_s3dg(
-    device, model_path="~/devel/VideoFeatureExtractor/model/s3d_howto100m.pth"
+    device, model_path="models/video/UniVL/VideoFeatureExtractor/model/s3d_howto100m.pth"
 ):
     model = s3dg.S3D(last_fc=False)
     model = model.to(device)
