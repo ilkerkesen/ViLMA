@@ -11,13 +11,11 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import torchvision
-# import sys
 from tqdm import tqdm
 
 from models.video.UniVL.benchmark_univl import init_univl
 from models.video.UniVL.VideoFeatureExtractor.model import init_weight
-from models.video.UniVL.VideoFeatureExtractor.preprocessing import \
-    Preprocessing
+from models.video.UniVL.VideoFeatureExtractor.preprocessing import Preprocessing
 from models.video.UniVL.VideoFeatureExtractor.videocnn.models import s3dg
 from vl_bench.data import Dataset_v1
 from vl_bench.utils import process_path
@@ -29,6 +27,7 @@ FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
 
 CACHE_DIR = process_path("cache")
 os.makedirs(CACHE_DIR, exist_ok=True)
+
 
 @click.command()
 @click.option(
@@ -234,7 +233,8 @@ def read_ffmpeg(video_path):
 
 
 def init_s3dg(
-    device, model_path="models/video/UniVL/VideoFeatureExtractor/model/s3d_howto100m.pth"
+    device,
+    model_path="models/video/UniVL/VideoFeatureExtractor/model/s3d_howto100m.pth",
 ):
     model = s3dg.S3D(last_fc=False)
     model = model.to(device)
