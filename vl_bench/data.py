@@ -125,11 +125,12 @@ class Dataset_v1(Dataset):
         end_pts = end_pts if end_pts != -1 else None
         start_pts = start_pts if start_pts is not None else 0
 
-        cached_file = (
-            os.path.join(self.cache_dir, str(self.json_data.ids[index])) + ".mp4"
-        )
-        if os.path.exists(cached_file):
-            return None, None, cached_file
+        if self.cache_dir is not None:
+            cached_file = (
+                os.path.join(self.cache_dir, str(self.json_data.ids[index])) + ".mp4"
+            )
+            if os.path.exists(cached_file):
+                return None, None, cached_file
 
         if item["time_unit"] == "sec":
             end_pts = float(end_pts) if end_pts is not None else None
