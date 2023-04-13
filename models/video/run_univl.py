@@ -1,0 +1,256 @@
+import math
+import numpy as np
+import ffmpeg
+import torchvision
+import sys
+from tqdm import tqdm
+import os
+from vl_bench.utils import process_path
+from vl_bench.data import Dataset_v1
+import torch.nn.functional as F
+import json
+
+UNIVL_DIR = "~/devel/UniVL"
+VIDEO_FEAT_EXTRACTOR_DIR = "~/devel/VideoFeatureExtractor"
+CACHE_DIR = "./cache"
+os.makedirs(CACHE_DIR, exist_ok=True)
+FRAMERATE_DICT = {"2d": 1, "3d": 24, "s3dg": 16, "raw_data": 16}
+SIZE_DICT = {"2d": 224, "3d": 112, "s3dg": 224, "raw_data": 224}
+CENTERCROP_DICT = {"2d": False, "3d": True, "s3dg": True, "raw_data": True}
+FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
+
+DEBUG = True
+
+sys.path.append(process_path(UNIVL_DIR))
+sys.path.append(process_path(VIDEO_FEAT_EXTRACTOR_DIR))
+
+import torch
+import click
+from model import init_weight
+from videocnn.models import s3dg
+from preprocessing import Preprocessing
+from benchmark_univl import init_model
+
+
+@click.command()
+@click.option(
+    "-i", "--input-file", type=click.Path(exists=True, file_okay=True), required=True
+)
+@click.option(
+    "--batch-size",
+    type=int,
+    default=1,
+)
+@click.option(
+    "--device",
+    type=str,
+    default="cuda:0" if torch.cuda.is_available() else "cpu",
+)
+@click.option(
+    "--quva-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "--something-something-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "--coin-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "--youcook2-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "--star-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "--rareact-dir",
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
+    "-o",
+    "--output-file",
+    type=click.Path(file_okay=True),
+    required=True,
+)
+def main(
+    input_file,
+    batch_size,
+    device,
+    quva_dir,
+    something_something_dir,
+    coin_dir,
+    youcook2_dir,
+    star_dir,
+    rareact_dir,
+    output_file,
+):
+    print(f"- running UniVL on {input_file}")
+    univl, tokenizer = init_model(device=device)
+    video_extractor, video_preprocessor = init_s3dg(device=device)
+
+    data = Dataset_v1(
+        input_file,
+        something_something_dir=something_something_dir,
+        coin_dir=coin_dir,
+        youcook2_dir=youcook2_dir,
+        star_dir=star_dir,
+        rareact_dir=rareact_dir,
+        cache_dir=CACHE_DIR,
+    )
+
+    results = {}
+    with torch.no_grad():
+        for item in tqdm(data):
+            video = item["video"]
+            video_path = item["video_path"]
+
+            # if str(item["item_id"]) == "100":
+            #     print("427x240")
+
+            # if end time and not cached is not none we crop videos to correct size and store them in cache
+            if item["end_time"] is not None and "cache" not in item["video_path"]:
+                # rely on torchvision to cut the video
+                fname = str(item["item_id"]) + ".mp4"
+                torchvision.io.write_video(
+                    # Writes a 4d tensor in [T, H, W, C] format in a video file (we get TCHW)
+                    os.path.join(CACHE_DIR, fname),
+                    video.permute([0, 2, 3, 1]),
+                    item["fps"],
+                )
+                video_path = os.path.join(CACHE_DIR, fname)
+
+            # extract video features via UniVL code
+            video = video_preprocessor(read_ffmpeg(video_path))
+            video = extract_video_features(video, video_extractor, device, batch_size=1)
+
+            true_capt = item["raw_texts"][0]
+            foil_capt = item["raw_texts"][1]
+
+            scores = [
+                get_similarity_scores(univl, video, true_capt, tokenizer, device),
+                get_similarity_scores(univl, video, foil_capt, tokenizer, device),
+            ]
+            scores = convert_to_prob(scores)
+            results[str(item["item_id"])] = {"scores": scores}
+
+    with open(process_path(output_file), "w") as f:
+        json.dump(results, f)
+
+
+def convert_to_prob(scores):
+    probs = F.softmax(torch.hstack(scores).squeeze(), dim=0).cpu()
+    return [probs[0].item(), probs[1].item()]
+
+
+def extract_video_features(video, video_extractor, device, batch_size=1):
+    n_chunk = len(video)
+    features = torch.cuda.FloatTensor(n_chunk, FEATURE_LENGTH["s3dg"]).fill_(0)
+    n_iter = int(math.ceil(n_chunk / float(batch_size)))
+    for i in range(n_iter):
+        min_ind = i * batch_size
+        max_ind = (i + 1) * batch_size
+        video_batch = video[min_ind:max_ind].to(device)
+        batch_features = video_extractor(video_batch)
+        features[min_ind:max_ind] = batch_features
+        batch_features = F.normalize(batch_features, dim=1)
+        features[min_ind:max_ind] = batch_features
+    features = features.cpu().numpy()
+    return features
+
+
+def get_similarity_scores(univl, video_features, text, tokenizer, device):
+    text_ids, text_mask, text_token_type = _get_text_input(text, tokenizer, device)
+    video_mask = _get_video_mask(video_features, device)
+    video_features = torch.tensor(video_features).to(device)
+
+    capt_sequence_output, capt_visual_output = univl.get_sequence_visual_output(
+        text_ids, text_mask, text_token_type, video_features, video_mask
+    )
+    similarity = univl.get_similarity_logits(
+        capt_sequence_output, capt_visual_output, text_mask, video_mask
+    )
+    return similarity
+
+
+def _get_video_mask(video, device):
+    return torch.ones(size=(1, video.shape[0])).to(device)
+
+
+def _get_text_input(text, tokenizer, device):
+    text_ids = tokenizer.convert_tokens_to_ids(
+        ["[CLS]"] + tokenizer.tokenize(text.lower()) + ["[SEP]"]
+    )
+    text_mask = [1] * len(text_ids)
+    text_token_type = [0] * len(text_ids)
+    return (
+        torch.tensor(text_ids).to(device),
+        torch.tensor(text_mask).to(device),
+        torch.tensor(text_token_type).to(device),
+    )
+
+
+def _get_video_dim(video_path):
+    probe = ffmpeg.probe(video_path)
+    video_stream = next(
+        (stream for stream in probe["streams"] if stream["codec_type"] == "video"),
+        None,
+    )
+    width = int(video_stream["width"])
+    height = int(video_stream["height"])
+    return height, width
+
+
+def _get_output_dim(h, w):
+    if h >= w:
+        return int(h * SIZE_DICT["s3dg"] / w), SIZE_DICT["s3dg"]
+    else:
+        return SIZE_DICT["s3dg"], int(w * SIZE_DICT["s3dg"] / h)
+
+
+def read_ffmpeg(video_path):
+    h, w = _get_video_dim(video_path)
+    height, width = _get_output_dim(h, w)
+    cmd = (
+        ffmpeg.input(video_path)
+        .filter("fps", fps=FRAMERATE_DICT["s3dg"])
+        .filter("scale", width, height)
+    )
+    x = int((width - SIZE_DICT["s3dg"]) / 2.0)
+    y = int((height - SIZE_DICT["s3dg"]) / 2.0)
+    cmd = cmd.crop(x, y, SIZE_DICT["s3dg"], SIZE_DICT["s3dg"])
+    out, _ = cmd.output("pipe:", format="rawvideo", pix_fmt="rgb24").run(
+        capture_stdout=True, quiet=True
+    )
+    height, width = SIZE_DICT["s3dg"], SIZE_DICT["s3dg"]
+    video = np.frombuffer(out, np.uint8).reshape([-1, height, width, 3])
+    video = torch.from_numpy(video.astype("float32"))
+    video = video.permute(0, 3, 1, 2)
+    return video
+
+
+def init_s3dg(
+    device, model_path="~/devel/VideoFeatureExtractor/model/s3d_howto100m.pth"
+):
+    model = s3dg.S3D(last_fc=False)
+    model = model.to(device)
+    model_data = torch.load(process_path(model_path))
+    model = init_weight(model, model_data)
+    model.eval()
+
+    preprocessor = Preprocessing("s3dg", FRAMERATE_DICT)
+
+    return model, preprocessor
+
+
+if __name__ == "__main__":
+    main()
