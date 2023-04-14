@@ -165,7 +165,7 @@ class Dataset_v1(Dataset):
             "raw_texts": raw_texts,
             "fps": fps,
             "start_time": entry["start_time"],
-            "end_time": entry["end_time"],
+            "end_time": entry["end_time"] if entry["end_time"] != -1 else None,
             "video_path": video_path,
         }
         return item
