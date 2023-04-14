@@ -25,9 +25,6 @@ SIZE_DICT = {"2d": 224, "3d": 112, "s3dg": 224, "raw_data": 224}
 CENTERCROP_DICT = {"2d": False, "3d": True, "s3dg": True, "raw_data": True}
 FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
 
-CACHE_DIR = process_path("cache")
-os.makedirs(CACHE_DIR, exist_ok=True)
-
 
 @click.command()
 @click.option(
@@ -94,6 +91,12 @@ def main(
     print(f"- running UniVL on {input_file}")
     univl, tokenizer = init_univl(device=device)
     video_extractor, video_preprocessor = init_s3dg(device=device)
+
+    # setting up cache for segmented videos
+    dataset_name = input_file.split("/")[-1].split(".")[0]
+    dataset_name = "change-state" if "change-state" in dataset_name else dataset_name
+    CACHE_DIR = process_path(os.path.join("cache", dataset_name))
+    os.makedirs(CACHE_DIR, exist_ok=True)
 
     data = Dataset_v1(
         input_file,
