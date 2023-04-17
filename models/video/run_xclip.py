@@ -9,9 +9,7 @@ from vl_bench.data import Dataset_v1
 from vl_bench.utils import process_path
 
 
-MODELS = (
-    'microsoft/xclip-base-patch32',
-)
+MODELS = ("microsoft/xclip-base-patch32",)
 
 
 def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
@@ -19,7 +17,7 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
     if seg_len > converted_len:
         end_idx = np.random.randint(converted_len, seg_len)
     else:
-        end_idx = min(converted_len, seg_len)-1
+        end_idx = min(converted_len, seg_len) - 1
     start_idx = end_idx - converted_len
     indices = np.linspace(start_idx, end_idx, num=clip_len)
     indices = np.clip(indices, start_idx, end_idx - 1).astype(np.int64)
@@ -28,60 +26,61 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
 
 @click.command()
 @click.option(
-    '-i', '--input-file',
-    type=click.Path(exists=True, file_okay=True),
-    required=True
+    "-i", "--input-file", type=click.Path(exists=True, file_okay=True), required=True
 )
 @click.option(
-    '-m', '--model-name',
+    "-m",
+    "--model-name",
     type=click.Choice(choices=MODELS),
     default=MODELS[0],
 )
 @click.option(
-    '--batch-size',
+    "--batch-size",
     type=int,
     default=1,
 )
 @click.option(
-    '--device',
+    "--device",
     type=str,
-    default='cuda:0' if torch.cuda.is_available() else 'cpu',
+    default="cuda:0" if torch.cuda.is_available() else "cpu",
 )
 @click.option(
-    '--quva-dir',
+    "--quva-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '--something-something-dir',
+    "--something-something-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '--coin-dir',
+    "--coin-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '--youcook2-dir',
+    "--youcook2-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '--star-dir',
+    "--star-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '--rareact-dir',
+    "--rareact-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    '-o', '--output-file',
+    "-o",
+    "--output-file",
     type=click.Path(file_okay=True),
     required=True,
 )
+@click.option("--mask-video", type=bool, required=True, default=False)
 def main(
     input_file,
     model_name,
@@ -94,9 +93,21 @@ def main(
     star_dir,
     rareact_dir,
     output_file,
+    mask_video,
 ):
+    print(f"- running xclip on {input_file}")
+    print(f"- output to {output_file}")
     # check video datasets' dirs
-    assert any((quva_dir, something_something_dir, coin_dir, youcook2_dir, star_dir, rareact_dir)), "at least one dataset is required"
+    assert any(
+        (
+            quva_dir,
+            something_something_dir,
+            coin_dir,
+            youcook2_dir,
+            star_dir,
+            rareact_dir,
+        )
+    ), "at least one dataset is required"
     if quva_dir is not None:
         quva_dir = process_path(quva_dir)
     if something_something_dir is not None:
@@ -119,7 +130,7 @@ def main(
         coin_dir=coin_dir,
         youcook2_dir=youcook2_dir,
         star_dir=star_dir,
-        rareact_dir=rareact_dir    
+        rareact_dir=rareact_dir,
     )
 
     # initialize model & processor
@@ -131,24 +142,28 @@ def main(
         indices = sample_frame_indices(  # FIXME: hardcoded
             clip_len=8,
             frame_sample_rate=1,
-            seg_len=item['video'].shape[0],
+            seg_len=item["video"].shape[0],
         )
-        downsampled = item['video'][indices]
+        downsampled = item["video"][indices]
+
+        if mask_video:
+            downsampled = torch.zeros_like(downsampled)
+
         inputs = processor(
-            text=item['raw_texts'],
+            text=item["raw_texts"],
             videos=list(downsampled),
-            return_tensors='pt',
+            return_tensors="pt",
             padding=True,
         ).to(device)
-        inputs['pixel_values'] = inputs['pixel_values'].half()
+        inputs["pixel_values"] = inputs["pixel_values"].half()
 
         with torch.no_grad():
             output = model(**inputs)
         scores = output.logits_per_video.softmax(dim=-1).tolist()[0]
-        item_id = item['item_id']
-        results[item_id] = {'scores': scores}
+        item_id = item["item_id"]
+        results[item_id] = {"scores": scores}
 
-    with open(process_path(output_file), 'w') as f:
+    with open(process_path(output_file), "w") as f:
         json.dump(results, f, indent=4)
 
 

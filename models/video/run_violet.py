@@ -9,6 +9,7 @@ from torchvision.transforms import ToPILImage
 import transformers
 from tqdm import tqdm
 import torch.nn.functional as F
+from models.video.pytorch_violet.vl_bench import init_model
 
 
 @click.command()
@@ -61,6 +62,7 @@ import torch.nn.functional as F
     type=click.Path(file_okay=True),
     required=True,
 )
+@click.option("--mask-video", type=bool, required=True, default=False)
 def main(
     input_file,
     batch_size,
@@ -72,9 +74,10 @@ def main(
     star_dir,
     rareact_dir,
     output_file,
+    mask_video,
 ):
     print(f"- running VIOLET on {input_file}")
-    from models.video.pytorch_violet.vl_bench import init_model
+    print(f"- output file: {output_file}")
 
     violet = init_model()
     violet.load_ckpt(
@@ -96,6 +99,8 @@ def main(
     with torch.no_grad():
         for item in tqdm(data):
             video = get_images(item["video"], device)
+            if mask_video:
+                video = torch.zeros_like(video).to(device)
             true_capt, capt_mask = str2txt(tokenizer, item["raw_texts"][0], device)
             foil_capt, foil_mask = str2txt(tokenizer, item["raw_texts"][1], device)
             true_score = get_similarity(violet, video, true_capt, capt_mask)

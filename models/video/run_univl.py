@@ -76,6 +76,7 @@ FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
     type=click.Path(file_okay=True),
     required=True,
 )
+@click.option("--mask-video", type=bool, required=True, default=False)
 def main(
     input_file,
     batch_size,
@@ -87,8 +88,13 @@ def main(
     star_dir,
     rareact_dir,
     output_file,
+    mask_video,
 ):
     print(f"- running UniVL on {input_file}")
+    print(f"- output file: {output_file}")
+    if mask_video:
+        output_file = output_file.replace(".json", "_masked.json")
+
     univl, tokenizer = init_univl(device=device)
     video_extractor, video_preprocessor = init_s3dg(device=device)
 
@@ -116,7 +122,7 @@ def main(
 
             # if end time and not cached is not none we crop videos to correct size and store them in cache
             if item["end_time"] is not None and "cache" not in item["video_path"]:
-                # rely on torchvision to cut the video
+                # rely on torchvision to cut the video (and encode webm as mp4)
                 fname = str(item["item_id"]) + ".mp4"
                 torchvision.io.write_video(
                     # Writes a 4d tensor in [T, H, W, C] format in a video file (we get TCHW)
@@ -129,6 +135,10 @@ def main(
             # extract video features via UniVL code
             video = video_preprocessor(read_ffmpeg(video_path))
             video = extract_video_features(video, video_extractor, device, batch_size=1)
+
+            if mask_video:
+                # mask video features
+                video = np.zeros_like(video)
 
             true_capt = item["raw_texts"][0]
             foil_capt = item["raw_texts"][1]
