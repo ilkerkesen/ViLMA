@@ -92,8 +92,6 @@ def main(
 ):
     print(f"- running UniVL on {input_file}")
     print(f"- output file: {output_file}")
-    if mask_video:
-        output_file = output_file.replace(".json", "_masked.json")
 
     univl, tokenizer = init_univl(device=device)
     video_extractor, video_preprocessor = init_s3dg(device=device)
@@ -168,7 +166,6 @@ def extract_video_features(video, video_extractor, device, batch_size=1):
         max_ind = (i + 1) * batch_size
         video_batch = video[min_ind:max_ind].to(device)
         batch_features = video_extractor(video_batch)
-        features[min_ind:max_ind] = batch_features
         batch_features = F.normalize(batch_features, dim=1)
         features[min_ind:max_ind] = batch_features
     features = features.cpu().numpy()
