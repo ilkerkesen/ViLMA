@@ -6,6 +6,16 @@ This repository contains the following details about our V&L benchmark,
 2. How to setup the models and run them.
 3. How to evaluate the models.
 
+## Environment Setup
+Execute the following steps,
+
+```bash
+git clone git@github.com:ilkerkesen/vl-bench.git  # clone this repo.
+cd vl-bench
+conda create -n vl-bench --file spec-file  # create the environment.
+pip install -e .  # install the codebase as an editable package.
+```
+
 ## Data Resources
 
 Our benchmark is built upon several different video resources. In this section, we share the details on how to setup these data resources.
@@ -91,8 +101,7 @@ These JSON files are actually key/value stores where the keys are the example id
 Please do run the `./bin/eval.py` script to evaluate the models. It takes one argument which is the file path, and one option which specifies whether the model produces probabilities or scores (**TODO**: implement for the perplexity scores also as well). Here is an example,
 
 ```bash
-python ./bin/eval.py /path/to/the/results/file.json --similarity
-python ./bin/eval.py /path/to/the/results/file.json --probability
+python ./bin/eval.py /path/to/the/results/file.json --mode {similarity,probability,perplexity}
 ```
 
-Passing `--probability` option makes the script treat the scores as probabilities, and allows user to produce the scores for the accuracy, precision and AUROC metrics. 
+Passing `--mode probability` option makes the script treat the scores as probabilities, and allows user to produce the scores for the accuracy, precision and AUROC metrics. Similarly, passing `--mode perplexity` forces script to work with perplexity values.

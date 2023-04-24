@@ -8,6 +8,13 @@ def format_score(val):
     return round(100*val.item(), 2)
 
 
+MODES = (
+    'similarity',
+    'probability',
+    'perplexity',
+)
+
+
 @click.command()
 @click.argument(
     'input-file',
@@ -15,24 +22,30 @@ def format_score(val):
     required=True,
 )
 @click.option(
-    '--similarity/--probability',
+    '-m', '--mode',
+    type=click.Choice(choices=MODES),
     required=True,
 )
-def main(input_file, similarity):
-    using_probabilities = not similarity
+def main(input_file, mode):
     input_file = process_path(input_file)
     with open(input_file, 'r') as f:
         pred = json.load(f)
     num_texts = max([len(item['scores']) for item in pred.values()])
     num_examples = len(pred)
     scores = torch.zeros(num_examples, num_texts, dtype=torch.double)
+    if mode == 'perplexity':
+        scores.fill_(-torch.inf)
     for idx, item in enumerate(pred.values()):
-        scores[idx, :len(item['scores'])] = torch.tensor(item['scores'])
+        item_scores = torch.tensor(item['scores'])
+        item_num_texts = item_scores.numel()
+        if mode == 'perplexity':
+            item_scores = -item_scores
+        scores[idx, :item_num_texts] = item_scores
     labels = torch.zeros(num_examples, dtype=torch.long)
     acc_r = multiclass_accuracy(
         scores, labels, num_classes=num_texts, average='micro')
     click.echo(f'acc_r={format_score(acc_r)}%')
-    if not using_probabilities:
+    if mode != 'probability':
         return
 
     caption_probs = scores[:, 0]
