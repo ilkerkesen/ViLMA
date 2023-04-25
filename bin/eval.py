@@ -4,6 +4,7 @@ import torch
 from torchmetrics.functional.classification import multiclass_accuracy, confusion_matrix, auroc
 from vl_bench.utils import process_path
 
+
 def format_score(val):
     return round(100*val.item(), 2)
 
