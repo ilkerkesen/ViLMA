@@ -64,6 +64,13 @@ python filter_objects.py -a $DATA_DIR/passive-foil-noun-nli-filtered.json -d $DA
 
 ## Generating the Final Annotations File
 ```bash
-python create_uniform_annotations.py -v $DATA_DIR/active-foil-verb-nli-filtered.json -n $DATA_DIR/active-foil-noun-filtered.json -o $DATA_DIR/active-uniform.json
-python create_uniform_annotations.py -v $DATA_DIR/passive-foil-verb-nli-filtered.json -n $DATA_DIR/passive-foil-noun-filtered.json -o $DATA_DIR/passive-uniform.json
+python create_uniform_annotations.py \
+    -vf $DATA_DIR/active-foil-verb-nli-filtered.json \
+    -nf $DATA_DIR/active-foil-noun-filtered.json \
+    -o $DATA_DIR/active-uniform.json
+
+python create_uniform_annotations.py \
+    -vf $DATA_DIR/passive-foil-verb-nli-filtered.json \
+    -nf $DATA_DIR/passive-foil-noun-filtered.json \
+    -o $DATA_DIR/passive-uniform.json
 ```
