@@ -62,6 +62,10 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
     type=click.Path(file_okay=True),
     required=True,
 )
+@click.option(
+    '--proficiency',
+    is_flag=True,
+)
 def main(
     input_file,
     model_name,
@@ -70,6 +74,7 @@ def main(
     quva_dir,
     something_something_dir,
     output_file,
+    proficiency,
 ):
     # check video datasets' dirs
     assert quva_dir is not None or something_something_dir is not None
@@ -83,7 +88,8 @@ def main(
     data = Dataset_v1(
         input_file,
         quva_dir=quva_dir,
-        something_something_dir=something_something_dir,    
+        something_something_dir=something_something_dir,
+        proficiency=proficiency,
     )
 
     # initialize model & processor
