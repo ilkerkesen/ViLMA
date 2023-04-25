@@ -64,7 +64,7 @@ def identify_model(model_name):
 @click.option(
     '--top-k',
     type=int,
-    default=64,
+    default=32,
     show_default=True,
 )
 @click.option(
