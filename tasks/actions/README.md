@@ -52,7 +52,10 @@ python filter_entailments.py -i $DATA_DIR/passive-foil-noun-nli-scores.json -o $
 Again, first run the detector,
 
 ```bash
-python detect_objects.py -i $DATA_DIR/active-foil-verb-nli-filtered.json -o $DATA_DIR/detected_objects.json
+python detect_objects.py \
+    -i $DATA_DIR/active-foil-verb-nli-filtered.json \
+    -o $DATA_DIR/detected_objects.json \
+    --video-dir $VIDEO_DIR
 ```
 
 In this stage, the input file does not matter: it could be any previous file since we only need the video ids and start/end timestamps. Then, we filter out the detected objects in the foils,

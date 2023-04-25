@@ -42,7 +42,7 @@ class Dataset_v1(Dataset):
         num_frames=None,
         youtube_dir=None,
         quva_dir=None,
-        something_something_dir=None,        
+        something_something_dir=None,
         **kwargs,
     ):
         self.json_data = BaseDataset(json_path)
@@ -50,11 +50,11 @@ class Dataset_v1(Dataset):
         self.fps = fps
         self.num_frames = num_frames
         self.kwargs = kwargs
-        
+
         self.youtube_dir = None
         if youtube_dir is not None:
             self.youtube_dir = process_path(youtube_dir)
-            
+
         self.quva_dir = None
         if quva_dir is not None:
             self.quva_dir = process_path(quva_dir)
@@ -77,6 +77,9 @@ class Dataset_v1(Dataset):
         elif dataset == 'something-something-v2':
             video_dir = self.something_something_dir
             video_path = osp.join(video_dir, f'{item["dataset_idx"]}.webm')
+        elif dataset == 'RareAct':
+            video_dir = self.youtube_dir
+            video_path = osp.join(video_dir, f'{item["youtube_id"]}.mp4')
         else:
             raise NotImplementedError('Not implemented yet.')
 
@@ -97,13 +100,16 @@ class Dataset_v1(Dataset):
             video = read_video(video_path, output_format='TCHW')[0]
             video = video[item['start_time']:item['end_time']]
         return video
-        
+
     def __len__(self):
         return len(self.json_data)
 
     def __getitem__(self, index):
         entry = deepcopy(self.json_data[index])
-        video = self._read_video(entry)
+        try:
+            video = self._read_video(entry)
+        except RuntimeError:
+            video = None
         raw_texts = [entry['caption']] + entry['foils']
         item = {
             'index': index,
