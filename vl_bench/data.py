@@ -22,6 +22,8 @@ class BaseDataset(Dataset):
             self.json_data = json.load(f)
         self.ids = list(self.json_data.keys())
         self.ids.sort()
+        for item_id in self.ids:
+            self.json_data[item_id]["item_id"] = item_id
 
     def __len__(self):
         return len(self.ids)
