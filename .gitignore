@@ -131,3 +131,5 @@ results
 cache
 scripts
 .vscode
+results-hyponyms
+bench-results
