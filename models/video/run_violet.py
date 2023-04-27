@@ -117,7 +117,7 @@ def main(
 
 def get_similarity(model, video, text, text_mask):
     score = model(video.unsqueeze(0), text.unsqueeze(0), text_mask.unsqueeze(0))
-    return score
+    return score.item()
 
 
 def convert_to_prob(scores):
