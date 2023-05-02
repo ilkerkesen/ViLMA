@@ -19,7 +19,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -44,7 +44,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -69,7 +69,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -94,7 +94,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -119,7 +119,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -144,7 +144,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -169,7 +169,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -194,7 +194,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -219,7 +219,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -244,7 +244,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -269,7 +269,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -294,7 +294,7 @@
             "post-state": "in a higher position",
             "state-inverse": "descend"
         },
-        "caption": "The athlete jumps.",
+        "caption": "The athlete ascends.",
         "foils": [
             "The athlete descends."
         ]
@@ -319,7 +319,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -344,7 +344,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -369,7 +369,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -394,7 +394,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -419,7 +419,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -444,7 +444,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -469,7 +469,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -494,7 +494,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -519,7 +519,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -544,7 +544,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -569,7 +569,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -594,7 +594,7 @@
             "post-state": "in a lower position",
             "state-inverse": "ascend"
         },
-        "caption": "The skier skis.",
+        "caption": "The skier descends.",
         "foils": [
             "The skier ascends."
         ]
@@ -619,7 +619,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the dish place.",
+        "caption": "Someone assembles the dish place.",
         "foils": [
             "Someone disassembles the dish place."
         ]
@@ -644,7 +644,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone fits the fuse.",
+        "caption": "Someone assembles the fuse.",
         "foils": [
             "Someone disassembles the fuse."
         ]
@@ -669,7 +669,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the seperated wire.",
+        "caption": "Someone assembles the seperated wire.",
         "foils": [
             "Someone disassembles the seperated wire."
         ]
@@ -694,7 +694,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the seperated wire.",
+        "caption": "Someone assembles the seperated wire.",
         "foils": [
             "Someone disassembles the seperated wire."
         ]
@@ -719,7 +719,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the tuna slices.",
+        "caption": "Someone assembles the tuna slices.",
         "foils": [
             "Someone disassembles the tuna slices."
         ]
@@ -744,7 +744,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone fits the fuse.",
+        "caption": "Someone assembles the fuse.",
         "foils": [
             "Someone disassembles the fuse."
         ]
@@ -769,7 +769,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone decorates the wrapped gift.",
+        "caption": "Someone assembles the wrapped gift.",
         "foils": [
             "Someone disassembles the wrapped gift."
         ]
@@ -794,7 +794,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the seperated wire.",
+        "caption": "Someone assembles the seperated wire.",
         "foils": [
             "Someone disassembles the seperated wire."
         ]
@@ -819,7 +819,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the meat.",
+        "caption": "Someone assembles the meat.",
         "foils": [
             "Someone disassembles the meat."
         ]
@@ -844,7 +844,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone decorates the ice cream.",
+        "caption": "Someone assembles the ice cream.",
         "foils": [
             "Someone disassembles the ice cream."
         ]
@@ -869,7 +869,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the rice.",
+        "caption": "Someone assembles the rice.",
         "foils": [
             "Someone disassembles the rice."
         ]
@@ -894,7 +894,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the boxty.",
+        "caption": "Someone assembles the boxty.",
         "foils": [
             "Someone disassembles the boxty."
         ]
@@ -919,7 +919,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the meat.",
+        "caption": "Someone assembles the meat.",
         "foils": [
             "Someone disassembles the meat."
         ]
@@ -969,7 +969,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone arranges the seperated wire.",
+        "caption": "Someone assembles the seperated wire.",
         "foils": [
             "Someone disassembles the seperated wire."
         ]
@@ -994,7 +994,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms a small ball.",
+        "caption": "Someone assembles a small ball.",
         "foils": [
             "Someone disassembles a small ball."
         ]
@@ -1019,7 +1019,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the meat.",
+        "caption": "Someone assembles the meat.",
         "foils": [
             "Someone disassembles the meat."
         ]
@@ -1044,7 +1044,7 @@
             "post-state": "whole",
             "state-inverse": "disassemble"
         },
-        "caption": "Someone forms the each piece.",
+        "caption": "Someone assembles the each piece.",
         "foils": [
             "Someone disassembles the each piece."
         ]
@@ -1094,7 +1094,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the paper towel.",
+        "caption": "Someone disassembles the paper towel.",
         "foils": [
             "Someone assembles the paper towel."
         ]
@@ -1119,7 +1119,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears a leaf.",
+        "caption": "Someone disassembles a leaf.",
         "foils": [
             "Someone assembles a leaf."
         ]
@@ -1144,7 +1144,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears a piece of paper.",
+        "caption": "Someone disassembles a piece of paper.",
         "foils": [
             "Someone assembles a piece of paper."
         ]
@@ -1169,7 +1169,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the paper.",
+        "caption": "Someone disassembles the paper.",
         "foils": [
             "Someone assembles the paper."
         ]
@@ -1194,7 +1194,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone spreads the perfume.",
+        "caption": "Someone disassembles the perfume.",
         "foils": [
             "Someone assembles the perfume."
         ]
@@ -1219,7 +1219,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears an envelope.",
+        "caption": "Someone disassembles an envelope.",
         "foils": [
             "Someone assembles an envelope."
         ]
@@ -1244,7 +1244,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears a piece of paper.",
+        "caption": "Someone disassembles a piece of paper.",
         "foils": [
             "Someone assembles a piece of paper."
         ]
@@ -1269,7 +1269,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears a paper.",
+        "caption": "Someone disassembles a paper.",
         "foils": [
             "Someone assembles a paper."
         ]
@@ -1294,7 +1294,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the piece of paper.",
+        "caption": "Someone disassembles the piece of paper.",
         "foils": [
             "Someone assembles the piece of paper."
         ]
@@ -1319,7 +1319,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the carbon paper.",
+        "caption": "Someone disassembles the carbon paper.",
         "foils": [
             "Someone assembles the carbon paper."
         ]
@@ -1344,7 +1344,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears a paper.",
+        "caption": "Someone disassembles a paper.",
         "foils": [
             "Someone assembles a paper."
         ]
@@ -1369,7 +1369,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the paper.",
+        "caption": "Someone disassembles the paper.",
         "foils": [
             "Someone assembles the paper."
         ]
@@ -1394,7 +1394,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the small box.",
+        "caption": "Someone disassembles the small box.",
         "foils": [
             "Someone assembles the small box."
         ]
@@ -1419,7 +1419,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the pink paper.",
+        "caption": "Someone disassembles the pink paper.",
         "foils": [
             "Someone assembles the pink paper."
         ]
@@ -1444,7 +1444,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the tissue paper.",
+        "caption": "Someone disassembles the tissue paper.",
         "foils": [
             "Someone assembles the tissue paper."
         ]
@@ -1469,7 +1469,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the paper.",
+        "caption": "Someone disassembles the paper.",
         "foils": [
             "Someone assembles the paper."
         ]
@@ -1494,7 +1494,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the sand paper.",
+        "caption": "Someone disassembles the sand paper.",
         "foils": [
             "Someone assembles the sand paper."
         ]
@@ -1519,7 +1519,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone spreads the grapes.",
+        "caption": "Someone disassembles the grapes.",
         "foils": [
             "Someone assembles the grapes."
         ]
@@ -1544,7 +1544,7 @@
             "post-state": "in pieces",
             "state-inverse": "assemble"
         },
-        "caption": "Someone tears the paper.",
+        "caption": "Someone disassembles the paper.",
         "foils": [
             "Someone assembles the paper."
         ]
@@ -1744,7 +1744,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the battery.",
+        "caption": "Someone uncovers the battery.",
         "foils": [
             "Someone covers the battery."
         ]
@@ -1769,7 +1769,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the resin.",
+        "caption": "Someone uncovers the resin.",
         "foils": [
             "Someone covers the resin."
         ]
@@ -1794,7 +1794,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the apple.",
+        "caption": "Someone uncovers the apple.",
         "foils": [
             "Someone covers the apple."
         ]
@@ -1819,7 +1819,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the fuse.",
+        "caption": "Someone uncovers the fuse.",
         "foils": [
             "Someone covers the fuse."
         ]
@@ -1844,7 +1844,7 @@
             "post-state": "separated",
             "state-inverse": "attach"
         },
-        "caption": "Someone removes the peel.",
+        "caption": "Someone detaches the peel.",
         "foils": [
             "Someone attaches the peel."
         ]
@@ -1869,7 +1869,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the dog leash.",
+        "caption": "Someone uncovers the dog leash.",
         "foils": [
             "Someone covers the dog leash."
         ]
@@ -1894,7 +1894,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the flour.",
+        "caption": "Someone uncovers the flour.",
         "foils": [
             "Someone covers the flour."
         ]
@@ -1919,7 +1919,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the massage ball.",
+        "caption": "Someone uncovers the massage ball.",
         "foils": [
             "Someone covers the massage ball."
         ]
@@ -1944,7 +1944,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the bag clip.",
+        "caption": "Someone uncovers the bag clip.",
         "foils": [
             "Someone covers the bag clip."
         ]
@@ -1969,7 +1969,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the tac.",
+        "caption": "Someone uncovers the tac.",
         "foils": [
             "Someone covers the tac."
         ]
@@ -1994,7 +1994,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the coin.",
+        "caption": "Someone uncovers the coin.",
         "foils": [
             "Someone covers the coin."
         ]
@@ -2019,7 +2019,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the stove knobs.",
+        "caption": "Someone uncovers the stove knobs.",
         "foils": [
             "Someone covers the stove knobs."
         ]
@@ -2044,7 +2044,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the toy figurine.",
+        "caption": "Someone uncovers the toy figurine.",
         "foils": [
             "Someone covers the toy figurine."
         ]
@@ -2069,7 +2069,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the key chain.",
+        "caption": "Someone uncovers the key chain.",
         "foils": [
             "Someone covers the key chain."
         ]
@@ -2094,7 +2094,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the spoon.",
+        "caption": "Someone uncovers the spoon.",
         "foils": [
             "Someone covers the spoon."
         ]
@@ -2119,7 +2119,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone removes the potatoes.",
+        "caption": "Someone pulls the potatoes out.",
         "foils": [
             "Someone inserts the potatoes."
         ]
@@ -2144,7 +2144,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the nail cutter.",
+        "caption": "Someone uncovers the nail cutter.",
         "foils": [
             "Someone covers the nail cutter."
         ]
@@ -2169,7 +2169,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the pebble.",
+        "caption": "Someone uncovers the pebble.",
         "foils": [
             "Someone covers the pebble."
         ]
@@ -2194,7 +2194,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the mint.",
+        "caption": "Someone uncovers the mint.",
         "foils": [
             "Someone covers the mint."
         ]
@@ -2219,7 +2219,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the cigarette pack.",
+        "caption": "Someone uncovers the cigarette pack.",
         "foils": [
             "Someone covers the cigarette pack."
         ]
@@ -2244,7 +2244,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone tidies the closet up.",
+        "caption": "Someone cleans the closet.",
         "foils": [
             "Someone stains the closet."
         ]
@@ -2269,7 +2269,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone wipes the screen.",
+        "caption": "Someone cleans the screen.",
         "foils": [
             "Someone stains the screen."
         ]
@@ -2319,7 +2319,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone wipes the floor.",
+        "caption": "Someone cleans the floor.",
         "foils": [
             "Someone stains the floor."
         ]
@@ -2344,7 +2344,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone tidies the closet up.",
+        "caption": "Someone cleans the closet.",
         "foils": [
             "Someone stains the closet."
         ]
@@ -2369,7 +2369,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone wipes the table.",
+        "caption": "Someone cleans the table.",
         "foils": [
             "Someone stains the table."
         ]
@@ -2394,7 +2394,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone wipes the sink.",
+        "caption": "Someone cleans the sink.",
         "foils": [
             "Someone stains the sink."
         ]
@@ -2419,7 +2419,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone washes the rock.",
+        "caption": "Someone cleans the rock.",
         "foils": [
             "Someone stains the rock."
         ]
@@ -2444,7 +2444,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone wipes the mobilephone.",
+        "caption": "Someone cleans the mobilephone.",
         "foils": [
             "Someone stains the mobilephone."
         ]
@@ -2469,7 +2469,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone tidies the table up.",
+        "caption": "Someone cleans the table.",
         "foils": [
             "Someone stains the table."
         ]
@@ -2494,7 +2494,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone washes the microwave.",
+        "caption": "Someone cleans the microwave.",
         "foils": [
             "Someone stains the microwave."
         ]
@@ -2519,7 +2519,7 @@
             "post-state": "clean",
             "state-inverse": "stain"
         },
-        "caption": "Someone tidies the blanket up.",
+        "caption": "Someone cleans the blanket.",
         "foils": [
             "Someone stains the blanket."
         ]
@@ -2569,7 +2569,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the door.",
+        "caption": "Someone stains the door.",
         "foils": [
             "Someone cleans the door."
         ]
@@ -2594,7 +2594,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the fridge.",
+        "caption": "Someone stains the fridge.",
         "foils": [
             "Someone cleans the fridge."
         ]
@@ -2619,7 +2619,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the pan.",
+        "caption": "Someone stains the pan.",
         "foils": [
             "Someone cleans the pan."
         ]
@@ -2644,7 +2644,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the shoes.",
+        "caption": "Someone stains the shoes.",
         "foils": [
             "Someone cleans the shoes."
         ]
@@ -2669,7 +2669,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the spray bottle.",
+        "caption": "Someone stains the spray bottle.",
         "foils": [
             "Someone cleans the spray bottle."
         ]
@@ -2694,7 +2694,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone paints the paper.",
+        "caption": "Someone stains the paper.",
         "foils": [
             "Someone cleans the paper."
         ]
@@ -2719,7 +2719,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the door.",
+        "caption": "Someone stains the door.",
         "foils": [
             "Someone cleans the door."
         ]
@@ -2744,7 +2744,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the microwave.",
+        "caption": "Someone stains the microwave.",
         "foils": [
             "Someone cleans the microwave."
         ]
@@ -2769,7 +2769,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the laptop.",
+        "caption": "Someone stains the laptop.",
         "foils": [
             "Someone cleans the laptop."
         ]
@@ -2794,7 +2794,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the shoes.",
+        "caption": "Someone stains the shoes.",
         "foils": [
             "Someone cleans the shoes."
         ]
@@ -2819,7 +2819,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the pumpkin.",
+        "caption": "Someone stains the pumpkin.",
         "foils": [
             "Someone cleans the pumpkin."
         ]
@@ -2844,7 +2844,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the cup.",
+        "caption": "Someone stains the cup.",
         "foils": [
             "Someone cleans the cup."
         ]
@@ -2869,7 +2869,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone paints the sugar.",
+        "caption": "Someone stains the sugar.",
         "foils": [
             "Someone cleans the sugar."
         ]
@@ -2894,7 +2894,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the microwave.",
+        "caption": "Someone stains the microwave.",
         "foils": [
             "Someone cleans the microwave."
         ]
@@ -2919,7 +2919,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone inks the marked area.",
+        "caption": "Someone stains the marked area.",
         "foils": [
             "Someone cleans the marked area."
         ]
@@ -2944,7 +2944,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the microwave.",
+        "caption": "Someone stains the microwave.",
         "foils": [
             "Someone cleans the microwave."
         ]
@@ -2969,7 +2969,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the door.",
+        "caption": "Someone stains the door.",
         "foils": [
             "Someone cleans the door."
         ]
@@ -2994,7 +2994,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the shoes.",
+        "caption": "Someone stains the shoes.",
         "foils": [
             "Someone cleans the shoes."
         ]
@@ -3019,7 +3019,7 @@
             "post-state": "clean",
             "state-inverse": "clean"
         },
-        "caption": "Someone sprays the microwave.",
+        "caption": "Someone stains the microwave.",
         "foils": [
             "Someone cleans the microwave."
         ]
@@ -3044,7 +3044,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3069,7 +3069,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the roll.",
+        "caption": "Someone closes the roll.",
         "foils": [
             "Someone opens the roll."
         ]
@@ -3094,7 +3094,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3119,7 +3119,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3144,7 +3144,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the edges.",
+        "caption": "Someone closes the edges.",
         "foils": [
             "Someone opens the edges."
         ]
@@ -3169,7 +3169,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3194,7 +3194,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3219,7 +3219,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3244,7 +3244,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the cover up.",
+        "caption": "Someone closes the cover.",
         "foils": [
             "Someone opens the cover."
         ]
@@ -3269,7 +3269,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the edges of the cone.",
+        "caption": "Someone closes the edges of the cone.",
         "foils": [
             "Someone opens the edges of the cone."
         ]
@@ -3294,7 +3294,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the stapler up.",
+        "caption": "Someone closes the stapler.",
         "foils": [
             "Someone opens the stapler."
         ]
@@ -3319,7 +3319,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the cover up.",
+        "caption": "Someone closes the cover.",
         "foils": [
             "Someone opens the cover."
         ]
@@ -3344,7 +3344,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the bag.",
+        "caption": "Someone closes the bag.",
         "foils": [
             "Someone opens the bag."
         ]
@@ -3369,7 +3369,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the volumetric flask.",
+        "caption": "Someone closes the volumetric flask.",
         "foils": [
             "Someone opens the volumetric flask."
         ]
@@ -3394,7 +3394,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the spring roll.",
+        "caption": "Someone closes the spring roll.",
         "foils": [
             "Someone opens the spring roll."
         ]
@@ -3419,7 +3419,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone closes the cover up.",
+        "caption": "Someone closes the cover.",
         "foils": [
             "Someone opens the cover."
         ]
@@ -3444,7 +3444,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the samosa.",
+        "caption": "Someone closes the samosa.",
         "foils": [
             "Someone opens the samosa."
         ]
@@ -3494,7 +3494,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the jar.",
+        "caption": "Someone closes the jar.",
         "foils": [
             "Someone opens the jar."
         ]
@@ -3519,7 +3519,7 @@
             "post-state": "closed",
             "state-inverse": "open"
         },
-        "caption": "Someone seals the jar.",
+        "caption": "Someone closes the jar.",
         "foils": [
             "Someone opens the jar."
         ]
@@ -4069,7 +4069,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the ingredients.",
+        "caption": "Someone combines the ingredients.",
         "foils": [
             "Someone divides the ingredients."
         ]
@@ -4094,7 +4094,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone blends the corn.",
+        "caption": "Someone combines the corn.",
         "foils": [
             "Someone divides the corn."
         ]
@@ -4119,7 +4119,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the ingredients.",
+        "caption": "Someone combines the ingredients.",
         "foils": [
             "Someone divides the ingredients."
         ]
@@ -4144,7 +4144,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the bread crumbs and parmesan cheese.",
+        "caption": "Someone combines the bread crumbs and parmesan cheese.",
         "foils": [
             "Someone divides the bread crumbs and parmesan cheese."
         ]
@@ -4169,7 +4169,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the salt and water.",
+        "caption": "Someone combines the salt and water.",
         "foils": [
             "Someone divides the salt and water."
         ]
@@ -4194,7 +4194,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the shredded potato.",
+        "caption": "Someone combines the shredded potato.",
         "foils": [
             "Someone divides the shredded potato."
         ]
@@ -4269,7 +4269,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the all the ingredients.",
+        "caption": "Someone combines the all the ingredients.",
         "foils": [
             "Someone divides the all the ingredients."
         ]
@@ -4319,7 +4319,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the tomato puree and the tomato paste.",
+        "caption": "Someone combines the tomato puree and the tomato paste.",
         "foils": [
             "Someone divides the tomato puree and the tomato paste."
         ]
@@ -4344,7 +4344,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the boiled potato and the milk.",
+        "caption": "Someone combines the boiled potato and the milk.",
         "foils": [
             "Someone divides the boiled potato and the milk."
         ]
@@ -4369,7 +4369,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone whisks the two eggs.",
+        "caption": "Someone combines the two eggs.",
         "foils": [
             "Someone divides the two eggs."
         ]
@@ -4394,7 +4394,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone stirs the eggs.",
+        "caption": "Someone combines the eggs.",
         "foils": [
             "Someone divides the eggs."
         ]
@@ -4419,7 +4419,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone whisks the sauce.",
+        "caption": "Someone combines the sauce.",
         "foils": [
             "Someone divides the sauce."
         ]
@@ -4469,7 +4469,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone stirs a beaten egg.",
+        "caption": "Someone combines a beaten egg.",
         "foils": [
             "Someone divides a beaten egg."
         ]
@@ -4494,7 +4494,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone mixes the paprika and the black pepper.",
+        "caption": "Someone combines the paprika and the black pepper.",
         "foils": [
             "Someone divides the paprika and the black pepper."
         ]
@@ -4519,7 +4519,7 @@
             "post-state": "combined",
             "state-inverse": "divide"
         },
-        "caption": "Someone stirs the egg.",
+        "caption": "Someone combines the egg.",
         "foils": [
             "Someone divides the egg."
         ]
@@ -4544,7 +4544,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the tomatoes.",
+        "caption": "Someone divides the tomatoes.",
         "foils": [
             "Someone combines the tomatoes."
         ]
@@ -4569,7 +4569,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the onion and place.",
+        "caption": "Someone divides the onion and place.",
         "foils": [
             "Someone combines the onion and place."
         ]
@@ -4594,7 +4594,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the pulp.",
+        "caption": "Someone divides the pulp.",
         "foils": [
             "Someone combines the pulp."
         ]
@@ -4619,7 +4619,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the fish.",
+        "caption": "Someone divides the fish.",
         "foils": [
             "Someone combines the fish."
         ]
@@ -4644,7 +4644,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the pulp.",
+        "caption": "Someone divides the pulp.",
         "foils": [
             "Someone combines the pulp."
         ]
@@ -4694,7 +4694,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone separates the salmon.",
+        "caption": "Someone divides the salmon.",
         "foils": [
             "Someone combines the salmon."
         ]
@@ -4744,7 +4744,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the onion.",
+        "caption": "Someone divides the onion.",
         "foils": [
             "Someone combines the onion."
         ]
@@ -4769,7 +4769,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the pieces of pork.",
+        "caption": "Someone divides the pieces of pork.",
         "foils": [
             "Someone combines the pieces of pork."
         ]
@@ -4794,7 +4794,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the beef steak.",
+        "caption": "Someone divides the beef steak.",
         "foils": [
             "Someone combines the beef steak."
         ]
@@ -4844,7 +4844,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices a baguette.",
+        "caption": "Someone divides a baguette.",
         "foils": [
             "Someone combines a baguette."
         ]
@@ -4869,7 +4869,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone separates the batter.",
+        "caption": "Someone divides the batter.",
         "foils": [
             "Someone combines the batter."
         ]
@@ -4894,7 +4894,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the meat.",
+        "caption": "Someone divides the meat.",
         "foils": [
             "Someone combines the meat."
         ]
@@ -4919,7 +4919,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the calamari.",
+        "caption": "Someone divides the calamari.",
         "foils": [
             "Someone combines the calamari."
         ]
@@ -4944,7 +4944,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone separates an egg.",
+        "caption": "Someone divides an egg.",
         "foils": [
             "Someone combines an egg."
         ]
@@ -4969,7 +4969,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the squid.",
+        "caption": "Someone divides the squid.",
         "foils": [
             "Someone combines the squid."
         ]
@@ -5019,7 +5019,7 @@
             "post-state": "separated",
             "state-inverse": "combine"
         },
-        "caption": "Someone slices the scallions.",
+        "caption": "Someone divides the scallions.",
         "foils": [
             "Someone combines the scallions."
         ]
@@ -5044,7 +5044,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -5219,7 +5219,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone links the new chain.",
+        "caption": "Someone connects the new chain.",
         "foils": [
             "Someone disconnects the new chain."
         ]
@@ -5244,7 +5244,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -5344,7 +5344,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -5369,7 +5369,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone links the new chain.",
+        "caption": "Someone connects the new chain.",
         "foils": [
             "Someone disconnects the new chain."
         ]
@@ -5394,7 +5394,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -5519,7 +5519,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -5544,7 +5544,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the wire.",
+        "caption": "Someone disconnects the wire.",
         "foils": [
             "Someone connects the wire."
         ]
@@ -5569,7 +5569,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the protection head.",
+        "caption": "Someone disconnects the protection head.",
         "foils": [
             "Someone connects the protection head."
         ]
@@ -5594,7 +5594,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the protection head.",
+        "caption": "Someone disconnects the protection head.",
         "foils": [
             "Someone connects the protection head."
         ]
@@ -5619,7 +5619,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the protection head.",
+        "caption": "Someone disconnects the protection head.",
         "foils": [
             "Someone connects the protection head."
         ]
@@ -5644,7 +5644,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5669,7 +5669,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the wire.",
+        "caption": "Someone disconnects the wire.",
         "foils": [
             "Someone connects the wire."
         ]
@@ -5719,7 +5719,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5744,7 +5744,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5769,7 +5769,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5794,7 +5794,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the protection head.",
+        "caption": "Someone disconnects the protection head.",
         "foils": [
             "Someone connects the protection head."
         ]
@@ -5819,7 +5819,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5844,7 +5844,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the phone.",
+        "caption": "Someone disconnects the phone.",
         "foils": [
             "Someone connects the phone."
         ]
@@ -5869,7 +5869,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5894,7 +5894,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5919,7 +5919,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the wire.",
+        "caption": "Someone disconnects the wire.",
         "foils": [
             "Someone connects the wire."
         ]
@@ -5944,7 +5944,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the protection head.",
+        "caption": "Someone disconnects the protection head.",
         "foils": [
             "Someone connects the protection head."
         ]
@@ -5969,7 +5969,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -5994,7 +5994,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -6019,7 +6019,7 @@
             "post-state": "detached",
             "state-inverse": "connect"
         },
-        "caption": "Someone unplugs the screen connector.",
+        "caption": "Someone disconnects the screen connector.",
         "foils": [
             "Someone connects the screen connector."
         ]
@@ -6044,7 +6044,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the wontons in boiled water.",
+        "caption": "Someone heats the wontons in boiled water up.",
         "foils": [
             "Someone cools the wontons in boiled water down."
         ]
@@ -6094,7 +6094,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils a piece of kombu and a small bowl of bonito flakes in water in a pot.",
+        "caption": "Someone heats a piece of kombu and a small bowl of bonito flakes in water in a pot up.",
         "foils": [
             "Someone cools a piece of kombu and a small bowl of bonito flakes in water in a pot down."
         ]
@@ -6119,7 +6119,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils some water.",
+        "caption": "Someone heats some water up.",
         "foils": [
             "Someone cools some water down."
         ]
@@ -6144,7 +6144,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the broccoli.",
+        "caption": "Someone heats the broccoli up.",
         "foils": [
             "Someone cools the broccoli down."
         ]
@@ -6169,7 +6169,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the potatoes.",
+        "caption": "Someone heats the potatoes up.",
         "foils": [
             "Someone cools the potatoes down."
         ]
@@ -6194,7 +6194,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the carrots.",
+        "caption": "Someone heats the carrots up.",
         "foils": [
             "Someone cools the carrots down."
         ]
@@ -6219,7 +6219,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils some spaghetti.",
+        "caption": "Someone heats some spaghetti up.",
         "foils": [
             "Someone cools some spaghetti down."
         ]
@@ -6244,7 +6244,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the pierogies.",
+        "caption": "Someone heats the pierogies up.",
         "foils": [
             "Someone cools the pierogies down."
         ]
@@ -6269,7 +6269,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the water.",
+        "caption": "Someone heats the water up.",
         "foils": [
             "Someone cools the water down."
         ]
@@ -6294,7 +6294,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the macaroni.",
+        "caption": "Someone heats the macaroni up.",
         "foils": [
             "Someone cools the macaroni down."
         ]
@@ -6319,7 +6319,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the water and the noodles in it.",
+        "caption": "Someone heats the water and the noodles in it up.",
         "foils": [
             "Someone cools the water and the noodles in it down."
         ]
@@ -6344,7 +6344,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the noodles.",
+        "caption": "Someone heats the noodles up.",
         "foils": [
             "Someone cools the noodles down."
         ]
@@ -6369,7 +6369,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the potato ball.",
+        "caption": "Someone heats the potato ball up.",
         "foils": [
             "Someone cools the potato ball down."
         ]
@@ -6394,7 +6394,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the potatoes and parsnips.",
+        "caption": "Someone heats the potatoes and parsnips up.",
         "foils": [
             "Someone cools the potatoes and parsnips down."
         ]
@@ -6419,7 +6419,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the green beans.",
+        "caption": "Someone heats the green beans up.",
         "foils": [
             "Someone cools the green beans down."
         ]
@@ -6444,7 +6444,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the potatoes.",
+        "caption": "Someone heats the potatoes up.",
         "foils": [
             "Someone cools the potatoes down."
         ]
@@ -6469,7 +6469,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the potatoes.",
+        "caption": "Someone heats the potatoes up.",
         "foils": [
             "Someone cools the potatoes down."
         ]
@@ -6494,7 +6494,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils some onion chunks and baby boy.",
+        "caption": "Someone heats some onion chunks and baby boy up.",
         "foils": [
             "Someone cools some onion chunks and baby boy down."
         ]
@@ -6519,7 +6519,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone boils the pot.",
+        "caption": "Someone heats the pot up.",
         "foils": [
             "Someone cools the pot down."
         ]
@@ -6569,7 +6569,7 @@
             "post-state": "hidden",
             "state-inverse": "uncover"
         },
-        "caption": "Someone buries the calculator.",
+        "caption": "Someone covers the calculator.",
         "foils": [
             "Someone uncovers the calculator."
         ]
@@ -6844,7 +6844,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone digs the spoon out.",
+        "caption": "Someone uncovers the spoon.",
         "foils": [
             "Someone covers the spoon."
         ]
@@ -6894,7 +6894,7 @@
             "post-state": "hidden",
             "state-inverse": "uncover"
         },
-        "caption": "Someone buries the capsule.",
+        "caption": "Someone covers the capsule.",
         "foils": [
             "Someone uncovers the capsule."
         ]
@@ -6919,7 +6919,7 @@
             "post-state": "hidden",
             "state-inverse": "uncover"
         },
-        "caption": "Someone digs the tv.",
+        "caption": "Someone covers the tv.",
         "foils": [
             "Someone uncovers the tv."
         ]
@@ -7619,7 +7619,7 @@
             "post-state": "in pieces",
             "state-inverse": "connect"
         },
-        "caption": "Someone chops some peeled squid and coat.",
+        "caption": "Someone cuts some peeled squid and coat.",
         "foils": [
             "Someone connects some peeled squid and coat."
         ]
@@ -7644,7 +7644,7 @@
             "post-state": "in pieces",
             "state-inverse": "connect"
         },
-        "caption": "Someone chops the onion and garlic.",
+        "caption": "Someone cuts the onion and garlic.",
         "foils": [
             "Someone connects the onion and garlic."
         ]
@@ -7669,7 +7669,7 @@
             "post-state": "in pieces",
             "state-inverse": "connect"
         },
-        "caption": "Someone chops an onion.",
+        "caption": "Someone cuts an onion.",
         "foils": [
             "Someone connects an onion."
         ]
@@ -7694,7 +7694,7 @@
             "post-state": "in pieces",
             "state-inverse": "connect"
         },
-        "caption": "Someone chops the bacon and onions.",
+        "caption": "Someone cuts the bacon and onions.",
         "foils": [
             "Someone connects the bacon and onions."
         ]
@@ -7894,7 +7894,7 @@
             "post-state": "in pieces",
             "state-inverse": "connect"
         },
-        "caption": "Someone cuts the broccoli and bok choy up.",
+        "caption": "Someone cuts the broccoli and bok choy.",
         "foils": [
             "Someone connects the broccoli and bok choy."
         ]
@@ -8044,7 +8044,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -8219,7 +8219,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone links the new chain.",
+        "caption": "Someone connects the new chain.",
         "foils": [
             "Someone disconnects the new chain."
         ]
@@ -8244,7 +8244,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -8344,7 +8344,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -8369,7 +8369,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone links the new chain.",
+        "caption": "Someone connects the new chain.",
         "foils": [
             "Someone disconnects the new chain."
         ]
@@ -8394,7 +8394,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -8519,7 +8519,7 @@
             "post-state": "attached",
             "state-inverse": "disconnect"
         },
-        "caption": "Someone reconnects the electric wire.",
+        "caption": "Someone connects the electric wire.",
         "foils": [
             "Someone disconnects the electric wire."
         ]
@@ -8544,7 +8544,7 @@
             "post-state": "smaller",
             "state-inverse": "increase"
         },
-        "caption": "Someone reduces the heat.",
+        "caption": "Someone decreases the heat.",
         "foils": [
             "Someone increases the heat."
         ]
@@ -8569,7 +8569,7 @@
             "post-state": "smaller",
             "state-inverse": "increase"
         },
-        "caption": "Someone reduces the heat.",
+        "caption": "Someone decreases the heat.",
         "foils": [
             "Someone increases the heat."
         ]
@@ -8594,7 +8594,7 @@
             "post-state": "smaller",
             "state-inverse": "increase"
         },
-        "caption": "Someone reduces the heat.",
+        "caption": "Someone decreases the heat.",
         "foils": [
             "Someone increases the heat."
         ]
@@ -8619,7 +8619,7 @@
             "post-state": "bigger",
             "state-inverse": "decrease"
         },
-        "caption": "Someone expands the flag.",
+        "caption": "Someone increases the flag.",
         "foils": [
             "Someone decreases the flag."
         ]
@@ -8644,7 +8644,7 @@
             "post-state": "bigger",
             "state-inverse": "decrease"
         },
-        "caption": "Someone expands the flag.",
+        "caption": "Someone increases the flag.",
         "foils": [
             "Someone decreases the flag."
         ]
@@ -8669,7 +8669,7 @@
             "post-state": "bigger",
             "state-inverse": "decrease"
         },
-        "caption": "Someone expands the flag.",
+        "caption": "Someone increases the flag.",
         "foils": [
             "Someone decreases the flag."
         ]
@@ -9169,7 +9169,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -9194,7 +9194,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the towel down.",
+        "caption": "Someone drops the towel.",
         "foils": [
             "Someone lifts the towel."
         ]
@@ -9219,7 +9219,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -9269,7 +9269,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the bottle down.",
+        "caption": "Someone drops the bottle.",
         "foils": [
             "Someone lifts the bottle."
         ]
@@ -9294,7 +9294,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -9394,7 +9394,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the book down.",
+        "caption": "Someone drops the book.",
         "foils": [
             "Someone lifts the book."
         ]
@@ -9419,7 +9419,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the food down.",
+        "caption": "Someone drops the food.",
         "foils": [
             "Someone lifts the food."
         ]
@@ -9444,7 +9444,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the broom down.",
+        "caption": "Someone drops the broom.",
         "foils": [
             "Someone lifts the broom."
         ]
@@ -9494,7 +9494,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the bottle down.",
+        "caption": "Someone drops the bottle.",
         "foils": [
             "Someone lifts the bottle."
         ]
@@ -9544,7 +9544,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the book down.",
+        "caption": "Someone drops the book.",
         "foils": [
             "Someone lifts the book."
         ]
@@ -9569,7 +9569,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -9819,7 +9819,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone picks the umbrella up.",
+        "caption": "Someone lifts the umbrella.",
         "foils": [
             "Someone drops the umbrella."
         ]
@@ -9844,7 +9844,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone picks the book up.",
+        "caption": "Someone lifts the book.",
         "foils": [
             "Someone drops the book."
         ]
@@ -9869,7 +9869,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drizzles the oil.",
+        "caption": "Someone dries the oil.",
         "foils": [
             "Someone wets the oil."
         ]
@@ -9894,7 +9894,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the bacon.",
+        "caption": "Someone dries the bacon.",
         "foils": [
             "Someone wets the bacon."
         ]
@@ -9919,7 +9919,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the clams.",
+        "caption": "Someone dries the clams.",
         "foils": [
             "Someone wets the clams."
         ]
@@ -9944,7 +9944,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drizzles some olive.",
+        "caption": "Someone dries some olive.",
         "foils": [
             "Someone wets some olive."
         ]
@@ -9969,7 +9969,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the pasta.",
+        "caption": "Someone dries the pasta.",
         "foils": [
             "Someone wets the pasta."
         ]
@@ -9994,7 +9994,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the water.",
+        "caption": "Someone dries the water.",
         "foils": [
             "Someone wets the water."
         ]
@@ -10019,7 +10019,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone absorbs the liquid.",
+        "caption": "Someone dries the liquid.",
         "foils": [
             "Someone wets the liquid."
         ]
@@ -10044,7 +10044,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the chickpeas.",
+        "caption": "Someone dries the chickpeas.",
         "foils": [
             "Someone wets the chickpeas."
         ]
@@ -10069,7 +10069,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone preheats the oven.",
+        "caption": "Someone heats the oven up.",
         "foils": [
             "Someone cools the oven down."
         ]
@@ -10094,7 +10094,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the potatoes.",
+        "caption": "Someone dries the potatoes.",
         "foils": [
             "Someone wets the potatoes."
         ]
@@ -10119,7 +10119,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drizzles the little margie sauce or soy sauce.",
+        "caption": "Someone dries the little margie sauce or soy sauce.",
         "foils": [
             "Someone wets the little margie sauce or soy sauce."
         ]
@@ -10144,7 +10144,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the bulgur wheat.",
+        "caption": "Someone dries the bulgur wheat.",
         "foils": [
             "Someone wets the bulgur wheat."
         ]
@@ -10169,7 +10169,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the prawns.",
+        "caption": "Someone dries the prawns.",
         "foils": [
             "Someone wets the prawns."
         ]
@@ -10194,7 +10194,7 @@
             "post-state": "hot",
             "state-inverse": "cool down"
         },
-        "caption": "Someone preheats the oven.",
+        "caption": "Someone heats the oven up.",
         "foils": [
             "Someone cools the oven down."
         ]
@@ -10219,7 +10219,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drizzles the oil.",
+        "caption": "Someone dries the oil.",
         "foils": [
             "Someone wets the oil."
         ]
@@ -10244,7 +10244,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the potatoes.",
+        "caption": "Someone dries the potatoes.",
         "foils": [
             "Someone wets the potatoes."
         ]
@@ -10269,7 +10269,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the meat.",
+        "caption": "Someone dries the meat.",
         "foils": [
             "Someone wets the meat."
         ]
@@ -10294,7 +10294,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the noodles.",
+        "caption": "Someone dries the noodles.",
         "foils": [
             "Someone wets the noodles."
         ]
@@ -10319,7 +10319,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drizzles some olive oil.",
+        "caption": "Someone dries some olive oil.",
         "foils": [
             "Someone wets some olive oil."
         ]
@@ -10344,7 +10344,7 @@
             "post-state": "dry",
             "state-inverse": "wet"
         },
-        "caption": "Someone drains the garbanzo beans.",
+        "caption": "Someone dries the garbanzo beans.",
         "foils": [
             "Someone wets the garbanzo beans."
         ]
@@ -10369,7 +10369,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the daikon and carrot.",
+        "caption": "Someone wets the daikon and carrot.",
         "foils": [
             "Someone dries the daikon and carrot."
         ]
@@ -10394,7 +10394,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the wrapper.",
+        "caption": "Someone wets the wrapper.",
         "foils": [
             "Someone dries the wrapper."
         ]
@@ -10419,7 +10419,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the potatoes.",
+        "caption": "Someone wets the potatoes.",
         "foils": [
             "Someone dries the potatoes."
         ]
@@ -10444,7 +10444,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the beans.",
+        "caption": "Someone wets the beans.",
         "foils": [
             "Someone dries the beans."
         ]
@@ -10469,7 +10469,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the mussels.",
+        "caption": "Someone wets the mussels.",
         "foils": [
             "Someone dries the mussels."
         ]
@@ -10494,7 +10494,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the cabbage.",
+        "caption": "Someone wets the cabbage.",
         "foils": [
             "Someone dries the cabbage."
         ]
@@ -10514,7 +10514,7 @@
         "change_of_state": {
             "verb": "wet",
             "verb-hypernym": "wet",
-            "object": "the sugar",
+            "object": "sugar",
             "pre-state": "dry",
             "post-state": "wet",
             "state-inverse": "dry"
@@ -10544,7 +10544,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the dish.",
+        "caption": "Someone wets the dish.",
         "foils": [
             "Someone dries the dish."
         ]
@@ -10569,7 +10569,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the pot.",
+        "caption": "Someone wets the pot.",
         "foils": [
             "Someone dries the pot."
         ]
@@ -10594,7 +10594,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the chicken.",
+        "caption": "Someone wets the chicken.",
         "foils": [
             "Someone dries the chicken."
         ]
@@ -10619,7 +10619,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the drain.",
+        "caption": "Someone wets the drain.",
         "foils": [
             "Someone dries the drain."
         ]
@@ -10644,7 +10644,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the wakame.",
+        "caption": "Someone wets the wakame.",
         "foils": [
             "Someone dries the wakame."
         ]
@@ -10669,7 +10669,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the bulgur.",
+        "caption": "Someone wets the bulgur.",
         "foils": [
             "Someone dries the bulgur."
         ]
@@ -10694,7 +10694,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the mushrooms.",
+        "caption": "Someone wets the mushrooms.",
         "foils": [
             "Someone dries the mushrooms."
         ]
@@ -10719,7 +10719,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the pot.",
+        "caption": "Someone wets the pot.",
         "foils": [
             "Someone dries the pot."
         ]
@@ -10744,7 +10744,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the potatoes.",
+        "caption": "Someone wets the potatoes.",
         "foils": [
             "Someone dries the potatoes."
         ]
@@ -10769,7 +10769,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone soaks the bamboo skewers.",
+        "caption": "Someone wets the bamboo skewers.",
         "foils": [
             "Someone dries the bamboo skewers."
         ]
@@ -10794,7 +10794,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the potatoes.",
+        "caption": "Someone wets the potatoes.",
         "foils": [
             "Someone dries the potatoes."
         ]
@@ -10819,7 +10819,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the cabbage.",
+        "caption": "Someone wets the cabbage.",
         "foils": [
             "Someone dries the cabbage."
         ]
@@ -10844,7 +10844,7 @@
             "post-state": "wet",
             "state-inverse": "dry"
         },
-        "caption": "Someone rinses the shells.",
+        "caption": "Someone wets the shells.",
         "foils": [
             "Someone dries the shells."
         ]
@@ -10869,7 +10869,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone drinks the egg.",
+        "caption": "Someone empties the egg.",
         "foils": [
             "Someone fills the egg."
         ]
@@ -10894,7 +10894,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -10919,7 +10919,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -10944,7 +10944,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone drinks the chocolate.",
+        "caption": "Someone empties the chocolate.",
         "foils": [
             "Someone fills the chocolate."
         ]
@@ -10969,7 +10969,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -10994,7 +10994,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11019,7 +11019,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11044,7 +11044,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone drinks the drink coaster.",
+        "caption": "Someone empties the drink coaster.",
         "foils": [
             "Someone fills the drink coaster."
         ]
@@ -11069,7 +11069,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11094,7 +11094,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone drinks the egg.",
+        "caption": "Someone empties the egg.",
         "foils": [
             "Someone fills the egg."
         ]
@@ -11119,7 +11119,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11144,7 +11144,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11169,7 +11169,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11194,7 +11194,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11219,7 +11219,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11244,7 +11244,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11269,7 +11269,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11294,7 +11294,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11319,7 +11319,7 @@
             "post-state": "empty",
             "state-inverse": "fill"
         },
-        "caption": "Someone injects the ink.",
+        "caption": "Someone empties the ink.",
         "foils": [
             "Someone fills the ink."
         ]
@@ -11819,9 +11819,9 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone drops the charger.",
+        "caption": "The charger falls.",
         "foils": [
-            "Someone lifts the charger."
+            "The charger lifts."
         ]
     },
     "473": {
@@ -13219,7 +13219,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the battery.",
+        "caption": "Someone uncovers the battery.",
         "foils": [
             "Someone covers the battery."
         ]
@@ -13244,7 +13244,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the resin adhesive.",
+        "caption": "Someone uncovers the resin adhesive.",
         "foils": [
             "Someone covers the resin adhesive."
         ]
@@ -13269,7 +13269,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the apple.",
+        "caption": "Someone uncovers the apple.",
         "foils": [
             "Someone covers the apple."
         ]
@@ -13294,7 +13294,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the fuse.",
+        "caption": "Someone uncovers the fuse.",
         "foils": [
             "Someone covers the fuse."
         ]
@@ -13319,7 +13319,7 @@
             "post-state": "separated",
             "state-inverse": "attach"
         },
-        "caption": "Someone removes the peel.",
+        "caption": "Someone detaches the peel.",
         "foils": [
             "Someone attaches the peel."
         ]
@@ -13344,7 +13344,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the jar.",
+        "caption": "Someone uncovers the jar.",
         "foils": [
             "Someone covers the jar."
         ]
@@ -13369,7 +13369,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the flour.",
+        "caption": "Someone uncovers the flour.",
         "foils": [
             "Someone covers the flour."
         ]
@@ -13394,7 +13394,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the massage ball.",
+        "caption": "Someone uncovers the massage ball.",
         "foils": [
             "Someone covers the massage ball."
         ]
@@ -13419,7 +13419,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the bag clip.",
+        "caption": "Someone uncovers the bag clip.",
         "foils": [
             "Someone covers the bag clip."
         ]
@@ -13444,7 +13444,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the tac.",
+        "caption": "Someone uncovers the tac.",
         "foils": [
             "Someone covers the tac."
         ]
@@ -13469,7 +13469,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the coin.",
+        "caption": "Someone uncovers the coin.",
         "foils": [
             "Someone covers the coin."
         ]
@@ -13494,7 +13494,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the stove knobs.",
+        "caption": "Someone uncovers the stove knobs.",
         "foils": [
             "Someone covers the stove knobs."
         ]
@@ -13519,7 +13519,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the toy figurine.",
+        "caption": "Someone uncovers the toy figurine.",
         "foils": [
             "Someone covers the toy figurine."
         ]
@@ -13544,7 +13544,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the key chain.",
+        "caption": "Someone uncovers the key chain.",
         "foils": [
             "Someone covers the key chain."
         ]
@@ -13569,7 +13569,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the spoon.",
+        "caption": "Someone uncovers the spoon.",
         "foils": [
             "Someone covers the spoon."
         ]
@@ -13594,7 +13594,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone removes the potatoes.",
+        "caption": "Someone pulls the potatoes out.",
         "foils": [
             "Someone inserts the potatoes."
         ]
@@ -13619,7 +13619,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the nail cutter.",
+        "caption": "Someone uncovers the nail cutter.",
         "foils": [
             "Someone covers the nail cutter."
         ]
@@ -13644,7 +13644,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the pebble.",
+        "caption": "Someone uncovers the pebble.",
         "foils": [
             "Someone covers the pebble."
         ]
@@ -13669,7 +13669,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the mint.",
+        "caption": "Someone uncovers the mint.",
         "foils": [
             "Someone covers the mint."
         ]
@@ -13694,7 +13694,7 @@
             "post-state": "visible",
             "state-inverse": "cover"
         },
-        "caption": "Someone reveals the cigarette pack.",
+        "caption": "Someone uncovers the cigarette pack.",
         "foils": [
             "Someone covers the cigarette pack."
         ]
@@ -13944,7 +13944,7 @@
             "post-state": "folded",
             "state-inverse": "unfold"
         },
-        "caption": "Someone pounds the meat.",
+        "caption": "Someone folds the meat.",
         "foils": [
             "Someone unfolds the meat."
         ]
@@ -14719,7 +14719,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the corns in.",
+        "caption": "Someone inserts the corns.",
         "foils": [
             "Someone pulls the corns out."
         ]
@@ -14744,7 +14744,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts a bangle in.",
+        "caption": "Someone inserts a bangle.",
         "foils": [
             "Someone pulls a bangle out."
         ]
@@ -14769,7 +14769,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the flowers in.",
+        "caption": "Someone inserts the flowers.",
         "foils": [
             "Someone pulls the flowers out."
         ]
@@ -14794,7 +14794,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the purses in.",
+        "caption": "Someone inserts the purses.",
         "foils": [
             "Someone pulls the purses out."
         ]
@@ -14819,7 +14819,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts a candy in.",
+        "caption": "Someone inserts a candy.",
         "foils": [
             "Someone pulls a candy out."
         ]
@@ -14869,7 +14869,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the extension in.",
+        "caption": "Someone inserts the extension.",
         "foils": [
             "Someone pulls the extension out."
         ]
@@ -14894,7 +14894,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone plugs a usb cable.",
+        "caption": "Someone inserts a usb cable.",
         "foils": [
             "Someone pulls a usb cable out."
         ]
@@ -14919,7 +14919,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the spectacles in.",
+        "caption": "Someone inserts the spectacles.",
         "foils": [
             "Someone pulls the spectacles out."
         ]
@@ -14944,7 +14944,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone plugs the usb.",
+        "caption": "Someone inserts the usb.",
         "foils": [
             "Someone pulls the usb out."
         ]
@@ -14969,7 +14969,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the cup in.",
+        "caption": "Someone inserts the cup.",
         "foils": [
             "Someone pulls the cup out."
         ]
@@ -14994,7 +14994,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone plugs the power cable.",
+        "caption": "Someone inserts the power cable.",
         "foils": [
             "Someone pulls the power cable out."
         ]
@@ -15019,7 +15019,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts a sharpener in.",
+        "caption": "Someone inserts a sharpener.",
         "foils": [
             "Someone pulls a sharpener out."
         ]
@@ -15044,7 +15044,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the pencil in.",
+        "caption": "Someone inserts the pencil.",
         "foils": [
             "Someone pulls the pencil out."
         ]
@@ -15069,7 +15069,7 @@
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone puts the webcam in.",
+        "caption": "Someone inserts the webcam.",
         "foils": [
             "Someone pulls the webcam out."
         ]
@@ -15119,7 +15119,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone digs the seeds out.",
+        "caption": "Someone pulls the seeds out.",
         "foils": [
             "Someone inserts the seeds."
         ]
@@ -15144,7 +15144,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the rice noodles out.",
+        "caption": "Someone pulls the rice noodles out.",
         "foils": [
             "Someone inserts the rice noodles."
         ]
@@ -15194,7 +15194,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the shell out.",
+        "caption": "Someone pulls the shell out.",
         "foils": [
             "Someone inserts the shell."
         ]
@@ -15219,7 +15219,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the mixture out.",
+        "caption": "Someone pulls the mixture out.",
         "foils": [
             "Someone inserts the mixture."
         ]
@@ -15244,7 +15244,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the soap out.",
+        "caption": "Someone pulls the soap out.",
         "foils": [
             "Someone inserts the soap."
         ]
@@ -15269,7 +15269,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the label out.",
+        "caption": "Someone pulls the label out.",
         "foils": [
             "Someone inserts the label."
         ]
@@ -15344,7 +15344,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the toner cartridge out.",
+        "caption": "Someone pulls the toner cartridge out.",
         "foils": [
             "Someone inserts the toner cartridge."
         ]
@@ -15369,7 +15369,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the quilt cover out.",
+        "caption": "Someone pulls the quilt cover out.",
         "foils": [
             "Someone inserts the quilt cover."
         ]
@@ -15419,7 +15419,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the label out.",
+        "caption": "Someone pulls the label out.",
         "foils": [
             "Someone inserts the label."
         ]
@@ -15494,7 +15494,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the label out.",
+        "caption": "Someone pulls the label out.",
         "foils": [
             "Someone inserts the label."
         ]
@@ -15544,7 +15544,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes one of many similar oranges.",
+        "caption": "Someone pulls one of many similar oranges.",
         "foils": [
             "Someone pushes one of many similar oranges."
         ]
@@ -15594,7 +15594,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the flower out.",
+        "caption": "Someone pulls the flower out.",
         "foils": [
             "Someone inserts the flower."
         ]
@@ -15619,7 +15619,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the blanket.",
+        "caption": "Someone pulls the blanket.",
         "foils": [
             "Someone pushes the blanket."
         ]
@@ -15644,7 +15644,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the box.",
+        "caption": "Someone pulls the box.",
         "foils": [
             "Someone pushes the box."
         ]
@@ -15744,7 +15744,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the box.",
+        "caption": "Someone pulls the box.",
         "foils": [
             "Someone pushes the box."
         ]
@@ -15769,7 +15769,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the dish.",
+        "caption": "Someone pulls the dish.",
         "foils": [
             "Someone pushes the dish."
         ]
@@ -15844,7 +15844,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the remote.",
+        "caption": "Someone pulls the remote.",
         "foils": [
             "Someone pushes the remote."
         ]
@@ -15869,7 +15869,7 @@
             "post-state": "outside",
             "state-inverse": "insert"
         },
-        "caption": "Someone takes the lemon out.",
+        "caption": "Someone pulls the lemon out.",
         "foils": [
             "Someone inserts the lemon."
         ]
@@ -15969,7 +15969,7 @@
             "post-state": "closer",
             "state-inverse": "push"
         },
-        "caption": "Someone takes the clothes.",
+        "caption": "Someone pulls the clothes.",
         "foils": [
             "Someone pushes the clothes."
         ]
@@ -16094,7 +16094,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the bottle.",
+        "caption": "Someone pushes the bottle.",
         "foils": [
             "Someone pulls the bottle."
         ]
@@ -16144,7 +16144,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the bag.",
+        "caption": "Someone pushes the bag.",
         "foils": [
             "Someone pulls the bag."
         ]
@@ -16169,7 +16169,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the laundry soap.",
+        "caption": "Someone pushes the laundry soap.",
         "foils": [
             "Someone pulls the laundry soap."
         ]
@@ -16194,7 +16194,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the carrot.",
+        "caption": "Someone pushes the carrot.",
         "foils": [
             "Someone pulls the carrot."
         ]
@@ -16319,7 +16319,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the clothes.",
+        "caption": "Someone pushes the clothes.",
         "foils": [
             "Someone pulls the clothes."
         ]
@@ -16519,7 +16519,7 @@
             "post-state": "further away",
             "state-inverse": "pull"
         },
-        "caption": "Someone throws the cup.",
+        "caption": "Someone pushes the cup.",
         "foils": [
             "Someone pulls the cup."
         ]
@@ -16544,7 +16544,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts the glass cup up.",
+        "caption": "Someone raises the glass cup.",
         "foils": [
             "Someone drops the glass cup."
         ]
@@ -16569,7 +16569,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of pencil up.",
+        "caption": "Someone raises one end of pencil.",
         "foils": [
             "Someone drops one end of pencil."
         ]
@@ -16594,7 +16594,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts the pencil up.",
+        "caption": "Someone raises the pencil.",
         "foils": [
             "Someone drops the pencil."
         ]
@@ -16619,7 +16619,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts the food keeper up.",
+        "caption": "Someone raises the food keeper.",
         "foils": [
             "Someone drops the food keeper."
         ]
@@ -16644,7 +16644,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone picks the packet up.",
+        "caption": "Someone raises the packet up.",
         "foils": [
             "Someone drops the packet up."
         ]
@@ -16669,7 +16669,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts a mug up.",
+        "caption": "Someone raises a mug.",
         "foils": [
             "Someone drops a mug."
         ]
@@ -16694,7 +16694,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone picks the building block.",
+        "caption": "Someone raises the building block.",
         "foils": [
             "Someone drops the building block."
         ]
@@ -16719,7 +16719,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of pencil up.",
+        "caption": "Someone raises one end of pencil.",
         "foils": [
             "Someone drops one end of pencil."
         ]
@@ -16744,7 +16744,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of card up.",
+        "caption": "Someone raises one end of card.",
         "foils": [
             "Someone drops one end of card."
         ]
@@ -16769,7 +16769,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of a keyboard up.",
+        "caption": "Someone raises one end of a keyboard.",
         "foils": [
             "Someone drops one end of a keyboard."
         ]
@@ -16794,7 +16794,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of pencil up.",
+        "caption": "Someone raises one end of pencil.",
         "foils": [
             "Someone drops one end of pencil."
         ]
@@ -16819,7 +16819,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts the pencil up.",
+        "caption": "Someone raises the pencil.",
         "foils": [
             "Someone drops the pencil."
         ]
@@ -16844,7 +16844,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of toothbrush up.",
+        "caption": "Someone raises one end of toothbrush.",
         "foils": [
             "Someone drops one end of toothbrush."
         ]
@@ -16869,7 +16869,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone picks the vegetable cutter up.",
+        "caption": "Someone raises the vegetable cutter up.",
         "foils": [
             "Someone drops the vegetable cutter up."
         ]
@@ -16894,7 +16894,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone moves a lamp up.",
+        "caption": "Someone raises a lamp.",
         "foils": [
             "Someone drops a lamp."
         ]
@@ -16919,7 +16919,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of pencil up.",
+        "caption": "Someone raises one end of pencil.",
         "foils": [
             "Someone drops one end of pencil."
         ]
@@ -16944,7 +16944,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of pencil up.",
+        "caption": "Someone raises one end of pencil.",
         "foils": [
             "Someone drops one end of pencil."
         ]
@@ -16969,7 +16969,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of marker up.",
+        "caption": "Someone raises one end of marker.",
         "foils": [
             "Someone drops one end of marker."
         ]
@@ -16994,7 +16994,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts one end of nintendo controller up.",
+        "caption": "Someone raises one end of nintendo controller.",
         "foils": [
             "Someone drops one end of nintendo controller."
         ]
@@ -17019,7 +17019,7 @@
             "post-state": "in a higher position",
             "state-inverse": "drop"
         },
-        "caption": "Someone lifts the seal pad up.",
+        "caption": "Someone raises the seal pad.",
         "foils": [
             "Someone drops the seal pad."
         ]
@@ -17119,7 +17119,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -17144,7 +17144,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the towel down.",
+        "caption": "Someone drops the towel.",
         "foils": [
             "Someone lifts the towel."
         ]
@@ -17169,7 +17169,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -17219,7 +17219,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the bottle down.",
+        "caption": "Someone drops the bottle.",
         "foils": [
             "Someone lifts the bottle."
         ]
@@ -17244,7 +17244,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -17344,7 +17344,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the book down.",
+        "caption": "Someone drops the book.",
         "foils": [
             "Someone lifts the book."
         ]
@@ -17369,7 +17369,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the food down.",
+        "caption": "Someone drops the food.",
         "foils": [
             "Someone lifts the food."
         ]
@@ -17394,7 +17394,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the broom down.",
+        "caption": "Someone drops the broom.",
         "foils": [
             "Someone lifts the broom."
         ]
@@ -17444,7 +17444,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the bottle down.",
+        "caption": "Someone drops the bottle.",
         "foils": [
             "Someone lifts the bottle."
         ]
@@ -17494,7 +17494,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the book down.",
+        "caption": "Someone drops the book.",
         "foils": [
             "Someone lifts the book."
         ]
@@ -17519,7 +17519,7 @@
             "post-state": "in a lower position",
             "state-inverse": "lift"
         },
-        "caption": "Someone puts the dish down.",
+        "caption": "Someone drops the dish.",
         "foils": [
             "Someone lifts the dish."
         ]
@@ -17569,7 +17569,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone repeats the procedure.",
+        "caption": "Someone removes the procedure.",
         "foils": [
             "Someone puts the procedure on."
         ]
@@ -17619,7 +17619,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the shell off.",
+        "caption": "Someone removes the shell.",
         "foils": [
             "Someone puts the shell on."
         ]
@@ -17644,7 +17644,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone leaves the thyme.",
+        "caption": "Someone removes the thyme.",
         "foils": [
             "Someone puts the thyme on."
         ]
@@ -17669,7 +17669,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the shell off.",
+        "caption": "Someone removes the shell.",
         "foils": [
             "Someone puts the shell on."
         ]
@@ -17694,7 +17694,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the shell off.",
+        "caption": "Someone removes the shell.",
         "foils": [
             "Someone puts the shell on."
         ]
@@ -17719,7 +17719,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the shell off.",
+        "caption": "Someone removes the shell.",
         "foils": [
             "Someone puts the shell on."
         ]
@@ -17744,7 +17744,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the skin of shallots and off.",
+        "caption": "Someone removes the skin of shallots and.",
         "foils": [
             "Someone puts the skin of shallots and on."
         ]
@@ -17769,7 +17769,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone takes the shell off.",
+        "caption": "Someone removes the shell.",
         "foils": [
             "Someone puts the shell on."
         ]
@@ -17794,7 +17794,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone dissolves some salt.",
+        "caption": "Someone removes some salt.",
         "foils": [
             "Someone puts some salt on."
         ]
@@ -17819,7 +17819,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone repeats the same steps with vegetables.",
+        "caption": "Someone removes the same steps with vegetables.",
         "foils": [
             "Someone puts the same steps with vegetables on."
         ]
@@ -17844,7 +17844,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone cuts the bloodline away.",
+        "caption": "Someone removes the bloodline.",
         "foils": [
             "Someone puts the bloodline on."
         ]
@@ -17869,7 +17869,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone filtrates the coffee beans.",
+        "caption": "Someone removes the coffee beans.",
         "foils": [
             "Someone puts the coffee beans on."
         ]
@@ -17894,7 +17894,7 @@
             "post-state": "separated",
             "state-inverse": "put on"
         },
-        "caption": "Someone uses a glass cut circles.",
+        "caption": "Someone removes a glass cut circles.",
         "foils": [
             "Someone puts a glass cut circles on."
         ]
@@ -17919,7 +17919,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -17944,7 +17944,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -17969,7 +17969,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -17994,7 +17994,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18019,7 +18019,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18044,7 +18044,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18069,7 +18069,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18094,7 +18094,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18119,7 +18119,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18144,7 +18144,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18169,7 +18169,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18194,7 +18194,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18219,7 +18219,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18244,7 +18244,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18269,7 +18269,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18294,7 +18294,7 @@
             "post-state": "off",
             "state-inverse": "put off"
         },
-        "caption": "Someone wears a eye protection helmet.",
+        "caption": "Someone puts a eye protection helmet on.",
         "foils": [
             "Someone puts a eye protection helmet off."
         ]
@@ -18369,7 +18369,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone solders the headset cable.",
+        "caption": "Someone screws the headset cable.",
         "foils": [
             "Someone unscrews the headset cable."
         ]
@@ -18394,7 +18394,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone grinds the beef.",
+        "caption": "Someone screws the beef.",
         "foils": [
             "Someone unscrews the beef."
         ]
@@ -18444,7 +18444,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone grinds the garlic and ginger.",
+        "caption": "Someone screws the garlic and ginger.",
         "foils": [
             "Someone unscrews the garlic and ginger."
         ]
@@ -18494,7 +18494,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone solders the headset cable.",
+        "caption": "Someone screws the headset cable.",
         "foils": [
             "Someone unscrews the headset cable."
         ]
@@ -18644,7 +18644,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone rakes the rake.",
+        "caption": "Someone screws the rake.",
         "foils": [
             "Someone unscrews the rake."
         ]
@@ -18694,7 +18694,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone grinds the all the ingredients and transfer to a bowl.",
+        "caption": "Someone screws the all the ingredients and transfer to a bowl.",
         "foils": [
             "Someone unscrews the all the ingredients and transfer to a bowl."
         ]
@@ -18744,7 +18744,7 @@
             "post-state": "tight",
             "state-inverse": "unscrew"
         },
-        "caption": "Someone grinds the cooked meat mixture.",
+        "caption": "Someone screws the cooked meat mixture.",
         "foils": [
             "Someone unscrews the cooked meat mixture."
         ]
@@ -19219,7 +19219,7 @@
             "post-state": "loose",
             "state-inverse": "screw"
         },
-        "caption": "Someone twists a lid off.",
+        "caption": "Someone unscrews a lid.",
         "foils": [
             "Someone screws a lid."
         ]
@@ -19294,7 +19294,7 @@
             "post-state": "off",
             "state-inverse": "turn on"
         },
-        "caption": "Someone flips the stuff over.",
+        "caption": "Someone turns the stuff off.",
         "foils": [
             "Someone turns the stuff on."
         ]
@@ -19344,7 +19344,7 @@
             "post-state": "off",
             "state-inverse": "turn on"
         },
-        "caption": "Someone flips the eggs over.",
+        "caption": "Someone turns the eggs off.",
         "foils": [
             "Someone turns the eggs on."
         ]
@@ -19369,7 +19369,7 @@
             "post-state": "off",
             "state-inverse": "turn on"
         },
-        "caption": "Someone flips the seaweed over.",
+        "caption": "Someone turns the seaweed off.",
         "foils": [
             "Someone turns the seaweed on."
         ]
@@ -19469,7 +19469,7 @@
             "post-state": "off",
             "state-inverse": "turn on"
         },
-        "caption": "Someone pushes the stapler off.",
+        "caption": "Someone turns the stapler off.",
         "foils": [
             "Someone turns the stapler on."
         ]
@@ -19519,7 +19519,7 @@
             "post-state": "off",
             "state-inverse": "turn on"
         },
-        "caption": "Someone pushes the bolt off.",
+        "caption": "Someone turns the bolt off.",
         "foils": [
             "Someone turns the bolt on."
         ]
@@ -19544,7 +19544,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19569,7 +19569,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19594,7 +19594,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19619,7 +19619,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19644,7 +19644,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19669,7 +19669,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19694,7 +19694,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19719,7 +19719,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19744,7 +19744,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19769,7 +19769,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19794,7 +19794,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19819,7 +19819,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19844,7 +19844,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19869,7 +19869,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19894,7 +19894,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19919,7 +19919,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19944,7 +19944,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19969,7 +19969,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -19994,7 +19994,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -20019,7 +20019,7 @@
             "post-state": "unwrapped",
             "state-inverse": "wrap"
         },
-        "caption": "Someone unrolls the dough.",
+        "caption": "Someone unwraps the dough.",
         "foils": [
             "Someone wraps the dough."
         ]
@@ -20044,7 +20044,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone wraps the ingredients up.",
+        "caption": "Someone wraps the ingredients.",
         "foils": [
             "Someone unwraps the ingredients."
         ]
@@ -20094,7 +20094,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the burrito up.",
+        "caption": "Someone wraps the burrito.",
         "foils": [
             "Someone unwraps the burrito."
         ]
@@ -20119,7 +20119,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the spring roll up.",
+        "caption": "Someone wraps the spring roll.",
         "foils": [
             "Someone unwraps the spring roll."
         ]
@@ -20169,7 +20169,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the sushi up.",
+        "caption": "Someone wraps the sushi.",
         "foils": [
             "Someone unwraps the sushi."
         ]
@@ -20194,7 +20194,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the sushi up.",
+        "caption": "Someone wraps the sushi.",
         "foils": [
             "Someone unwraps the sushi."
         ]
@@ -20219,7 +20219,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the spring roll up.",
+        "caption": "Someone wraps the spring roll.",
         "foils": [
             "Someone unwraps the spring roll."
         ]
@@ -20244,7 +20244,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone rolls the sushi up.",
+        "caption": "Someone wraps the sushi.",
         "foils": [
             "Someone unwraps the sushi."
         ]
@@ -20339,12 +20339,12 @@
         "change_of_state": {
             "verb": "stuff into",
             "verb-hypernym": "insert",
-            "object": "the bubble wrap",
+            "object": "bubble wrap",
             "pre-state": "outside",
             "post-state": "inside",
             "state-inverse": "pull out"
         },
-        "caption": "Someone stuffs bubble wrap into.",
+        "caption": "Someone inserts bubble wrap.",
         "foils": [
             "Someone pulls bubble wrap out."
         ]
@@ -20444,7 +20444,7 @@
             "post-state": "wrapped",
             "state-inverse": "unwrap"
         },
-        "caption": "Someone wraps the spring roll up.",
+        "caption": "Someone wraps the spring roll.",
         "foils": [
             "Someone unwraps the spring roll."
         ]
