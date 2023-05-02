@@ -70,10 +70,12 @@ python filter_objects.py -a $DATA_DIR/passive-foil-noun-nli-filtered.json -d $DA
 python create_uniform_annotations.py \
     -vf $DATA_DIR/active-foil-verb-nli-filtered.json \
     -nf $DATA_DIR/active-foil-noun-filtered.json \
-    -o $DATA_DIR/active-uniform.json
+    -o $DATA_DIR/active-uniform.json \
+    --num-examples 512 --seed 1
 
 python create_uniform_annotations.py \
     -vf $DATA_DIR/passive-foil-verb-nli-filtered.json \
     -nf $DATA_DIR/passive-foil-noun-filtered.json \
-    -o $DATA_DIR/passive-uniform.json
+    -o $DATA_DIR/passive-uniform.json \
+    --num-examples 512 --seed 2
 ```

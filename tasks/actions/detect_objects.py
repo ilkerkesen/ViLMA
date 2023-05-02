@@ -101,28 +101,30 @@ def main(
     for i, item in enumerate(tqdm(input_data)):
         item_id = item['item_id']
         if item['video'] is None:
-            output_data[item_id] = list()
             continue
-
-        indices = sample_frame_indices(  # FIXME: hardcoded
-            clip_len=8,
-            frame_sample_rate=1,
-            seg_len=item['video'].shape[0],
-        )
-        downsampled = item['video'][indices]
-        inputs = processor(
-            images=downsampled,
-            return_tensors='pt',
-        ).to(device, dtype)
-        with torch.no_grad():
-            outputs = model(**inputs)
-        detected = post_process_predictions(
-            model=model,
-            processor=processor,
-            outputs=outputs,
-            threshold=threshold,
-        )
-        output_data[item_id] = detected
+        
+        try:
+            indices = sample_frame_indices(  # FIXME: hardcoded
+                clip_len=8,
+                frame_sample_rate=1,
+                seg_len=item['video'].shape[0],
+            )
+            downsampled = item['video'][indices]
+            inputs = processor(
+                images=downsampled,
+                return_tensors='pt',
+            ).to(device, dtype)
+            with torch.no_grad():
+                outputs = model(**inputs)
+            detected = post_process_predictions(
+                model=model,
+                processor=processor,
+                outputs=outputs,
+                threshold=threshold,
+            )
+            output_data[item_id] = detected
+        except:
+            pass
 
     with open(output_file, 'w') as f:
         json.dump(output_data, f, indent=4, sort_keys=False)
