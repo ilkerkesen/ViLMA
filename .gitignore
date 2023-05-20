@@ -134,3 +134,5 @@ scripts
 bench-results
 results-hyponyms
 all_results.csv
+models/video/UniVL
+models/video/pytorch_violet
