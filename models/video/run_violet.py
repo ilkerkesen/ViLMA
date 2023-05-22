@@ -106,7 +106,9 @@ def main(
             true_score = get_similarity(violet, video, true_capt, capt_mask)
             foil_score = get_similarity(violet, video, foil_capt, foil_mask)
             scores = [true_score, foil_score]
-            scores = convert_to_prob(scores)
+            # violets output logits for each (video, cap)
+            # scores = convert_to_prob(scores)
+            scores = [s.to("cpu").item() for s in scores]
             results[str(item["item_id"])] = {"scores": scores}
 
     with open(output_file, "w") as f:

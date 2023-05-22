@@ -147,7 +147,9 @@ def main(
                 get_similarity_scores(univl, video, true_capt, tokenizer, device),
                 get_similarity_scores(univl, video, foil_capt, tokenizer, device),
             ]
-            scores = convert_to_prob(scores)
+            # univl returns probability score for each (capt, video) pairs 
+            # scores = convert_to_prob(scores)
+            scores = [s.to("cpu").item() for s in scores]
             results[str(item["item_id"])] = {"scores": scores}
 
     with open(process_path(output_file), "w") as f:
