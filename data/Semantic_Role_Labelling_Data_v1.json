@@ -16399,9 +16399,9 @@
             "caption": "A boy with a firecracker tries to stop a mouse with it.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A boy w/h a firecracker tries to stop a mouse w/h /.",
-            "mask_target": "it",
-            "predicted_word": "/",
+            "foiled_caption": "A boy with a flower tries to stop a mouse with it.",
+            "mask_target": "firecracker",
+            "predicted_word": "flower",
             "model": "roberta",
             "gruen_score": 0.69282
         }
@@ -28214,9 +28214,9 @@
             "caption": "A group of rainbow people slid down a rainbow.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A group of young people slid down a young.",
+            "foiled_caption": "A group of rainbow people slid down a water.",
             "mask_target": "rainbow",
-            "predicted_word": "young",
+            "predicted_word": "water",
             "model": "roberta",
             "gruen_score": 0.31986
         }
@@ -29231,10 +29231,10 @@
             ]
         },
         "proficiency": {
-            "caption": "A cop hides in a room while another cop searches for him.",
+            "caption": "Cop 2 hides in a room while Cop 1 searches for him.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A cop hides in a room while another cop searches for clues.",
+            "foiled_caption": "Cop 2 hides in a room while Cop 1 searches for clues.",
             "mask_target": "him",
             "predicted_word": "clues",
             "model": "roberta",
@@ -30039,10 +30039,10 @@
             ]
         },
         "proficiency": {
-            "caption": "A girl in a green outfit kicks backwards at another girl in a green outfit.",
+            "caption": "Girl 2 in a green outfit kicks backwards at Girl 1 in a green outfit.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A girl in a green shirt kicks backwards at another girl in a green outfit.",
+            "foiled_caption": "Girl 2 in a green shirt kicks backwards at Girl 1 in a green shirt.",
             "mask_target": "outfit",
             "predicted_word": "shirt",
             "model": "roberta",
@@ -38994,9 +38994,9 @@
             "caption": "Gray-clad prisoners are hitting other prisoners who are dressed in blue in the prison.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "Gray-clad rioters are hitting other rioters who are dressed in blue in the riot.",
+            "foiled_caption": "Gray-clad rioters are hitting other rioters who are dressed in blue in the park.",
             "mask_target": "prison",
-            "predicted_word": "riot",
+            "predicted_word": "park",
             "model": "roberta",
             "gruen_score": 0.77577
         }
@@ -50062,9 +50062,9 @@
             "caption": "The man wearing a plaid shirt grabbed a long wooden object from the bed.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The man wearing a plaid shirt grabs a long wooden object from the s.",
+            "foiled_caption": "The man wearing a plaid shirt grabbed a long wooden object from the door.",
             "mask_target": "bed",
-            "predicted_word": "s",
+            "predicted_word": "door",
             "model": "roberta",
             "gruen_score": 0.86803
         }
@@ -53976,10 +53976,10 @@
             ]
         },
         "proficiency": {
-            "caption": "Someone engages in a sword fight with another man.",
+            "caption": "Engage in a sword fight with another man.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "Someone engages in a sword fight with another character.",
+            "foiled_caption": "Engage in a sword fight with another character.",
             "mask_target": "man",
             "predicted_word": "character",
             "model": "roberta",
@@ -55042,10 +55042,10 @@
             ]
         },
         "proficiency": {
-            "caption": "A criminal props up another criminal in a house.",
+            "caption": "Criminal 1 props up Criminal 2 in a house.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A criminal props up another criminal in a row.",
+            "foiled_caption": "Criminal 1 props up Criminal 2 in a row.",
             "mask_target": "house",
             "predicted_word": "row",
             "model": "roberta",
@@ -70559,9 +70559,9 @@
             "caption": "The person on the car hood rolls up the hood after being hit.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The person on the car who rolls up the who after being hit.",
+            "foiled_caption": "The person on the car hood rolls up the stadium after being hit.",
             "mask_target": "hood",
-            "predicted_word": "who",
+            "predicted_word": "stadium",
             "model": "roberta",
             "gruen_score": 0.32641
         }
@@ -82845,12 +82845,12 @@
         ],
         "model": "-",
         "proficiency": {
-            "caption": "TThe woman with black hair looks to her left at the man beside her.",
+            "caption": "The woman with black hair looks to her left at the man beside her (unseen).",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The woman with black hair looks to her left at the man beside the.",
+            "foiled_caption": "The woman with black hair looks to her left at the man beside him (unseen).",
             "mask_target": "her",
-            "predicted_word": "the",
+            "predicted_word": "him",
             "model": "roberta",
             "gruen_score": 0.53679
         }
@@ -83831,10 +83831,10 @@
         ],
         "model": "-",
         "proficiency": {
-            "caption": "The woman wearing a striped shirt grabbed the other woman by the wrist.",
+            "caption": "he woman wearing a striped shirt grabbed the other woman by the wrist.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The woman wearing a striped shirt grabbed the other woman by the arm.",
+            "foiled_caption": "he woman wearing a striped shirt grabbed the other woman by the arm.",
             "mask_target": "wrist",
             "predicted_word": "arm",
             "model": "roberta",
@@ -84211,9 +84211,9 @@
             "caption": "The woman in a dress holds her little boy close to her.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The woman in a dress holds the little boy close to the.",
+            "foiled_caption": "The woman in a dress holds her little boy close to cat.",
             "mask_target": "her",
-            "predicted_word": "the",
+            "predicted_word": "cat",
             "model": "roberta",
             "gruen_score": 0.58453
         }
@@ -85136,10 +85136,10 @@
         ],
         "model": "-",
         "proficiency": {
-            "caption": "A black man surveys the people around him.",
+            "caption": "A Black man surveys the people around him.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "A black man surveys the people around them.",
+            "foiled_caption": "A Black man surveys the people around them.",
             "mask_target": "him",
             "predicted_word": "them",
             "model": "roberta",
@@ -85487,9 +85487,9 @@
             "caption": "The woman on the check top hoists the woman wearing an ash top upwards.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "The woman on the check er hoists the woman wearing an ash er upwards.",
-            "mask_target": "top",
-            "predicted_word": "er",
+            "foiled_caption": "The woman on the check top hoists the woman wearing a suit.",
+            "mask_target": "ash top upwards",
+            "predicted_word": "suit",
             "model": "roberta",
             "gruen_score": 0.38427
         }
@@ -89312,10 +89312,10 @@
         ],
         "model": "-",
         "proficiency": {
-            "caption": "Three male construction workers laugh riotously at the antics of the guy in the jersey.",
+            "caption": "Three male construction workers laugh riotously at the antics of the guy in the #8 jersey.",
             "foils": [],
             "proficiency_test": "noun",
-            "foiled_caption": "Three male construction workers laugh riotously at the antics of the guy in the shirt.",
+            "foiled_caption": "Three male construction workers laugh riotously at the antics of the guy in the #8 shirt.",
             "mask_target": "jersey",
             "predicted_word": "shirt",
             "model": "roberta",
