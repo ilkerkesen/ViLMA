@@ -13,6 +13,10 @@
         "foils": [
             "someone is using a keyboard."
         ],
+        "class": "cutting"
+        "classes_foil": [
+            "using"
+        ],
         "foiling_methods": [
             "MLM with BERT"
         ]
@@ -30,6 +34,10 @@
         "caption": "someone is hammering a banana.",
         "foils": [
             "someone is eating a banana."
+        ],
+        "class": "hammering"
+        "classes_foil": [
+            "eating"
         ],
         "foiling_methods":  [
             "MLM with BERT"
