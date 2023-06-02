@@ -18,7 +18,6 @@ def add_to_dict(verb_dict, verb, is_caption):
     
     verb_dict[verb] = count_tuple
 
-TASKS = ("srl", "change_state", "relations", "counting", "rare_actions")
 CHART_TYPES = ("bar3d", "bar2d", "line")
 
 @click.command()
@@ -26,12 +25,6 @@ CHART_TYPES = ("bar3d", "bar2d", "line")
     '-i', '--input-file',
     type=click.Path(exists=True, file_okay=True),
     required=True
-)
-@click.option(
-    '-t', '--task-name',
-    type=click.Choice(choices=TASKS),
-    required=True,
-    default=TASKS[0],
 )
 @click.option(
     '-p', '--is-prof',
@@ -66,7 +59,6 @@ CHART_TYPES = ("bar3d", "bar2d", "line")
 )
 def main(
     input_file,
-    task_name,
     is_prof,
     chart_type,
     chart_title,
