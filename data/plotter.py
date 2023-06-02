@@ -38,7 +38,7 @@ CHART_TYPES = ("bar3d", "bar2d", "line")
     default=CHART_TYPES[0],
 )
 @click.option(
-    '-ctype', '--chart-title',
+    '-ctitle', '--chart-title',
     type=str,
     default= "Action Foil Distributions",
 )
