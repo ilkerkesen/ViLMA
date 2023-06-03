@@ -19,7 +19,12 @@
         ],
         "foiling_methods": [
             "MLM with BERT"
-        ]
+        ],
+        "proficiency": {
+            "mask_target": "keyboard",
+            "predicted_word": "mango"
+        }
+           
     },
     "dummy_1": {
         "dataset": "RareAct",
@@ -41,6 +46,10 @@
         ],
         "foiling_methods":  [
             "MLM with BERT"
-        ]
+        ],
+        "proficiency": {
+            "mask_target": "banana",
+            "predicted_word": "nail"
+        }
     }
 }
