@@ -1,11 +1,15 @@
+import os
+import os.path as osp
 import json
 import numpy as np
+import pandas as pd
 import click
 from tqdm import tqdm
 import torch
 from transformers import DetrImageProcessor, DetrForObjectDetection
+from torchvision.io import read_video as _read_video
 from vl_bench.utils import process_path
-from vl_bench.data import Dataset_v1
+
 
 
 SUPPORTED_MODELS = (
@@ -14,6 +18,17 @@ SUPPORTED_MODELS = (
     'facebook/detr-resnet-50-dc5',
     'facebook/detr-resnet-101-dc5',
 )
+
+
+def read_video(video_dir, video_id, start_pts, end_pts):
+    return _read_video(
+        osp.join(video_dir, f'{video_id}.mp4'),
+        start_pts=float(start_pts),
+        end_pts=float(end_pts),
+        pts_unit='sec',
+        output_format='TCHW',
+    )[0]
+
 
 # sample indices -- same with the X-CLIP.
 def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
@@ -85,11 +100,11 @@ def main(
     dtype = torch.float16  # FIXME: hardcoded.
     
     # load data
-    input_data = Dataset_v1(
-        json_path=input_file,
-        tokenizer=None,
-        youtube_dir=video_dir,
-    )
+    video_ids = [osp.splitext(x)[0] for x in os.listdir(video_dir)]
+    video_ids = sorted(list(set(video_ids)))
+    df = pd.read_csv(input_file)
+    df = df[df.annotation == 1]
+    df = df[df.video_id.isin(video_ids)]
     output_data = dict()
 
     # load model & processor
@@ -98,18 +113,23 @@ def main(
     model.eval()
     processor = DetrImageProcessor.from_pretrained(model_name)
 
-    for i, item in enumerate(tqdm(input_data)):
-        item_id = item['item_id']
-        if item['video'] is None:
-            continue
+    for indx in tqdm(range(len(df))):
+        item = df.iloc[indx]
+        item_id = int(item.id)
+        video = read_video(
+            video_dir=video_dir,
+            video_id=item.video_id,
+            start_pts=item.start,
+            end_pts=item.end,
+        )
         
         try:
             indices = sample_frame_indices(  # FIXME: hardcoded
                 clip_len=8,
                 frame_sample_rate=1,
-                seg_len=item['video'].shape[0],
+                seg_len=video.shape[0],
             )
-            downsampled = item['video'][indices]
+            downsampled = video[indices]
             inputs = processor(
                 images=downsampled,
                 return_tensors='pt',
