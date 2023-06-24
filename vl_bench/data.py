@@ -81,6 +81,9 @@ class Dataset_v1(Dataset):
         elif dataset == 'something-something-v2':
             video_dir = self.something_something_dir
             video_path = osp.join(video_dir, f'{item["dataset_idx"]}.webm')
+        elif dataset == 'RareAct':
+            video_dir = self.youtube_dir
+            video_path = osp.join(video_dir, f'{item["youtube_id"]}.mp4')
         else:
             raise NotImplementedError('Not implemented yet.')
 
@@ -107,9 +110,13 @@ class Dataset_v1(Dataset):
 
     def __getitem__(self, index):
         entry = deepcopy(self.json_data[index])
-        video = self._read_video(entry)
+        try:
+            video = self._read_video(entry)
+        except RuntimeError:
+            video = None
         subentry = entry if not self.proficiency else entry['proficiency']
         raw_texts = [subentry['caption']] + subentry['foils']
+
         item = {
             'index': index,
             'item_id': self.json_data.ids[index],

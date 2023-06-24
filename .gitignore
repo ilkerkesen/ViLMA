@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# cola model (GRUEN dependency)
+cola_model/
+cola_model.zip

@@ -58,6 +58,11 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
     required=False,
 )
 @click.option(
+    '--youtube-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
     '-o', '--output-file',
     type=click.Path(file_okay=True),
     required=True,
@@ -73,15 +78,20 @@ def main(
     device,
     quva_dir,
     something_something_dir,
+    youtube_dir,
     output_file,
     proficiency,
 ):
     # check video datasets' dirs
-    assert quva_dir is not None or something_something_dir is not None
+    assert quva_dir is not None \
+        or something_something_dir is not None \
+        or youtube_dir is not None
     if quva_dir is not None:
         quva_dir = process_path(quva_dir)
     if something_something_dir is not None:
         something_something_dir = process_path(something_something_dir)
+    if youtube_dir is not None:
+        youtube_dir = process_path(youtube_dir)
     np.random.seed(0)
 
     # read data
@@ -89,6 +99,7 @@ def main(
         input_file,
         quva_dir=quva_dir,
         something_something_dir=something_something_dir,
+        youtube_dir=youtube_dir
         proficiency=proficiency,
     )
 
