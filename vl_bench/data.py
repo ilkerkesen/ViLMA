@@ -21,6 +21,8 @@ class BaseDataset(Dataset):
             self.json_data = json.load(f)
         self.ids = list(self.json_data.keys())
         self.ids.sort()
+        for item_id in self.ids:
+            self.json_data[item_id]['item_id'] = item_id
 
     def __len__(self):
         return len(self.ids)
@@ -43,6 +45,7 @@ class Dataset_v1(Dataset):
         youtube_dir=None,
         quva_dir=None,
         something_something_dir=None,
+        proficiency=False,
         **kwargs,
     ):
         self.json_data = BaseDataset(json_path)
@@ -50,6 +53,7 @@ class Dataset_v1(Dataset):
         self.fps = fps
         self.num_frames = num_frames
         self.kwargs = kwargs
+        self.proficiency = proficiency
 
         self.youtube_dir = None
         if youtube_dir is not None:
@@ -110,7 +114,9 @@ class Dataset_v1(Dataset):
             video = self._read_video(entry)
         except RuntimeError:
             video = None
-        raw_texts = [entry['caption']] + entry['foils']
+        subentry = entry if not self.proficiency else entry['proficiency']
+        raw_texts = [subentry['caption']] + subentry['foils']
+
         item = {
             'index': index,
             'item_id': self.json_data.ids[index],

@@ -34,4 +34,4 @@ python vl_bench.py \
     --output-file /path/to/output.json
 ```
 
-This command will produce a results annotation file `/path/to/output.json`.
+This command will produce a results annotation file `/path/to/output.json`.  To generate scores for the proficiency task, pass the `--proficiency` flag.

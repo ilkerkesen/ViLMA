@@ -13,9 +13,18 @@
         "foils": [
             "someone is using a keyboard."
         ],
+        "class": "cutting"
+        "classes_foil": [
+            "using"
+        ],
         "foiling_methods": [
             "MLM with BERT"
-        ]
+        ],
+        "proficiency": {
+            "mask_target": "keyboard",
+            "predicted_word": "mango"
+        }
+           
     },
     "dummy_1": {
         "dataset": "RareAct",
@@ -31,8 +40,16 @@
         "foils": [
             "someone is eating a banana."
         ],
+        "class": "hammering"
+        "classes_foil": [
+            "eating"
+        ],
         "foiling_methods":  [
             "MLM with BERT"
-        ]
+        ],
+        "proficiency": {
+            "mask_target": "banana",
+            "predicted_word": "nail"
+        }
     }
 }
