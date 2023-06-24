@@ -4,78 +4,73 @@ This part of the repository contains the complete pipeline to generate the rare 
 The complete process is presented step-by-step as follows,
 
 1. Get the original RareAct annotation file `rareact.csv`.
-2. Create the captions by running `create_captions.py`.
-3. Create the foils by running `create_foils.py`
-4. Compute the nli scores by running `compute_nli.py`.
-5. Filter out the entailment cases by using `filter_entailments.py`.
-6. Run the object detector on the videos by using `detect_objects.py`.
-7. Filter out the objects by using `filter_objects.py`.
-8. Merge the two annotations file: the object foils / the action foils.
+2. Download the videos.
+3. Detect objects in the downloaded videos.
+4. Create the foil candidates.
+5. Filter out the low quality candidates manually.
+6. Create the annotations.
 
-## Creating Captions
+## Detect Objects
 Use the `create_captions.py` script,
 
 ```bash
-python create_captions.py -i $DATA_DIR/rareact.csv -o $DATA_DIR/active-only-captions.json --active
-python create_captions.py -i $DATA_DIR/rareact.csv -o $DATA_DIR/passive-only-captions.json --passive
+python tasks/actions/detect_objects.py \ 
+    -i /path/to/rareact.csv \
+    -o $DATA_DIR/detected-objects.json \
+    --video-dir /path/to/videos
 ```
 
-## Foil Generation
-Use the `create_foils.py` script,
+## Generate Foil Candidates for the Action Replacement
+We use T5 model to generate foil candidates for the action replacement subtask, because T5 works better for predicting actions, i.e. some verbs consists of multiple words (e.g. typing on, drilling into etc.).
 ```bash
-python create_foils.py -i $DATA_DIR/active-only-captions.json -o $DATA_DIR/active-foil-verb.json --foil-verb
-python create_foils.py -i $DATA_DIR/passive-only-captions.json -o $DATA_DIR/passive-foil-verb.json --foil-verb
-python create_foils.py -i $DATA_DIR/active-only-captions.json -o $DATA_DIR/active-foil-noun.json --foil-noun
-python create_foils.py -i $DATA_DIR/passive-only-captions.json -o $DATA_DIR/passive-foil-noun.json --foil-noun
+python t5.py \ 
+    -i /path/to/rareact.csv \
+    -o $DATA_DIR/action-candidates-t5-large.json \
+    --top-p 0.5 --do-sample
 ```
 
-## NLI Filtering
-First, generate produce the NLI scores and predict the NLI classes,
+This command will generate the candidates for the action replacement task. I manually filtered them in order to generate better foils. Note that I also filtered out some actions commonly used (e.g. be, have, see, use) or actions that indicate only making contact (e.g. pick, reach, touch). The model also tends to generate some adverbs and I filtered out them too.
+
+## Generate Foil Candidatea for the Object Replacement
+We now switch to masked language models in this part, since we observed that span generation with T5 for the objects did not work out well. We mask the noun/object, then generate foil candidates using several different MLMs using three different determiners `a`, `an` and `some`. We specifically used `bert-large-uncased`, `albert-large-v2` and `roberta-large`,
 
 ```bash
-python compute_nli.py -i $DATA_DIR/active-foil-verb.json -o $DATA_DIR/active-foil-verb-nli-scores.json
-python compute_nli.py -i $DATA_DIR/active-foil-noun.json -o $DATA_DIR/active-foil-noun-nli-scores.json
-python compute_nli.py -i $DATA_DIR/passive-foil-verb.json -o $DATA_DIR/passive-foil-verb-nli-scores.json
-python compute_nli.py -i $DATA_DIR/passive-foil-noun.json -o $DATA_DIR/passive-foil-noun-nli-scores.json
+python mlm.py \
+    -i /path/to/rareact.csv \
+    -o $DATA_DIR/object-candidates-$MODEL_NAME-top-1024.json \
+    --model-name $MODEL_NAME \
+    -T 0.01
 ```
 
-After you get the NLI predictions, filter out the entailments,
+We then ensemble these outputs,
 
 ```bash
-python filter_entailments.py -i $DATA_DIR/active-foil-verb-nli-scores.json -o $DATA_DIR/active-foil-verb-nli-filtered.json
-python filter_entailments.py -i $DATA_DIR/active-foil-noun-nli-scores.json -o $DATA_DIR/active-foil-noun-nli-filtered.json
-python filter_entailments.py -i $DATA_DIR/passive-foil-verb-nli-scores.json -o $DATA_DIR/passive-foil-verb-nli-filtered.json
-python filter_entailments.py -i $DATA_DIR/passive-foil-noun-nli-scores.json -o $DATA_DIR/passive-foil-noun-nli-filtered.json
+python ensemble_mlm_outputs.py \
+    -i $DATA_DIR/object-candidates-roberta-large-top-1024.json \
+    -i $DATA_DIR/object-candidates-albert-large-v2-top-1024.json \
+    -i $DATA_DIR/object-candidates-bert-large-uncased-top-1024.json \
+    -o $DATA_DIR/object-candidates-ensembled.json
 ```
 
-## Object Filtering
-Again, first run the detector,
+After that we again filter out the implausible candidates manually.
+
+## Creating the subtasks
+We simply run the following commands,
 
 ```bash
-python detect_objects.py \
-    -i $DATA_DIR/active-foil-verb-nli-filtered.json \
-    -o $DATA_DIR/detected_objects.json \
-    --video-dir $VIDEO_DIR
-```
+python create_action_subset.py \
+    -i $DATA_DIR/action-candidates.json \
+    -d /path/to/rareact.csv \
+    -o ../../data/rare-actions-verb-foils.json \
+    --video-dir /path/to/video-dir \
+    --object-detection-file $DATA_DIR/detected-objects.json \
+    --num-examples 1000
 
-In this stage, the input file does not matter: it could be any previous file since we only need the video ids and start/end timestamps. Then, we filter out the detected objects in the foils,
-
-```bash
-python filter_objects.py -a $DATA_DIR/active-foil-noun-nli-filtered.json -d $DATA_DIR/detected_objects.json -o $DATA_DIR/active-foil-noun-filtered.json
-python filter_objects.py -a $DATA_DIR/passive-foil-noun-nli-filtered.json -d $DATA_DIR/detected_objects.json -o $DATA_DIR/passive-foil-noun-filtered.json
-```
-
-## Generating the Final Annotations File
-```bash
-python create_uniform_annotations.py \
-    -vf $DATA_DIR/active-foil-verb-nli-filtered.json \
-    -nf $DATA_DIR/active-foil-noun-filtered.json \
-    -o $DATA_DIR/active-uniform.json \
-    --num-examples 512 --seed 1
-
-python create_uniform_annotations.py \
-    -vf $DATA_DIR/passive-foil-verb-nli-filtered.json \
-    -nf $DATA_DIR/passive-foil-noun-filtered.json \
-    -o $DATA_DIR/passive-uniform.json \
-    --num-examples 512 --seed 2
+python create_object_subset.py \
+    -i $DATA_DIR/object-candidates.json \
+    -d /path/to/rareact.csv \
+    -o ../../data/rare-actions-noun-foils.json \
+    --video-dir /path/to/video-dir \
+    --object-detection-file $DATA_DIR/detected-objects.json \
+    --num-examples 1000
 ```

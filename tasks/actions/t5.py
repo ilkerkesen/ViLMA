@@ -51,7 +51,7 @@ ADVERBS = ('easily', 'actually', 'also', 'only')
 @click.option(
     '--model-name',
     type=str,
-    default='google/flan-t5-xl',
+    default='t5-large',
     show_default=True,
 )
 @click.option(
