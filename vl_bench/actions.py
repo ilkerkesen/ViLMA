@@ -3,18 +3,18 @@ from .utils import process_path
 
 
 MISSING_VERBS = {
-    'deseed': ('deseeding', 'deseeded'),
-    'microwave': ('microwaving', 'microwaved'),
-    'use': ('using', 'used'),
-    'wrap': ('wrapping', 'wrapped'),
-    'endorse': ('endorsing', 'endorsed'),
-    'answering': ('answering', 'answered'),
-    'download': ('downloading', 'downloaded'),
-    'unlocked': ('unlocking', 'unlocked'),
-    'braid': ('braiding', 'braided'),
-    'answers': ('answering', 'answered'),
-    'answered': ('answering', 'answered'),
-    'locked': ('locking', 'locked'),
+    'deseed': ('deseeding', 'deseeded', 'deseeds'),
+    'microwave': ('microwaving', 'microwaved', 'microwaves'),
+    'use': ('using', 'used', 'uses'),
+    'wrap': ('wrapping', 'wrapped', 'wraps'),
+    'endorse': ('endorsing', 'endorsed', 'enderoses'),
+    'answering': ('answering', 'answered', 'answers'),
+    'download': ('downloading', 'downloaded', 'downloads'),
+    'unlocked': ('unlocking', 'unlocked', 'unlocks'),
+    'braid': ('braiding', 'braided', 'braids'),
+    'answers': ('answering', 'answered', 'answers'),
+    'answered': ('answering', 'answered', 'answers'),
+    'locked': ('locking', 'locked', 'locks'),
 }
 
 
@@ -66,8 +66,31 @@ def create_verb_forms_dict(file_path):
 
 VERB_FORMS_FILE = osp.join(osp.dirname(process_path(__file__)), 'en-verbs.txt')
 VERB_FORMS = create_verb_forms_dict(VERB_FORMS_FILE)
+PRESENT_INDEX = 3
 PRESENT_CONT_INDEX = 5
 PAST_PERFECT_INDEX = 11
+
+
+def _get_present_tense(verb):
+    if verb.endswith('sh') or verb.endswith('ch'):
+        return f'{verb}es'
+    elif verb.endswith('y'):
+        return f'{verb[:-1]}ies'
+    return f'{verb}s'
+
+
+def get_present_tense(verb, verb_forms_dict=VERB_FORMS):
+    forms = verb_forms_dict.get(verb, MISSING_VERBS.get(verb))
+    if forms is None:
+        return _get_present_tense(verb)
+    if isinstance(forms, list) and forms[PRESENT_INDEX] == '':
+        return None  # FIXME
+
+    if isinstance(forms, list):
+        return forms[PRESENT_INDEX]
+    elif isinstance(forms, tuple):
+        return forms[2]
+
 
 
 def get_present_continuous_tense(verb, verb_forms_dict=VERB_FORMS):
@@ -91,7 +114,7 @@ def get_past_perfect_tense(verb, verb_forms_dict=VERB_FORMS):
     if isinstance(forms, list) and forms[PAST_PERFECT_INDEX] == '':
         raise RuntimeError(
             f"The past perfect tense doesn't exist for {verb}.")
-    
+
     if isinstance(forms, list):
         return forms[PAST_PERFECT_INDEX]
     elif isinstance(forms, tuple):
@@ -104,10 +127,10 @@ def make_active_voice_sentence(verb, noun):
     verb_ = f'{verb_} ' + ' '.join(verb.split()[1:])
     verb_ = verb_.strip()
     noun_ = noun
-    
+
     if verb == 'drill':
         verb_ = 'drilling into'
-    
+
     is_plural = False
     if noun in PLURAL_EXCEPTIONS or verb == 'wash':  # FIXME: mostly.
         noun_ = f'{noun_}s'
