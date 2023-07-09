@@ -224,7 +224,7 @@ def sample_examples(
 @click.option(
     '--seed',
     type=int,
-    default=1,
+    default=101,  # easy -> 101, hard -> 102
     show_default=True,
 )
 @click.option(
