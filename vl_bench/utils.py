@@ -14,6 +14,7 @@ def get_device():
 
 
 def remove_count_phrase(template):
+    template = template.replace(' with exactly <number> moves', '')
     template = template.replace(' in exactly <number> moves', '')
     template = template.replace(' exactly <number> times', '')
     template = template.replace(' exactly <number>', '')
