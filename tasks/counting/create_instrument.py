@@ -170,8 +170,8 @@ def sample_examples(
             'foiling_methods': ['sampling'],
             'template': item['templates'][template_id],
             'template_id': int(template_id),
-            'classes': int(count),
-            'classes_foils': [int(foil_count)],
+            'class': int(count),
+            'classes_foil': [int(foil_count)],
             'proficiency': {
                 'caption': prof_caption,
                 'foils': [prof_foil],

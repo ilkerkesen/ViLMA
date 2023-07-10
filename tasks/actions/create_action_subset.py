@@ -120,7 +120,8 @@ def main(
         item.update({
             'caption': caption,
             'foils': [foil],
-            'foil_classes': [foil_verb],
+            'class': true_verb,
+            'classes_foil': [foil_verb],
             'foil_masked_pos': ['verb'],
             'foiling_method': ['t5'],
             'foil_nli_labels': [foil_candidate['label']],
