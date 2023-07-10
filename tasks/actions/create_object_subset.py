@@ -42,7 +42,7 @@ from vl_bench.actions import (
 @click.option(
     '--num-examples',
     type=int,
-    default=1024,
+    default=1000,
     show_default=True,
 )
 @click.option(
@@ -117,14 +117,14 @@ def main(
         # proficiency
         prof_caption = make_proficiency_sentence(true_noun)
         filtered_nouns = [x for x in nouns if x != true_noun and x not in detected]
-        foil_noun = filtered_nouns[rng.integers(len(filtered_nouns))]
-        prof_foil = make_proficiency_sentence(foil_noun)
+        p_foil_noun = filtered_nouns[rng.integers(len(filtered_nouns))]
+        prof_foil = make_proficiency_sentence(p_foil_noun)
 
         item.update({
             'caption': caption,
             'foils': [foil],
             'class': true_noun,
-            'classes_foil': [foil_noun],
+            'classes_foil': [foil_candidate['noun']],
             'foil_masked_pos': ['noun'],
             'foiling_method': ['mlm ensembling'],
             'foil_nli_labels': [foil_candidate['label']],
@@ -133,6 +133,8 @@ def main(
             'proficiency': {
                 'caption': prof_caption,
                 'foils': [prof_foil],
+                'class': true_noun,
+                'classes_foil': [p_foil_noun],
             }
         })
         item_id = f'actions-noun-active-{indx:04d}'
