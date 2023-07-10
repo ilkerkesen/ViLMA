@@ -10,7 +10,8 @@ from vl_bench.utils import process_path
 
 
 MODELS = (
-    'microsoft/xclip-base-patch32',
+    'openai/clip-vit-large-patch14',
+    'openai/clip-vit-base-patch32',
 )
 
 
@@ -104,7 +105,6 @@ def main(
     )
 
     # initialize model & processor
-    model_name = "microsoft/xclip-base-patch32"
     processor = AutoProcessor.from_pretrained(model_name)
     model = AutoModel.from_pretrained(model_name).half().to(device)
     results = dict()
@@ -117,7 +117,7 @@ def main(
         downsampled = item['video'][indices]
         inputs = processor(
             text=item['raw_texts'],
-            videos=list(downsampled),
+            images=list(downsampled),
             return_tensors='pt',
             padding=True,
         ).to(device)
@@ -125,7 +125,9 @@ def main(
 
         with torch.no_grad():
             output = model(**inputs)
-        scores = output.logits_per_video.softmax(dim=-1).tolist()[0]
+
+        scores = output.logits_per_image.softmax(dim=-1).mean(dim=0)
+        scores = scores.clone().cpu().tolist()
         item_id = item['item_id']
         results[item_id] = {'scores': scores}
 

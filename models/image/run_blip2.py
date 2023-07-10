@@ -4,13 +4,14 @@ import torch
 import torch.nn as nn
 from tqdm import tqdm
 import click
-from transformers import AutoProcessor, AutoModel
+from transformers import Blip2Processor, Blip2ForConditionalGeneration
 from vl_bench.data import Dataset_v1
 from vl_bench.utils import process_path
 
 
 MODELS = (
-    'microsoft/xclip-base-patch32',
+    'Salesforce/blip2-opt-6.7b',
+    'Salesforce/blip2-opt-2.7b',
 )
 
 
@@ -104,9 +105,14 @@ def main(
     )
 
     # initialize model & processor
-    model_name = "microsoft/xclip-base-patch32"
-    processor = AutoProcessor.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name).half().to(device)
+    processor = Blip2Processor.from_pretrained(model_name)
+    model = Blip2ForConditionalGeneration.from_pretrained(
+        model_name).half().to(device)
+    offset = model.config.num_query_tokens
+    crit = nn.CrossEntropyLoss(
+        reduction='none',
+        ignore_index=processor.tokenizer.pad_token_id,
+    )
     results = dict()
     for item in tqdm(data):
         indices = sample_frame_indices(  # FIXME: hardcoded
@@ -117,15 +123,34 @@ def main(
         downsampled = item['video'][indices]
         inputs = processor(
             text=item['raw_texts'],
-            videos=list(downsampled),
+            images=list(downsampled),
             return_tensors='pt',
             padding=True,
         ).to(device)
+
+        # reshape the arrays -- its different from CLIP/X-CLIP.
+        num_texts = len(item['raw_texts'])
+        num_frames = len(downsampled)
         inputs['pixel_values'] = inputs['pixel_values'].half()
+        inputs['pixel_values'] = inputs['pixel_values'].unsqueeze(1).repeat_interleave(num_texts, dim=1)
+        C, H, W = inputs['pixel_values'].shape[2:]
+        inputs['pixel_values'] = inputs['pixel_values'].reshape(-1, C, H, W)
+        inputs['input_ids'] = inputs['input_ids'].unsqueeze(0).repeat_interleave(num_frames, dim=0)
+        inputs['input_ids'] = inputs['input_ids'].reshape(-1, inputs['input_ids'].shape[-1])
+        inputs['attention_mask'] = inputs['attention_mask'].unsqueeze(0).repeat_interleave(num_frames, dim=0)
+        inputs['attention_mask'] = inputs['attention_mask'].reshape(-1, inputs['attention_mask'].shape[-1])
 
         with torch.no_grad():
             output = model(**inputs)
-        scores = output.logits_per_video.softmax(dim=-1).tolist()[0]
+
+        logits = output.logits[:, offset:-1, :]
+        labels = inputs['input_ids'][:, 1:].contiguous()
+        lengths = inputs['attention_mask'].sum(dim=-1)
+        scores = crit(logits.reshape(-1, logits.shape[-1]), labels.view(-1))
+        scores = scores.reshape_as(labels)
+        scores = scores.sum(dim=1) / lengths
+        scores = scores.reshape(num_frames, num_texts)
+        scores = scores.mean(dim=0).exp().tolist()
         item_id = item['item_id']
         results[item_id] = {'scores': scores}
 

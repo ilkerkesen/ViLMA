@@ -2,16 +2,7 @@
 Paper Link: https://arxiv.org/abs/2208.02816
 
 ## Environment Setup
-X-CLIP model uses the same conda environment with VideoCLIP model. So, to setup the environment, first follow the instructions for the [VideoCLIP](VideoCLIP.md) model. Then, install `transformers` and `PyAV` packages,
-
-```bash
-conda activate videoclip_env
-pip install transformers==4.25.1
-pip install av==10.0.0
-pip install -e .
-cd /path/to/this/repo
-cd models/video
-```
+X-CLIP model uses the same conda environment with this repo. So, to setup the environment, follow [these steps](../../README.md). Note that you need `av==10.0.0` package to run this model.
 
 ## Running X-CLIP on the data
 
