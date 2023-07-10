@@ -1,10 +1,11 @@
-# Running CLIP
-Paper Link: https://arxiv.org/abs/2103.00020
+# Running CLIP and BLIP2
+CLIP Paper: https://arxiv.org/abs/2103.00020
+BLIP2 Paper: https://arxiv.org/abs/2301.12597
 
 First, setup the environment by following [these steps](../../README.md). After you prepare the environment, run the following command,
 
 ```bash
-python run_clip.py \
+python run_{clip,blip2}.py \
     --input-file /path/to/annotations.json \
     --quva-dir /path/to/quva \
     --something-something-dir /path/to/dataset \
