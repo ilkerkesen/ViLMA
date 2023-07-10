@@ -99,7 +99,7 @@ def main(
         input_file,
         quva_dir=quva_dir,
         something_something_dir=something_something_dir,
-        youtube_dir=youtube_dir
+        youtube_dir=youtube_dir,
         proficiency=proficiency,
     )
 
