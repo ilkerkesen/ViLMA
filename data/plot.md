@@ -19,9 +19,9 @@ python plotter.py \
     -i $(PATH_TO_DATASET)/SRL.json \
     -p False \
     -ctype bar3d \
-    -ctitle Action Replacement Distributions \
-    -xtitle Verbs \
-    -ytitle Count \
+    -ctitle "Action Replacement Distributions" \
+    -xtitle "Verbs" \
+    -ytitle "Count" \
     -o $(PATH_TO_OUTPUT)/output.xlsx
 ```
 
