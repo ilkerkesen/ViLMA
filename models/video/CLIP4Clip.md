@@ -29,4 +29,4 @@ python -m torch.distributed.launch --nproc_per_node=1 main_task_retrieval.py \
     --pretrained_clip_name ViT-B/32
 ```
 
-This command will produce output `Task_Results.json` and `Prof_Results.json` files in desired output path.
+This command will produce output `Main_Task_Results.json` and `Prof_Results.json` files in desired output path.
