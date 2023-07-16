@@ -29,4 +29,4 @@ python run_merlot_reserve.py \
     --input_file inputs/input_file.json
 ```
 
-This command will produce a single output `output={accuracy}%`.
+This command will produce output `Main_Task_Results.json` and `Prof_Results.json` in the current directory. Additionally, the script will create `Errors.json` if any sample is skipped due to an unexpected error.
