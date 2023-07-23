@@ -43,7 +43,7 @@ def get_model_type(model_name):
 @click.option(
     '--batch-size',
     type=int,
-    default=128,
+    default=16,
     show_default=True,
 )
 @click.option(

@@ -108,13 +108,18 @@ def main(
     processor = AutoProcessor.from_pretrained(model_name)
     model = AutoModel.from_pretrained(model_name).half().to(device)
     results = dict()
-    for item in tqdm(data):
-        indices = sample_frame_indices(  # FIXME: hardcoded
-            clip_len=8,
-            frame_sample_rate=1,
-            seg_len=item['video'].shape[0],
-        )
-        downsampled = item['video'][indices]
+    for i, item in enumerate(tqdm(data)):
+        video_len = item['video'].shape[0]
+        clip_len = 8  # FIXME: hardcoded
+        downsampled = item['video']
+        if video_len > clip_len:
+            indices = sample_frame_indices(
+                clip_len=clip_len,
+                frame_sample_rate=1,
+                seg_len=item['video'].shape[0],
+            )
+            downsampled = item['video'][indices]
+
         inputs = processor(
             text=item['raw_texts'],
             images=list(downsampled),
