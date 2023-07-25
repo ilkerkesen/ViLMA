@@ -10,6 +10,18 @@ from torchvision.io import read_video
 from .utils import process_path
 
 
+def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
+    converted_len = int(clip_len * frame_sample_rate)
+    if seg_len > converted_len:
+        end_idx = np.random.randint(converted_len, seg_len)
+    else:
+        end_idx = min(converted_len, seg_len)-1
+    start_idx = end_idx - converted_len
+    indices = np.linspace(start_idx, end_idx, num=clip_len)
+    indices = np.clip(indices, start_idx, end_idx - 1).astype(np.int64)
+    return indices
+
+
 class BaseDataset(Dataset):
     """
     Only loads the JSON annotations.
@@ -124,3 +136,84 @@ class Dataset_v1(Dataset):
             'raw_texts': raw_texts,
         }
         return item
+
+
+class Dataset_v2(Dataset_v1):
+    def __init__(self, *args, clip_len=8, frame_sample_rate=1, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.clip_len = clip_len
+        self.frame_sample_rate = frame_sample_rate
+
+    def __getitem__(self, index):
+        item = super().__getitem__(index)
+        item['num_texts'] = len(item['raw_texts'])
+
+        downsampled = item.pop('video')
+        video_len = downsampled.shape[0]
+        if video_len > self.clip_len:
+            indices = sample_frame_indices(
+                clip_len=self.clip_len,
+                frame_sample_rate=self.frame_sample_rate,
+                seg_len=video_len,
+            )
+            downsampled = downsampled[indices]
+        downsampled = list(downsampled)
+        diff = self.clip_len - len(downsampled)
+        if diff > 0:
+            downsampled += diff * [downsampled[-1]]
+        item['video'] = downsampled
+        return item
+
+
+def get_xclip_collate_fn(processor, dtype=torch.half):
+    def _collate_fn(batch):
+        item_ids = [x['item_id'] for x in batch]
+        num_texts = [x['num_texts'] for x in batch]
+
+        texts = []
+        for item in batch:
+            texts.extend(item['raw_texts'])
+
+        inputs = processor(
+            text=texts,
+            videos=[x['video'] for x in batch],
+            return_tensors='pt',
+            padding=True,
+        )
+        if dtype == torch.half:
+            inputs['pixel_values'] = inputs['pixel_values'].half()
+
+        return {
+            'inputs': inputs,
+            'item_ids': item_ids,
+            'num_texts': num_texts,
+        }
+    return _collate_fn
+
+
+def get_clip_collate_fn(processor):
+    def _collate_fn(batch):
+        item_ids = [x['item_id'] for x in batch]
+        num_texts = [x['num_texts'] for x in batch]
+        num_frames = [len(x['video']) for x in batch]
+
+        texts, frames = [], []
+        for item in batch:
+            texts.extend(item['raw_texts'])
+            frames.extend(item['video'])
+
+        inputs = processor(
+            text=texts,
+            images=frames,
+            return_tensors='pt',
+            padding=True,
+        )
+        inputs['pixel_values'] = inputs['pixel_values'].half()
+
+        return {
+            'inputs': inputs,
+            'item_ids': item_ids,
+            'num_texts': num_texts,
+            'num_frames': num_frames,
+        }
+    return _collate_fn

@@ -2,28 +2,17 @@ import json
 import numpy as np
 import torch
 import torch.nn as nn
+from torch.utils.data import DataLoader
 from tqdm import tqdm
 import click
 from transformers import AutoProcessor, AutoModel
-from vl_bench.data import Dataset_v1
+from vl_bench.data import Dataset_v2, get_xclip_collate_fn
 from vl_bench.utils import process_path
 
 
 MODELS = (
     'microsoft/xclip-base-patch32',
 )
-
-
-def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
-    converted_len = int(clip_len * frame_sample_rate)
-    if seg_len > converted_len:
-        end_idx = np.random.randint(converted_len, seg_len)
-    else:
-        end_idx = min(converted_len, seg_len)-1
-    start_idx = end_idx - converted_len
-    indices = np.linspace(start_idx, end_idx, num=clip_len)
-    indices = np.clip(indices, start_idx, end_idx - 1).astype(np.int64)
-    return indices
 
 
 @click.command()
@@ -40,7 +29,12 @@ def sample_frame_indices(clip_len, frame_sample_rate, seg_len):
 @click.option(
     '--batch-size',
     type=int,
-    default=1,
+    default=16,
+)
+@click.option(
+    '--num-workers',
+    type=int,
+    default=5,
 )
 @click.option(
     '--device',
@@ -75,6 +69,7 @@ def main(
     input_file,
     model_name,
     batch_size,
+    num_workers,
     device,
     quva_dir,
     something_something_dir,
@@ -94,45 +89,48 @@ def main(
         youtube_dir = process_path(youtube_dir)
     np.random.seed(0)
 
+
+    # initialize model & processor
+    model_name = "microsoft/xclip-base-patch32"
+    processor = AutoProcessor.from_pretrained(model_name)
+    model = AutoModel.from_pretrained(model_name).half().to(device)
+
     # read data
-    data = Dataset_v1(
+    data = Dataset_v2(
         input_file,
         quva_dir=quva_dir,
         something_something_dir=something_something_dir,
         youtube_dir=youtube_dir,
         proficiency=proficiency,
     )
+    loader = DataLoader(
+        data,
+        batch_size=batch_size,
+        shuffle=False,
+        collate_fn=get_xclip_collate_fn(processor=processor),
+        num_workers=num_workers,
+        # pin_memory=False,
+    )
 
-    # initialize model & processor
-    model_name = "microsoft/xclip-base-patch32"
-    processor = AutoProcessor.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name).half().to(device)
     results = dict()
-    for item in tqdm(data):
-        clip_len = 8  # FIXME: hardcoded
-        video_len = item['video'].shape[0]
-        downsampled = item['video']
-        if video_len > clip_len:
-            indices = sample_frame_indices(
-                clip_len=clip_len,
-                frame_sample_rate=1,
-                seg_len=item['video'].shape[0],
-            )
-            downsampled = item['video'][indices]
-
-        inputs = processor(
-            text=item['raw_texts'],
-            videos=list(downsampled),
-            return_tensors='pt',
-            padding=True,
-        ).to(device)
-        inputs['pixel_values'] = inputs['pixel_values'].half()
+    for i, batch in enumerate(tqdm(loader)):
+        inputs = batch['inputs'].to(device)
+        num_batch_texts = batch['num_texts']
+        batch_size = len(num_batch_texts)
 
         with torch.no_grad():
-            output = model(**inputs)
-        scores = output.logits_per_video.softmax(dim=-1).tolist()[0]
-        item_id = item['item_id']
-        results[item_id] = {'scores': scores}
+            outputs = model(**inputs)
+        logits = outputs.logits_per_video.cpu()
+        
+        offset = 0
+        for i in range(batch_size):
+            num_texts = num_batch_texts[i]
+            start = offset
+            end = offset + num_texts
+            scores = logits[i, start:end].flatten().tolist()
+            key = batch['item_ids'][i]
+            results[key] = {'scores': scores}
+            offset += num_texts
 
     with open(process_path(output_file), 'w') as f:
         json.dump(results, f, indent=4)
