@@ -15,7 +15,7 @@ git checkout vl-bench origin/vl-bench
 Then, we create the conda environment,
 ```bash
 # setup the environment and directories
-conda create --name sl --file spec-file.txt
+conda env create -f environment.yaml
 conda activate sl  # I recommend micromamba
 ```
 
