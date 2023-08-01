@@ -6,6 +6,9 @@ Paper Link: https://arxiv.org/abs/2201.02639
 The instructions as follows,
 
 ```bash
+git clone https://github.com/mustafaadogan/merlot_reserve
+cd merlot_reserve
+
 conda create --name mreserve python=3.8 && conda activate mreserve
 conda install -y python=3.8 tqdm numpy pyyaml scipy ipython cython typing h5py pandas matplotlib
 
