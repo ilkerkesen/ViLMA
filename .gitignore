@@ -131,5 +131,10 @@ results
 cache
 scripts
 .vscode
+bench-results
+results-hyponyms
+all_results.csv
+models/video/UniVL
+models/video/pytorch_violet
 results-hyponyms
 bench-results
