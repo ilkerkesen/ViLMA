@@ -37,7 +37,7 @@ Prepare your data as shown below.
   ```
 I already created vlbench_dataset folder with vocabulary_CLIP_with_endoftext.pkl in the repo. You can move your video files under the videos folder or set this structure in a different directory.
 
-##Config File Preparation
+## Config File Preparation
 Open $(UNIPERCEIVER_PATH)/configs/BERT_L12_H768_experiments/zeroshot_config/vlbench.yaml
 Set DATALOADER.FEATS_FOLDER, DATALOADER.ANNO_FOLDER, INFERENCE.TEST_ANNFILE values according to your data structure created above. 
 
