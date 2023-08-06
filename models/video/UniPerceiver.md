@@ -52,6 +52,9 @@ export WORLD_SIZE=1
 export RANK=0
 export MASTER_ADDR=localhost
 export MASTER_PORT=29500
+```
+Now you can run the following command
+```bash
 python main.py --num-gpus 1 --init_method slurm --config-file configs/BERT_L12_H768_experiments/zeroshot_config/vlbench.yaml \
     --eval-only MODEL.WEIGHTS uni-perceiver-base-L12-H768-224size-pretrained.pth OUTPUT_DIR /path/to/output
 ```
