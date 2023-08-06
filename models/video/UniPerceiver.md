@@ -23,6 +23,7 @@ pip install -v --disable-pip-version-check --no-build-isolation --no-cache-dir .
 ```
 
 ##Data Preparation
+
 Prepare your data as shown below.   
  ``` 
   DATA_PATH/
