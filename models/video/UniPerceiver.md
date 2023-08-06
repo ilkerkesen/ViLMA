@@ -39,7 +39,8 @@ I already created vlbench_dataset folder with vocabulary_CLIP_with_endoftext.pkl
 
 ## Config File Preparation
 Open $(UNIPERCEIVER_PATH)/configs/BERT_L12_H768_experiments/zeroshot_config/vlbench.yaml
-Set DATALOADER.FEATS_FOLDER, DATALOADER.ANNO_FOLDER, INFERENCE.TEST_ANNFILE values according to your data structure created above. 
+
+Set *DATALOADER.FEATS_FOLDER*, *DATALOADER.ANNO_FOLDER*, *INFERENCE.TEST_ANNFILE* values according to your data structure created above. 
 
 ## Running UniPerceiver on the data
 
