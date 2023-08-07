@@ -21,11 +21,22 @@ import jax.numpy as jnp
     required=True
 )
 
+@click.option(
+    '--video_dir',
+    type=click.Path(exists=True),
+    required=True
+)
 
+@click.option(
+    '--output_dir',
+    type=click.Path(exists=True),
+    required=True
+)
 
-def main(input_file):
+def main(input_file, video_dir, output_dir):
     # read data
     data = BaseDataset(input_file)
+    output_dir = process_path(output_dir)
 
     # initialize model & processor
     grid_size = (18, 32)
@@ -37,12 +48,12 @@ def main(input_file):
     
     for key, item in tqdm(data):
         try: 
-            video_segments = video_to_segments(item["video_file"] + ".mp4")
+            video_segments = video_to_segments(process_path(video_dir) + "/" + item["video_file"] + ".mp4")
             ss = item["start_time"]//5
             to = item["end_time"]//5
             
             if (to-ss) > 8:
-                raise Exception("Merlot Reserve is capable of processing maximum 40 seconds length of videos. Skipping..")
+                raise Exception("Merlot Reserve is capable of processing maximum 40 seconds length videos. Skipping..")
 
             video_segments = video_segments[ss:to]
             video_segments[0]['text'] = "<|MASK|>"
@@ -79,7 +90,7 @@ def main(input_file):
             ##############################################################################################################
             
             options =  [item["proficiency"]["caption"]]
-            options += item["proficiency"]["foils"]  
+            options += [item["proficiency"]["foiled_caption"]]  
 
             label_space = model.get_label_space(options)
 
@@ -108,17 +119,17 @@ def main(input_file):
             prof_results[key] = prof_scores
 
         except Exception as e:
-            print(f"Error Occurred at {key}: {e}")
+            print(f"Error Occured at {key}: {e}")
             error_dict[key] = str(e)
 
 
-    with open("Main_Task_Results.json", "w") as fpm:
+    with open(f"{output_dir}/Main_Task_Results.json", "w") as fpm:
         json.dump(main_task_results, fpm, indent=4) 
     
-    with open("Prof_Results.json", "w") as fpp:
+    with open(f"{output_dir}/Prof_Results.json", "w") as fpp:
         json.dump(prof_results, fpp, indent=4) 
     
-    with open("Errors.json", "w") as fpe:
+    with open(f"{output_dir}/Errors.json", "w") as fpe:
         json.dump(error_dict, fpe, indent=4)
 
 if __name__ == "__main__":
