@@ -1,7 +1,4 @@
 import os
-
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-
 import json
 import math
 
@@ -20,22 +17,10 @@ from models.video.UniVL.VideoFeatureExtractor.videocnn.models import s3dg
 from vl_bench.data import Dataset_v1
 from vl_bench.utils import process_path
 
-
-
 FRAMERATE_DICT = {"2d": 1, "3d": 24, "s3dg": 16, "raw_data": 16}
 SIZE_DICT = {"2d": 224, "3d": 112, "s3dg": 224, "raw_data": 224}
 CENTERCROP_DICT = {"2d": False, "3d": True, "s3dg": True, "raw_data": True}
-SEED = 42
-SEED = 42
 FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
-
-torch.manual_seed(SEED)
-torch.cuda.manual_seed(SEED)
-torch.cuda.manual_seed_all(SEED)
-
-torch.manual_seed(SEED)
-torch.cuda.manual_seed(SEED)
-torch.cuda.manual_seed_all(SEED)
 
 
 @click.command()
@@ -104,6 +89,8 @@ def main(
 ):
     print(f"- running UniVL on {input_file}")
     print(f"- output file: {output_file}")
+    if mask_video:
+        output_file = output_file.replace(".json", "_masked.json")
 
     univl, tokenizer = init_univl(device=device)
     video_extractor, video_preprocessor = init_s3dg(device=device)
@@ -113,8 +100,6 @@ def main(
     dataset_name = "change-state" if "change-state" in dataset_name else dataset_name
     CACHE_DIR = process_path(os.path.join("cache", dataset_name))
     os.makedirs(CACHE_DIR, exist_ok=True)
-    os.makedirs(os.path.join(CACHE_DIR, "processed"), exist_ok=True)
-    os.makedirs(os.path.join(CACHE_DIR, "processed"), exist_ok=True)
 
     data = Dataset_v1(
         input_file,
@@ -125,8 +110,6 @@ def main(
         rareact_dir=rareact_dir,
         cache_dir=CACHE_DIR,
     )
-    # TODO: there must be something wrong with the arguments and the init of UniVL ...
-    # TODO: there must be something wrong with the arguments and the init of UniVL ...
 
     results = {}
     with torch.no_grad():
@@ -134,44 +117,21 @@ def main(
             video = item["video"]
             video_path = item["video_path"]
 
-            fname = str(item["item_id"])
-            _cached_path = os.path.join(CACHE_DIR, "processed", fname + ".npy")
-            if os.path.exists(_cached_path):
-                video = np.load(_cached_path)
-            else:
-                # if end time and not cached is not none we crop videos to correct size and store them in cache
-                if item["end_time"] is not None and "cache" not in item["video_path"]:
-                    # rely on torchvision to cut the video (and encode webm as mp4)
-                    torchvision.io.write_video(
-                        # Writes a 4d tensor in [T, H, W, C] format in a video file (we get TCHW)
-                        os.path.join(CACHE_DIR, fname + ".mp4"),
-                        video.permute([0, 2, 3, 1]),
-                        item["fps"],
-                    )
-                    video_path = os.path.join(CACHE_DIR, fname + ".mp4")
-            fname = str(item["item_id"])
-            _cached_path = os.path.join(CACHE_DIR, "processed", fname + ".npy")
-            if os.path.exists(_cached_path):
-                video = np.load(_cached_path)
-            else:
-                # if end time and not cached is not none we crop videos to correct size and store them in cache
-                if item["end_time"] is not None and "cache" not in item["video_path"]:
-                    # rely on torchvision to cut the video (and encode webm as mp4)
-                    torchvision.io.write_video(
-                        # Writes a 4d tensor in [T, H, W, C] format in a video file (we get TCHW)
-                        os.path.join(CACHE_DIR, fname + ".mp4"),
-                        video.permute([0, 2, 3, 1]),
-                        item["fps"],
-                    )
-                    video_path = os.path.join(CACHE_DIR, fname + ".mp4")
-
-                # extract video features via UniVL code
-                video = video_preprocessor(read_ffmpeg(video_path))
-                video = extract_video_features(
-                    video, video_extractor, device, batch_size=1
+            # if end time and not cached is not none we crop videos to correct size and store them in cache
+            if item["end_time"] is not None and "cache" not in item["video_path"]:
+                # rely on torchvision to cut the video (and encode webm as mp4)
+                fname = str(item["item_id"]) + ".mp4"
+                torchvision.io.write_video(
+                    # Writes a 4d tensor in [T, H, W, C] format in a video file (we get TCHW)
+                    os.path.join(CACHE_DIR, fname),
+                    video.permute([0, 2, 3, 1]),
+                    item["fps"],
                 )
+                video_path = os.path.join(CACHE_DIR, fname)
 
-                np.save(os.path.join(CACHE_DIR, "processed", f"{fname}.npy"), video)
+            # extract video features via UniVL code
+            video = video_preprocessor(read_ffmpeg(video_path))
+            video = extract_video_features(video, video_extractor, device, batch_size=1)
 
             if mask_video:
                 # mask video features
@@ -187,7 +147,6 @@ def main(
             # univl returns probability score for each (capt, video) pairs 
             # scores = convert_to_prob(scores)
             scores = [s.to("cpu").item() for s in scores]
-            # scores = convert_to_prob(scores)
             results[str(item["item_id"])] = {"scores": scores}
 
     with open(process_path(output_file), "w") as f:
@@ -208,6 +167,7 @@ def extract_video_features(video, video_extractor, device, batch_size=1):
         max_ind = (i + 1) * batch_size
         video_batch = video[min_ind:max_ind].to(device)
         batch_features = video_extractor(video_batch)
+        features[min_ind:max_ind] = batch_features
         batch_features = F.normalize(batch_features, dim=1)
         features[min_ind:max_ind] = batch_features
     features = features.cpu().numpy()
@@ -225,8 +185,7 @@ def get_similarity_scores(univl, video_features, text, tokenizer, device):
     similarity = univl.get_similarity_logits(
         capt_sequence_output, capt_visual_output, text_mask, video_mask
     )
-    return similarity.item()
-    return similarity.item()
+    return similarity
 
 
 def _get_video_mask(video, device):
