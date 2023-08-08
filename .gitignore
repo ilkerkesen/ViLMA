@@ -138,3 +138,7 @@ models/video/merlot_reserve
 
 # processed video cache folder
 cache/
+
+# cola model (GRUEN dependency)
+cola_model/
+cola_model.zip

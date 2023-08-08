@@ -47,7 +47,7 @@ Singularity> python src/tasks/run_bench.py \
     --json_path /path/to/annotations.json \
     --quva_dir /quva \
     --something_something_dir /something \
-    --num_frames 16 \
+    --num_frames 8 \
     --config $CONFIG_PATH \
     --output_file /path/to/output.json
 ```

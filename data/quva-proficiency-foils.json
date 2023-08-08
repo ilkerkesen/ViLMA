@@ -1,0 +1,1795 @@
+{
+    "000": {
+        "0": [
+            "a man pulls a rope.",
+            "a man pulls the rope.",
+            "a man ties a rope.",
+            "a man throws a rope.",
+            "a man cuts a rope.",
+            "a man climbs a rope.",
+            "a man hangs from the rope.",
+            "a man pulls rope.",
+            "a man hangs from a rope.",
+            "a man throws the rope.",
+            "a man ties the rope.",
+            "a man cuts the rope.",
+            "a man ties rope.",
+            "a man catches the rope.",
+            "a man climbs the rope.",
+            "a man cuts rope.",
+            "a man breaks the rope."
+        ],
+        "1": [
+            "someone pulls the rope.",
+            "someone cuts the rope.",
+            "someone ties the rope.",
+            "someone cuts a rope.",
+            "someone drops the rope.",
+            "someone hangs the rope.",
+            "someone lowers the rope.",
+            "someone changes the rope."
+        ]
+    },
+    "001": {
+        "0": [
+            "a kid spins around.",
+            "a kid uses his own hands to spin around.",
+            "a kid spins the hula hoop.",
+            "a kid spins the pedals of the elliptical bicycle.",
+            "a kid wearing a yellow t-shirt juggles the ball using his racket.",
+            "a kid keeps the ball up in the air by hitting it.",
+            "a kid uses his hands to spin around.",
+            "a kid raises his legs."
+        ],
+        "1": [
+            "a kid uses her hands to grasp the next bar.",
+            "a kid lifts his legs while hanging.",
+            "a kid performs sit-ups on the monkey bars.",
+            "a kid spins the bike pedals.",
+            "a kid uses his hands to spin around.",
+            "a kid jumps.",
+            "a kid is performing sit-ups while she is hanging on the monkey bars.",
+            "a kid with a gray t-shirt lunges."
+        ],
+        "2": [
+            "a gymnast spins the hula hoop around her waist.",
+            "a gymnast spins around.",
+            "a gymnast of athletes performs pull-ups.",
+            "a gymnast spins the hula hoop.",
+            "a gymnast swims by performing strokes.",
+            "a gymnast keeps the ball up in the air by hitting it.",
+            "a gymnast in a black t-shirt bounces the ball with his right hand.",
+            "a gymnast spins around."
+        ],
+        "3": [
+            "a child hits the ball.",
+            "a child keeps the ball up in the air by hitting it.",
+            "a child skips the rope.",
+            "a child moves his legs up and down.",
+            "a child bounces the ball.",
+            "a child in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a child spins the bike pedals.",
+            "a child spins around with his bare hands."
+        ],
+        "4": [
+            "a kid performs pushups.",
+            "a kid performs cross crunch exercises.",
+            "a kid does overhead presses.",
+            "a kid in red spins around.",
+            "a kid completes rowing exercises.",
+            "a kid skates from one side to the other.",
+            "a kid swims by performing strokes.",
+            "a kid bounces the ball."
+        ]
+    },
+    "002": {
+        "0": [
+            "a toddler in a playground swings on a rope.",
+            "a toddler in a playground swings on a tree."
+        ]
+    },
+     "003": {
+        "0": [
+            "each table tennis player throws the ball.",
+            "each table tennis player catches the ball."
+        ]
+    },
+    "004": {
+        "0": [
+            "each table tennis player throws the ball.",
+            "each table tennis player catches the ball."
+        ]
+    },
+    "005": {
+        "1": [
+            "a performer walks around."
+        ]
+    },
+    "006": {
+        "0": [
+            "someone slices a banana.",
+            "someone slices a cake.",
+            "someone slices a carrot.",
+            "someone slices a chicken.",
+            "someone slices a grape.",
+            "someone slices a pear.",
+            "someone slices a pineapple.",
+            "someone slices a pizza.",
+            "someone slices a sandwich.",
+            "someone slices a steak.",
+            "someone slices a tomato."
+        ],
+        "1": [
+            "a banana is sliced.",
+            "a bread is sliced.",
+            "a cake is sliced.",
+            "a chicken is sliced.",
+            "a lemon is sliced.",
+            "a pear is sliced.",
+            "a pizza is sliced.",
+            "a sandwich is sliced.",
+            "a steak is sliced.",
+            "a tomato is sliced."
+        ],
+        "2": [
+            "someone cuts a cord.",
+            "someone cuts a finger.",
+            "someone cuts a ribbon.",
+            "someone cuts a rope.",
+            "someone cuts a tree.",
+            "someone cuts a wire."
+        ],
+        "3": [
+            "someone chops a banana.",
+            "someone chops a cabbage.",
+            "someone chops a chicken.",
+            "someone chops a coconut.",
+            "someone chops a limb.",
+            "someone chops a steak.",
+            "someone chops a tree.",
+            "someone chops a turkey."
+        ]
+    },
+    "007": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "008": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "009": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "010": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "011": {
+        "2": [
+            "someone buys a gun.",
+            "someone pulls out a gun."
+        ],
+        "3": [
+            "a person buys a gun."
+        ]
+    },
+    "012": {
+        "2": [
+            "someone dances around a bar.",
+            "someone walks around a bar.",
+            "someone hangs out around a bar.",
+            "someone runs around a bar.",
+            "someone wanders around a bar.",
+            "someone figures out how to dance around a bar.",
+            "someone flies around a bar.",
+            "someone bounces around a bar.",
+            "someone waits around a bar."
+        ]
+    },
+    "013": {
+        "1": [
+            "someone performs swimming strokes.",
+            "someone swims by performing strokes.",
+            "someone hits the ball using their rackets.",
+            "someone lifts a bar using her right arm.",
+            "someone grasps a monkey bar to move forward.",
+            "someone uses his hands to spin around.",
+            "someone pedals the elliptical bicycle.",
+            "someone wearing a yellow t-shirt juggles the ball using his racket."
+        ]
+    },
+    "014": {
+        "2": [
+            "someone performs a squat exercise.",
+            "someone performs a skipping rope exercise.",
+            "someone spins around.",
+            "someone pedals.",
+            "someone of athletes performs pull-ups.",
+            "someone bounces the ball.",
+            "someone completes rowing exercises.",
+            "someone raises her upper body on a bench."
+        ]
+    },
+    "015": {
+        "0": [
+            "somebody lifts snow with a broom.",
+            "somebody lifts snow with a bucket.",
+            "somebody lifts snow with a crane.",
+            "somebody lifts snow with a hammer.",
+            "somebody lifts snow with a pole.",
+            "somebody lifts snow with a rake.",
+            "somebody lifts snow with a sled.",
+            "somebody lifts snow with a stick.",
+            "somebody lifts snow with a tractor.",
+            "somebody lifts snow with a truck."
+        ]
+    },
+    "016": {
+        "0": [
+            "somebody lifts snow with a broom.",
+            "somebody lifts snow with a bucket.",
+            "somebody lifts snow with a crane.",
+            "somebody lifts snow with a hammer.",
+            "somebody lifts snow with a rake.",
+            "somebody lifts snow with a sled.",
+            "somebody lifts snow with a tractor.",
+            "somebody lifts snow with a truck."
+        ]
+    },
+    "017": {
+        "0": [
+            "somebody lifts snow with a broom.",
+            "somebody lifts snow with a bucket.",
+            "somebody lifts snow with a crane.",
+            "somebody lifts snow with a hammer.",
+            "somebody lifts snow with a pole.",
+            "somebody lifts snow with a rake.",
+            "somebody lifts snow with a sled.",
+            "somebody lifts snow with a stick.",
+            "somebody lifts snow with a tractor.",
+            "somebody lifts snow with a truck."
+        ]
+    },
+    "018": {
+        "1": [
+            "somebody pushes the button on a white TV.",
+            "somebody pushes the button on a white board.",
+            "somebody pushes the button on a white box.",
+            "somebody pushes the button on a white phone.",
+            "somebody pushes the button on a white remote.",
+            "somebody pushes the button on a white screen.",
+            "somebody pushes the button on a white telephone.",
+            "somebody pushes the button on a white wall.",
+            "somebody pushes the button on a whiteboard."
+        ]
+    },
+    "019": {
+        "0": [
+            "a woman with glasses strums the drums.",
+            "a woman with glasses strums the piano.",
+            "a woman with glasses strums the violin.",
+            "a woman with headphones strums the guitar.",
+            "a woman with sunglasses strums the guitar.",
+            "a woman with tattoos strums the guitar."
+        ],
+        "1": [
+            "a woman strums the drum.",
+            "a woman strums the drums.",
+            "a woman strums the piano.",
+            "a woman strums the violin."
+        ]
+    },
+    "020": {
+        "0": [
+            "a man in red spins around.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man pulls his knees to his elbows.",
+            "a man spins around with his bare hands.",
+            "a man performs crunches.",
+            "a man lifts his legs while hanging.",
+            "a man swims by performing strokes.",
+            "a man keeps the ball up in the air by hitting it."
+        ],
+        "1": [
+            "a man swims by performing strokes.",
+            "a man hits the ball using their rackets.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man performs rowing exercises.",
+            "a man wearing a blue t-shirt paddles on a white canoe.",
+            "a man keeps the ball up in the air by hitting it.",
+            "a man raises his legs.",
+            "a man performs a squat exercise."
+        ]
+    },
+    "021": {
+        "0": [
+            "each tennis player catches the ball.",
+            "each tennis player throws the ball."
+        ]
+    },
+    "022": {
+        "0": [
+            "two people uses her hands to swing back and forth.",
+            "two people performs a variation of a squat exercise.",
+            "two people bounces on a trampoline.",
+            "two people skates from one side to the other.",
+            "two people raises her upper body on a bench.",
+            "two people swims by performing strokes.",
+            "two people lifts weights.",
+            "two people does overhead presses."
+        ],
+        "1": [
+            "a pair in a black t-shirt bounces the ball with his right hand.",
+            "a pair jumps.",
+            "a pair skips the rope.",
+            "a pair pulls his knees to his elbows.",
+            "a pair raises her upper body on a bench.",
+            "a pair spins around.",
+            "a pair pedals the elliptical bicycle.",
+            "a pair skates from one side to the other."
+        ]
+    },
+    "023": {
+        "0": [
+            "a man pulls the rope.",
+            "a man cuts the rope.",
+            "a man ties the rope.",
+            "a man hangs from the rope.",
+            "a man catches the rope.",
+            "a man throws the rope.",
+            "a man tangles the rope.",
+            "a man rips the rope.",
+            "a man walks on the rope.",
+            "a man twists the rope."
+        ]
+    },
+    "024": {
+        "0": [
+            "a girl spins around on his hands.",
+            "a girl performs upright rows.",
+            "a girl skips the rope.",
+            "a girl performs a skipping rope exercise.",
+            "a girl performs one-handed upright rows.",
+            "a girl uses his hands to spin around.",
+            "a girl jumps on a trampoline.",
+            "a girl spins around."
+        ],
+        "1": [
+            "a woman brings his hands to his knees.",
+            "a woman grasps a monkey bar to move forward.",
+            "a woman pedals.",
+            "a woman uses his hands to spin around.",
+            "a woman spins around.",
+            "a woman performs pull-ups.",
+            "a woman performs pull-ups.",
+            "a woman spins around."
+        ]
+    },
+    "025": {
+        "2": [
+            "a man uses his hands to spin around.",
+            "a man performs pull-ups.",
+            "a man spins around on his hands.",
+            "a man performs swimming strokes.",
+            "a man performs cross crunch exercises.",
+            "a man performs one-handed upright rows.",
+            "a man lifts a stick above her head.",
+            "a man does push-ups."
+        ]
+    },
+    "026": {
+        "1": [
+            "a man uses his hands to spin around.",
+            "a man spins around.",
+            "a man juggles a yellow soccer ball in a room.",
+            "a man in red spins around.",
+            "a man moves his legs up and down.",
+            "a man of athletes performs pull-ups.",
+            "a man hits the ball using their rackets.",
+            "a man wearing a yellow t-shirt juggles the ball using his racket."
+        ]
+    },
+    "027": {
+        "0": [
+            "a woman skips the rope.",
+            "a woman uses her hands to grasp the next bar.",
+            "a woman performs a variation of a squat exercise.",
+            "a woman performs a skipping rope exercise.",
+            "a woman jumps on a trampoline.",
+            "a woman spins around.",
+            "a woman performs swimming strokes.",
+            "a woman spins the hula hoop around her waist."
+        ],
+        "1": [
+            "a woman wearing a blue t-shirt paddles on a white canoe.",
+            "a woman spins around on his hands.",
+            "a woman pedals the elliptical bicycle.",
+            "a woman skates from one side to the other.",
+            "a woman uses his hands to spin around.",
+            "a woman skips the rope.",
+            "a woman spins around on his hands.",
+            "a woman lifts his legs while hanging."
+        ]
+    },
+    "028": {
+        "0": [
+            "a person spins around on his hands.",
+            "a person uses her hands to swing back and forth.",
+            "a person skips the rope.",
+            "a person spins the pedals of the elliptical bicycle.",
+            "a person spins around.",
+            "a person spins around.",
+            "a person does lunges with dumbbells.",
+            "a person raises her upper body on a bench."
+        ],
+        "1": [
+            "a woman performs swimming strokes.",
+            "a woman performs lateral movements on the monkey bars.",
+            "a woman performs pull-ups.",
+            "a woman skates from one side to the other.",
+            "a woman spins around.",
+            "a woman jumps on a trampoline.",
+            "a woman skips the rope.",
+            "a woman juggles a soccer ball."
+        ]
+    },
+    "029": {
+        "0": [
+            "a person performs a squat exercise.",
+            "a person swims by performing strokes.",
+            "a person brings his hands to his knees.",
+            "a person spins around on his hands.",
+            "a person uses her hands to move forward.",
+            "a person juggles a yellow soccer ball in a room.",
+            "a person paddles.",
+            "a person performs swimming strokes."
+        ],
+        "1": [
+            "a woman skips the rope.",
+            "a woman performs swimming strokes.",
+            "a woman performs swimming strokes.",
+            "a woman raises her upper body on a bench.",
+            "a woman uses his hands to spin around.",
+            "a woman in a black t-shirt bounces the ball with his right hand.",
+            "a woman lifts a bar to their shoulders.",
+            "a woman skips rope."
+        ]
+    },
+    "030": {
+        "0": [
+            "a woman uses his own hands to spin around.",
+            "a woman lifts his legs while hanging.",
+            "a woman swings back and forth using his arms.",
+            "a woman pedals the elliptical bicycle.",
+            "a woman performs upright rows.",
+            "a woman spins around with his bare hands.",
+            "a woman spins on his hands.",
+            "a woman wearing a blue t-shirt paddles on a white canoe."
+        ],
+        "1": [
+            "a person lifts her upper body while she is hanging on the monkey bars by her legs.",
+            "a person performs a squat exercise.",
+            "a person grasps a monkey bar to move forward.",
+            "a person raises her upper body on a bench.",
+            "a person performs upright rows.",
+            "a person performs a squat exercise.",
+            "a person performs swimming strokes.",
+            "a person does push-ups."
+        ]
+    },
+    "031": {
+        "0": [
+            "a person performs cross crunch exercises.",
+            "a person performs swimming strokes.",
+            "a person uses his hands to spin around.",
+            "a person raises her upper body on a bench.",
+            "a person hits the ball using their rackets.",
+            "a person performs swimming strokes.",
+            "a person jumps.",
+            "a person spins around."
+        ],
+        "1": [
+            "a woman lifts a bar using her right arm.",
+            "a woman performs a lateral movement on the monkey bars.",
+            "a woman spins on his hands.",
+            "a woman spins the hula hoop around her waist.",
+            "a woman in a black t-shirt bounces the ball with his right hand.",
+            "a woman with a gray t-shirt lunges.",
+            "a woman lifts her upper body while she is hanging on the monkey bars by her legs.",
+            "a woman performs squats."
+        ]
+    },
+    "032": {
+        "0": [
+            "a person swims by performing strokes.",
+            "a person skips the rope.",
+            "a person in red spins around.",
+            "a person pedals.",
+            "a person skips rope.",
+            "a person performs swimming strokes.",
+            "a person spins around on his hands.",
+            "a person uses his own hands to spin around."
+        ],
+        "1": [
+            "a woman uses his own hands to spin around.",
+            "a woman spins around.",
+            "a woman jumps.",
+            "a woman spins around.",
+            "a woman uses her hands to swing back and forth.",
+            "a woman bounces the ball.",
+            "a woman lifts weights.",
+            "a woman lifts a bar to their shoulders."
+        ]
+    },
+    "033": {
+        "0": [
+            "a man spins around on his hands.",
+            "a man juggles a yellow soccer ball in a room.",
+            "a man uses his hands to swing back and forth.",
+            "a man with a gray t-shirt lunges.",
+            "a man uses his hands to spin around.",
+            "a man skips rope.",
+            "a man uses her hands to grasp the next bar.",
+            "a man performs rowing exercises."
+        ],
+        "1": [
+            "a man spins around.",
+            "a man lifts his legs while hanging.",
+            "a man bounces the ball.",
+            "a man completes rowing exercises.",
+            "a man swims by performing strokes.",
+            "a man jumps.",
+            "a man rolls over a bar.",
+            "a man in a black t-shirt bounces the ball with his right hand."
+        ]
+    },
+    "034": {
+        "0": [
+            "a man brings his hands to his knees.",
+            "a man uses his hands to spin around.",
+            "a man performs pushups.",
+            "a man performs swimming strokes.",
+            "a man swims by performing strokes.",
+            "a man raises her upper body on a bench.",
+            "a man spins around on his hands.",
+            "a man hits the ball using their rackets."
+        ],
+        "1": [
+            "a man bounces on a trampoline.",
+            "a man performs swimming strokes.",
+            "a man in a black t-shirt bounces the ball with his right hand.",
+            "a man performs pull-ups.",
+            "a man pedals the elliptical bicycle.",
+            "a man swings back and forth using her arms.",
+            "a man swings back and forth using his arms.",
+            "a man spins around."
+        ]
+    },
+    "035": {
+        "0": [
+            "a man uses her hands to swing back and forth.",
+            "a man keeps the ball up in the air by hitting it.",
+            "a man spins around on his hands.",
+            "a man swings back and forth using his arms.",
+            "a man performs crunches.",
+            "a man performs squats.",
+            "a man in a blue t-shirt lunges.",
+            "a man rolls over a bar."
+        ],
+        "1": [
+            "a man hits the ball using their rackets.",
+            "a man juggles a yellow soccer ball in a room.",
+            "a man performs a squat exercise.",
+            "a man skips the rope.",
+            "a man swims by performing strokes.",
+            "a man hits the ball.",
+            "a man uses her hands to move forward.",
+            "a man lifts a bar using her right arm."
+        ]
+    },
+    "036": {
+        "0": [
+            "a person swims by performing strokes.",
+            "a person performs rowing exercises.",
+            "a person performs cross crunch exercises.",
+            "a person pedals.",
+            "a person spins on his hands.",
+            "a person lifts a bar to their shoulders.",
+            "a person uses his hands to spin around.",
+            "a person spins the pedals of the elliptical bicycle."
+        ],
+        "1": [
+            "a boy spins around.",
+            "a boy hits the ball using their rackets.",
+            "a boy spins around.",
+            "a boy bounces the ball.",
+            "a boy performs swimming strokes.",
+            "a boy performs a squat exercise.",
+            "a boy swims by performing strokes.",
+            "a boy performs a squat exercise."
+        ]
+    },
+    "037": {
+        "0": [
+            "a guy uses his hands to spin around.",
+            "a guy brings his hands to his knees.",
+            "a guy in a black t-shirt bounces the ball with his right hand.",
+            "a guy performs forward strokes.",
+            "a guy spins around on his hands.",
+            "a guy performs back extensions.",
+            "a guy performs cross crunch exercises.",
+            "a guy uses his hands to spin around."
+        ],
+        "1": [
+            "a man rolls over a bar.",
+            "a man performs lunges.",
+            "a man uses his own hands to spin around.",
+            "a man spins around.",
+            "a man bounces on a trampoline.",
+            "a man skates from one side to the other.",
+            "a man performs forward strokes.",
+            "a man jumps."
+        ]
+    },
+    "038": {
+        "0": [
+            "a woman performs a skipping rope exercise.",
+            "a woman spins the hula hoop.",
+            "a woman spins the hula hoop around her waist.",
+            "a woman performs pull-ups.",
+            "a woman swims by performing strokes.",
+            "a woman is performing sit-ups while she is hanging on the monkey bars.",
+            "a woman jumps.",
+            "a woman spins around."
+        ],
+        "1": [
+            "a woman pedals.",
+            "a woman juggles a yellow soccer ball in a room.",
+            "a woman bounces on a trampoline.",
+            "a woman lifts a bar to their shoulders.",
+            "a woman skips rope.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a woman performs cross crunch exercises.",
+            "a woman swims by performing strokes."
+        ],
+        "2": [
+            "a woman bounces the ball.",
+            "a woman performs a squat exercise.",
+            "a woman spins around with his bare hands.",
+            "a woman jumps.",
+            "a woman performs cross crunch exercises.",
+            "a woman spins the hula hoop.",
+            "a woman uses his hands to spin around.",
+            "a woman hits the ball using their rackets."
+        ]
+    },
+    "039": {
+        "0": [
+            "a woman swings back and forth using her arms.",
+            "a woman performs a squat exercise.",
+            "a woman lifts his legs while hanging.",
+            "a woman spins around.",
+            "a woman in red spins around.",
+            "a woman swims by performing strokes.",
+            "a woman lifts a bar to his shoulders.",
+            "a woman paddles."
+        ],
+        "1": [
+            "a woman of athletes performs pull-ups.",
+            "a woman wearing a blue t-shirt paddles on a white canoe.",
+            "a woman uses his hands to spin around.",
+            "a woman performs pull-ups.",
+            "a woman performs rowing exercises.",
+            "a woman hits the ball.",
+            "a woman spins around on his hands.",
+            "a woman hits the ball."
+        ]
+    },
+    "040": {
+        "0": [
+            "a woman uses his own hands to spin around.",
+            "a woman completes rowing exercises.",
+            "a woman performs upright rows.",
+            "a woman performs pushups.",
+            "a woman spins around.",
+            "a woman rolls over a bar.",
+            "a woman performs back extensions.",
+            "a woman hits the ball."
+        ],
+        "1": [
+            "a woman wearing a yellow t-shirt juggles the ball using his racket.",
+            "a woman spins the hula hoop.",
+            "a woman performs upright rows.",
+            "a woman paddles.",
+            "a woman performs a lateral movement on the monkey bars.",
+            "a woman lifts weights.",
+            "a woman performs swimming strokes.",
+            "a woman spins the pedals of the elliptical bicycle."
+        ]
+    },
+    "041": {
+        "0": [
+            "a woman swings back and forth using her arms.",
+            "a woman uses his own hands to spin around.",
+            "a woman performs a lateral movement on the monkey bars.",
+            "a woman jumps.",
+            "a woman spins around a bar.",
+            "a woman in red spins around.",
+            "a woman spins around.",
+            "a woman bounces the ball."
+        ],
+        "1": [
+            "a woman in red spins around.",
+            "a woman performs pull-ups.",
+            "a woman uses his hands to spin around.",
+            "a woman in red spins around.",
+            "a woman hits the ball using their rackets.",
+            "a woman swings back and forth using his arms.",
+            "a woman skips the rope.",
+            "a woman performs swimming strokes."
+        ],
+        "2": [
+            "a woman skips the rope.",
+            "a woman performs cross crunch exercises.",
+            "a woman spins around on his hands.",
+            "a woman in red spins around.",
+            "a woman perform pull-ups.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a woman swings back and forth using her arms.",
+            "a woman performs swimming strokes."
+        ]
+    },
+    "042": {
+        "0": [
+            "a man spins around with his bare hands.",
+            "a man grasps a monkey bar to move forward.",
+            "a man performs swimming strokes.",
+            "a man skips rope.",
+            "a man swims by performing strokes.",
+            "a man in a blue t-shirt lunges.",
+            "a man performs crunches.",
+            "a man is performing sit-ups while she is hanging on the monkey bars."
+        ]
+    },
+    "043": {
+        "0": [
+            "a man with glasses moves the ball back and forth.",
+            "a man with glasses moves the bottle back and forth.",
+            "a man with glasses moves the box back and forth.",
+            "a man with glasses moves the camera back and forth.",
+            "a man with glasses moves the cane back and forth.",
+            "a man with glasses moves the chair back and forth.",
+            "a man with glasses moves the pen back and forth."
+        ]
+    },
+    "044": {
+        "0": [
+            "a man hits the ball with a hockey stick.",
+            "a man hits the camera with a hockey stick.",
+            "a man hits the ceiling with a hockey stick.",
+            "a man hits the crowd with a hockey stick.",
+            "a man hits the ground with a hockey stick.",
+            "a man hits the wall with a hockey stick.",
+            "a man hits the water with a hockey stick."
+        ],
+        "1": [
+            "a man cleans the icy snow on the driveway by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the floor by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the ground by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the highway by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the rink by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the road by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the roof by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the sidewalk by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the street by hitting it with a hockey stick."
+        ],
+        "2": [
+            "a man hits the icy snow on the beach using an ice hockey stick.",
+            "a man hits the icy snow on the ground using an ice hockey stick.",
+            "a man hits the icy snow on the playground using an ice hockey stick.",
+            "a man hits the icy snow on the rink using an ice hockey stick.",
+            "a man hits the icy snow on the road using an ice hockey stick.",
+            "a man hits the icy snow on the roof using an ice hockey stick.",
+            "a man hits the icy snow on the sidewalk using an ice hockey stick.",
+            "a man hits the icy snow on the street using an ice hockey stick."
+        ]
+    },
+    "045": {
+        "0": [
+            "a man hits the ball with a hockey stick.",
+            "a man hits the camera with a hockey stick.",
+            "a man hits the ceiling with a hockey stick.",
+            "a man hits the ground with a hockey stick.",
+            "a man hits the wall with a hockey stick.",
+            "a man hits the water with a hockey stick."
+        ],
+        "1": [
+            "a man cleans the icy snow on the driveway by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the floor by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the ground by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the highway by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the rink by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the road by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the roof by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the sidewalk by hitting it with a hockey stick.",
+            "a man cleans the icy snow on the street by hitting it with a hockey stick."
+        ],
+        "2": [
+            "a man hits the icy snow on the beach using an ice hockey stick.",
+            "a man hits the icy snow on the ground using an ice hockey stick.",
+            "a man hits the icy snow on the playground using an ice hockey stick.",
+            "a man hits the icy snow on the rink using an ice hockey stick.",
+            "a man hits the icy snow on the road using an ice hockey stick.",
+            "a man hits the icy snow on the roof using an ice hockey stick.",
+            "a man hits the icy snow on the sidewalk using an ice hockey stick.",
+            "a man hits the icy snow on the street using an ice hockey stick."
+        ]
+    },
+    "046": {
+        "0": [
+            "a person catches a black dog.",
+            "a person walks with a black dog.",
+            "a person plays with a black dog.",
+            "a person talks to a black dog."
+        ]
+    },
+    "047": {
+        "0": [
+            "a man hits wood with his bat.",
+            "a man hits wood with his boot.",
+            "a man hits wood with his cane.",
+            "a man hits wood with his club.",
+            "a man hits wood with his fist.",
+            "a man hits wood with his foot.",
+            "a man hits wood with his hammer.",
+            "a man hits wood with his hand.",
+            "a man hits wood with his hands.",
+            "a man hits wood with his head.",
+            "a man hits wood with his rifle.",
+            "a man hits wood with his shoe.",
+            "a man hits wood with his shovel.",
+            "a man hits wood with his stick."
+        ]
+    },
+    "048": {
+        "0": [
+            "a man spins the hula hoop.",
+            "a man spins around.",
+            "a man performs lunges.",
+            "a man hits the ball using their rackets.",
+            "a man skips the rope.",
+            "a man in red spins around.",
+            "a man raises his legs.",
+            "a man spins on his hands."
+        ],
+        "1": [
+            "a man in red spins around.",
+            "a man spins the hula hoop around her waist.",
+            "a man wearing a blue t-shirt paddles on a white canoe.",
+            "a man uses his own hands to spin around.",
+            "a man performs crunches.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man performs a skipping rope exercise.",
+            "a man raises her upper body on a bench."
+        ]
+    },
+    "049": {
+        "0": [
+            "a man uses his own hands to spin around.",
+            "a man in a black t-shirt bounces the ball with his right hand.",
+            "a man performs pull-ups.",
+            "a man in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a man hits the ball using their rackets.",
+            "a man lifts a bar to their shoulders.",
+            "a man spins the bike pedals.",
+            "a man spins around on his hands."
+        ],
+        "1": [
+            "a man lifts a stick above her head.",
+            "a man paddles.",
+            "a man spins around.",
+            "a man spins around.",
+            "a man completes rowing exercises.",
+            "a man performs lunges.",
+            "a man skips rope.",
+            "a man spins the pedals of the elliptical bicycle."
+        ]
+    },
+    "050": {
+        "0": [
+            "a person rides the brown horse.",
+            "a person rides on the brown horse.",
+            "a person catches the brown horse.",
+            "a person walks on the brown horse."
+        ],
+        "1": [
+            "a person rides the horse.",
+            "a person fees the horse.",
+            "a person sits on the horse.",
+            "a person leads the horse.",
+            "a person walks with the horse.",
+            "a person trains the horse.",
+            "a person moves the horse.",
+            "a person lifts the horse.",
+            "a person mounts the horse.",
+            "a person pulls the horse.",
+            "a person saddles the horse."
+        ]
+    },
+    "051": {
+        "0": [
+            "a person jumps on the roofing.",
+            "a man wipes a piece of wood.",
+            "a man sharpens the knife.",
+            "a man spray paints something.",
+            "a man hits wood using his axe.",
+            "a man rubs wax on a ski."
+        ]
+    },
+    "052": {
+        "0": [
+            "a child stirs the glass with a finger.",
+            "a child stirs the glass with a straw.",
+            "a child stirs the pot with a spoon."
+        ],
+        "1": [
+            "a kid stirs the glass using a finger.",
+            "a kid stirs the glass using a sponge.",
+            "a kid stirs the glass using a straw."
+        ]
+    },
+    "053": {
+        "0": [
+            "a child stirs the glass with a finger.",
+            "a child stirs the glass with a straw.",
+            "a child stirs the pot with a spoon."
+        ],
+        "1": [
+            "a kid stirs the glass using a finger.",
+            "a kid stirs the glass using a sponge.",
+            "a kid stirs the glass using a straw."
+        ]
+    },
+    "054": {
+        "0": [
+            "a kid stirs the glass using a finger.",
+            "a kid stirs the glass using a sponge.",
+            "a kid stirs the glass using a straw."
+        ],
+        "1": [
+            "a child stirs the glass with a finger.",
+            "a child stirs the glass with a straw.",
+            "a child stirs the pot with a spoon."
+        ]
+    },
+    "055": {
+        "0": [
+            "a woman performs crunches.",
+            "a woman skips rope.",
+            "a woman pulls her knees to her elbows.",
+            "a woman performs lunges.",
+            "a woman performs situps."
+        ]
+    },
+    "056": {
+        "0": [
+            "a kid at a playground swings on a rope.",
+            "a kid at a playground swings on a tree."
+        ]
+    },
+    "057": {
+        "0": [
+            "a man wipes a piece of cloth.",
+            "a man wipes a piece of furniture.",
+            "a man wipes a piece of glass.",
+            "a man wipes a piece of paper."
+        ]
+    },
+    "058": {
+        "0": [
+            "a man paints a piece of art.",
+            "a man paints a piece of artwork.",
+            "a man paints a piece of canvas.",
+            "a man paints a piece of furniture.",
+            "a man paints a piece of glass.",
+            "a man paints a piece of metal.",
+            "a man paints a piece of paper."
+        ],
+        "1": [
+            "a man paints a piece of art by performing strokes.",
+            "a man paints a piece of artwork by performing strokes.",
+            "a man paints a piece of canvas by performing strokes.",
+            "a man paints a piece of furniture by performing strokes.",
+            "a man paints a piece of glass by performing strokes.",
+            "a man paints a piece of paper by performing strokes.",
+            "a man paints a piece of wallpaper by performing strokes."
+        ]
+    },
+    "059": {
+        "0": [
+            "a man wipes a piece of cloth.",
+            "a man wipes a piece of furniture.",
+            "a man wipes a piece of glass.",
+            "a man wipes a piece of paper."
+        ]
+    },
+    "060": {
+        "0": [
+            "a man pulls the rope.",
+            "a man cuts the rope.",
+            "a man ties the rope.",
+            "a man hangs from the rope.",
+            "a man catches the rope.",
+            "a man throws the rope.",
+            "a man tangles the rope.",
+            "a man rips the rope.",
+            "a man walks on the rope.",
+            "a man twists the rope."
+        ],
+        "1": [
+            "someone pulls the rope.",
+            "someone cuts the rope.",
+            "someone untangles the rope.",
+            "someone ties the rope.",
+            "someone unties the rope.",
+            "someone rips the rope.",
+            "someone tangles the rope.",
+            "someone tightens the rope.",
+            "someone loosens the rope.",
+            "someone cuts off the rope.",
+            "someone unhooks the rope.",
+            "someone drops the rope."
+        ]
+    },
+    "061": {
+        "0": [
+            "a woman performs a skipping rope exercise.",
+            "a woman performs swimming strokes.",
+            "a woman swims by performing strokes.",
+            "a woman uses his own hands to spin around.",
+            "a woman uses his hands to spin around.",
+            "a woman jumps.",
+            "a woman performs a squat exercise.",
+            "a woman keeps the ball up in the air by hitting it."
+        ],
+        "1": [
+            "a gymnast raises her upper body on a bench.",
+            "a gymnast performs a variation of a squat exercise.",
+            "a gymnast performs swimming strokes.",
+            "a gymnast juggles a soccer ball.",
+            "a gymnast skates from one side to the other.",
+            "a gymnast completes rowing exercises.",
+            "a gymnast skips rope.",
+            "a gymnast performs pull-ups."
+        ]
+    },
+    "062": {
+        "0": [
+            "a man wipes a piece of bread using a white cloth.",
+            "a man wipes a piece of clothing using a white cloth.",
+            "a man wipes a piece of furniture using a white cloth.",
+            "a man wipes a piece of glass using a white cloth.",
+            "a man wipes a piece of meat using a white cloth.",
+            "a man wipes a piece of paper using a white cloth."
+        ]
+    },
+    "063": {
+        "0": [
+            "a man wipes a piece of bread using a white cloth.",
+            "a man wipes a piece of clothing using a white cloth.",
+            "a man wipes a piece of furniture using a white cloth.",
+            "a man wipes a piece of glass using a white cloth.",
+            "a man wipes a piece of meat using a white cloth.",
+            "a man wipes a piece of paper using a white cloth."
+        ]
+    },
+    "064": {
+        "0": [
+            "a man performs crunches.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man performs squats.",
+            "a man spins around.",
+            "a man of athletes performs pull-ups.",
+            "a man jumps.",
+            "a man does lunges with dumbbells.",
+            "a man performs a squat exercise."
+        ],
+        "1": [
+            "a man jumps.",
+            "a man performs rowing exercises.",
+            "a man performs squats.",
+            "a man hits the ball using their rackets.",
+            "a man does lunges with dumbbells.",
+            "a man bounces on a trampoline.",
+            "a man performs lunges.",
+            "a man pedals the elliptical bicycle."
+        ]
+    },
+    "065": {
+        "0": [
+            "a person sharpens the nail by dragging it against an object.",
+            "a person sharpens the pen by dragging it against an object.",
+            "a person sharpens the pencil by dragging it against an object.",
+            "a person sharpens the razor by dragging it against an object.",
+            "a person sharpens the sword by dragging it against an object."
+        ],
+        "1": [
+            "a person slides the brush against an object.",
+            "a person slides the camera against an object.",
+            "a person slides the finger against an object.",
+            "a person slides the fingers against an object.",
+            "a person slides the foot against an object.",
+            "a person slides the thumb against an object."
+        ]
+    },
+    "066": {
+        "0": [
+            "a man spray paints a boat from side to side.",
+            "a man spray paints a building from side to side.",
+            "a man spray paints a car from side to side.",
+            "a man spray paints a fence from side to side.",
+            "a man spray paints a house from side to side.",
+            "a man spray paints a truck from side to side.",
+            "a man spray paints a wall from side to side."
+        ],
+        "1": [
+            "a man spray paints a barn.",
+            "a man spray paints a bridge.",
+            "a man spray paints a building.",
+            "a man spray paints a car.",
+            "a man spray paints a church.",
+            "a man spray paints a fence.",
+            "a man spray paints a house.",
+            "a man spray paints a sign.",
+            "a man spray paints a wall.",
+            "a man spray paints a window."
+        ]
+    },
+    "067": {
+        "0": [
+            "a man spray paints buildings.",
+            "a man spray paints cars.",
+            "a man spray paints flowers.",
+            "a man spray paints houses.",
+            "a man spray paints signs.",
+            "a man spray paints trees.",
+            "a man spray paints walls."
+        ]
+    },
+    "068": {
+        "0": [
+            "a man spray paints buildings from side to side.",
+            "a man spray paints cars from side to side.",
+            "a man spray paints rocks from side to side.",
+            "a man spray paints signs from side to side.",
+            "a man spray paints trees from side to side.",
+            "a man spray paints walls from side to side.",
+            "a man spray paints water from side to side."
+        ]
+    },
+    "069": {
+        "0": [
+            "a shirtless man chops meat.",
+            "a shirtless man chops onions.",
+            "a shirtless man chops vegetables."
+        ],
+        "1": [
+            "a man hits wood using his bat.",
+            "a man hits wood using his cane.",
+            "a man hits wood using his finger.",
+            "a man hits wood using his fingers.",
+            "a man hits wood using his fist.",
+            "a man hits wood using his fists.",
+            "a man hits wood using his hammer.",
+            "a man hits wood using his hand.",
+            "a man hits wood using his hands.",
+            "a man hits wood using his shoe.",
+            "a man hits wood using his shovel.",
+            "a man hits wood using his stick."
+        ]
+    },
+    "070": {
+        "0": [
+            "someone peels a banana.",
+            "someone peels a lemon.",
+            "someone peels a potato.",
+            "someone peels a tomato."
+        ],
+        "1": [
+            "the apple is peeled.",
+            "the avocado is peeled.",
+            "the banana is peeled.",
+            "the carrot is peeled.",
+            "the lemon is peeled.",
+            "the mango is peeled.",
+            "the onion is peeled.",
+            "the orange is peeled.",
+            "the peach is peeled.",
+            "the potato is peeled.",
+            "the skin is peeled.",
+            "the tomato is peeled."
+        ]
+    },
+    "071": {
+        "0": [
+            "a man pedals the elliptical bicycle.",
+            "a man bounces the ball.",
+            "a man juggles a soccer ball.",
+            "a man jumps.",
+            "a man bounces on a trampoline.",
+            "a man performs lunges.",
+            "a man skips rope.",
+            "a man spins around on his hands."
+        ]
+    },
+    "072": {
+        "0": [
+            "a woman bounces on a trampoline.",
+            "a woman performs a squat exercise.",
+            "a woman performs lunges.",
+            "a woman spins around with his bare hands.",
+            "a woman uses his hands to spin around.",
+            "a woman performs a squat exercise.",
+            "a woman performs swimming strokes.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth."
+        ],
+        "1": [
+            "a woman spins around.",
+            "a woman uses his hands to spin around.",
+            "a woman performs a lateral movement on the monkey bars.",
+            "a woman rolls over a bar.",
+            "a woman lifts her upper body while she is hanging on the monkey bars by her legs.",
+            "a woman completes rowing exercises.",
+            "a woman moves his legs up and down.",
+            "a woman spins around with his bare hands."
+        ]
+    },
+    "073": {
+        "0": [
+            "a woman of athletes performs pull-ups.",
+            "a woman bounces on a trampoline.",
+            "a woman in red spins around.",
+            "a woman spins around.",
+            "a woman rolls over a bar.",
+            "a woman skips rope.",
+            "a woman uses his hands to spin around.",
+            "a woman performs sit-ups on the monkey bars."
+        ],
+        "1": [
+            "a woman spins around.",
+            "a woman bounces the ball.",
+            "a woman uses his hands to spin around.",
+            "a woman jumps.",
+            "a woman completes rowing exercises.",
+            "a woman skates sideways from one end to the other.",
+            "a woman skips rope.",
+            "a woman lifts weights."
+        ]
+    },
+    "074": {
+        "0": [
+            "a woman skates from one side to the other.",
+            "a woman swings back and forth using her arms.",
+            "a woman hits the ball using their rackets.",
+            "a woman swims by performing strokes.",
+            "a woman skips the rope.",
+            "a woman in a black t-shirt bounces the ball with his right hand.",
+            "a woman skates sideways from one end to the other.",
+            "a woman performs pull-ups."
+        ],
+        "1": [
+            "a woman performs swimming strokes.",
+            "a woman performs pull-ups.",
+            "a woman spins around.",
+            "a woman spins around.",
+            "a woman hits the ball using their rackets.",
+            "a woman completes rowing exercises.",
+            "a woman uses his hands to spin around.",
+            "a woman performs forward strokes."
+        ]
+    },
+    "075": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "076": {
+        "2": [
+            "a man walks around.",
+            "a man runs around.",
+            "a man flies around.",
+            "a man fools around.",
+            "a man swims around.",
+            "a man wanders around."
+        ]
+    },
+    "077": {
+        "2": [
+            "a woman performs swimming strokes.",
+            "a woman uses his hands to spin around.",
+            "a woman performs back extensions.",
+            "a woman juggles a soccer ball.",
+            "a woman spins around on his hands.",
+            "a woman performs forward strokes.",
+            "a woman uses his hands to spin around.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth."
+        ]
+    },
+    "078": {
+        "0": [
+            "a person skis on a ski.",
+            "a person skis without a ski.",
+            "a person rides a ski.",
+            "a person learns to ski on a ski.",
+            "a person learns to ski with a ski.",
+            "a person learns to ski without a ski.",
+            "a person travels on a ski.",
+            "a person learns to use a ski.",
+            "a person rides on a ski.",
+            "a person learns how to use a ski."
+        ]
+    },
+    "079": {
+        "2": [
+            "a woman performs swimming strokes.",
+            "a woman uses her hands to swing back and forth.",
+            "a woman with a gray t-shirt lunges.",
+            "a woman skips the rope.",
+            "a woman performs a squat exercise.",
+            "a woman pedals.",
+            "a woman spins around.",
+            "a woman performs upright rows."
+        ]
+    },
+    "080": {
+        "0": [
+            "a woman cuts her hair.",
+            "a woman dyes her hair.",
+            "a woman braids her hair.",
+            "a woman washes her hair.",
+            "a woman shaves her hair.",
+            "a woman tangles her hair.",
+            "a woman colors her hair.",
+            "a woman blows dry her hair."
+        ]
+    },
+    "081": {
+        "0": [
+            "a person sharpens the nail by dragging it against an object.",
+            "a person sharpens the pen by dragging it against an object.",
+            "a person sharpens the pencil by dragging it against an object.",
+            "a person sharpens the razor by dragging it against an object.",
+            "a person sharpens the sword by dragging it against an object."
+        ],
+        "1": [
+            "a person slides the camera on an object.",
+            "a person slides the finger on an object.",
+            "a person slides the knife on an artery.",
+            "a person slides the knife on an envelope.",
+            "a person slides the knife on an iPhone.",
+            "a person slides the knife on an instrument.",
+            "a person slides the lens on an object.",
+            "a person slides the light on an object.",
+            "a person slides the tape on an object.",
+            "a person slides the thumb on an object."
+        ]
+    },
+    "082": {
+        "0": [
+            "a man performs swimming strokes.",
+            "a man uses his own hands to spin around.",
+            "a man with a gray t-shirt lunges.",
+            "a man uses his hands to spin around.",
+            "a man wearing white sneakers does walking lunges.",
+            "a man performs one-handed upright rows.",
+            "a man in a blue t-shirt lunges.",
+            "a man skips the rope."
+        ],
+        "1": [
+            "a man is performing sit-ups while she is hanging on the monkey bars.",
+            "a man performs upright rows.",
+            "a man performs forward strokes.",
+            "a man spins around a bar.",
+            "a man does lunges with dumbbells.",
+            "a man performs sit-ups on the monkey bars.",
+            "a man performs rowing exercises.",
+            "a man lifts a bar to their shoulders."
+        ],
+        "2": [
+            "a man performs a squat exercise.",
+            "a man perform pull-ups.",
+            "a man bounces the ball.",
+            "a man performs pull-ups.",
+            "a man jumps.",
+            "a man skips the rope.",
+            "a man in red spins around.",
+            "a man uses her hands to move forward."
+        ]
+    },
+    "083": {
+        "0": [
+            "a man pulls the rope.",
+            "a man cuts the rope.",
+            "a man ties the rope.",
+            "a man hangs from the rope.",
+            "a man catches the rope.",
+            "a man throws the rope.",
+            "a man tangles the rope.",
+            "a man rips the rope.",
+            "a man walks on the rope.",
+            "a man twists the rope."
+        ],
+        "3": [
+            "someone pulls the rope.",
+            "someone cuts the rope.",
+            "someone untangles the rope.",
+            "someone ties the rope.",
+            "someone unties the rope.",
+            "someone rips the rope.",
+            "someone tangles the rope.",
+            "someone tightens the rope.",
+            "someone loosens the rope.",
+            "someone cuts off the rope.",
+            "someone unhooks the rope.",
+            "someone drops the rope."
+        ]
+    },
+    "084": {
+        "1": [
+            "a man hits the ball.",
+            "a man jumps.",
+            "a man pulls his knees to his elbows.",
+            "a man hits the ball.",
+            "a man bounces on a trampoline.",
+            "a man hits the ball using their rackets.",
+            "a man spins the hula hoop around her waist.",
+            "a man skips the rope."
+        ],
+        "2": [
+            "a man spins the hula hoop around her waist.",
+            "a man uses his own hands to spin around.",
+            "a man performs rowing exercises.",
+            "a man performs rowing exercises.",
+            "a man bounces the ball.",
+            "a man spins around.",
+            "a man skips the rope.",
+            "a man skips rope."
+        ],
+        "3": [
+            "a shirtless man performs lunges.",
+            "a shirtless man lifts a stick above her head.",
+            "a shirtless man skates sideways from one end to the other.",
+            "a shirtless man uses her hands to move forward.",
+            "a shirtless man lifts his legs while hanging.",
+            "a shirtless man hits the ball.",
+            "a shirtless man performs swimming strokes.",
+            "a shirtless man performs swimming strokes."
+        ]
+    },
+    "085": {
+        "0": [
+            "someone eats a clove of garlic.",
+            "someone buys a clove of garlic.",
+            "someone squeezes out a clove of garlic.",
+            "someone cooks a clove of garlic.",
+            "someone spits out a clove of garlic.",
+            "someone bites into a clove of garlic."
+        ],
+        "2": [
+            "someone buys a garlic."
+        ]
+    },
+    "086": {
+        "0": [
+            "someone slices bread."
+        ],
+        "1": [
+            "the apple is sliced.",
+            "the banana is sliced.",
+            "the bread is sliced.",
+            "the cake is sliced.",
+            "the cheese is sliced.",
+            "the chicken is sliced.",
+            "the fruit is sliced.",
+            "the meat is sliced.",
+            "the onion is sliced.",
+            "the pizza is sliced."
+        ],
+        "2": [
+            "someone cuts hair."
+        ]
+    },
+    "087": {
+        "0": [
+            "a man raises his legs.",
+            "a man swims by performing forward strokes.",
+            "a man in a black t-shirt bounces the ball with his right hand.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man lifts weights.",
+            "a man performs upright rows.",
+            "a man lifts a bar using her right arm.",
+            "a man skips rope."
+        ]
+    },
+    "088": {
+        "0": [
+            "a woman lifts weights.",
+            "a woman skips the rope.",
+            "a woman performs swimming strokes.",
+            "a woman does lunges with dumbbells.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a woman paddles.",
+            "a woman in a black t-shirt bounces the ball with his right hand.",
+            "a woman performs a squat exercise."
+        ]
+    },
+    "089": {
+        "0": [
+            "a woman performs rowing exercises.",
+            "a woman hits the ball.",
+            "a woman does lunges with dumbbells.",
+            "a woman jumps.",
+            "a woman grasps a monkey bar to move forward.",
+            "a woman in a purple t-shirt and sunglasses uses his hands to swing back and forth.",
+            "a woman uses his own hands to spin around.",
+            "a woman performs a skipping rope exercise."
+        ],
+        "1": [
+            "a woman rolls over a bar.",
+            "a woman does lunges with dumbbells.",
+            "a woman in a blue t-shirt lunges.",
+            "a woman performs lunges.",
+            "a woman skips the rope.",
+            "a woman performs a skipping rope exercise.",
+            "a woman pulls his knees to his elbows.",
+            "a woman uses her hands to move forward."
+        ]
+    },
+    "090": {
+        "0": [
+            "a woman spins the bike pedals.",
+            "a woman wearing white sneakers does walking lunges.",
+            "a woman swings back and forth using her arms.",
+            "a woman skips the rope.",
+            "a woman lifts her upper body while she is hanging on the monkey bars by her legs.",
+            "a woman performs a skipping rope exercise.",
+            "a woman wearing a blue t-shirt paddles on a white canoe.",
+            "a woman pedals the elliptical bicycle."
+        ],
+        "1": [
+            "a woman performs a squat exercise.",
+            "a woman performs a squat exercise.",
+            "a woman in a blue t-shirt lunges.",
+            "a woman performs upright rows.",
+            "a woman is performing sit-ups while she is hanging on the monkey bars.",
+            "a woman performs cross crunch exercises.",
+            "a woman raises his legs.",
+            "a woman uses her hands to grasp the next bar."
+        ]
+    },
+    "091": {
+        "0": [
+            "a man kicks the ball."
+        ]
+    },
+    "092": {
+        "0": [
+            "a man kicks the ball."
+        ]
+    },
+    "093": {
+        "2": [
+            "a man spins the hula hoop.",
+            "a man performs a lateral movement on the monkey bars.",
+            "a man performs squats.",
+            "a man uses his hands to spin around.",
+            "a man skips the rope.",
+            "a man swims by performing strokes.",
+            "a man does push-ups.",
+            "a man performs one-handed upright rows."
+        ],
+        "3": [
+            "a man performs one-handed upright rows.",
+            "a man lifts a bar to his shoulders.",
+            "a man swings back and forth using her arms.",
+            "a man spins around a bar.",
+            "a man skips rope.",
+            "a man spins around.",
+            "a man uses her hands to swing back and forth.",
+            "a man performs pushups."
+        ]
+    },
+    "094": {
+        "0": [
+            "a man pulls his knees to his elbows.",
+            "a man spins around on his hands.",
+            "a man swims by performing strokes.",
+            "a man skips rope.",
+            "a man spins around.",
+            "a man juggles a yellow soccer ball in a room.",
+            "a man paddles.",
+            "a man completes rowing exercises."
+        ],
+        "1": [
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man jumps.",
+            "a man uses his own hands to spin around.",
+            "a man wearing a yellow t-shirt juggles the ball using his racket.",
+            "a man in a black t-shirt bounces the ball with his right hand.",
+            "a man in red spins around.",
+            "a man performs pull-ups.",
+            "a man swims by performing strokes."
+        ],
+        "2": [
+            "a man uses her hands to grasp the next bar.",
+            "a man paddles.",
+            "a man performs rowing exercises.",
+            "a man skips the rope.",
+            "a man spins on his hands.",
+            "a man performs swimming strokes.",
+            "a man in red spins around.",
+            "a man pedals the elliptical bicycle."
+        ]
+    },
+    "095": {
+        "0": [
+            "someone peels a banana.",
+            "someone peels a lemon.",
+            "someone peels a potato.",
+            "someone peels a tomato."
+        ],
+        "1": [
+            "the apple is peeled.",
+            "the avocado is peeled.",
+            "the banana is peeled.",
+            "the carrot is peeled.",
+            "the lemon is peeled.",
+            "the mango is peeled.",
+            "the onion is peeled.",
+            "the orange is peeled.",
+            "the peach is peeled.",
+            "the potato is peeled.",
+            "the skin is peeled.",
+            "the tomato is peeled."
+        ]
+    },
+    "096": {
+        "0": [
+            "a man skips rope.",
+            "a man uses his hands to spin around.",
+            "a man uses his own hands to spin around.",
+            "a man swings back and forth using her arms.",
+            "a man lifts a bar to his shoulders.",
+            "a man uses his own hands to spin around.",
+            "a man lifts his legs while hanging.",
+            "a man brings his hands to his knees."
+        ],
+        "1": [
+            "a man performs lunges.",
+            "a man performs a variation of a squat exercise.",
+            "a man hits the ball.",
+            "a man performs rowing exercises.",
+            "a man skips the rope.",
+            "a man brings his hands to his knees.",
+            "a man swings back and forth using his arms.",
+            "a man performs pushups."
+        ]
+    },
+    "097": {
+        "0": [
+            "a man with a gray t-shirt lunges.",
+            "a man spins the hula hoop.",
+            "a man jumps.",
+            "a man skips the rope.",
+            "a man bounces on a trampoline.",
+            "a man spins the bike pedals.",
+            "a man hits the ball.",
+            "a man lifts a stick above her head."
+        ],
+        "1": [
+            "a man performs upright rows.",
+            "a man swings back and forth using her arms.",
+            "a man skips rope.",
+            "a man uses his own hands to spin around.",
+            "a man performs a squat exercise.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man in red spins around.",
+            "a man spins around."
+        ]
+    },
+    "098": {
+        "0": [
+            "a man perform pull-ups.",
+            "a man skips the rope.",
+            "a man skips rope.",
+            "a man uses her hands to grasp the next bar.",
+            "a man spins the bike pedals.",
+            "a man pedals the elliptical bicycle.",
+            "a man lifts weights.",
+            "a man brings his hands to his knees."
+        ],
+        "1": [
+            "a man performs squats.",
+            "a man wearing a blue t-shirt paddles on a white canoe.",
+            "a man uses her hands to move forward.",
+            "a man with a gray t-shirt lunges.",
+            "a man does push-ups.",
+            "a man performs lunges.",
+            "a man lifts his legs while hanging.",
+            "a man performs upright rows."
+        ]
+    },
+    "099": {
+        "0": [
+            "a man spins around.",
+            "a man jumps.",
+            "a man hits the ball using their rackets.",
+            "a man juggles a yellow soccer ball in a room.",
+            "a man spins the hula hoop.",
+            "a man spins the pedals of the elliptical bicycle.",
+            "a man lifts her upper body while she is hanging on the monkey bars by her legs.",
+            "a man rolls over a bar."
+        ],
+        "1": [
+            "a man swings back and forth using his arms.",
+            "a man spins around on his hands.",
+            "a man performs crunches.",
+            "a man performs a variation of a squat exercise.",
+            "a man uses his hands to spin around.",
+            "a man is performing sit-ups while she is hanging on the monkey bars.",
+            "a man swings back and forth using her arms.",
+            "a man completes rowing exercises."
+        ],
+        "2": [
+            "a man does overhead presses.",
+            "a man bounces the ball.",
+            "a man lifts weights.",
+            "a man performs pushups.",
+            "a man performs a lateral movement on the monkey bars.",
+            "a man spins around on his hands.",
+            "a man uses her hands to move forward.",
+            "a man hits the ball."
+        ],
+        "3": [
+            "a man jumps on a trampoline.",
+            "a man skates sideways from one end to the other.",
+            "a man raises her upper body on a bench.",
+            "a man keeps the ball up in the air by hitting it.",
+            "a man performs forward strokes.",
+            "a man spins the hula hoop around her waist.",
+            "a man lifts a stick above her head.",
+            "a man uses his hands to swing back and forth."
+        ]
+    }
+}
