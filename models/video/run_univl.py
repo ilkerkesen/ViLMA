@@ -48,25 +48,16 @@ FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
     required=False,
 )
 @click.option(
-    "--coin-dir",
-    type=click.Path(exists=True, dir_okay=True),
-    required=False,
-)
-@click.option(
-    "--youcook2-dir",
-    type=click.Path(exists=True, dir_okay=True),
-    required=False,
-)
-@click.option(
     "--star-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
 @click.option(
-    "--rareact-dir",
+    "--youtube-dir",
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
+
 @click.option(
     "-o",
     "--output-file",
@@ -79,11 +70,9 @@ def main(
     batch_size,
     device,
     quva_dir,
+    youtube_dir,
     something_something_dir,
-    coin_dir,
-    youcook2_dir,
     star_dir,
-    rareact_dir,
     output_file,
     mask_video,
 ):
@@ -103,11 +92,9 @@ def main(
 
     data = Dataset_v1(
         input_file,
+        youtube_dir=youtube_dir,
         something_something_dir=something_something_dir,
-        coin_dir=coin_dir,
-        youcook2_dir=youcook2_dir,
         star_dir=star_dir,
-        rareact_dir=rareact_dir,
         cache_dir=CACHE_DIR,
     )
 
