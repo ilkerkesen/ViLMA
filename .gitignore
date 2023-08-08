@@ -127,14 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-results
-cache
-scripts
+
+# Vscode configs
 .vscode
-bench-results
-results-hyponyms
-all_results.csv
+
+# external models repos
 models/video/UniVL
 models/video/pytorch_violet
-results-hyponyms
-bench-results
+models/video/merlot_reserve
+
+# processed video cache folder
+cache/
