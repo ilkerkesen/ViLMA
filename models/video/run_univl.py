@@ -57,12 +57,15 @@ FEATURE_LENGTH = {"2d": 2048, "3d": 2048, "s3dg": 1024, "raw_data": 1024}
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
-
 @click.option(
     "-o",
     "--output-file",
     type=click.Path(file_okay=True),
     required=True,
+)
+@click.option(
+    '--proficiency',
+    is_flag=True,
 )
 @click.option("--mask-video", type=bool, required=True, default=False)
 def main(
@@ -75,6 +78,7 @@ def main(
     star_dir,
     output_file,
     mask_video,
+    proficiency
 ):
     print(f"- running UniVL on {input_file}")
     print(f"- output file: {output_file}")
@@ -95,7 +99,8 @@ def main(
         youtube_dir=youtube_dir,
         something_something_dir=something_something_dir,
         star_dir=star_dir,
-        cache_dir=CACHE_DIR,
+        proficiency=proficiency,
+        cache_dir=CACHE_DIR
     )
 
     results = {}

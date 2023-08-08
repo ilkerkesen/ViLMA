@@ -46,12 +46,15 @@ from models.video.pytorch_violet.vl_bench import init_model
     type=click.Path(exists=True, dir_okay=True),
     required=False,
 )
-
 @click.option(
     "-o",
     "--output-file",
     type=click.Path(file_okay=True),
     required=True,
+)
+@click.option(
+    '--proficiency',
+    is_flag=True,
 )
 @click.option("--mask-video", type=bool, required=True, default=False)
 def main(
@@ -64,6 +67,7 @@ def main(
     star_dir,
     output_file,
     mask_video,
+    proficiency
 ):
     print(f"- running VIOLET on {input_file}")
     print(f"- output file: {output_file}")
@@ -79,7 +83,8 @@ def main(
         input_file,
         youtube_dir=youtube_dir,
         something_something_dir=something_something_dir,
-        star_dir=star_dir
+        star_dir=star_dir,
+        proficiency=proficiency
     )
 
     results = {}
