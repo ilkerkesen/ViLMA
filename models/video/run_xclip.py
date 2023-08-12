@@ -54,6 +54,11 @@ MODELS = ("microsoft/xclip-base-patch32",)
     required=False,
 )
 @click.option(
+    '--star-dir',
+    type=click.Path(exists=True, dir_okay=True),
+    required=False,
+)
+@click.option(
     '-o', '--output-file',
     type=click.Path(file_okay=True),
     required=True,
@@ -68,6 +73,7 @@ def main(
     quva_dir,
     something_something_dir,
     youtube_dir,
+    star_dir,
     output_file,
     proficiency,
     mask_video,
@@ -84,6 +90,8 @@ def main(
         something_something_dir = process_path(something_something_dir)
     if youtube_dir is not None:
         youtube_dir = process_path(youtube_dir)
+    if star_dir is not None:
+        star_dir = process_path(youtube_dir)
     np.random.seed(0)
 
 
@@ -98,6 +106,7 @@ def main(
         quva_dir=quva_dir,
         something_something_dir=something_something_dir,
         youtube_dir=youtube_dir,
+        star_dir=star_dir,
         proficiency=proficiency,
     )
     loader = DataLoader(
