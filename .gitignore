@@ -135,6 +135,11 @@ dmypy.json
 models/video/UniVL
 models/video/pytorch_violet
 models/video/merlot_reserve
+models/video/MCQ
+models/video/frozen-in-time
+
+# scripts folder
+scripts
 
 # processed video cache folder
 cache/
