@@ -107,7 +107,7 @@ def main(
     if youtube_dir is not None:
         youtube_dir = process_path(youtube_dir)
     if star_dir is not None:
-        star_dir = process_path(youtube_dir)
+        star_dir = process_path(star_dir)
     np.random.seed(0)
 
     # initialize model & processor
