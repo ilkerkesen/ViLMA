@@ -63,6 +63,10 @@ MODELS = ("microsoft/xclip-base-patch32",)
     type=click.Path(file_okay=True),
     required=True,
 )
+@click.option(
+    '--proficiency',
+    is_flag=True,
+)
 @click.option("--mask-video", type=bool, required=True, default=False)
 def main(
     input_file,
@@ -127,7 +131,7 @@ def main(
         with torch.no_grad():
             outputs = model(**inputs)
         logits = outputs.logits_per_video.cpu()
-        
+
         offset = 0
         for i in range(batch_size):
             num_texts = num_batch_texts[i]
