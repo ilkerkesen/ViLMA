@@ -11,8 +11,8 @@ cd Uni-Perceiver/vlbench_dataset
 mkdir annotations_new
 mkdir videos
 cd ..
-conda create --name uniperceiver && conda activate uniperceiver
-pip install -r requirements.txt
+conda env create -f environment.yaml
+conda activate uniperceiver
 gdown 1aN1i9U56uON4ISwIamjfLTDCQBVzmFU3
 ```
 
