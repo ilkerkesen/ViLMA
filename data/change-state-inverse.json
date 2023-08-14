@@ -2784,7 +2784,7 @@
         ]
     },
     "96": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5295",
         "dataset_subidx": null,
@@ -2871,7 +2871,7 @@
         ]
     },
     "99": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5824",
         "dataset_subidx": null,
@@ -2958,7 +2958,7 @@
         ]
     },
     "102": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "1248",
         "dataset_subidx": null,
@@ -2987,7 +2987,7 @@
         ]
     },
     "103": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4063",
         "dataset_subidx": null,
@@ -3045,7 +3045,7 @@
         ]
     },
     "105": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5787",
         "dataset_subidx": null,
@@ -3132,7 +3132,7 @@
         ]
     },
     "108": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "2139",
         "dataset_subidx": null,
@@ -3161,7 +3161,7 @@
         ]
     },
     "109": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4425",
         "dataset_subidx": null,
@@ -3190,7 +3190,7 @@
         ]
     },
     "110": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "6032",
         "dataset_subidx": null,
@@ -3219,7 +3219,7 @@
         ]
     },
     "111": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5535",
         "dataset_subidx": null,
@@ -3248,7 +3248,7 @@
         ]
     },
     "112": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5523",
         "dataset_subidx": null,
@@ -3277,7 +3277,7 @@
         ]
     },
     "113": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4448",
         "dataset_subidx": null,
@@ -3335,7 +3335,7 @@
         ]
     },
     "115": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4148",
         "dataset_subidx": null,
@@ -3393,7 +3393,7 @@
         ]
     },
     "117": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4229",
         "dataset_subidx": null,
@@ -3422,7 +3422,7 @@
         ]
     },
     "118": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "3746",
         "dataset_subidx": null,
@@ -3451,7 +3451,7 @@
         ]
     },
     "119": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5111",
         "dataset_subidx": null,
@@ -3480,7 +3480,7 @@
         ]
     },
     "120": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "4274",
         "dataset_subidx": null,
@@ -4727,7 +4727,7 @@
         ]
     },
     "163": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "5768",
         "dataset_subidx": null,
@@ -6757,7 +6757,7 @@
         ]
     },
     "233": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "1699",
         "dataset_subidx": null,
@@ -12586,7 +12586,7 @@
         ]
     },
     "434": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "1487",
         "dataset_subidx": null,
@@ -12673,7 +12673,7 @@
         ]
     },
     "437": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "2301",
         "dataset_subidx": null,
@@ -12847,7 +12847,7 @@
         ]
     },
     "443": {
-        "dataset": "rareact",
+        "dataset": "RareAct",
         "original_split": "train",
         "dataset_idx": "3652",
         "dataset_subidx": null,
