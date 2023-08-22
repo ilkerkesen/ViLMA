@@ -104,10 +104,11 @@ class Dataset_v1(Dataset):
         end_pts = end_pts if end_pts != -1 else None
 
         if item['time_unit'] == 'sec':
+            start_pts = float(start_pts) if start_pts is not None else 0
             end_pts = float(end_pts) if end_pts is not None else None
             video = read_video(
                 video_path,
-                start_pts=float(start_pts),
+                start_pts=start_pts,
                 end_pts=end_pts,
                 pts_unit='sec',
                 output_format='TCHW',

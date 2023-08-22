@@ -56,6 +56,9 @@ def main(input_files, mode):
     acc_r = num_correct / num_examples
     click.echo(f'acc_r={format_score(acc_r)}%')
 
+    if mode != 'probability':
+        return
+
 
 if __name__ == "__main__":
     main()
