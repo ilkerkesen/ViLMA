@@ -12,7 +12,7 @@ mkdir annotations_new
 mkdir videos
 cd ..
 conda env create -f environment.yaml
-conda activate uniperceiver
+conda activate uni-perceiver
 gdown 1aN1i9U56uON4ISwIamjfLTDCQBVzmFU3
 ```
 
