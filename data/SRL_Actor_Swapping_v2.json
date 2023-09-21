@@ -20,15 +20,20 @@
         "proficiency": {
             "caption": "The man in a tank top kicks towards a ninja on the left.",
             "foils": [
-                "The man in a tank top kicks towards a ninja on the ground."
+                "The man in a tank top kicks towards a ninja on the rooftop."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.81265,
+            "gruen_score": 0.8007,
             "class": "left",
             "classes_foil": [
-                "ground"
+                "rooftop"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "1174": {
@@ -916,15 +921,20 @@
         "proficiency": {
             "caption": "The woman in red looks upward at the man in a hat.",
             "foils": [
-                "The woman in red looks upward at the man in a suit."
+                "The woman in red looks upward at the man in a wheelchair."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.86701,
+            "gruen_score": 0.81735,
             "class": "hat",
             "classes_foil": [
-                "suit"
+                "wheelchair"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "2762": {
@@ -1140,15 +1150,20 @@
         "proficiency": {
             "caption": "A man in a bloody shirt kisses the top of the head of a woman sitting on the ground.",
             "foils": [
-                "A man in a bloody shirt kisses the top of the head of a woman sitting on the floor."
+                "A man in a bloody shirt kisses the top of the head of a woman sitting on the sofa."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.83671,
+            "gruen_score": 0.78856,
             "class": "ground",
             "classes_foil": [
-                "floor"
+                "sofa"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "2803": {
@@ -1556,15 +1571,20 @@
         "proficiency": {
             "caption": "The man attired in a brown suit takes notice of the young lady sporting a white nightgown as she stands by the bookshelf.",
             "foils": [
-                "The man attired in a brown suit takes notice of the young lady sporting a white nightgown as she stands by the door."
+                "The man attired in a brown suit takes notice of the young lady sporting a white nightgown as she stands by the pool."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.90543,
+            "gruen_score": 0.79583,
             "class": "bookshelf",
             "classes_foil": [
-                "door"
+                "pool"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "2846": {
@@ -1620,15 +1640,20 @@
         "proficiency": {
             "caption": "The gentleman dressed in white retreats backwards from the injured man lying on the floor.",
             "foils": [
-                "The gentleman dressed in white retreats backwards from the injured man lying on the ground."
+                "The gentleman dressed in white retreats backwards from the injured man lying on the sidewalk."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89596,
+            "gruen_score": 0.81432,
             "class": "floor",
             "classes_foil": [
-                "ground"
+                "sidewalk"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "2850": {
@@ -1684,15 +1709,20 @@
         "proficiency": {
             "caption": "Men in cowboy hats watch two people talking in front of them.",
             "foils": [
-                "Men in cowboy hats watch two people talking in front of him."
+                "Men in cowboy hats watch two people talking in front of children."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.85722,
+            "gruen_score": 0.82227,
             "class": "them",
             "classes_foil": [
-                "him"
+                "children"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "2854": {
@@ -2036,15 +2066,20 @@
         "proficiency": {
             "caption": "The woman dressed in brown stands while holding a bottle, listening to the man wearing a gray coat.",
             "foils": [
-                "The woofer dressed in brown stands while holding a bottle, listening to the ofer wearing a gray coat."
+                "The woman dressed in brown stands while holding a bottle, listening to the officer wearing a gray coat."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.29549,
+            "gruen_score": 0.81074,
             "class": "man",
             "classes_foil": [
-                "ofer"
+                "officer"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "2905": {
@@ -2452,15 +2487,20 @@
         "proficiency": {
             "caption": "A nude man scans the area, spotting a blonde woman.",
             "foils": [
-                "A nude man scans the area, spotting a blonde girl."
+                "A nude man scans the area, spotting a blonde suspect."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89939,
+            "gruen_score": 0.8219,
             "class": "woman",
             "classes_foil": [
-                "girl"
+                "suspect"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "2957": {
@@ -2740,15 +2780,20 @@
         "proficiency": {
             "caption": "A bald gentleman, wearing a tank top, holds another man by the arms while sitting up from the floor, as a white gentleman with a tank top looks on.",
             "foils": [
-                "A bald gentleman, wearing a tank ard, holds another man by the arms while sitting up from the floor, as a white gentleman with a tank ard looks on."
+                "A bald gentleman, wearing a tank jacket, holds another man by the arms while sitting up from the floor, as a white gentleman with a tank ard looks on."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.76548,
+            "gruen_score": 0.78423,
             "class": "top",
             "classes_foil": [
-                "ard"
+                "jacket"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "2997": {
@@ -3092,15 +3137,20 @@
         "proficiency": {
             "caption": "The blonde man kicks forward at the other officer.",
             "foils": [
-                "The blonde man kicks forward at the other man."
+                "The blonde man kicks forward at the other woman."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.87116,
+            "gruen_score": 0.80718,
             "class": "officer",
             "classes_foil": [
-                "man"
+                "woman"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3036": {
@@ -3284,15 +3334,20 @@
         "proficiency": {
             "caption": "The woman in a white shirt presses down on the wound of the man who was shot.",
             "foils": [
-                "The woofer in a white shirt presses down on the wound of the ofer who was shot."
+                "The woman in a white shirt presses down on the wound of the nurse who was shot."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.6842,
+            "gruen_score": 0.34444,
             "class": "man",
             "classes_foil": [
-                "ofer"
+                "nurse"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3086": {
@@ -4180,15 +4235,20 @@
         "proficiency": {
             "caption": "The man in the white shirt watched the woman in the yellow shirt with a stunned expression.",
             "foils": [
-                "The man in the white shirt watched the woman in the yellow shirt with a stunned look."
+                "The man in the white shirt watched the woman in the yellow shirt with a stunned silence."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.84174,
+            "gruen_score": 0.80596,
             "class": "expression",
             "classes_foil": [
-                "look"
+                "silence"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3197": {
@@ -4628,15 +4688,20 @@
         "proficiency": {
             "caption": "A man with a light mustache, brown cowboy hat, and gray & white pinstripe jacket targets confident men in dark jacket uniforms and caps.",
             "foils": [
-                "A man with a light mustache, brown cowboy hat, and gray & white pinstripe jacket targets confident men in dark jacket sleeves and caps."
+                "A man with a light mustache, brown cowboy hat, and gray & white pinstripe jacket targets confident men in dark jacket hood and caps."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.88389,
+            "gruen_score": 0.80381,
             "class": "uniforms",
             "classes_foil": [
-                "sleeves"
+                "hood"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3279": {
@@ -4788,15 +4853,20 @@
         "proficiency": {
             "caption": "Children hurl towards a man in a grey suit's head.",
             "foils": [
-                "Children hurl towards a man in a grey suit's face."
+                "Children hurl towards a man in a grey suit's arms."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.47845,
+            "gruen_score": 0.53804,
             "class": "head",
             "classes_foil": [
-                "face"
+                "arms"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3302": {
@@ -4948,15 +5018,20 @@
         "proficiency": {
             "caption": "A man with a camera gazes through a window at a woman.",
             "foils": [
-                "A man with a camera gazes through a window at a home."
+                "A man with a camera gazes through a window at a restaurant."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.88365,
+            "gruen_score": 0.81819,
             "class": "woman",
             "classes_foil": [
-                "home"
+                "restaurant"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3321": {
@@ -5556,15 +5631,20 @@
         "proficiency": {
             "caption": "A woman with blonde hair gazes into the face of a man with glasses.",
             "foils": [
-                "A woman with blonde hair gazes into the face of a man with sunglasses."
+                "A woman with blonde hair gazes into the face of a man with tattoos."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.84043,
+            "gruen_score": 0.79953,
             "class": "glasses",
             "classes_foil": [
-                "sunglasses"
+                "tattoos"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3408": {
@@ -5780,15 +5860,20 @@
         "proficiency": {
             "caption": "The woman is hit in the face by the man in the turban.",
             "foils": [
-                "The woman is hit in the face by the man in the video."
+                "The woman is hit in the face by the man in the jacket."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.8449,
+            "gruen_score": 0.75877,
             "class": "turban",
             "classes_foil": [
-                "video"
+                "jacket"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3425": {
@@ -6196,15 +6281,20 @@
         "proficiency": {
             "caption": "A woman with blonde and black hair stares straight ahead at a man with a white shirt who has been shot in the head.",
             "foils": [
-                "A woman with blonde and black hair stares straight a gun at a man with a white shirt who has been shot in the gun."
+                "A woman with blonde and black hair stares straight ahead at a man with a white shirt who has been shot in the shoulder."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.75511,
+            "gruen_score": 0.77729,
             "class": "head",
             "classes_foil": [
-                "gun"
+                "shoulder"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3474": {
@@ -6644,15 +6734,20 @@
         "proficiency": {
             "caption": "A woman kicks a man attacking her in the chest.",
             "foils": [
-                "A woman kicks a man attacking her in the face."
+                "A woman kicks a man attacking her in the street."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.83875,
+            "gruen_score": 0.80754,
             "class": "chest",
             "classes_foil": [
-                "face"
+                "street"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3535": {
@@ -6868,15 +6963,20 @@
         "proficiency": {
             "caption": "The man wearing the black jacket leaves inside a house with the woman in pink pajamas.",
             "foils": [
-                "The man wearing the black jacket leaves inside a house with the woman in pink clothing."
+                "The man wearing the black jacket leaves inside a house with the woman in pink shoes."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.81451,
+            "gruen_score": 0.77524,
             "class": "pajamas",
             "classes_foil": [
-                "clothing"
+                "shoes"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3555": {
@@ -7156,15 +7256,20 @@
         "proficiency": {
             "caption": "The man with a shovel sidles to his left past the guy on the ground.",
             "foils": [
-                "The man with a shovel sidles to his left past the guy on the right."
+                "The man with a shovel sidles to his left past the guy on the sidewalk."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.83678,
+            "gruen_score": 0.78961,
             "class": "ground",
             "classes_foil": [
-                "right"
+                "sidewalk"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3582": {
@@ -7188,15 +7293,20 @@
         "proficiency": {
             "caption": "A man, dressed in a white shirt, touches a girl with long hair in a worried manner.",
             "foils": [
-                "A man, dressed in a white shirt, touches a girl with long hair in a worried way."
+                "A man, dressed in a white shirt, touches a girl with long hair in a worried hug."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.85766,
+            "gruen_score": 0.80648,
             "class": "manner",
             "classes_foil": [
-                "way"
+                "hug"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3592": {
@@ -7220,15 +7330,20 @@
         "proficiency": {
             "caption": "The man in the dark green shirt carries a woman with long blonde hair on his back.",
             "foils": [
-                "The man in the dark green shirt carries a woman with long blonde hair on his shoulder."
+                "The man in the dark green shirt carries a woman with long blonde hair on his knee."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.76619,
+            "gruen_score": 0.77423,
             "class": "back",
             "classes_foil": [
-                "shoulder"
+                "knee"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3594": {
@@ -7508,15 +7623,20 @@
         "proficiency": {
             "caption": "The woman with long brown hair picks up the child dressed in red from his crib.",
             "foils": [
-                "The woman with long brown hair picks up the child dressed in red from his bed."
+                "The woman with long brown hair picks up the child dressed in red from his mother."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.88292,
+            "gruen_score": 0.79196,
             "class": "crib",
             "classes_foil": [
-                "bed"
+                "mother"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3620": {
@@ -8180,15 +8300,20 @@
         "proficiency": {
             "caption": "The woman and the man in blue shirts laughed hysterically at the man in a white shirt.",
             "foils": [
-                "The woman and the man in blue overalls laughed hysterically at the man in a white overall."
+                "The woman and the man in blue gowns laughed hysterically at the man in a white gown."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.87706,
+            "gruen_score": 0.7348,
             "class": "shirt",
             "classes_foil": [
-                "overall"
+                "gown"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3760": {
@@ -8244,15 +8369,20 @@
         "proficiency": {
             "caption": "The bald-headed man shoots bullets towards the three guys outside.",
             "foils": [
-                "The bald-headed man shoots bullets towards the three people outside."
+                "The bald-headed man shoots bullets towards the three women outside."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.87851,
+            "gruen_score": 0.79785,
             "class": "guys",
             "classes_foil": [
-                "people"
+                "women"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3773": {
@@ -8404,15 +8534,20 @@
         "proficiency": {
             "caption": "The woman with dark hair holds the person with blonde hair close to her.",
             "foils": [
-                "The woman with dark hair holds the person with blonde hair close to herself."
+                "The woman with dark hair holds the person with blonde hair close to home."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
             "gruen_score": 0.80791,
             "class": "her",
             "classes_foil": [
-                "herself"
+                "home"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "3790": {
@@ -8596,15 +8731,20 @@
         "proficiency": {
             "caption": "A shirtless man bows respectfully towards someone.",
             "foils": [
-                "A shirtless man bows respectfully towards us."
+                "A shirtless man bows respectfully towards police."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89489,
+            "gruen_score": 0.79866,
             "class": "someone",
             "classes_foil": [
-                "us"
+                "police"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3812": {
@@ -9300,15 +9440,20 @@
         "proficiency": {
             "caption": "A naked man angrily struggles with two other men.",
             "foils": [
-                "A naked man angrily struggles with two other people."
+                "A naked man angrily struggles with two other women."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89185,
+            "gruen_score": 0.82607,
             "class": "men",
             "classes_foil": [
-                "people"
+                "women"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "3898": {
@@ -9364,15 +9509,20 @@
         "proficiency": {
             "caption": "A girl in white chases a boy with a green bag down a pathway.",
             "foils": [
-                "A girl in white chases a boy with a green bag down a street."
+                "A girl in white chases a boy with a green bag down a hallway."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.90525,
+            "gruen_score": 0.82134,
             "class": "pathway",
             "classes_foil": [
-                "street"
+                "hallway"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3932": {
@@ -9780,15 +9930,20 @@
         "proficiency": {
             "caption": "The man in light blue jeans shirt carefully cuts a person.",
             "foils": [
-                "The man in light blue jeans very carefully cuts a person."
+                "The man in light blue jeans less carefully cuts a person."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.84958,
+            "gruen_score": 0.78288,
             "class": "shirt",
             "classes_foil": [
-                "very"
+                "less"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "3990": {
@@ -9940,15 +10095,20 @@
         "proficiency": {
             "caption": "Three male construction workers laugh riotously at the antics of the guy in the #8 jersey.",
             "foils": [
-                "Three male construction workers laugh riotously at the antics of the guy in the #8 shirt."
+                "Three male construction workers laugh riotously at the antics of the guy in the #8 jacket."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89111,
+            "gruen_score": 0.8172,
             "class": "jersey",
             "classes_foil": [
-                "shirt"
+                "jacket"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4010": {
@@ -10068,15 +10228,20 @@
         "proficiency": {
             "caption": "The woman in a red shirt rubs her neck while talking to the man in a gray shirt on the side of the road.",
             "foils": [
-                "The woman in a red shirt rubs her neck while talking to the man in a gray shirt on the side of the car."
+                "The woman in a red shirt rubs her neck while talking to the man in a gray shirt on the side of the bus."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89241,
+            "gruen_score": 0.79808,
             "class": "road",
             "classes_foil": [
-                "car"
+                "bus"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4024": {
@@ -10196,15 +10361,20 @@
         "proficiency": {
             "caption": "The girl speaks, leaning forward to the boy's ear.",
             "foils": [
-                "The girl speaks, leaning forward to the boy's side."
+                "The girl speaks, leaning forward to the boy's hand."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.82863,
+            "gruen_score": 0.67202,
             "class": "ear",
             "classes_foil": [
-                "side"
+                "hand"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4043": {
@@ -10516,15 +10686,20 @@
         "proficiency": {
             "caption": "The man grabs the woman from the top.",
             "foils": [
-                "The man grabs the woman from the ground."
+                "The man grabs the woman from the car."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.89265,
+            "gruen_score": 0.81543,
             "class": "top",
             "classes_foil": [
-                "ground"
+                "car"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4084": {
@@ -10580,15 +10755,20 @@
         "proficiency": {
             "caption": "A woman in a black jacket brushed away from her man in a tan suit.",
             "foils": [
-                "A woman in a black jacket brushed away from her man in a tan jacket."
+                "A woman in a black jacket brushed away from her man in a tan car."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.70498,
+            "gruen_score": 0.76245,
             "class": "suit",
             "classes_foil": [
-                "jacket"
+                "car"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4091": {
@@ -10868,15 +11048,20 @@
         "proficiency": {
             "caption": "A man in a black jacket struggles in a fistfight with three other men wearing jackets.",
             "foils": [
-                "A man in a black jacket struggles in a fistfight with three other people wearing jackets."
+                "A man in a black jacket struggles in a fistfight with three other women wearing jackets."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.88691,
+            "gruen_score": 0.79398,
             "class": "men",
             "classes_foil": [
-                "people"
+                "women"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4126": {
@@ -11060,15 +11245,20 @@
         "proficiency": {
             "caption": "A man in a grey suit looks around at the men surrounding him.",
             "foils": [
-                "A man in a grey suit looks around at the people surrounding him."
+                "A man in a grey suit looks around at the cars surrounding him."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.8844,
+            "gruen_score": 0.82238,
             "class": "men",
             "classes_foil": [
-                "people"
+                "cars"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4138": {
@@ -11124,15 +11314,20 @@
         "proficiency": {
             "caption": "The woman jokingly hands something to the man.",
             "foils": [
-                "The wooster jokingly hands something to the oster."
+                "The wooster jokingly hands something to the officer."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.88402,
+            "gruen_score": 0.81074,
             "class": "man",
             "classes_foil": [
-                "oster"
+                "officer"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4142": {
@@ -11220,15 +11415,20 @@
         "proficiency": {
             "caption": "The blond-haired man carried the short-haired black-haired guy over his shoulder.",
             "foils": [
-                "The blond-haired man carried the short-haired black-haired guy over his shoulders."
+                "The blond-haired man carried the short-haired black-haired guy over his lap."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.8738,
+            "gruen_score": 0.81636,
             "class": "shoulder",
             "classes_foil": [
-                "shoulders"
+                "lap"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4153": {
@@ -11476,15 +11676,20 @@
         "proficiency": {
             "caption": "The men in the suit lifted the women in the green dress upward.",
             "foils": [
-                "The men in the suit lifted the women in the green dresses upward."
+                "The men in the suit lifted the women in the green gown upward."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.71046,
+            "gruen_score": 0.78791,
             "class": "dress",
             "classes_foil": [
-                "dresses"
+                "gown"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4173": {
@@ -11540,15 +11745,20 @@
         "proficiency": {
             "caption": "The group of people in white outfits watched intently at the woman in the white outfit.",
             "foils": [
-                "The group of people in white overalls watched intently at the woman in the white overall."
+                "The group of people in white gowns watched intently at the woman in the white gown."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.72013,
+            "gruen_score": 0.78906,
             "class": "outfit",
             "classes_foil": [
-                "overall"
+                "gown"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4178": {
@@ -11732,15 +11942,20 @@
         "proficiency": {
             "caption": "The young man with sideburns looks at the lady in a reddish skirt with an entralled and amused expression.",
             "foils": [
-                "The young man with sideburns looks at the lady in a reddish skirt with an entralled and amused look."
+                "The young man with sideburns looks at the lady in a reddish skirt with an entralled and amused grin."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.75666,
+            "gruen_score": 0.76739,
             "class": "expression",
             "classes_foil": [
-                "look"
+                "grin"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4191": {
@@ -11892,15 +12107,20 @@
         "proficiency": {
             "caption": "Both men in the scene notice a woman with her head peeking out of a door into the living room.",
             "foils": [
-                "Both men in the scene notice a woman with her head peeking out of a door into the living area."
+                "Both men in the scene notice a woman with her head peeking out of a door into the living bedroom."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.77751,
+            "gruen_score": 0.79923,
             "class": "room",
             "classes_foil": [
-                "area"
+                "bedroom"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4203": {
@@ -11988,15 +12208,20 @@
         "proficiency": {
             "caption": "The woman wearing a blouse shakes with a frightened expression next to a man wearing a tan shirt.",
             "foils": [
-                "The woofer wearing a blouse shakes with a frightened expression next to a ofer wearing a tan shirt."
+                "The woman wearing a blouse shakes with a frightened expression next to a old wearing a tan shirt."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.49263,
+            "gruen_score": 0.24821,
             "class": "man",
             "classes_foil": [
-                "ofer"
+                "old"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4211": {
@@ -12404,15 +12629,20 @@
         "proficiency": {
             "caption": "A man with a grey face in a blue shirt is throwing a short kid with an orange scarf in a deliberate rage.",
             "foils": [
-                "A man with a grey face in a blue shirt is throwing a short kid with an orange scarf in a deliberate direction."
+                "A man with a grey face in a blue shirt is throwing a short kid with an orange scarf in a deliberate attack."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.86012,
+            "gruen_score": 0.80854,
             "class": "rage",
             "classes_foil": [
-                "direction"
+                "attack"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4260": {
@@ -12564,15 +12794,20 @@
         "proficiency": {
             "caption": "The blond man runs away from the policeman in the hallway.",
             "foils": [
-                "The blond man runs away from the policeman in the video."
+                "The blond man runs away from the policeman in the car."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.56244,
+            "gruen_score": 0.78705,
             "class": "hallway",
             "classes_foil": [
-                "video"
+                "car"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4274": {
@@ -13300,15 +13535,20 @@
         "proficiency": {
             "caption": "A woman in a blue dress strolls away from a couple across the living room.",
             "foils": [
-                "A woman in a blue dress strolls away from a couple across the living area."
+                "A woman in a blue dress strolls away from a couple across the living kitchen."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.7077,
+            "gruen_score": 0.7748,
             "class": "room",
             "classes_foil": [
-                "area"
+                "kitchen"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4346": {
@@ -13556,15 +13796,20 @@
         "proficiency": {
             "caption": "A woman in a blue shirt looks to her right at a boy wearing a brown shirt.",
             "foils": [
-                "A woman in a blue shirt looks to her right at a man wearing a brown shirt."
+                "A woman in a blue shirt looks to her right at a woman wearing a brown shirt."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.81508,
+            "gruen_score": 0.80558,
             "class": "boy",
             "classes_foil": [
-                "man"
+                "woman"
             ]
+        },
+        "mturk": {
+            "foil": 1,
+            "caption": 2,
+            "other": 0
         }
     },
     "4379": {
@@ -13876,15 +14121,20 @@
         "proficiency": {
             "caption": "The woman with glasses stared towards the screen at the bald guy.",
             "foils": [
-                "The woman with glasses stared towards the screen at the bald man."
+                "The woman with glasses stared towards the screen at the bald woman."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
-            "gruen_score": 0.83829,
+            "gruen_score": 0.7541,
             "class": "guy",
             "classes_foil": [
-                "man"
+                "woman"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 2,
+            "other": 1
         }
     },
     "4421": {
@@ -14100,7 +14350,7 @@
         "proficiency": {
             "caption": "A woman wearing a skirt looks behind her at a man playing the piano.",
             "foils": [
-                "A wo woman wearing a skirt looks behind her at a woman playing the piano."
+                "A woman wearing a skirt looks behind her at a woman playing the piano."
             ],
             "proficiency_test": "noun",
             "model": "roberta",
@@ -14109,6 +14359,11 @@
             "classes_foil": [
                 "woman"
             ]
+        },
+        "mturk": {
+            "foil": 0,
+            "caption": 3,
+            "other": 0
         }
     },
     "4443": {
