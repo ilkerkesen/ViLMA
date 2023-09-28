@@ -27,25 +27,38 @@ MODES = (
     required=True,
 )
 @click.option(
+    '-a', '--annotation-file',
+    type=click.Path(exists=True, file_okay=True),
+    required=True,
+)
+@click.option(
     '-m', '--mode',
     type=click.Choice(choices=MODES),
     default=MODES[0],  # similarity
     show_default=True,
 )
-def main(input_files, mode):
+def main(input_files, annotation_file, mode):
     input_file1, input_file2 = input_files
     input_file1 = process_path(input_file1)
     input_file2 = process_path(input_file2)
+    annotation_file = process_path(annotation_file)
     with open(input_file1, 'r') as f:
         pred1 = json.load(f)
     with open(input_file2, 'r') as f:
         pred2 = json.load(f)
+    with open(annotation_file, 'r') as f:
+        data = json.load(f)
     assert len(pred1) == len(pred2)
-    keys = list(pred1.keys())
+    keys = list(data.keys())
 
     # calculate acc_r
     num_examples = num_correct = 0
     for key in keys:
+        item = data[key]
+        is_main_test_valid = item['mturk']['caption'] >= 2
+        is_prof_test_valid = item['proficiency']['human']['caption'] == 1
+        if not (is_main_test_valid and is_prof_test_valid):
+            continue
         num_examples += 1
         this_pred1 = torch.tensor(pred1[key]['scores'])
         this_pred2 = torch.tensor(pred2[key]['scores'])
