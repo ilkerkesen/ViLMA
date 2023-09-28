@@ -15,11 +15,14 @@ MODES = (
     'perplexity',
 )
 
-
 @click.command()
-@click.argument(
-    'input-file',
+@click.option(
+    '-i', '--input-file',
     type=click.Path(exists=True, file_okay=True),
+    required=True,
+)
+@click.option(
+    '-a', '--annotation-file',
     required=True,
 )
 @click.option(
@@ -27,16 +30,31 @@ MODES = (
     type=click.Choice(choices=MODES),
     required=True,
 )
-def main(input_file, mode):
+def main(input_file, annotation_file, mode):
     input_file = process_path(input_file)
+    annotation_file = process_path(annotation_file)
     with open(input_file, 'r') as f:
         pred = json.load(f)
+    with open(annotation_file, 'r') as f:
+        data = json.load(f)
     num_texts = max([len(item['scores']) for item in pred.values()])
-    num_examples = len(pred)
+    assert num_texts == 2
+
+    keys = list(data.keys())
+    filt_data, filt_pred = dict(), dict()
+    for key in keys:
+        item = data[key]
+        is_main_test_valid = item['mturk']['caption'] >= 2
+        is_prof_test_valid = item['proficiency']['human']['caption'] == 1
+        if is_main_test_valid and is_prof_test_valid:
+            filt_data[key] = item
+            filt_pred[key] = pred[key]
+
+    num_examples = len(filt_pred)
     scores = torch.zeros(num_examples, num_texts, dtype=torch.double)
     if mode == 'perplexity':
         scores.fill_(-torch.inf)
-    for idx, item in enumerate(pred.values()):
+    for idx, item in enumerate(filt_pred.values()):
         item_scores = torch.tensor(item['scores'])
         item_num_texts = item_scores.numel()
         if mode == 'perplexity':
@@ -46,6 +64,7 @@ def main(input_file, mode):
     acc_r = multiclass_accuracy(
         scores, labels, num_classes=num_texts, average='micro')
     click.echo(f'acc_r={format_score(acc_r)}%')
+
     if mode != 'probability':
         return
 
@@ -70,8 +89,6 @@ def main(input_file, mode):
     print(f'min(p_c, p_f)={min(p_c, p_f)}%')
     print(f'acc={acc}%')
     print(f'auroc={auroc_val}')
-
-
 
 if __name__ == "__main__":
     main()
