@@ -1,7 +1,13 @@
 import json
 import click
 import torch
-from torchmetrics.functional.classification import multiclass_accuracy, confusion_matrix, auroc
+from torchmetrics.functional.classification import (
+    accuracy,
+    auroc,
+    confusion_matrix,
+    multiclass_accuracy,
+    precision,
+)
 from vl_bench.utils import process_path
 
 
@@ -38,7 +44,7 @@ def main(input_file, annotation_file, mode):
     with open(annotation_file, 'r') as f:
         data = json.load(f)
     num_texts = max([len(item['scores']) for item in pred.values()])
-    assert num_texts == 2
+    # assert num_texts == 2
 
     keys = list(data.keys())
     filt_data, filt_pred = dict(), dict()
@@ -52,8 +58,7 @@ def main(input_file, annotation_file, mode):
 
     num_examples = len(filt_pred)
     scores = torch.zeros(num_examples, num_texts, dtype=torch.double)
-    if mode == 'perplexity':
-        scores.fill_(-torch.inf)
+    scores.fill_(-torch.inf)
     for idx, item in enumerate(filt_pred.values()):
         item_scores = torch.tensor(item['scores'])
         item_num_texts = item_scores.numel()
@@ -68,27 +73,29 @@ def main(input_file, annotation_file, mode):
     if mode != 'probability':
         return
 
-    caption_probs = scores[:, 0]
-    foil_probs = scores[:, 1:].flatten()
-    probs = torch.cat([caption_probs, foil_probs])
-    labels = torch.zeros(scores.numel(), dtype=torch.long)
-    labels[:num_examples] = 1
-    mat = confusion_matrix(probs, labels, task='binary')
-    TP = mat[1, 1]
-    FP = mat[0, 1]
-    TN = mat[0, 0]
-    FN = mat[1, 0]
+    my_probs = scores.flatten()
+    my_labels = torch.zeros_like(my_probs, dtype=torch.int)
+    my_labels[:num_examples] = 1
+    my_labels[my_probs.isinf()] = -1
+    p_c = precision(my_probs, my_labels, task='binary', ignore_index=-1)
+    acc = accuracy(my_probs, my_labels, task='binary', ignore_index=-1)
+    auc = auroc(my_probs, my_labels, task='binary', ignore_index=-1)
 
-    p_c = PPV = format_score(TP / (TP+FP))
-    p_f = NPV = format_score(TN / (TN+FN))
-    acc = format_score((TP + TN) / (TP + TN + FP + FN))
-    auroc_val = format_score(auroc(probs, labels, task='binary'))
+    my_labels = 1 - my_labels
+    my_labels[my_probs.isinf()] = -1
+    p_f = precision(1-my_probs, my_labels, task='binary', ignore_index=-1)
+
+    p_c = format_score(p_c)
+    p_f = format_score(p_f)
+    acc = format_score(acc)
+    auc = format_score(auc)
 
     print(f'p_c={p_c}%')
     print(f'p_f={p_f}%')
     print(f'min(p_c, p_f)={min(p_c, p_f)}%')
     print(f'acc={acc}%')
-    print(f'auroc={auroc_val}')
+    print(f'auroc={auc}')
+
 
 if __name__ == "__main__":
     main()
