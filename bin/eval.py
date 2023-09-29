@@ -47,19 +47,21 @@ def main(input_file, annotation_file, mode):
     # assert num_texts == 2
 
     keys = list(data.keys())
-    filt_data, filt_pred = dict(), dict()
+    filtered_keys = list()
     for key in keys:
         item = data[key]
         is_main_test_valid = item['mturk']['caption'] >= 2
         is_prof_test_valid = item['proficiency']['human']['caption'] == 1
         if is_main_test_valid and is_prof_test_valid:
-            filt_data[key] = item
-            filt_pred[key] = pred[key]
+            filtered_keys.append(key)
 
-    num_examples = len(filt_pred)
+    num_examples = len(filtered_keys)
     scores = torch.zeros(num_examples, num_texts, dtype=torch.double)
     scores.fill_(-torch.inf)
-    for idx, item in enumerate(filt_pred.values()):
+    # for idx, item in enumerate(filt_pred.values()):
+    print(len(filtered_keys))
+    for idx, key in enumerate(filtered_keys):
+        item = pred[key]
         item_scores = torch.tensor(item['scores'])
         item_num_texts = item_scores.numel()
         if mode == 'perplexity':
@@ -73,17 +75,19 @@ def main(input_file, annotation_file, mode):
     if mode != 'probability':
         return
 
-    my_probs = scores.flatten()
-    my_labels = torch.zeros_like(my_probs, dtype=torch.int)
-    my_labels[:num_examples] = 1
-    my_labels[my_probs.isinf()] = -1
-    p_c = precision(my_probs, my_labels, task='binary', ignore_index=-1)
-    acc = accuracy(my_probs, my_labels, task='binary', ignore_index=-1)
-    auc = auroc(my_probs, my_labels, task='binary', ignore_index=-1)
+    probs = scores.flatten()
+    labels = torch.zeros_like(scores, dtype=torch.int)
+    labels[:,0] = 1
+    # labels[:num_examples] = 1
+    labels[scores.isinf()] = -1
+    labels = labels.flatten()
+    p_c = precision(probs, labels, task='binary', ignore_index=-1)
+    acc = accuracy(probs, labels, task='binary', ignore_index=-1)
+    auc = auroc(probs, labels, task='binary', ignore_index=-1)
 
-    my_labels = 1 - my_labels
-    my_labels[my_probs.isinf()] = -1
-    p_f = precision(1-my_probs, my_labels, task='binary', ignore_index=-1)
+    labels_ = 1 - labels
+    labels_[probs.isinf()] = -1
+    p_f = precision(1-probs, labels_, task='binary', ignore_index=-1)
 
     p_c = format_score(p_c)
     p_f = format_score(p_f)
