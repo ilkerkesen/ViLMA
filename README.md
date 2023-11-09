@@ -58,6 +58,9 @@ Videos are provided by the original authors and can be downloaded in a single zi
 
 This [dataset](https://bobbywu.com/STAR/) is required to run the experiments for the change-state task. Raw videos are not provided by the authors. We have selected a subset of their annotations for which videos are still availble (last checked 06.04.2023). Videos can be downloaded using this [script](bin/youtube_downloader).
 
+### VidSitu Dataset
+
+This [dataset](https://vidsitu.org/) is required to run the experiments for the Semantic Role Labelling task. Raw videos are not provided by the authors. We have selected a subset of their annotations for which videos are still availble (last checked 16.05.2023). Videos can be downloaded using this [script](bin/youtube_downloader).
 
 ## Models
 
@@ -68,6 +71,8 @@ We share the details of each model in a seperate documentation file under `./mod
 - [VideoCLIP](./models/video/VideoCLIP.md)
 - [MCQ](./models/video/MCQ.md)
 - [X-CLIP](./models/video/X-CLIP.md)
+- [UniVL](./models/video/UniVL.md)
+- [VIOLET](./models/video/VIOLET.md)
 
 ## Evaluation
 

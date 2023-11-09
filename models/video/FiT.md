@@ -12,7 +12,8 @@ cd frozen-in-time
 git checkout vl-bench origin/vl-bench
 
 # setup the environment and directories
-conda env create -f environment.yml  # I suggest micromamba.
+conda env create --file environment.yml
+conda activate frozen  # I recommend micromamba
 mkdir checkpoints
 mkdir data
 mkdir exps

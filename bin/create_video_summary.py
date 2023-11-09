@@ -8,12 +8,12 @@ from vl_bench.utils import process_path
 
 @click.command()
 @click.option(
-    '--video-file',
+    '-i', '--video-file',
     required=True,
     type=click.Path(exists=True, file_okay=True),
 )
 @click.option(
-    '--output-file',
+    '-o', '--output-file',
     required=True,
     type=click.Path(),
 )
@@ -27,12 +27,42 @@ from vl_bench.utils import process_path
     type=int,
     default=256,
 )
-def main(video_file, output_file, num_frames, size):
+@click.option(
+    '-s', '--start-pts',
+    type=float,
+    default=0.0,
+)
+@click.option(
+    '-e', '--end-pts',
+    type=float,
+    default=None,
+)
+@click.option(
+    '--pts-unit',
+    type=click.Choice(choices=['pts', 'sec']),
+    default='sec',
+)
+def main(video_file, output_file, num_frames, size, start_pts, end_pts, pts_unit):
     video_file = process_path(video_file)
     output_file = process_path(output_file)
-    video_dict = read_video(video_file)
+    if pts_unit == 'sec':
+        video_dict = read_video(
+            video_file,
+            start_pts=float(start_pts),
+            end_pts=float(end_pts) if end_pts is not None else None,
+            pts_unit=pts_unit,
+        )
+        video_array = video_dict[0]
+    elif pts_unit == 'pts':
+        video_dict = read_video(
+            video_file,
+            # start_pts=int(start_pts),
+            # end_pts=int(end_pts),
+            pts_unit=pts_unit,
+        )
+        video_array = video_dict[0][int(start_pts):int(end_pts)]
     resize, crop = Resize(size), CenterCrop(size)
-    video_array = video_dict[0].permute(0, 3, 1, 2)
+    video_array = video_array.permute(0, 3, 1, 2)
     T, C, H, W = video_array.shape
     step_size = ceil(T / num_frames)
     video_array = video_array[0:-1:step_size]

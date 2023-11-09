@@ -128,6 +128,23 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Vscode configs
+.vscode
+
+# external models repos
+models/video/UniVL
+models/video/pytorch_violet
+models/video/merlot_reserve
+models/video/MCQ
+models/video/frozen-in-time
+
+# scripts folder
+scripts
+
+# processed video cache folder
+cache/
+
 # cola model (GRUEN dependency)
+cola_model
 cola_model/
 cola_model.zip
