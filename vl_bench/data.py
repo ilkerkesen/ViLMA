@@ -48,6 +48,7 @@ class Dataset_v1(Dataset):
     """
     Read also the videos in addition to the raw JSON data.
     """
+
     def __init__(
         self,
         json_path,
@@ -57,16 +58,19 @@ class Dataset_v1(Dataset):
         youtube_dir=None,
         quva_dir=None,
         something_something_dir=None,
+        star_dir=None,
         proficiency=False,
+        cache_dir=None,
         **kwargs,
     ):
         self.json_data = BaseDataset(json_path)
         self.tokenizer = tokenizer
         self.fps = fps
         self.num_frames = num_frames
-        self.kwargs = kwargs
         self.proficiency = proficiency
-
+        self.cache_dir = cache_dir
+        self.kwargs = kwargs
+        
         self.youtube_dir = None
         if youtube_dir is not None:
             self.youtube_dir = process_path(youtube_dir)
@@ -79,8 +83,12 @@ class Dataset_v1(Dataset):
         if something_something_dir is not None:
             self.something_something_dir = process_path(something_something_dir)
 
+        self.star_dir = None
+        if star_dir is not None:
+            self.star_dir = process_path(star_dir)
 
-    def _read_video(self, item):
+    def _read_video(self, item, index):
+        from_yt = ['RareAct', 'VidSitu', 'youcook2', 'coin']
         # find the full path
         dataset = item['dataset']
         video_file = item['video_file']
@@ -93,7 +101,10 @@ class Dataset_v1(Dataset):
         elif dataset == 'something-something-v2':
             video_dir = self.something_something_dir
             video_path = osp.join(video_dir, f'{item["dataset_idx"]}.webm')
-        elif dataset == 'RareAct' or dataset == 'VidSitu':
+        elif dataset == 'star':
+            video_dir = self.star_dir
+            video_path = osp.join(video_dir, f"{video_file}.mp4")
+        elif dataset in from_yt:
             video_dir = self.youtube_dir
             video_path = osp.join(video_dir, f'{item["youtube_id"]}.mp4')
         else:
@@ -102,6 +113,14 @@ class Dataset_v1(Dataset):
         start_pts = item.get('start_time')
         end_pts = item.get('end_time', -1)
         end_pts = end_pts if end_pts != -1 else None
+        # start_pts = start_pts if start_pts is not None else 0
+
+        if self.cache_dir is not None:
+            cached_file = (
+                os.path.join(self.cache_dir, str(self.json_data.ids[index])) + '.mp4'
+            )
+            if os.path.exists(cached_file):
+                return None, None, cached_file
 
         if item['time_unit'] == 'sec':
             start_pts = float(start_pts) if start_pts is not None else 0
@@ -112,11 +131,16 @@ class Dataset_v1(Dataset):
                 end_pts=end_pts,
                 pts_unit='sec',
                 output_format='TCHW',
-            )[0]
+            )
+            fps = video[-1]['video_fps']
+            video = video[0]
         elif item['time_unit'] == 'pts':  # otherwise it returns single frame
-            video = read_video(video_path, output_format='TCHW')[0]
+            video = read_video(video_path, output_format='TCHW')
+            fps = video[-1]['video_fps']
+            video = video[0]
             video = video[item['start_time']:item['end_time']]
-        return video
+
+        return video, fps, video_path
 
     def __len__(self):
         return len(self.json_data)
@@ -124,7 +148,7 @@ class Dataset_v1(Dataset):
     def __getitem__(self, index):
         entry = deepcopy(self.json_data[index])
         try:
-            video = self._read_video(entry)
+            video, fps, video_path = self._read_video(entry, index)
         except RuntimeError:
             video = None
         subentry = entry if not self.proficiency else entry['proficiency']
@@ -135,6 +159,10 @@ class Dataset_v1(Dataset):
             'item_id': self.json_data.ids[index],
             'video': video,
             'raw_texts': raw_texts,
+            'fps': fps,
+            'start_time': entry['start_time'],
+            'end_time': entry['end_time'] if entry['end_time'] != -1 else None,
+            'video_path': video_path,
         }
         return item
 

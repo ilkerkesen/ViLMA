@@ -71,6 +71,8 @@ We share the details of each model in a seperate documentation file under `./mod
 - [VideoCLIP](./models/video/VideoCLIP.md)
 - [MCQ](./models/video/MCQ.md)
 - [X-CLIP](./models/video/X-CLIP.md)
+- [UniVL](./models/video/UniVL.md)
+- [VIOLET](./models/video/VIOLET.md)
 
 ## Evaluation
 
