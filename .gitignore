@@ -145,5 +145,6 @@ scripts
 cache/
 
 # cola model (GRUEN dependency)
+cola_model
 cola_model/
 cola_model.zip
