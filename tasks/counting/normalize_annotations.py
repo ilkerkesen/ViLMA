@@ -7,10 +7,6 @@ from torchvision.io import read_video
 from vl_bench.utils import process_path
 
 
-def make_example(data_dir, prefix):
-    pass
-
-
 @click.command()
 @click.option(
     '--data-dir',

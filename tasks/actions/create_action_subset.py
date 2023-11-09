@@ -41,7 +41,7 @@ from vl_bench.actions import (
 @click.option(
     '--num-examples',
     type=int,
-    default=1024,
+    default=1000,
     show_default=True,
 )
 @click.option(
@@ -120,7 +120,8 @@ def main(
         item.update({
             'caption': caption,
             'foils': [foil],
-            'foil_classes': [foil_verb],
+            'class': true_verb,
+            'classes_foil': [foil_verb],
             'foil_masked_pos': ['verb'],
             'foiling_method': ['t5'],
             'foil_nli_labels': [foil_candidate['label']],
@@ -128,6 +129,8 @@ def main(
             'proficiency': {
                 'caption': prof_caption,
                 'foils': [prof_foil],
+                'class': true_noun,
+                'classes_foil': [foil_noun],
             }
         })
         item_id = f'actions-verb-active-{indx:04d}'
