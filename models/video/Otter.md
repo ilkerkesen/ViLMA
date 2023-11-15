@@ -22,10 +22,10 @@ pip install av
 Run the following command,
 ```bash
 python run_otter.py \
-    --input-file /kuacc/users/eacikgoz17/vl-benchmark/ViLMA/data/counting-easy-spelled-pts.json \
-    --quva-dir /kuacc/users/eacikgoz17/vl-benchmark/eval-data/QUVARepetitionDataset \
+    --input-file ./vl-benchmark/ViLMA/data/counting-easy-spelled-pts.json \
+    --quva-dir ./vl-benchmark/eval-data/QUVARepetitionDataset \
     --something-something-dir /datasets/20bn_something_something/v1/ \
-    --output-file output-v0.json
+    --output-file output.json
 ```
 
 
