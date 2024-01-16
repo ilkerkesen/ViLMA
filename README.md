@@ -1,5 +1,5 @@
 # ViLMA
-ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models \[[website](cyberiada.github.io/ViLMA)\] \[[arxiv](https://arxiv.org/abs/2311.07022)\]
+ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models \[[website](https://cyberiada.github.io/ViLMA)\] \[[arxiv](https://arxiv.org/abs/2311.07022)\]
 
 
 ## Introduction
