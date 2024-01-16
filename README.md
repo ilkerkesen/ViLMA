@@ -1,18 +1,20 @@
-# vl-bench
+# ViLMA
+ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models \[[website](cyberiada.github.io/ViLMA)\] \[[arxiv](https://arxiv.org/abs/2311.07022)\]
 
-This repository contains the following details about our V&L benchmark,
 
-1. How to setup the data resources (e.g. video directories).
-2. How to setup the models and run them.
-3. How to evaluate the models.
+## Introduction
+
+This repository contains all necessary information for the ViLMA benchmark, including data setup, model setup and execution, and evaluation procedures. ViLMA (Video Language Model Assessment) presents a comprehensive benchmark for Video-Language Models (VidLMs) to evaluate their linguistic and temporal grounding capabilities in five dimensions: action counting, situation awareness, change of state, rare actions and spatial relations. ViLMA also includes a two stage evaluation procedure as (i) proficiency test (P) that assesses fundamental capabilities deemed essential before solving the five tests, (ii) main test (T) which evaluates the model under the proposed five diverse tests, and (iii) a combined score of these two tasks (P+T). 
+
+![https://cyberiada.github.io/ViLMA/images/vilma-figure-crop.png](https://cyberiada.github.io/ViLMA/images/vilma-figure-crop.png)
 
 ## Environment Setup
 Execute the following steps,
 
 ```bash
-git clone git@github.com:ilkerkesen/vl-bench.git  # clone this repo.
-cd vl-bench
-conda create -n vl-bench --file spec-file  # create the environment.
+git clone git@github.com:ilkerkesen/vilma.git  # clone this repo.
+cd vilma
+conda create -n vilma --file spec-file  # create the environment.
 pip install -e .  # install the codebase as an editable package.
 ```
 
@@ -110,3 +112,18 @@ python ./bin/eval.py /path/to/the/results/file.json --mode {similarity,probabili
 ```
 
 Passing `--mode probability` option makes the script treat the scores as probabilities, and allows user to produce the scores for the accuracy, precision and AUROC metrics. Similarly, passing `--mode perplexity` forces script to work with perplexity values.
+
+
+## Citation
+If you find ViLMA beneficial for your research, please cite it, 
+
+```bibtex
+@misc{kesen2023vilma,
+    title={ViLMA: A Zero-Shot Benchmark for Linguistic and Temporal Grounding in Video-Language Models},
+    author={Ilker Kesen and Andrea Pedrotti and Mustafa Dogan and Michele Cafagna and Emre Can Acikgoz and Letitia Parcalabescu and Iacer Calixto and Anette Frank and Albert Gatt and Aykut Erdem and Erkut Erdem},
+    year={2023},
+    eprint={2311.07022},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
